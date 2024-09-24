@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.dgpays.com/"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Enes Genç" => "enes.genc@dgpaysit.com" }
-  s.source              = { :git => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk", :tag => "#{s.version}" }
+  s.source              = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/1.0.3.zip" }
   s.ios.deployment_target = "13.0"
   s.platform     = :ios, "13.0"
   s.requires_arc = true
