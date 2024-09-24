@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "WalletUISdk"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "WalletUISdk is a library for WalletUI."
   s.homepage     = "https://www.dgpays.com/"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Enes Genç" => "enes.genc@dgpaysit.com" }
-  s.source              = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/1.0.4.zip" }
+  s.source              = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/1.0.5.zip" }
   s.ios.deployment_target = "13.0"
   s.platform     = :ios, "13.0"
   s.requires_arc = true
@@ -38,14 +38,14 @@ s.user_target_xcconfig = {
   # , "WalletUISdk.framework"
   # s.vendored_libraries = ["Frameworks/MasterPass/Library/libMfsIOSLibrary2Universal.a", "Frameworks/MasterPass/Library/ssl/libcrypto.a", "Frameworks/MasterPass/Library/ssl/libssl.a"]
 
-  # s.resource_bundles = {
-  #   'WalletUISdkResources' => [
-  #     'WalletUISdk/**/*.{xcassets,png,jpg,ttf,otf, lproj}',
-  #     'WalletUISdk/Resources/Localization/*.lproj'
-  #   ]
-  # }
+  s.resource_bundles = {
+    'WalletUISdkResources' => [
+      'Resources/**/*.{xcassets,png,jpg,ttf,otf, lproj}',
+      'Resources/Localization/*.lproj'
+    ]
+  }
 
-  # s.resources = ['WalletUISdk/Resources/Localization/*.lproj']
+  s.resources = ['Resources/Localization/*.lproj']
 
   # s.xcconfig = {
   # 'OTHER_LDFLAGS' => '-framework Alamofire -framework EnQualify'

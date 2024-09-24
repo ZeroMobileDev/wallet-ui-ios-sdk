@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Default_A_minimalist_geometric_vector_illustration_of_a_hand_t_0.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,958 @@
+/*
+  Localizable.strings
+  DgITWalletDemo
+
+  Created by bilal Alptekin on 24.03.2022.
+  
+*/
+// MARK: - Common
+
+
+"Common.Text.Welcome"                                           = "Hoş Geldin!";
+"Common.SetTitle.Continue"                                      = "DEVAM ET";
+"Common.Text.Register"                                          = "KAYIT OL";
+"Common.Text.OK"                                                = "TAMAM";
+"Common.Text.Done"                                              = "Tamam";
+"Common.Text.Error"                                             = "HATA";
+"Common.Text.ConnectionError"                                   = "Bağlantı Hatası!";
+"Common.Text.Time"                                              = "Süre Doldu!";
+"Common.SetTitle.Update"                                        = "GÜNCELLE";
+"Common.Text.Password"                                          = "Şifre";
+"Common.Text.PasswordAgain"                                     = "Şifre Tekrar";
+"Common.Text.Error.Exception"                                   = "Hata Mesajı Gösterilemedi";
+"Common.Text.Login"                                             = "GİRİŞ YAP";
+"Common.Text.Info"                                              = "Bilgilendirme";
+"Common.Text.EMail"                                             = "E-Posta";
+"Common.Text.Apply"                                             = "BAŞVUR";
+"Common.Text.Copied"                                            = "Kopyalandı";
+"Common.Text.Accept"                                            = "ONAYLA";
+"Common.Text.Verify"                                            = "DOĞRULA";
+"Common.Text.Cancel"                                            = "İPTAL ET";
+"Common.Text.TryAgain"                                          = "YENİDEN DENE";
+"Common.Text.Deny"                                              = "REDDET";
+"Common.Text.Other"                                             = "Diğer";
+"Common.Text.Explanation"                                       = "Açıklama";
+"Common.Title.TransactionDetail"                                = "İşlem Detayı";
+"Common.Title.TransactionSummary"                               = "İşlem Özeti";
+"Common.Title.ProcessingFee"                                    = "İşlem Ücreti";
+"Common.Text.TotalAmount"                                       = "Toplam Tutar";
+"Common.Text.SendNow"                                           = "Hemen Gönder";
+"Common.Text.AskNow"                                            = "Hemen İste";
+"Common.Text.Amount"                                            = "Tutar";
+"Common.Text.EmptyTextField"                                    = "Lütfen Tüm Boş Alanları Doldurun";
+"Common.Text.Yes"                                               = "EVET";
+"Common.Text.No"                                                = "HAYIR";
+"Common.Text.Start"                                             = "BAŞLA";
+"Common.Text.Success"                                           = "BAŞARILI";
+"Common.Text.EnterAmount"                                       = "Tutar Giriniz";
+"Common.Text.Share"                                             = "PAYLAŞ";
+"Common.Text.Name"                                              = "Ad";
+"Common.Text.SurName"                                           = "Soyad";
+"Common.Text.NameSurname"                                       = "Ad Soyad";
+"Common.Text.Balance"                                           = "Bakiye";
+"Common.Text.IBAN"                                              = "IBAN";
+"Common.Text.ForUse"                                            = "KULLANIMA";
+"Common.Text.Open"                                              = " AÇ";
+"Common.Text.Delete"                                            = " Sil";
+"Common.Text.Open"                                              = "AÇ";
+"Common.Text.CVV"                                               = "CVV";
+"Common.Text.BalanceAtTheBeginningOfThePeriod"                  = "Dönem Başı Bakiye";
+"Common.Text.BalanceAtTheEndOfThePeriod"                        = "Dönem Sonu Bakiye";
+"Common.Text.Receipt"                                           = "Dekont";
+"Common.Text.ChangePhoneNumber"                                 = "Telefon Numaranı Değiştir";
+"Common.Text.WithdrawMoney"                                     = "Para Çek";
+"Common.Text.CurrentBalance"                                    = "Güncel bakiye";
+"Common.Text.YouEnteredYourInformationIncorrectly"              = "Bilgilerinizi Hatalı Girdiniz!";
+"Common.Text.ShopNow"                                           = "Alışveriş Yap";
+"Common.Text.Split"                                             = "Bölüş";
+"Common.Text.SplitTheSpending"                                  = "Harcama Bölüş";
+"Common.Text.SPENDSPLIT"                                        = "HARCAMA BÖLÜŞ";
+"Common.Text.WLBLW"                                             = "Opet";
+"Common.Text.Detail"                                            = "Detay";
+"Common.Text.ErrorCreatingPdf"                                  = "Pdf Oluşturulurken Hata Oluştu";
+"Common.Text.Successful"                                        = "Başarılı";
+"Common.Text.YourTransactionIsSuccessful"                       = "İşleminiz Başarılı!";
+"Common.Text.UnknownErrorOccurred"                              = "Bilinmeyen Bire Hata Oluştu";
+"Common.Text.CardCreated"                                       = "Kart Oluşturuldu";
+"Common.Text.RequestSuccessFull"                                = "Talebiniz başarıyla iletildi.";
+"Common.Text.Myself"                                            = "Kendim";
+
+// MARK: - BeginScreen
+
+"BeginScreen.Text.PhoneNumber"                                  = "Telefon Numarası";
+
+// MARK: - InfoTextView
+"InfoTextVire.Text.InformationText"                                 = "Bilgilendirme Metni";
+
+// MARK: - RegisterView
+
+"RegisterView.Text.UserAgreement" = "Kullanıcı Sözleşmesi ve DgPara Ödeme Hizmeti ve Elektronik Para Çerçeve Sözleşmesi’ni kabul ediyorum.";
+
+"RegisterView.Text.Zubizu.Advertisement" = "Kişiselleştirilmiş reklam ve kampanyaların sunulabilmesi için verilerimin Opet Bilişim Hizmetleri A.Ş. tarafından işlenmesine izin veriyorum.";
+"RegisterView.Text.DgPara.Advertisement" = "Kişiselleştirilmiş reklam ve kampanyaların sunulabilmesi için verilerimin DgPara Ödeme ve Elektronik Para Kuruluşu A.Ş. tarafından işlenmesine izin veriyorum.";
+"RegisterView.Text.DgPara.Advertisement.Messages" = "Opet Bilişim Hizmetleri A.Ş. ve DgPara Ödeme ve Elektronik Para Kuruluşu A.Ş.’nin sunacağı pazarlama ve tanıtım amaçlı iletişime izin veriyorum.";
+
+"RegisterView.Text.Register" = "Üye Ol";
+"RegisterView.Text.Name" = "Ad";
+"RegisterView.Text.SurName" = "Soyad";
+"RegisterView.Text.IDNumber" = "T.C. Kimlik Numarası";
+"RegisterView.Text.BirthDate" = "Doğum Tarihi";
+"RegisterView.Text.ReferenceCode" = "Referans Numarası";
+"RegisterView.Text.Validation.Email" = "Girilen e-posta adresi formata uygun değildir.";
+
+// MARK: - RegisterViewSecond
+
+"RegisterViewSecond.Text.Password" = "Şifre";
+"RegisterViewSecond.Text.PasswordAgain" = "Şifre Tekrar";
+"RegisterViewSecond.Text.ForCorrectPassword" = "Parolanızın geçerli olması için;";
+"RegisterViewSecond.Text.FirstRule" = "Altı karakter uzunluğunda olmalı";
+"RegisterViewSecond.Text.SecondRule" = "Ardışık rakamlardan oluşmamalı";
+"RegisterViewSecond.Text.ThirdRuler"  = "İlk hanesi 0, ilk iki hanesi 1 ve 9 olmamalı";
+"RegisterViewSecond.Text.FourthRule"  = "Cep telefon numaranız, doğum tarihiniz ve T.C. kimlik numaranız gibi kolay tahmin edilebilir rakamlardan oluşmamalı";
+"RegisterViewSecond.Text.FifthRule"  = "Aynı rakamlardan oluşmamalı";
+
+//MARK: - InfoTextView
+
+"InfoTextView.Text.Title" = "Bilgilendirme Metni";
+
+//MARK: - OtpScreen
+
+"OtpScreen.Text.VerificationCode" = "Doğrulama Kodu";
+"OtpScreen.Text.Please" = "Lütfen";
+"OtpScreen.Text.ReSend" = "Yeniden Kod İste";
+"OtpScreen.Text.ToYourNumber" = "numarana gelen doğrulama kodunu gir.";
+
+// MARK: - ResetPasswordWithOldPin
+
+"ResetPasswordWithOldPin.Text.ResetPassword" = "Şifre Yenile";
+"ResetPasswordWithOldPin.Text.OldPassword" = "Eski Şifre";
+"ResetPasswordWithOldPin.Text.NewPassword" = "Yeni Şifre";
+"ResetPasswordWithOldPin.Text.NewPasswordAgain" = "Yeni Şifre Tekrar";
+"ResetPasswordWithOldPin.Text.ResetForYourSecurity" = "Güvenliğiniz için şifrenizi yenilemelisiniz.";
+"ResetPasswordWithOldPin.Text.PasswordsDontMatch" = "Girilen Şifreler Uyuşmuyor";
+"ResetPasswordWithOldPin.Text.PasswordException" = "Şifre Hatası";
+
+//MARK: - SecurityQuestion
+
+"SecurityQuestion.Text.Charackter" = "4-15 karakter içermelidir";
+"SecurityQuestion.Text.Spacer" = "Boşluk içeremez";
+"SecurityQuestion.Text.SpecialCharackter" = "Özel karakter içerebilir ( /, - vb.)";
+"SecurityQuestion.Text.SecurityQuestion" = "Güvenlik Sorusu";
+"SecurityQuestion.Text.SetSecurityQuestion" = "Devam etmek için güvenlik sorusu belirlemelisiniz.";
+"SecurityQuestion.Text.AnswerQuestion" = "Sorunuzun Yanıtı";
+"SecurityQuestion.Text.SecurityQuestionExplanation" = "Belirlediğiniz güvenlik sorunuzla, şifrenizi unuttuğunuzda ya da kimliğinizi kaybettiğinizde yeni bir şifre oluşturabilirsiniz. ";
+"SecurityQuestion.Text.AnswerSecurityQuestion" = "Güvenlik sorunuzun cevabı;";
+
+//MARK: - VerifyAccountInfo
+"VerifyAccountInfo.Text.GoodNews" = "İyi Haber!" ;
+"VerifyAccountInfo.Text.SuccesfullyMembership" = "Üyeliğini başarıyla tamamladın!" ;
+"VerifyAccountInfo.Text.Offers" = "kampanyalar";
+"VerifyAccountInfo.Text.UseOffers" = "Kampanyalardan faydalan.";
+"VerifyAccountInfo.Text.ManageWallet" = "Cüzdanını dilediğin gibi yönet.";
+"VerifyAccountInfo.Text.MakeInstallment" = "Alışverişlerini 36 aya varan taksit ile yap." ;
+"VerifyAccountInfo.Text.EarnCash" = "En güzeliyse harcadıkça nakit kazan.";
+"VerifyAccountInfo.Text.YourWallet" = "Cüzdanını";
+"VerifyAccountInfo.Text.WithMoreLimits" = "daha yüksek limitlerle";
+"VerifyAccountInfo.Text.ToUse" = "kullanmak için";
+"VerifyAccountInfo.Title.VerifyID" = "KİMLİĞİNİ DOĞRULA";
+
+
+//MARK: - UserAgreement
+
+"UserAgreement.Title.NaivigationTitle" = "Kullanıcı Sözleşmesi";
+
+//MARK: - LoginWithPasswordView
+
+"LoginWithPasswordView.Text.ForgotPassword" = "Şifremi Unuttum";
+"LoginWithPasswordView.Text.ForgotPassword.UpperCase" = "ŞİFREMİ UNUTTUM";
+"LoginWithPasswordView.Text.Error.BlockAccount" = "Hesabınız güvenliğiniz için bloke edildi";
+"LoginWithPasswordView.Text.Error.ResetPassword" = "Şifrenizi unuttuysanız yenileyerek hesabınıza erişebilirsiniz";
+"LoginWithPasswordView.Text.Error.ResetMyPassword" = "ŞİFREMİ YENİLE";
+
+//MARK: - ForgotPasswordEmail
+
+"ForgotPasswordEmail.Text.ResetPassword" = "Şifre Sıfırlama";
+"ForgotPasswordEmail.Text.PlsEnterEmail" = "Lütfen Opet’ya kayıtlı e-mail adresini gir!  Eğer girdiğin e-mail adresi kayıtlı e-mail adresinle eşleşirse şifre sıfırlama linki gönderilecektir.";
+"ForgotPasswordEmail.Text.VerificationLink" = "(Doğrulama linki gönderilecektir)";
+"ForgotPasswordEmail.Text.IfNotAccessMail" = "Mailine erişemiyorsan tıkla";
+"ForgotPasswordEmail.Text.SendLink" = "LİNK GÖNDER";
+"ForgotPasswordEmail.Text.ForgotPassword" = "Şifremi Unuttum";
+
+
+
+//MARK: - HomeScreen
+
+"HomeScreen.Text.MyWallet" = "Cüzdanım";
+"HomeScreen.Text.WalletID" = "CÜZDAN ID: ";
+"HomeScreen.Text.IncreaseLimit" = "Limit Arttır";
+"HomeScreen.Text.MyZBZCards" = "OPET Kartlarım";
+"HomeScreen.Text.Money" = "Para";
+"HomeScreen.Text.Ask" = "İste";
+"HomeScreen.Text.Load" = "Yükle";
+"HomeScreen.Text.Send" = "Gönder";
+"HomeScreen.Text.Qr" = "QR";
+"HomeScreen.Text.Payment" = "Ödeme";
+"HomeScreen.Text.All" = "TÜMÜ";
+
+//MARK: - MicroCreditNotLogin
+
+"MicroCreditNotLogin.Text.UseMikroCredit" = "Mikro Kredinizi kullanmak için tıklayınız.";
+
+//MARK: - WaitingTransactionsEmpty
+
+"WaitingTransactionsEmpty.Text.WaitingTransactionsNotHave" = "Bekleyen bir işleminiz bulunmamaktadır.";
+"WaitingTransactions.Text.AlertText" =  "İşlemi İptal Edeceksiniz Onaylıyor Musunuz?";
+"WaitingTransactions.Title.AlertTitle" = "İşlemi İptal Edeceksiniz";
+
+//MARK: - TransactionHistoryNotLogin
+
+"TransactionHistoryNotLogin.Text.PleaseLogin" = "İşlem geçmişinizi ve bekleyen işlemlerinizi görüntüleyebilmek için lütfen giriş yapınız.";
+
+//MARK: - MicroCreditToApply
+
+"MicroCreditToApply.Text.ClickForMicroCredit" = "Mikro Kredi sahibi olmak için tıklayınız.";
+
+//MARK: - EmptyTransaction
+
+"EmptyTransaction.Text.DontHaveTransaction" = "Henüz geçmiş bir işleminiz bulunmamaktadır.";
+
+//MARK: - CustomListView
+
+"CustomListView.Title.Repeat" = "Tekrarla";
+"CustomListView.Text.All" = "TÜMÜ >";
+
+//MARK: - SignInPopUp-ForgotPasswordPopUp
+
+"SignInPopUp_ForgotPasswordPopUp.Text.PleaseLoginWithBirthday" = "Sana özel ayrıcalıklar sunabilmemiz için lütfen doğum tarihinle giriş yap.";
+"SignInPopUp_ForgotPasswordPopUp.Text.SaveEmail" = "E-posta’nı kaydederek ayrıcalıklardan ilk sen haberdar ol.";
+"SignInPopUp_ForgotPasswordPopUp.Text.SetPassword" = "Şifrenle hesaplarına kolayca ulaş ve güvenle yönet.";
+"SignInPopUp_ForgotPasswordPopUp.Text.LinkSent" = "LİNK GÖNDERİLDİ";
+"SignInPopUp_ForgotPasswordPopUp.Text.LinkSending" = "LİNK GÖNDERİLİYOR";
+
+//MARK: - SignInPopUp
+
+"SignInPopUp.Text.ImportantOnNewZubizu" = "Yeni OPET'de bu bilgileri girmen çok önemli!";
+
+//MARK: - ForgotPasswordPopUp
+
+"ForgotPasswordPopUp.Text.PasswordReset" = "Şifre sıfırlama işleminiz gerçekleştiriliyor";
+"ForgotPasswordPopUp.Text.PasswordResetLink" ="adresine şifre sıfırlama bağlantısı gönderilecektir.";
+
+//MARK: - ResetPasswordSuccessPopUp
+
+"ResetPasswordSuccessPopUp.Text.PasswordSuccess" = "Şifreniz Başarıyla Yenilendi!";
+"ResetPasswordSuccessPopUp.Text.ZubizuPrivilege" = "Şimdi yeni Opet’i ve ayrıcalıklarını keşfetme zamanı!";
+"ResetPasswordSuccessPopUp.Text.Discover" = "KEŞFET";
+
+//MARK: - CustomToggle
+
+"CustomToggle.Text.RememberMe" = "Beni Hatırla";
+
+//MARK: - AppBarButton
+
+"AppBarButton.Text.Life" = "Hayat";
+"AppBarButton.Text.Wallet" = "Cüzdan";
+
+//MARK: - LoginScreenTextField
+
+"LoginScreenTextField.Text.PhoneNumber" = "Telefon Numarası";
+
+//MARK: - TransactionActionSheet
+
+"TransactionActionSheet.Title.LoadMoney" = "Para Yükle";
+"TransactionActionSheet.Title.PayBill" = "Fatura Öde";
+"TransactionActionSheet.Title.SendMoney" = "Para Gönder";
+"TransactionActionSheet.Title.AskForMoney" = "Para İste";
+"TransactionActionSheet.Title.Transactions" = "İşlemler";
+
+//MARK: - FinanceGuruActionSheet
+
+"FinanceGuruActionSheet.Title.Insurance" = "Sigorta";
+"FinanceGuruActionSheet.Title.ExtraLimit" = "Extra Limit";
+"FinanceGuruActionSheet.Title.FinanceGuru" = "Finans Guru";
+
+//MARK: - LoadMoney
+
+"LoadMoney.Title.NavigationTitle" = "Para Yükle";
+"LoadMoney.Title.LoadWithCard" = "Banka / Kredi Kartı ile Yükle";
+"LoadMoney.Title.LoadBankAccount" = "Banka Hesabından Yükle";
+"LoadMoney.Title.LoadAutomatic" = "Otomatik Yükleme Talimatı Ver";
+
+//MARK: - LoadMoneyLoadWithDebitCreditCard
+
+"LoadMoneyLoadWithDebitCreditCard.Title.ChooseAmount" = "Yüklemek İstediğiniz Tutarı Seçiniz";
+"LoadMoneyLoadWithDebitCreditCard.Title.ChoosePaymentMethod" = "Ödeme Yöntemi Seçiniz";
+"LoadMoneyLoadWithDebitCreditCard.Title.LoadWithCard" = "Banka / Kredi Kartı ile Yükle";
+"LoadMoneyLoadWithDebitCreditCard.Title.RemainingUploadLimit" = "Kalan Yükleme Limitiniz";
+"LoadMoneyLoadWithDebitCreditCard.Title.IWantPayWithDifferentCard" = "Farklı bir kart İle ödemek istiyorum";
+"LoadMoneyLoadWithDebitCreditCard.Title.ChangeCard" = "Kart Değiştir";
+"LoadMoneyLoadWithDebitCreditCard.Title.OtherAmount" = "Diğer Tutar";
+"LoadMoneyLoadWithDebitCreditCard.Title.AccountName" = "Opet Hesabı";
+"LoadMoneyLoadWithDebitCreditCard.Title.UnSuccessFullLoad" = "Para Yükleme İşleminiz Başarısız";
+"LoadMoneyLoadWithDebitCreditCard.Title.SuccessFullLoad" = "Para Yükleme İşleminiz Başarılı";
+
+//MARK: - StoredCard
+
+"StoredCard.Title.AddCard" = "Kart Ekle";
+"StoredCard.Title.MySavedCards" = "Kayıtlı Kartlarım";
+
+//MARK: - CardInformationScreen
+
+"CardInformationScreen.Title.CardInfo" = "Kart Bilgileri";
+"CardInformationScreen.Text.NameSurname" = "İsim Soyisim";
+"CardInformationScreen.Text.CardOwner" = "Kart sahibinin adı ve soyadı";
+"CardInformationScreen.Text.CardNumber" = "Kart Numarası";
+"CardInformationScreen.Text.ExpirationDate" = "Son Kullanma Tarihi";
+"CardInformationScreen.Text.MonthYear" = "Ay/Yıl";
+"CardInformationScreen.Text.StoreMyCard" = "Kartımı bir sonraki alışverişlerimde kullanmak için kartımı Masterpass’te saklamak istiyorum. Kullanım Koşullarını okudum.";
+"CardInformationScreen.Text.WhatIsMasterPass" = "MasterPass Nedir?";
+"CardInformationScreen.Text.CardName" = "Kart Adı";
+"CardInformationScreen.Text.GiveNameYourCard" = "Kartınıza İsim Verin";
+"CardInformationScreen.Text.MasterCardInfo" = "Kart bilgileriniz Mastercard’ın kart saklama altyapısı olan Masterpass’te güvenle tutulmaktadır.";
+"CardInformationScreen.Text.WLBLWAccount" = "Opet Hesabı";
+
+//MARK: - TransactionSummaryScreen
+
+"TransactionSummaryScreen.Text.PaymentTool" = "Ödeme Aracı";
+"TransactionSummaryScreen.Text.AccountToLoad" = "Yüklenecek Hesap";
+"TransactionSummaryScreen.Text.AmountToCharge" = "Yüklenecek Tutar";
+"TransactionSummaryScreen.Text.ProcessingFee" = "İşlem Ücreti";
+"TransactionSummaryScreen.Text.TotalAmount" = "Toplam Tutar";
+"TransactionSummaryScreen.Text.OTPCode" = "İşlem Doğrulama Kodu";
+
+//MARK: - CustomLoadingProgressView
+
+"CustomLoadingProgressView.Text.PleaseWait" = "Lütfen Bekleyin...";
+
+//MARK: - RemainingLimitCardView
+
+"RemainingLimitCardView.Text.RemainingLimit" = "Kalan Limit";
+"RemainingLimitCardView.Text.DailyRemainingLimit" = "Günlük Kalan Limit";
+"RemainingLimitCardView.Text.MonthlyRemainingLimit" = "Aylık Kalan Limit";
+
+//MARK: - LoadFromBankAccount
+
+"LoadFromBankAccount.Text.Description" = "Açıklama (Cüzdan ID)";
+"LoadFromBankAccount.Text.HowToLoad" = "Hesaptan Nasıl  Para Yüklerim?";
+"LoadFromBankAccount.Title.LoadFromBankAccount" = "Banka Hesabından Yükle";
+"LoadFromBankAccount.Text.DailyRemainingLimit" = "Günlük Kalan Limit";
+"LoadFromBankAccount.Text.MonthlyRemainingLimit" = "Aylık Kalan Limit";
+"LoadFromBankAccount.Text.DailyLimitInfoPopUp" = "Opet cüzdanınıza bugün içerisinde gelebilecek kalan tutardır.";
+"LoadFromBankAccount.Text.MonthlyLimitInfoPopUp" = "Opet cüzdanınıza bu ay içerisinde gelebilecek kalan tutardır.";
+
+//MARK: - LoadFromBankAccountHeaderAndCardView
+
+"LoadFromBankAccountHeaderAndCardView.Text.LoadFromBankAccount" = "Banka Hesabından Yükle";
+"LoadFromBankAccountHeaderAndCardView.Text.ReceiverName" = "Alıcı Adı";
+"LoadFromBankAccountHeaderAndCardView.Text.Bank" = "Banka";
+"LoadFromBankAccountHeaderAndCardView.Text.DGparaPaymentAndElectronicMoney" = "DGpara Ödeme ve Elektronik Para Kuruluşu A.Ş.";
+
+
+//MARK: - HowToLoadMoneyFromAccount
+
+"HowToLoadMoneyFromAccount.Title.Tab1Title" = "Gerekli Bilgileri Kopyala!";
+"HowToLoadMoneyFromAccount.Text.Tab1Description" = "Alıcı adı, IBAN ve Açıklama(Opet Cüzdan ID) alanlarını kopyala!";
+"HowToLoadMoneyFromAccount.Title.Tab2Title" = "Banka Uygulamanı Aç!";
+"HowToLoadMoneyFromAccount.Text.Tab2Description" = "Banka uygulamana IBAN ve alıcı adı kopyaladıktan sonra açıklama alanına Opet Cüzdan ID’ini ekleyerek kolayca para yükle!";
+"HowToLoadMoneyFromAccount.Title.Tab3Title" = "Para Yüklemek Çok Kolay!";
+"HowToLoadMoneyFromAccount.Text.Tab3Description" = "Para gönderme işlemini gerçekleştirdikten dakikalar sonra paran Opet Cüzdan’ında!";
+"HowToLoadMoneyFromAccount.Title.Tab4Title" = "Düzenli Yükleme Talimatı Ver!";
+"HowToLoadMoneyFromAccount.Text.Tab4Description" = "Opet cüzdanında paranın hiç bitmemesi için banka uygulamandan düzenli para yükleme talimatı verebilirsin!";
+"HowToLoadMoneyFromAccount.Title.HowToLoad" = "Hesaptan Nasıl Para Yüklerim";
+
+
+//MARK: - SendMoneyAcceptedContactsToZubizu
+
+"SendMoneyAcceptedContactsToZubizu.Text.ChooseThePerson" = "Para Göndereceğiniz Kişiyi Seçiniz";
+"SendMoneyAcceptedContactsToZubizu.Text.ChooseThePersonNumber" = "Göndereceğiniz Kişinin Numarasını Girin";
+"SendMoneyAcceptedContactsToZubizu.Text.EnterTheNumber" = "Numara Giriniz";
+"SendMoneyAcceptedContactsToZubizu.Text.MyPhoneDirectory" = "Rehberim";
+"SendMoneyAcceptedContactsToZubizu.Text.PersmissionDenied" = "İzin Reddedildi";
+"SendMoneyAcceptedContactsToZubizu.Text.UnkownError" = "Bilinmeyen Bir Hata Oluştu";
+"SendMoneyAcceptedContactsToZubizu.Text.InfoAlertText" = "Para göndereceğin kişileri numarasını girerek seçebilirsin.";
+"SendMoneyAcceptedContactsToZubizu.Text.Search" = "Arama";
+
+//MARK: - SendMoneyScreen
+
+"SendMoneyScreen.Text.SendNow" = "Hemen Gönder";
+"SendMoneyScreen.Text.SendLater" = "İleri Tarihte Gönder";
+"SendMoneyScreen.Text.GiveRegularInstruction" = "Düzenli Talimat Ver";
+"SendMoneyScreen.Text.SendMoney" = "Para Gönder";
+
+//MARK: - CommunicationPreferencesScreen
+"CommunicationPreferencesScreen.Title.NavigationTitle" = "İletişim Tercihleri";
+"CommunicationPreferencesScreen.Title.SMS" = "SMS";
+"CommunicationPreferencesScreen.Text.AllowSms" = "SMS gönderilmesine izin veriyorum.";
+"CommunicationPreferencesScreen.Title.Email" = "E-Posta";
+"CommunicationPreferencesScreen.Text.AllowEmail" = "E-posta gönderilmesine izin veriyorum.";
+"CommunicationPreferencesScreen.Title.Phone" = "Telefon";
+"CommunicationPreferencesScreen.Text.AllowPhone" = "Telefon edilmesine izin veriyorum.";
+
+//MARK: - CurrentPariodTransactionsScreen
+
+"CurrentPariodTransactionsScreen.Text.AvailableBalance" = "Kullanılabilir Bakiye";
+"CurrentPariodTransactionsScreen.Text.TotalSpending" = "Toplam Harcama";
+"CurrentPariodTransactionsScreen.Title.SplitSpending" = "HARCAMA BÖLÜŞ";
+
+//MARK: - FeesAndLimitsScreen
+
+"FeesAndLimitsScreen.Title.NavigationTitle" = "Ücretler Ve Limitler";
+"FeesAndLimitsScreen.Title.AccountLimits" = "Hesap Limitlerim";
+"FeesAndLimitsScreen.Title.TransactionFees" = "İşlem Ücretleri";
+
+
+//MARK: - HomeScreenTabView
+
+"HomeScreenTabView.Title.TransactionHistory" = "İşlem Bilgileri";
+"HomeScreenTabView.Title.MicroCredit" = "Mikro Kredi İşlemlerim";
+"HomeScreenTabView.Title.PendingTransactions" = "Bekleyen İşlemlerim";
+
+
+//MARK: - IncomingAskForMoneyAccept
+
+"IncomingAskForMoneyAccept.Text.MoneyRequest" = "Para İsteği";
+"IncomingAskForMoneyAccept.Text.Explanation" = "Açıklama";
+"IncomingAskForMoneyAccept.Text.Amount" = "Gönderilecek Tutar";
+"IncomingAskForMoneyAccept.Text.TransactionFee" = "İşlem Ücreti";
+"IncomingAskForMoneyAccept.Text.TotalAmount" = "Toplam Tutar";
+"IncomingAskForMoneyAccept.Text.Date" = "Tarih";
+"IncomingAskForMoneyAccept.Text.EnterExplanation" = "Açıklama Giriniz";
+
+
+//MARK: - IncomingSplitTheBillDetail
+
+"IncomingSplitTheBillDetail.Text.SharedSpend" = "Bölüşülecek Harcama";
+"IncomingSplitTheBillDetail.Text.TransactionFee" = "İşlem Ücreti";
+"IncomingSplitTheBillDetail.Text.TotalAmount" = "Toplam Tutar";
+
+
+//MARK: - OutGoingAskForMoneyDetail
+
+"OutGoingAskForMoneyDetail.Title.MoneyRequest" = "Para İsteği";
+"OutGoingAskForMoneyDetail.Title.SelectedContacts" = "Seçili Kişiler";
+"OutGoingAskForMoneyDetail.Text.SharedSpend" = "Bölüşülecek Harcama";
+"OutGoingAskForMoneyDetail.Text.SuccessFullyCancel" = "Para İsteme Talebiniz İptal Edilmiştir";
+
+
+//MARK: - QrPaymentScreen
+
+"QrPaymentScreen.Title.ScanQr" = "QR Tara";
+"QrPaymentScreen.Text.CancellationAmount" = "İptal Tutarı";
+"QrPaymentScreen.Text.RefoundAmount" = "İade Tutarı";
+"QrPaymentScreen.Text.PaymentMethod" = "Ödeme Yönteminizi Seçiniz";
+
+//MARK: - QrTransactionSummary
+
+"QrTransactionSummary.Title.ScanQr" = "QR Tara";
+"QrTransactionSummary.Text.PaymentMethod" = "Ödeme Yöntemi";
+
+//MARK: - QrWithDrawMoneyScreen
+
+"QrWithDrawMoneyScreen.Title.SendNow" = "Hemen Gönder";
+"QrWithDrawMoneyScreen.Text.PaymentMethod" = "Ödeme Yöntemi";
+"QrWithDrawMoneyScreen.Text.VirtualCard" = "Opet Sanal Kart";
+"QrWithDrawMoneyScreen.Text.CurrentBalance" = "Mevcut Bakiye";
+"QrWithDrawMoneyScreen.Text.WithdrawalMethod" = "Para Çekme Yöntemi";
+"QrWithDrawMoneyScreen.Text.DailyWithdrawLimit" = "Kalan Günlük Para Çekme Limiti";
+"QrWithDrawMoneyScreen.Text.MonthlyWithdrawLimit" = "Kalan Aylık Para Çekme Limiti";
+"QrWithDrawMoneyScreen.Text.EnterAmount" = "Çekmek istediğiniz Tutarı Giriniz";
+"QrWithDrawMoneyScreen.Text.ViewFeeFromAtm" = "İşlem ücretini ATM’den görüntüleyebilirsin";
+"QrWithDrawMoneyScreen.Text.Other" = "Diğer";
+
+//MARK: - ResetPasswordFromEmail
+
+"ResetPasswordFromEmail.Text.ResetPassword" = "Şifre Yenile";
+
+
+//MARK: - SendMoneyAmountAndDescription
+
+"SendMoneyAmountAndDescription.Text.EnterAmountAndDescription" = "Tutar Ve Açıklama Giriniz";
+"SendMoneyAmountAndDescription.Text.AvailableBalance" = "Kullanılabilir Bakiye";
+"SendMoneyAmountAndDescription.Text.EnterExplanation" = "Açıklama Giriniz";
+
+
+//MARK: - SendMoneyIbanTabScreen
+
+"SendMoneyIbanTabScreen.Title.SendMoney" = "Para Gönder";
+"SendMoneyIbanTabScreen.Title.HowSendMoneyToIban" = "IBAN'a Nasıl para gönderirim";
+"SendMoneyIbanTabScreen.Title.SenderInformation" = "Gönderici Bilgileri";
+"SendMoneyIbanTabScreen.Title.AvailableWalletAmount" = "Kullanılabilir Cüzdan Bakiyesi";
+"SendMoneyIbanTabScreen.Title.RecipientInfo" = "Alıcı Bilgileri";
+"SendMoneyIbanTabScreen.Title.RecipientIban" = "Alıcı IBAN";
+"SendMoneyIbanTabScreen.Title.RecipientNameSurname" = "Alıcı Adı Soyadı";
+"SendMoneyIbanTabScreen.Title.TransactionInformation" = "İşlem Bilgileri";
+"SendMoneyIbanTabScreen.Title.TransactionDate" = "İşlem Tarihi";
+"SendMoneyIbanTabScreen.Title.TransactionType" = "İşlem Türü";
+
+                                            
+//MARK: - SendMoneySuccesfull
+
+"SendMoneySuccesfull.Text.YourTransactionSuccessful" = "İşleminiz Başarılı!";
+"SendMoneySuccesfull.Text.YourMoneyTransferWasSuccessful" = "Para transferiniz başarıyla gerçekleşti.";
+"SendMoneySuccesfull.Text.ShowReceipt" = "Dekont Gör";
+"SendMoneySuccesfull.Text.ShareReceipt" = "Dekont Paylaş";
+
+
+//MARK: - SendMoneyToIbanTransactionSummary
+
+"SendMoneyToIbanTransactionSummary.Text.YourTransactionSuccessful" = "İşleminiz Başarılı!";
+"SendMoneyToIbanTransactionSummary.Text.RecipientInfo" = "Alıcı Bilgileri";
+"SendMoneyToIbanTransactionSummary.Text.RecipientIban" = "Alıcı IBAN";
+"SendMoneyToIbanTransactionSummary.Text.RecipientNameSurname" = "Alıcı Adı Soyadı";
+"SendMoneyToIbanTransactionSummary.Text.RecipientBankIban" = "Alıcı IBAN Bankası";
+"SendMoneyToIbanTransactionSummary.Text.TransactionInformation" = "İşlem Bilgileri";
+"SendMoneyToIbanTransactionSummary.Text.Date" = "Tarih";
+"SendMoneyToIbanTransactionSummary.Text.TransactionType" = "İşlem Türü";
+"SendMoneyToIbanTransactionSummary.Text.TransactionExplanation" = "Bu para transferi DGpara’nın Vakıfbank hesabından gönderilecektir. İşlem açıklama alanında kullanıcı adınız gözükecektir.";
+
+
+//MARK: - SettingsScreen
+
+"SettingsScreen.Title.Settings" = "Ayarlar";
+"SettingsScreen.Title.ProfileInformation" = "Cüzdan Profil Bilgileri";
+"SettingsScreen.Title.ChangePassword" = "Cüzdan Şifreni Değiştir";
+"SettingsScreen.Title.ChangePhoneNumber" = "Cüzdan Telefon Numaranı Değiştir";
+"SettingsScreen.Title.ChangeLanguage" = "Cüzdan Dil Değiştir";
+"SettingsScreen.Title.ChangeSecretQuestion" = "Cüzdan Güvenlik Sorunu Değiştir";
+"SettingsScreen.Title.CommunicationPreferences" = "Cüzdan İletişim Tercihleri";
+"SettingsScreen.Title.ExplicitConsentPreferences" = "Cüzdan Açık Rıza Tercihleri";
+
+
+//MARK: - SplitTheBillPhoneSelectionScreen
+
+"SplitTheBillPhoneSelectionScreen.Text.SelectWantToSplit" = "Bölüştürmek İstediğiniz Kişileri Seçin";
+"SplitTheBillPhoneSelectionScreen.Text.EnterNumberToSplit" = "Bölüştüreceğiniz Kişinin Numarasını Girin";
+"SplitTheBillPhoneSelectionScreen.Text.Add" = "Ekle";
+"SplitTheBillPhoneSelectionScreen.Text.PeopleYouWantToAllocateYourExpensesTo" = "Harcamalarınızı bölüştürmek istediğiniz kişileri rehberden seçerek, rehberinizdeki isim veya numaralarıyla arayarak seçebilirsiniz";
+"SplitTheBillPhoneSelectionScreen.Text.PersonAdded" = "kişi eklendi";
+
+
+
+
+//MARK: - SplitTheBillSummaryScreen
+
+"SplitTheBillSummaryScreen.Text.AcceptExplanation" = "Harcama bölüştürme işlem detayları aşağıdaki gibidir. Onaylamanız durumunda aşağıdaki kişilere belirlediğiniz tutarlarda harcama bölüştürme isteği gidecektir.";
+
+
+//MARK: - SplittingScreen
+
+"SplittingScreen.Text.SpendToBeSplitting" = "Bölüşülecek Harcama";
+"SplittingScreen.Text.SelectedPerson" = "Seçili Kişiler";
+"SplittingScreen.Text.SplitEqual" = "Eşit Bölüştür";
+"SplittingScreen.Text.RemoveThePerson" = "Kişiyi Sil";
+"SplittingScreen.Text.SpendingSplitList" = "Harcama Bölüş listenden";
+"SplittingScreen.Text.Removed" = "çıkarılacaktır.";
+"SplittingScreen.Text.AmountAlert" = "Harcama tutarınla bölüştürdüğün tutarın eşit olması gerekir.";
+"SplittingScreen.Title.AmountAlert" = "Tutar Uyuşmuyor";
+
+
+//MARK: - UserAgreementScreen
+
+"UserAgreementScreen.Title.UserAgreement" = "Kullanıcı Sözleşmesi";
+"UserAgreementScreen.Title.IConfirm" = "ONAYLIYORUM";
+"UserAgreementScreen.Title.IConfirmText" = "Sözleşmeleri okumak ve onaylamak için aşağı kaydırın";
+
+
+//MARK: - CreateSecretQuestionScreen
+
+"CreateSecretQuestionScreen.Title.ChangeSecretQuestion" = "Güvenlik Sorusu Değiştir";
+"CreateSecretQuestionScreen.Text.NewSecretQuestion" = "Yeni Güvenlik Sorusu";
+"CreateSecretQuestionScreen.Text.AnswerOfQuestion" = "Sorunuzun Yanıtı";
+"CreateSecretQuestionScreen.Text.SecretQuestionAnswerExplanation" = "Belirlediğiniz güvenlik sorunuzla, şifrenizi unuttuğunuzda ya da kimliğinizi kaybettiğinizde yeni bir şifre oluşturabilirsiniz";
+"CreateSecretQuestionScreen.Text.AnswerOfSecretQuestion" = "Güvenlik sorunuzun cevabı";
+"CreateSecretQuestionScreen.Text.FirstRule" = "4-15 karakter içermelidir";
+"CreateSecretQuestionScreen.Text.CannotContainSpaces" = "Boşluk içeremez";
+"CreateSecretQuestionScreen.Text.MayContainSpacialCharacters" = "Özel karakter içerebilir (/, -vb.)";
+
+
+//MARK: - ChangeSecretQuestionScreen
+
+"ChangeSecretQuestionScreen.Title.ChangeSecretQuestion" = "Güvenlik Sorusu Değiştir";
+"ChangeSecretQuestionScreen.Text.CurrentSecretQuestion" = "Mevcut Güvenlik Sorusu";
+"ChangeSecretQuestionScreen.Text.AnswerOfQuestion" = "Sorunuzun Yanıtı";
+"ChangeSecretQuestionScreen.Text.IForgotTheAnswer" = "Yanıtımı Unuttum";
+
+
+//MARK: - OpenConsentPreferencesScreen
+
+"OpenConsentPreferencesScreen.Title.OpenConsentPreferances" = "Açık Rıza Tercihleri";
+"OpenConsentPreferencesScreen.Text.PersonalizedAdvertising" = "Opet Kişiselleştirilmiş Reklamcılık";
+"OpenConsentPreferencesScreen.Text.WalletPersonalizedAdvertising" = "Opet Cüzdan Kişiselleştirmiş Reklamcılık";
+"OpenConsentPreferencesScreen.Text.DataEnrichment" = "Opet Cüzdan Veri Zenginleştirme";
+"OpenConsentPreferencesScreen.Text.OwnerDataEnrichment" = "Opet Veri Zenginleştirme";
+
+
+//MARK: - ChangePhoneNumberSecretQuestionScreen
+
+"ChangePhoneNumberSecretQuestionScreen.Text.CurrentSecretQuestion" = "Mevcut Güvenlik Sorusu";
+"ChangePhoneNumberSecretQuestionScreen.Text.AnswerOfQuestion" = "Sorunuzun Yanıtı";
+"ChangePhoneNumberSecretQuestionScreen.Text.IForgotTheAnswer" = "Yanıtımı Unuttum";
+
+//MARK: - ProfileInformationsScreen
+
+"ProfileInformationsScreen.Title.MyProfileInformations" = "Profil Bilgilerim";
+"ProfileInformationsScreen.Text.Name" = "Ad";
+"ProfileInformationsScreen.Text.Surname" = "Soyad";
+"ProfileInformationsScreen.Text.PhoneNumber" = "Telefon Numarası";
+"ProfileInformationsScreen.Text.BirthDate" = "Doğum Tarihi";
+"ProfileInformationsScreen.Text.EMail" = "E-Posta";
+"ProfileInformationsScreen.Text.Job" = "Meslek";
+"ProfileInformationsScreen.Text.MonthlyNetIncome" = "Aylık Net Gelir";
+"ProfileInformationsScreen.Text.EstimatedWalletBalance" = "Tahmini Cüzdan Bakiyesi";
+"ProfileInformationsScreen.Text.MonthyTransactionCount" = "Tahmini Aylık İşlem Sayısı";
+"ProfileInformationsScreen.Text.RemoveAccount" = "Hesabımı Kapat";
+"ProfileInformationsScreen.Text.Warning" = "Uyarı";
+"ProfileInformationsScreen.Text.WarningText" = "Üyeliğiniz iptal ettiğiniz durumda; biriktirdiğiniz tüm ödül ve üyelik puanlarınız, kampanya katılımlarınız, segmentiniz, anlaşmalı markalardaki üyelik ve eşleştirmeleriniz ve kayıtlı kartlarınız geri alınamaz şekilde iptal edilecektir. Opet'da Yeniden görüşmek üzere! \n \n Onaylıyor musunuz?";
+
+
+//MARK: - Fail Login Attemps Sheet
+
+"FailLoginAttempsSheet.Text.Date"                           = "Tarih ve Saat:";
+"FailLoginAttempsSheet.Text.Description"                    = "Açıklama:";
+"FailLoginAttempsSheet.Text.FailLoginAttemp"                = "Hatalı Giriş Denemesi";
+"FailLoginAttempsSheet.Title.LoginAttemps"                  = "Giriş Hareketleri";
+
+//MARK: - My Wallet Info Screen
+
+"MyWalletInfoScreen.Title.WalletInfo"                       = "Cüzdan Bilgilerim";
+"MyWalletInfoScreen.Text.MoneyInputZubizuWallet"            = "Opet Cüzdanına Para Girişi";
+"MyWalletInfoScreen.LimitCardView.Text.Daily"               = "Günlük";
+"MyWalletInfoScreen.LimitCardView.Text.Monthly"             = "Aylık";
+"MyWalletInfoScreen.CardLimitView.Text.AmountLimit"         = "Tutar Limit";
+"MyWalletInfoScreen.CardLimitView.Text.QuantityLimit"       = "Adet Limit";
+
+//MARK: - Notifications Screen
+"Notifications.Title"       = "Bildirimler";
+"Notifications.Text.EmptyNotifications"       = "Görüntüleyebileceğin bir bildirimin bulunmamaktatır.";
+
+
+//MARK: - AboutWhiteLabel Screen
+"AboutWhiteLabel.Title"       = "Opet Hakkında";
+"AboutWhiteLabel.Text.FrequenltyAskedQuestions"     = "Sıkça Sorulan Sorular";
+"AboutWhiteLabel.Text.Cookie"     = "Çerez Politikası";
+"AboutWhiteLabel.Text.Clarification"     = "Aydınlatma Metni";
+"AboutWhiteLabel.Text.PersonalData"     = "Kişisel Veri ve Açık Rıza Metni";
+"AboutWhiteLabel.Text.RepresentativeInfo"     = "Temsilcilik Bilgilendirme Metni";
+"AboutWhiteLabel.Text.RemindMe"     = "Bana Hatırlat Aydınlatma Metni";
+"AboutWhiteLabel.Text.DgpPara"     = "DgPara Ödeme Hizmeti ve Elektronik Para Çerçeve Sözleşmesi";
+"AboutWhiteLabel.Text.UserAgreement"     = "Kullanıcı Sözleşmesi";
+"AboutWhiteLabel.Text.WhatIs"     = "Opet Nedir?";
+"AboutWhiteLabel.Text.ContactUs"     = "Bize Ulaşın";
+"AboutWhiteLabel.Text.Suggestion"     = "Tüm soru, yorum ve önerilerin için bizimle iletişime geçebilirsiniz.";
+
+//MARK: - VerifyIdentity Screen
+"VerifyIdentity.Title"       = "Kimliğini Doğrula";
+"VerifyIdentity.Text.LoadMoney"       = "PARA YÜKLE";
+"VerifyIdentity.Title.kyc_1"       = "Banka Hesabımdan Para Transferi Yaparak";
+"VerifyIdentity.Text.kyc_1"       = "Kendine ait bir banka hesabından tutar farketmeksizin para transferini yaparak Opet Cüzdan'ı daha yüksek limitlerle kullanmaya başlayabilirsin.";
+"VerifyIdentity.Title.kyc_2"       = "Yeni Kimlik Kartımla";
+"VerifyIdentity.Text.kyc_2"       = "Yeni kimlik kartınla sadece bir kaç adımda kimliğini doğrulayarak Opet Cüzdan'ı yüksek limitlerle kullanmaya başlayabilirsin.";
+"VerifyIdentity.Title.step_1" = "Kimliğini NFC ile okut.";
+"VerifyIdentity.Title.step_2" = "Bilgilerini tamamla.";
+"VerifyIdentity.Title.step_3" = "Adres tanımla.";
+"VerifyIdentity.Title.step_4" = "Kullanacağın Opet ürünlerini seç.";
+"VerifyIdentity.Title.step_5" = "Yüz tanıma (selfie) ve canlılık testini yap.";
+
+"VerifyIdentity.Title.step_OCR" = "Kimlik kartını kameraya okutma";
+"VerifyIdentity.Title.step_NFC" = "NFC ile kimlik kartı taratma";
+"VerifyIdentity.Title.step_FACE_REG" = "Canlılık Testi";
+"VerifyIdentity.Text.header" = "Sadece aşağıdaki adımları tamamlayarak kolayca limitini yükseltebilirsin!";
+
+
+// MARK: Permissions
+
+"Permissions.Title.Location" = "Lütfen Ayarlardan Konum İzinlerini Açın.";
+"Permissions.Title.OpenLocation" = "Konum İzinlerine Git";
+"Permissions.Title.OpenCamera" = "Kamera İzinlerine Git";
+"Permissions.Text.Location" = "Qr ile para çekebilmeniz için konum ve kamera erişimlerine izin vermeniz gerekmektedir";
+"Permissions.Text.Camera" = "Qr ile alışveriş yapabilmeniz için kamera erişimine izin vermeniz gerekmektedir";
+
+//MARK: VirtualCard
+"VirtualCard.Title.firstText" = "SANAL KART";
+"VirtualCard.Title.secondText" = "OLUŞTUR";
+"VirtualCard.Title.alertInfo" = "With Opet Virtual Card, you can start benefiting from Opet advantages immediately!";
+"VirtualCard.Title.alertTitle" = "Your Virtual Card was created successfully";
+"VirtualCards.Text.LoadMoneyToCard" = "Karta Para Yükle";
+
+
+//MARK: SavedCards
+
+"SavedCards.Title.slideButtonText" = "Kartı     \nSil";
+"SavedCards.Title.navigationTitle" = "Tüm Kartlarım";
+"SavedCards.Title.WlCards" = "Opet Kartlarım";
+"SavedCards.Title.savedCards" = "Kayıtlı Kartlarım";
+"SavedCards.Title.bankAccounts" = "Banka Hesaplarım";
+"SavedCards.Title.addCard" = "Kart Ekle";
+"SavedCards.Title.addWlblwCard" = "Opet Kartımı Ekle";
+"SavedCards.Title.notFindCard" = "Opet'a eklenmiş bir Masterpass kartınız bulunmamaktadır.";
+"SavedCards.Title.cardSuccessDeleted" = "Kartınız Başarılı Bir Şekilde Silindi";
+"SavedCards.Title.areYouSureDeleteCard" = "Kartınızı Silmek İstediğinize Emin Misiniz";
+"SavedCards.Title.deleteCard" = "Kartı Sil";
+"SavedCards.Text.noRegisteredCard" = "Opet'e eklenmiş bir Masterpass kartınız bulunmamaktadır.";
+
+//MARK: MasterPass
+
+"MasterPass.Title.alertTitle" = "Kart Ekleme Başarılı";
+"MasterPass.Title.alertText" = "Kartınız MasterPass'e eklendi";
+"MasterPass.Title.otp" = "Otp Süreniz Doldu";
+"MasterPass.Title.otpText" = "Otp süreniz dolmuştur lütfen tekrar kod isteyiniz";
+"MasterPass.Title.navigationTitle" = "Banka Doğrulaması";
+"MasterPass.Title.cardName" = "Kart Adı";
+"MasterPass.Title.giveCardName" = "Kartınıza isim verin";
+"MasterPass.Title.addCardToMasterPass" = "MasterPass'e Kart Ekle";
+"MasterPass.Title.WrongCardNumber" = "Girilen Kart Numarası Geçersizdir";
+
+//MARK: CashLimit
+
+"CashLimit.Text.alertText" = "Dilerseniz aylık nakit çekim limit bildirimi tanımlayarak belirlediğiniz limiti aştığınızda bildirim alabilirsiniz.​";
+"CashLimit.Title.navigationTitle" = "Nakit Çekim Limit Bildirimi";
+"CashLimit.Text.buttonText" = "Limit Tanımla";
+"CashLimit.Text.alertDialogText" = "Opet kartınızı nakit çekime kapatmak için onaylayınız.";
+"CashLimit.Title.alertDialogTitle" = "Nakit Çekime Kapat";
+"CashLimit.Title.toggle" = "Nakit Çekim Limit Bildirimi";
+"CashLimit.Text.textfieldHeader" = "Nakit Çekim Limitiniz";
+"CashLimit.Title.limitTitle" = "Limit Bildirimini Onayla";
+"CashLimit.Title.UpdateLimitTitle" = "Nakit Çekim Bildirimini Onayla​";
+"CashLimit.Text.limitText" = "Tanımlamış olduğunuz limit bildirimini onaylayınız.";
+"CashLimit.Text.disableLimitText" = "Daha önce tanımlamış olduğunuz limit bildirimini kaldırmak için onaylayınız.";
+"CashLimit.Title.disableLimitTitle" = "Limit Bildirimini Kaldır";
+"CashLimit.Title.addLimitSuccessTitle" = "Limitiniz Tanımlanmıştır";
+"CashLimit.Text.addLimitSuccessText" = "Belirlemiş olduğunuz limit başarıyla tanımlanmıştır";
+"CashLimit.Title.removeLimitSuccessTitle" = "Limitiniz Kaldırılmıştır";
+"CashLimit.Text.removeLimitSuccessText" = "Belirlemiş olduğunuz limit başarıyla kaldırılmıştır";
+"CashLimit.Text.Abort" = "VAZGEÇ";
+
+
+//MARK: MonthlyLimit
+"MonthlyLimit.Text.alertText" = "Dilerseniz aylık harcama limit bildirimi tanımlayarak belirlediğiniz limiti aştığınızda bildirim alabilirsiniz.";
+"MonthlyLimit.Title.navigationTitle" = "Aylık Harcama Limit Bildirimi";
+"MonthlyLimit.Title.toggle" = "Aylık Harcama Limit Bildirimi";
+"MonthlyLimit.Text.textfieldHeader" = "Aylık Harcama Limitiniz";
+"MonthlyLimit.Title.UpdateLimitTitle" = "Limit Bildirimini Güncelle​";
+"MonthlyLimit.Title.disableLimitTitle" = "Limit Bildirimini Kaldır​";
+"MonthlyLimit.Title.YourLimitHasBeenUpdated" = "Limitiniz Güncellenmiştir";
+"MonthlyLimit.Text.updatedLimitSuccessText" = "Belirlemiş olduğunuz limit başarıyla güncellenmiştir";
+
+//MARK: MyWLCards
+"MyWLCards.Text.lastCard" = "Son Kullanılan Kartın";
+
+
+//MARK: VirtualCards
+"VirtualCards.Title.NavigationTitle" = "Cüzdan İşlemlerim";
+"myWLCardsTextlastCard" = "Karta Para Yükle";
+"VirtualCards.Text.CardSettings" = "Kart Ayarları";
+"VirtualCards.Text.Share" = "Paylaş";
+"VirtualCards.Text.SharePeriodTransaction" = "Paylaşmak istediğiniz dönemi seçiniz";
+"VirtualCards.Text.GetEmail" = "E-POSTA AL";
+"VirtualCards.Title.SuccesFullySended" = "Başarıyla Gönderildi.";
+"VirtualCards.Title.VerifyEmail" = "E-Posta Adresinizi Doğrulayınız";
+"VirtualCards.Text.VerifyEmail" = "E-posta adresinizi doğrulamak için size bir mail gönderdik. E-posta adresinizi doğruladıktan sonra, hesap özetiniz e-posta adresinize gönderilecektir.";
+
+//MARK: My Profile
+
+"MyProfileScreen.Title.NavigationTitle" = "Profilim";
+
+//MARK: All Transactions History
+
+"AllTransactionsHistoryScreen.Title.TabBarFirst" = "Hesap Özetim";
+"AllTransactionsHistoryScreen.Title.TabBarSecond" = "İşlemlerim";
+"AllTransactionsHistoryScreen.Text.EMail" =  "Hesap özetiniz kayıtlı e-posta adresiniz olan";
+
+//MARK: ShareAndTakeEmailPopUp
+
+"ShareAndTakeEmailPopUp.Text.ChooseDate" = "Paylaşmak istediğiniz dönemi seçiniz";
+"ShareAndTakeEmailPopUp.Text.GetEmail" = "E-POSTA AL";
+
+//MARK: AskForMoney
+
+"AskForMoneyContactsToZubizu.Text.ChooseThePerson" = "Para İsteyeceğiniz Kişiyi Seçiniz";
+"AskForMoneyContactsToZubizu.Text.ChooseThePersonNumber" = "Kişinin Numarasını Girin";
+"AskForMoneyContactsToZubizu.Text.AskForMoneySuccessful" = "Para isteme talebiniz başarıyla iletildi";
+
+//MARK: AccountInformationPopup
+"AccountInformationPopup.Text.AccountType"                       = "Hesap Türü";
+"AccountInformationPopup.Text.TurkishLiraAccount"                = "Türk Lirası Hesabı";
+"AccountInformationPopup.Text.TotalBalance"                      = "Toplam Bakiye";
+"AccountInformationPopup.Text.CashWithdrawableBalance"           = "Nakit Çekilebilir Bakiye";
+"AccountInformationPopup.Text.AccountInformation"                = "Hesap Bilgileri";
+"AccountInformationPopup.Text.TLCashWithdrawableBalance"         = "Türk Lirası Hesabınızdaki Nakit Olarak Çekebileceğiniz Bakiye";
+
+//MARK: ArafCardView
+//MARK: Card Settings
+
+"ArafCardView.Text.Info"  = "Para gönderdiğiniz kullanıcının 24 saat içerisinde Opet'li olması durumunda para transferiniz gerçekleşecektir. Aksi halde gönderdiğiniz tutar Opet cüzdanınıza iade edilecektir.";
+"ArafCardView.Text.Araf"  = "Para transferiniz askıdadır.";
+
+"CardSettings.Text.MonthlyExpenditureLimitNotification"  = "Aylık Harcama Limit Bildirimi";
+"CardSettings.Text.CashWithdrawalLimitNotification"       = "Nakit Çekim Limit Bildirimi";
+"CardSettings.Text.DomesticCashWithdrawal"                = "Yurtiçi Nakit Çekim";
+"CardSettings.Text.CashWithdrawalAbroad"                  = "Yurtdışı Nakit Çekim";
+"CardSettings.Text.DomesticTelephoneEMailExchange"        = "Yurtiçi Telefon / E-Posta Alışverişi";
+"CardSettings.Text.OverseasTelephoneEMailExchange"        = "Yurtdışı Telefon / E-Posta Alışverişi";
+"CardSettings.Text.DomesticECommerce"                    = "Yurtiçi E-Ticaret";
+"CardSettings.Text.OverseasECommerce"                    = "Yurtdışı E-Ticaret";
+"CardSettings.Text.ExpenditureAbroad"                     = "Yurtdışı Harcama";
+"CardSettings.Text.TemporarilyCloseMyCard"                = "Kartımı Geçici Olarak Kapat";
+"CardSettings.Text.CardSettings"                          = "Kart Ayarları";
+
+
+//MARK: My Profile
+
+"MyProfile.Text.Settings"                                  = "Ayarlar";
+"MyProfile.Text.Notifications"                             = "Bildirimler";
+"MyProfile.Text.MyWalletInformation"                       = "Cüzdan Bilgilerim";
+"MyProfile.Text.FeesAndLimits"                            = "Ücretler Ve Limitler";
+"MyProfile.Text.AboutWhiteLabel"                           = "Opet Hakkında";
+"MyProfile.Text.SignOut"                                   = "Çıkış Yap";
+
+//MARK: SendMoneyNavigationBar
+
+"SendMoneyNavigationBar.Text.ForWhiteLabelUsers"                                   = "Opet'lilere";
+"SendMoneyNavigationBar.Text.ToIBAN"                                               = "IBAN'a";
+
+
+//MARK: ChangePasswordScreen
+
+"ChangePasswordScreen.Text.NewPasswordAgain"                                       = "Yeni Şifre (Tekrar)";
+"ChangePasswordScreen.Text.ThePasswordsDidNotMatch"                                       = "Şifreler Eşleşmedi";
+
+//MARK: InvoicedetailScreen
+
+"InvoicedetailScreen.Text.InvoiceInformation"                                       = "Fatura Bilgisi";
+"InvoicedetailScreen.Text.NameOfInstitution"                                        = "Kurum Adı";
+"InvoicedetailScreen.Text.SubscriberContractNo"                                     = "Abone/Mukavele No";
+"InvoicedetailScreen.Text.Insert"                                                   = "Giriniz";
+"InvoicedetailScreen.Text.MustBeDigits"                                             = "haneli olmalıdır.";
+"InvoicedetailScreen.Text.Enquire"                                                  = "Sorgula";
+"InvoicedetailScreen.Text.EsgazDisclaimer"                                          = "Banka ve Ödeme kuruluşlarından Esgaza gelen fatura ödemelerini Kurum 1 iş günü sonra güncellemektedir. Yaptığınız ödemeler anında tamamlanmış olmasına rağmen esgaz sistemini gün sonlarında güncellemektedir.";
+"InvoicedetailScreen.Text.Enquire"                                                  = "Fatura Tutarı";
+"InvoicedetailScreen.Text.AmountToBePaid"                                           = "Ödeme Yapılacak Tutar";
+"InvoicedetailScreen.Text.PaymentDeadline"                                          = "Son Ödeme Tarihi";
+"InvoicedetailScreen.Text.PaymentMethod"                                            = "Ödeme Yönteminiz";
+"InvoicedetailScreen.Text.WLBLWWallet"                                              = "WLBLW Cüzdan";
+
+//MARK: InvoiceSummaryScreen
+
+"InvoiceSummaryScreen.Text.InvoiceNo"                                               = "Fatura No";
+
+//MARK: InvoiceGetInstitutionListScreen
+"InvoiceGetInstitutionListScreen.Text.SearchByInstitutionName"                      = "Kurum Adından Ara";
+"InvoiceGetInstitutionListScreen.Text.EnterInstitutionName"                         = "Kurum Adı Girin";
+"InvoiceGetInstitutionListScreen.Text.AllInstitutions"                              = "Tüm Kurumlar";
+
+//MARK: LoginWrongInformationView
+"LoginWrongInformationView.Text.VerificationMakingSure"            = "Bilgilerini doğru girdiğine emin olarak tekrar deneyebilirsin.";
+"LoginWrongInformationView.Text.YouHaveTheRightToTry"                              = "deneme hakkın daha var.";
+
+// MARK: PayBillScreen
+"PayBillScreen.Text.AutomaticPaymentInstructions"                              = "Otomatik Ödeme Talimatı Ver";
+// MARK: QrScreen
+"QrScreen.Text.HelloNameSurname"                              = "Merhaba Ad Soyad";
+
+// MARK: SelectInvoiceScreen
+"SelectInvoiceScreen.Text.SelectTheInvoiceYouWantToPay"                              = "Ödemek İstediğiniz Faturayı Seçin";
+
+// MARK: IlluminationTextScreen
+"IlluminationTextScreen.Text.DgParaClarificationText"                              = "DgPara Aydınlatma Metni";
+"IlluminationTextScreen.Text.WLBLWClarificationText"                              = "WLBLW Aydınlatma Metni";
+
+// MARK:  PaymentWithCardSelection
+"PaymentWithCardSelection.Text.ShoppingAmount"                              = "Alışveriş Tutarı";
+
+// MARK:  DatePickerSheet
+"DatePickerSheet.Text.PleaseSelectTransactionDate"                              = "Lütfen İşlem Tarihi Seçiniz";
+
+// MARK:  FilterResultEmpty
+"FilterResultEmpty.Text.Accountcriteria"                              = "Hesap özeti dönemi içerisinde, seçmiş olduğunuz kriterlere uygun işlem bulunmamaktadır.";
+
+// MARK: ShowQR
+"ShowQR.Text.WLBLWShowyourQRCode"                    = "Opet noktalarındaki ayrıcalıklardan faydalanmak için lütfen ürünün QR kodunuzu gösteriniz";
+"ShowQR.Text.QRCodeRenewal"                              = "QR kodunuz güvenliğiniz için bir dakika  içinde yenilenir.";
+
+// MARK: CustomAlertViewDialog
+"CustomAlertViewDialog.Text.ListingInMasterpass"       = "Masterpass'te Kayıtlı Kartlarınızın Listelenmesini İster Misiniz?";
+
+// MARK: LogOutAlertView
+"LogOutAlertView.Text.AreYouSureYouWantToCheckOut"              = "Çıkış Yapmak İstediğinize Emin Misiniz";
+
+// MARK: SplitDialog
+"SplitDialog.Text.DetermineTheAmountToBePaidByThePerson"              = "Kişinin Ödeyeceği Tutarı Belirleyin";
+
+// MARK: EmailVerificationCardView-EmailVerificationSended
+"EmailVerificationCardView.Text.YourEmailIsVerified"              = "E-Postan Doğrulandı";
+"EmailVerificationCardView.Text.YourEmailIsNotVerified"              = "E-Postan Doğrulanmadı";
+
+
+// MARK: EmailVerificationSended
+"EmailVerificationCardView.Text.VerificationLinkSent"              = "Doğrulama Linki Gönderildi";
+
+// MARK: MyProfileVerificationCardView
+"MyProfileVerificationCardView.Text.IdentityVerified"              = "Kimlik Doğrulandı";
+"MyProfileVerificationCardView.Text.VerifyYourIdentity"              = "Kimliğini Doğrula";
+
+// MARK: PaymentTransactionSummaryCardView
+"PaymentTransactionSummaryCardView.Text.VerifyYourIdentity"                   = "İşyeri Ünvanı";
+"PaymentTransactionSummaryCardView.Text.CardNumber"                            = "Kart Numarası";
+"PaymentTransactionSummaryCardView.Text.CancellationRefundAmount"             = "İptal/İade Tutarı";
+"PaymentTransactionSummaryCardView.Text.TotalCancellationRefundAmount"        = "Toplam İptal / İade Tutarı";
+
+// MARK: ProcessingFeeInsideCardView
+"ProcessingFeeInsideCardView.Text.AmountLimit:"        = "Tutar Limiti:";
+
+// MARK: ScanQrCardView
+"ScanQrCardView.Text.ShoppingAndLoremIpsumDolorSitAmetConsecteturLoremIpsum"        = "Alışveriş yapmak ve lorem ipsum dolor sit amet consectetur lorem ipsum.";
+// MARK: ChoosenPeopleSplitRow
+"ChoosenPeopleSplitRow.Text.EditAmount"        = "Tutarı Düzenle";
+
+// MARK: SplitOutgoingRequestRow
+"SplitOutgoingRequestRow.Text.ONWAIT"        = "BEKLEMEDE";
+"SplitOutgoingRequestRow.Text.Expired"        = "Süresi Doldu";
+"SplitOutgoingRequestRow.Text.REJECTED"        = "REDDEDİLDİ";
+"SplitOutgoingRequestRow.Text.ACCEPTED"        = "KABUL EDİLDİ";
+
+// MARK: StoredCardViewRow
+"StoredCardViewRow.Text.NoCardName"        = "Kart İsmi Yok";
+
+// MARK: AllCardsTabViewModel
+"AllCardsTabViewModel.Text.YourCardStatusHasBeenChanged"        = "Kartınızın statüsü değiştirildi";
+
+// MARK: alertModel
+"alertModel.Text.YouAreGoingToCancelTheTransactionDoYouConfirm"        = "İşlemi İptal Ediceksiniz Onaylıyor Musunuz?";
+"alertModel.Text.YoullCancelTheOperation"                            = "İşlemi İptal Ediceksiniz";
+"alertModel.Text.YourPasswordHasBeenSuccessfullyUpdated"                            = "Şifreniz Başarılı Bir Şekilde Güncellendi";
+"alertModel.Text.YourPhoneNumberHasBeenSuccessfullyChanged"                            = "Telefon numaranız başarıyla değiştirildi";
+"alertModel.title.OtpExpired"                                                    = "Otp Süreniz Doldu";
+"alertModel.Text.OtpExpiredPleaseRequestACodeAgain"                             = "Otp süreniz dolmuştur lütfen tekrar kod isteyiniz";
+"alertModel.Text.TryAgain"                                                   = "Yeniden Dene";
+"alertModel.Text.YouCanNowUseYourNewSecurityQuestionInWhitelbl"              = "Opet'de şimdi yeni güvenlik sorunuzu kullanabilirsiniz";
+"alertModel.title.SuccessfullyModifiedYourSecurityQuestion"              = "Güvenlik Sorunuzu Başarıyla Değiştirildi";
+"alertModel.Text.CameraPermissionNotFoundPleaseAuthoriseCamera"              = "Kamera İzni Bulunamadı Lütfen Kamera İzni Verin";
+"alertModel.Text.QRCodeNotRead"                                               = "QR Code Okunamadı";
+"alertModel.Text.UnknownError"                                                = "Bilinmeyen Hata";
+"alertModel.Text.QrWrongFormat"                                                = "Qr Yanlış Biçimde";
+"alertModel.Text.YourWithdrawalIsSuccessfulYouCanContinueYourTransactionAtTheATM"          = "Para Çekme işleminiz başarılı. İşleminize ATM’den devam edebilirsiniz";
+"alertModel.Text.YourCommunicationPreferencesHaveBeenSuccessfullyUpdated"                = "iletişim tercihleriniz başarılı şekilde güncellendi";
+"alertModel.Text.WalletError"                                                          = "Cüzdan Hatası";
+"alertModel.Text.YourMoneyTransferWasSuccessful"                                               = "Para transferiniz başarıyla gerçekleşti.";
+"alertModel.title.RequestRejected"                                                          = "Talep Reddedildi";
+"alertModel.Text.YourCommunicationPreferencesHaveBeenSuccessfullyUpdated"                   = "Talep başarı ile reddedildi.";
+"alertModel.Text.YourOpenConsentPreferencesSuccessfullyUpdated"                   = "Açık Rıza Tercihleriniz Başarılı Bir Şekilde Güncellendi";
+"alertModel.Text.ConfirmIfYouWantToCancelTheExpenseSplitRequest"                   = "Harcama bölüş talebini iptal etmek istiyorsanız onaylayınız.";
+"alertModel.title.YouWillCancelTheRequest"                                  = "Talebi İptal Edeceksiniz";
+"alertModel.Text.YourUpdateOperationsHaveBeenCarriedOut"                   = "Güncelleme işlemleriniz gerçekleştirilmiştir.";
+"alertModel.Text.YouDoNotHaveACardAvailableForThisTransaction"                   = "Bu işlem için uygun kartınız bulunmamaktadır";
+"alertModel.Text.LimitMustBeSmall"                   = "Girilen Tutar güncel bakiye, kalan günlük limit ve kalan aylık limit küçük olmalıdır";
+"alertModel.Text.UpdateAmount"                   = "Tutarı Güncelle";
+"alertModel.Text.PleaseCheckThePasswordYouEntered"                   = "Lütfen Girdiğiniz Şifreyi Kontrol Ediniz";
+"alertModel.Text.PleaseEnterTheSamePasswords"                   = "Lütfen Aynı şifreleri Giriniz";
+"alertModel.Text.PleaseSelectASecurityQuestion"                   = "Lütfen Bir Güvenlik Sorusu Seçiniz";
+"alertModel.Text.WhiteLabelInsufficientBalance"                   = "Opet Bakiyeniz Yetersiz";
+"alertModel.Text.InsufficientBalance"                   = "Bakiyeniz Yetersiz";
+"alertModel.Text.AnErrorOccurredPleaseTryAgain"                   = "Bir hata oluştu. Lütfen yeniden deneyin";
+"alertModel.Text.YouCanSplitYourSpendWithAMaximumOf10People"                   = "Harcamanızı maksimum 10 kişi ile bölüşebilirsiniz.";
+"alertModel.Text.YourTopUpRequestHasBeenSuccessfullyReceived"                   = "Para Yükleme Talebiniz Başarıyla Alınmıştır";
+"alertModel.Text.YourTopUpRequestFailedPleaseTryAgainLater"                   = "Para Yükleme Talebiniz Başarısız Olmuştur Lütfen Daha Sonra Tekrar Deneyiniz";
+"alertModel.Text.NetworkError"                                                  = "Bağlantı hatası oluştu. Lütfen daha sonra tekrar deneyiniz";
+"alertModel.Text.PaymentRequestHasBeenSuccessfullyReceived"                        = "Ödemeniz Başarıyla Alınmıştır";"
+
+

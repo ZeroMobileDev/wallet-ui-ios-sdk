@@ -1,0 +1,949 @@
+/*
+ Localizable.strings
+ DgITWalletDemo
+ 
+ Created by bilal Alptekin on 24.03.2022.
+ 
+ */
+// MARK: - Common
+
+
+"Common.Text.Welcome"                                               = "Welcome!";
+"Common.SetTitle.Continue"                                          = "CONTINUE";
+"Common.Text.Register"                                              = "REGISTER";
+"Common.Text.OK"                                                    = "OK";
+"Common.Text.Done"                                                  = "Done";
+"Common.Text.Error"                                                 = "Error";
+"Common.Text.ConnectionError"                                       = "Connection Error!";
+"Common.Text.Time"                                                  = "Time Out!";
+"Common.SetTitle.Update"                                            = "UPDATE";
+"Common.Text.Password"                                              = "Password";
+"Common.Text.PasswordAgain"                                         = "Şifre Again";
+"Common.Text.Error.Exception"                                       = "Error Message Can not be Showed";
+"Common.Text.Login"                                                 = "LOGIN";
+"Common.Text.Info"                                                  = "Information";
+"Common.Text.EMail"                                                 = "E-Mail";
+"Common.Text.Apply"                                                 = "APPLY";
+"Common.Text.Copied"                                                = "Copied";
+"Common.Text.Accept"                                                = "ACCEPT";
+"Common.Text.Verify"                                                = "VERIFY";
+"Common.Text.Cancel"                                                = "CANCEL";
+"Common.Text.TryAgain"                                              = "TRY AGAİN";
+"Common.Text.Deny"                                                  = "DENY";
+"Common.Text.Other"                                                 = "Other";
+"Common.Text.Explanation"                                           = "Explanation";
+"Common.Title.TransactionDetail"                                    = "Transaction Detail";
+"Common.Title.TransactionSummary"                                   = "Transaction Summary";
+"Common.Title.ProcessingFee"                                        = "Processing Fee";
+"Common.Text.TotalAmount"                                           = "Total Amount";
+"Common.Text.SendNow"                                               = "Send Now";
+"Common.Text.AskNow"                                                = "Ask Now";
+"Common.Text.Amount"                                                = "Amount";
+"Common.Text.EmptyTextField"                                        = "Please Fill All Empty Fields";
+"Common.Text.Yes"                                                   = "YES";
+"Common.Text.No"                                                    = "NO";
+"Common.Text.Start"                                                 = "START";
+"Common.Text.Success"                                               = "SUCCESS";
+"Common.Text.EnterAmount"                                           = "Enter Amount";
+"Common.Text.Share"                                                 = "SHARE";
+"Common.Text.Name"                                                  = "Name";
+"Common.Text.SurName"                                               = "Surname";
+"Common.Text.NameSurname"                                           = "Name Surname";
+"Common.Text.Balance"                                               = "Balance";
+"Common.Text.IBAN"                                                  = "IBAN";
+"Common.Text.ForUse"                                                = "For Use";
+"Common.Text.Open"                                                  = "Open";
+"Common.Text.CVV"                                                   = "CVV";
+"Common.Text.BalanceAtTheBeginningOfThePeriod"                      = "Balance at the beginning of the period";
+"Common.Text.BalanceAtTheEndOfThePeriod"                            = "Balance at the end of the period";
+"Common.Text.Receipt"                                               = "Receipt";
+"Common.Text.ChangePhoneNumber"                                     = "Change Phone Number";
+"Common.Text.WithdrawMoney"                                         = "Withdraw Money";
+"Common.Text.CurrentBalance"                                        = "Current balance";
+"Common.Text.YouEnteredYourInformationIncorrectly"               = "You entered your information incorrectly!";
+"Common.Text.ShopNow"                                               = "Shop Now";
+"Common.Text.Split"                                                 = "Split";
+"Common.Text.SplitTheSpending"                                     = "Split The Spending";
+"Common.Text.SPENDSPLIT"                                            = "SPLIT THE SPENDING";
+"Common.Text.WLBLW"                                                 = "Opet";
+"Common.Text.Delete"                                                = "Delete";
+"Common.Text.Detail"                                                = "Detail";
+"Common.Text.ErrorCreatingPdf"                                     = "Error Creating Pdf";
+"Common.Text.Successful"                                            = "Successful";
+"Common.Text.YourTransactionIsSuccessful"                          = "Your transaction is successful!";
+"Common.Text.UnknownErrorOccurred"                     = "Unknown Error Occurred";
+"Common.Text.CardCreated"                     = "Card Created";
+"Common.Text.RequestSuccessFull"                               = "Talebiniz başarıyla iletildi.";
+"Common.Text.Myself"                                            = "Myself";
+
+
+//MARK: - self.setTitle("ForgotPassword.SetTitle.NavigationTitle".localized()) Kullanım Şekli buradaki gibi
+
+// MARK: - BeginScreen
+"BeginScreen.Text.PhoneNumber"                                  = "Phone Number";
+
+// MARK: - InfoTextView
+"InfoTextVire.Text.InformationText"                                 = "Information Screen";
+
+// MARK: - RegisterView
+
+"RegisterView.Text.UserAgreement" = "I accept the User Agreement and DgPara Payment Service and Electronic Money Framework.";
+
+"RegisterView.Text.Zubizu.Advertisement" = "In order to present personalized advertisements and campaigns, my data is sent to Opet Bilişim Hizmetleri A.Ş. I consent to its processing.";
+
+"RegisterView.Text.DgPara.Advertisement" = "In order to present personalized advertisements and campaigns, my data is sent to DgPara Ödeme ve Elektronik Para Kuruluşu A.Ş. I consent to its processing.";
+
+"RegisterView.Text.DgPara.Advertisement.Messages" = "Opet Bilişim Hizmetleri A.Ş. and DgPara Ödeme ve Elektronik Para Kuruluşu A.Ş. I allow communication for marketing and promotional purposes.";
+
+"RegisterView.Text.Register" = "Register";
+"RegisterView.Text.Name" = "Name";
+"RegisterView.Text.ReferenceCode" = "Reference Code";
+"RegisterView.Text.SurName" = "Surname";
+"RegisterView.Text.IDNumber" = "T.R. Identification Number";
+"RegisterView.Text.BirthDate" = "Birth Date";
+"RegisterView.Text.Validation.Email" = "The e-mail address entered is not suitable for the format.";
+
+// MARK: - RegisterViewSecond
+
+"RegisterViewSecond.Text.Password" = "Password";
+"RegisterViewSecond.Text.PasswordAgain" = "Password Again";
+"RegisterViewSecond.Text.ForCorrectPassword" = "For your password to be valid;";
+"RegisterViewSecond.Text.FirstRule" = "Must be six characters long";
+"RegisterViewSecond.Text.SecondRule" = "It should not consist of consecutive digits.";
+"RegisterViewSecond.Text.ThirdRuler"  = "The first digit must not be 0, the first two digits must not be 1 and 9";
+"RegisterViewSecond.Text.FourthRule"  = "Your mobile phone number should not consist of easily predictable numbers such as your date of birth and T.C. ID number.";
+"RegisterViewSecond.Text.FifthRule"  = "t should not consist of the same numbers";
+
+//MARK: - InfoTextView
+
+"InfoTextView.Text.Title" = "Information Text";
+
+//MARK: - OtpScreen
+
+"OtpScreen.Text.VerificationCode" = "Verification Code";
+"OtpScreen.Text.Please" = "Please enter the verification code sent to your";
+"OtpScreen.Text.ReSend" = "Resend Code Again";
+"OtpScreen.Text.ToYourNumber" = "number.";
+//MARK: - ResetPasswordFromEmail
+"ResetPasswordFromEmail.Text.ResetPassword" = "Reset Password";
+
+
+// MARK: - ResetPasswordWithOldPin
+
+"ResetPasswordWithOldPin.Text.ResetPassword" = "Reset Password";
+"ResetPasswordWithOldPin.Text.OldPassword" = "Old Password";
+"ResetPasswordWithOldPin.Text.NewPassword" = "New Password";
+"ResetPasswordWithOldPin.Text.NewPasswordAgain" = "New Password Again";
+"ResetPasswordWithOldPin.Text.ResetForYourSecurity" = "You Must Change Password For Your Security";
+"ResetPasswordWithOldPin.Text.PasswordsDontMatch" = "Entered Passwords Do Not Match";
+"ResetPasswordWithOldPin.Text.PasswordException" = "Password Error";
+
+//MARK: - SecurityQuestion
+
+"SecurityQuestion.Text.Charackter" = "Must contain 4-15 characters";
+"SecurityQuestion.Text.Spacer" = "Cannot contain spaces";
+"SecurityQuestion.Text.SpecialCharackter" = "May contain special characters ( /, - ex.)";
+"SecurityQuestion.Text.SecurityQuestion" = "Security Question";
+"SecurityQuestion.Text.SetSecurityQuestion" = "You must set a security question to continue.";
+"SecurityQuestion.Text.AnswerQuestion" = "Answer of your question";
+"SecurityQuestion.Text.SecurityQuestionExplanation" = "With the security question you set, you can create a new password when you forget your password or lose your identity. ";
+"SecurityQuestion.Text.AnswerSecurityQuestion" = "Answer of your Security question;";
+
+//MARK: - VerifyAccountInfo
+
+"VerifyAccountInfo.Text.GoodNews" = "Good News!" ;
+"VerifyAccountInfo.Text.SuccesfullyMembership" = "You have successfully completed your membership!" ;
+"VerifyAccountInfo.Text.Offers" = "offers";
+"VerifyAccountInfo.Text.UseOffers" = "take advantage of campaigns";
+"VerifyAccountInfo.Text.ManageWallet" = "Manage your wallet as you wish.";
+"VerifyAccountInfo.Text.MakeInstallment" = "Make your purchases with up to 36 monthly installments." ;
+"VerifyAccountInfo.Text.EarnCash" = "Best of all, earn cash as you spend.";
+"VerifyAccountInfo.Text.YourWallet" = "To Use Your Wallet";
+"VerifyAccountInfo.Text.WithMoreLimits" = "with higher limits";
+"VerifyAccountInfo.Text.ToUse" = "To Use";
+"VerifyAccountInfo.Title.VerifyID" = "VERIFY ID";
+
+
+//MARK: - UserAgreement
+
+"UserAgreement.Title.NaivigationTitle" = "User Agreement";
+
+//MARK: - LoginWithPasswordView
+
+"LoginWithPasswordView.Text.ForgotPassword" = "Forgot My Password";
+"LoginWithPasswordView.Text.ForgotPassword.UpperCase" = "FORGOT MY PASSWORD";
+"LoginWithPasswordView.Text.Error.BlockAccount" = "Your account has been blocked for your security";
+"LoginWithPasswordView.Text.Error.ResetPassword" = "If you forgot your password, you can access your account by renewing it";
+"LoginWithPasswordView.Text.Error.ResetMyPassword" = "RESET MY PASSWORD";
+
+//MARK: - ForgotPasswordEmail
+
+"ForgotPasswordEmail.Text.ResetPassword" = "Password Reset";
+"ForgotPasswordEmail.Text.PlsEnterEmail" = "Please enter your e-mail address registered with OPET! If the e-mail address you entered matches your registered e-mail address, a password reset link will be sent.";
+"ForgotPasswordEmail.Text.VerificationLink" = "(Verification link will be sent)";
+"ForgotPasswordEmail.Text.IfNotAccessMail" = "Click if you can't access your mail";
+"ForgotPasswordEmail.Text.SendLink" = "SEND A LINK";
+"ForgotPasswordEmail.Text.ForgotPassword" = "I Forgot Password";
+
+//MARK: - HomeScreen
+
+"HomeScreen.Text.MyWallet" = "My Wallet";
+"HomeScreen.Text.WalletID" = "WALLET ID: ";
+"HomeScreen.Text.IncreaseLimit" = "Increase Limit";
+"HomeScreen.Text.MyZBZCards" = "My OPET Cards";
+"HomeScreen.Text.Money" = "Money";
+"HomeScreen.Text.Ask" = "Ask";
+"HomeScreen.Text.Load" = "Load";
+"HomeScreen.Text.Send" = "Send";
+"HomeScreen.Text.Qr" = "QR";
+"HomeScreen.Text.Payment" = "Payment";
+
+"HomeScreen.Text.All" = "ALL";
+
+//MARK: - MicroCreditNotLogin
+
+"MicroCreditNotLogin.Text.UseMikroCredit" = "Click to use your Micro Credit.";
+
+//MARK: - WaitingTransactionsEmpty
+
+"WaitingTransactionsEmpty.Text.WaitingTransactionsNotHave" = "You do not have any pending transactions.";
+"WaitingTransactions.Text.AlertText" = "You Will Cancel The Transaction, Do You Confirm?";
+"WaitingTransactions.Title.AlertTitle" = "You Will Cancel The Transaction";
+
+//MARK: - TransactionHistoryNotLogin
+
+"TransactionHistoryNotLogin.Text.PleaseLogin" = "Please login to view your transaction history and pending transactions.";
+
+//MARK: - MicroCreditToApply
+
+"MicroCreditToApply.Text.ClickForMicroCredit" = "Click here to have a Micro Credit.";
+
+//MARK: - EmptyTransaction
+
+"EmptyTransaction.Text.DontHaveTransaction" = "You do not have any previous transactions yet.";
+
+//MARK: - CustomListView
+
+"CustomListView.Title.Repeat" = "Repeat";
+"CustomListView.Text.All" = "ALL >";
+
+//MARK: - SignInPopUp-ForgotPasswordPopUp
+
+"SignInPopUp_ForgotPasswordPopUp.Text.PleaseLoginWithBirthday" = "Log in with your date of birth so we can offer you special privileges.";
+"SignInPopUp_ForgotPasswordPopUp.Text.SaveEmail" = "Be the first to know about the privileges by registering your e-mail.";
+"SignInPopUp_ForgotPasswordPopUp.Text.SetPassword" = "Easily access and securely manage your accounts with your password.";
+"SignInPopUp_ForgotPasswordPopUp.Text.LinkSent" = "LINK SENT";
+"SignInPopUp_ForgotPasswordPopUp.Text.LinkSending" = "LINK SENDING";
+
+//MARK: - SignInPopUp
+
+"SignInPopUp.Text.ImportantOnNewZubizu" = "It is very important that you enter this information on new OPET!";
+
+//MARK: - ForgotPasswordPopUp
+
+"ForgotPasswordPopUp.Text.PasswordReset" = "Your password reset is in progress";
+"ForgotPasswordPopUp.Text.PasswordResetLink" ="A password reset link will be sent to";
+
+//MARK: - ResetPasswordSuccessPopUp
+
+"ResetPasswordSuccessPopUp.Text.PasswordSuccess" = "A password reset link will be sent to";
+"ResetPasswordSuccessPopUp.Text.ZubizuPrivilege" = "Now is the time to discover the new Opet and its privileges!";
+"ResetPasswordSuccessPopUp.Text.Discover" = "EXPLORE";
+
+//MARK: - CustomToggle
+
+"CustomToggle.Text.RememberMe" = "Remember me";
+
+
+
+//MARK: - LoginScreenTextField
+
+"LoginScreenTextField.Text.PhoneNumber" = "Phone Number";
+
+//MARK: - TransactionActionSheet
+
+"TransactionActionSheet.Title.LoadMoney" = "Load Money";
+"TransactionActionSheet.Title.PayBill" = "Pay Bill";
+"TransactionActionSheet.Title.SendMoney" = "Send Money";
+"TransactionActionSheet.Title.AskForMoney" = "Ask For Money";
+"TransactionActionSheet.Title.Transactions" = "Transactions";
+
+//MARK: - FinanceGuruActionSheet
+
+"FinanceGuruActionSheet.Title.Insurance" = "Insurance";
+"FinanceGuruActionSheet.Title.ExtraLimit" = "Extra Limit";
+"FinanceGuruActionSheet.Title.FinanceGuru" = "Finance Guru";
+
+//MARK: - LoadMoney
+
+"LoadMoney.Title.NavigationTitle" = "Load Money";
+"LoadMoney.Title.LoadWithCard" = "Load with Debit / Credit Card";
+"LoadMoney.Title.LoadBankAccount" = "Load From Bank Account";
+"LoadMoney.Title.LoadAutomatic" = "Give Automatic Loading Instruction";
+
+//MARK: - LoadMoneyLoadWithDebitCreditCard
+
+"LoadMoneyLoadWithDebitCreditCard.Title.ChooseAmount" = "Select the Amount You Want to Load";
+"LoadMoneyLoadWithDebitCreditCard.Title.ChoosePaymentMethod" = "Choose Payment Method";
+"LoadMoneyLoadWithDebitCreditCard.Title.LoadWithCard" = "Load with Debit / Credit Card";
+"LoadMoneyLoadWithDebitCreditCard.Title.RemainingUploadLimit" = "Your Remaining Upload Limit";
+"LoadMoneyLoadWithDebitCreditCard.Title.IWantPayWithDifferentCard" = "I want to pay with a different card";
+"LoadMoneyLoadWithDebitCreditCard.Title.ChangeCard" = "Change Card";
+"LoadMoneyLoadWithDebitCreditCard.Title.OtherAmount" = "Other Amount";
+"LoadMoneyLoadWithDebitCreditCard.Title.AccountName" = "Opet Account";
+"LoadMoneyLoadWithDebitCreditCard.Title.UnSuccessFullLoad" = "Para Yükleme İşleminiz Başarısız";
+"LoadMoneyLoadWithDebitCreditCard.Title.SuccessFullLoad" = "Para Yükleme İşleminiz Başarılı";
+
+//MARK: - StoredCard
+
+"StoredCard.Title.AddCard" = "Add Card";
+"StoredCard.Title.MySavedCards" = "My Saved Cards";
+
+//MARK: - CardInformationScreen
+
+"CardInformationScreen.Title.CardInfo" = "Card Information";
+"CardInformationScreen.Text.NameSurname" = "Name Surname";
+"CardInformationScreen.Text.CardOwner" = "Card owner's name and last name";
+"CardInformationScreen.Text.CardNumber" = "Card Number";
+"CardInformationScreen.Text.ExpirationDate" = "Expiration date";
+"CardInformationScreen.Text.MonthYear" = "Month/Year";
+"CardInformationScreen.Text.StoreMyCard" = "I want to store my card in Masterpass to use it for my next purchases. I have read the Terms of Use.";
+"CardInformationScreen.Text.WhatIsMasterPass" = "What Is MasterPass?";
+"CardInformationScreen.Text.CardName" = "Card Name";
+"CardInformationScreen.Text.NameYuorCard" = "Name Your Card";
+"CardInformationScreen.Text.MasterCardInfo" = "Your card information is securely stored in Masterpass, Mastercard's card storage infrastructure.";
+"CardInformationScreen.Text.WLBLWAccount" = "Opet Account";
+
+//MARK: - TransactionSummaryScreen
+
+"TransactionSummaryScreen.Text.PaymentTool" = "Payment Tool";
+"TransactionSummaryScreen.Text.AccountToLoad" = "Account to Load";
+"TransactionSummaryScreen.Text.AmountToCharge" = "Amount to Charge Money";
+"TransactionSummaryScreen.Text.ProcessingFee" = "Processing fee";
+"TransactionSummaryScreen.Text.TotalAmount" = "Total amount";
+"TransactionSummaryScreen.Text.OTPCode" = "Transaction Validation Code";
+
+//MARK: - CustomLoadingProgressView
+
+"CustomLoadingProgressView.Text.PleaseWait" = "Please Wait...";
+
+//MARK: - RemainingLimitCardView
+
+"RemainingLimitCardView.Text.RemainingLimit" = "Remaining Limit";
+"RemainingLimitCardView.Text.DailyRemainingLimit" = "Daily Remaining Limit";
+"RemainingLimitCardView.Text.MonthlyRemainingLimit" = "Monthly Remaining Limit";
+
+//MARK: - LoadFromBankAccount
+
+"LoadFromBankAccount.Text.Description" = "Description (Wallet ID)";
+"LoadFromBankAccount.Text.HowToLoad" = "How To Load Money From Bank Account";
+"LoadFromBankAccount.Title.LoadFromBankAccount" = "Load From Bank Account";
+"LoadFromBankAccount.Text.DailyRemainingLimit" = "Daily Remaining Limit";
+"LoadFromBankAccount.Text.MonthlyRemainingLimit" = "Monthly Remaining Limit";
+"LoadFromBankAccount.Text.DailyLimitInfoPopUp" = "The load money amount left in your Opet wallet today.";
+"LoadFromBankAccount.Text.MonthlyLimitInfoPopUp" = "The load money amount left in your Opet wallet this mont.";
+
+//MARK: - LoadFromBankAccountHeaderAndCardView
+
+"LoadFromBankAccountHeaderAndCardView.Text.LoadFromBankAccount" = "Load From Bank Account";
+"LoadFromBankAccountHeaderAndCardView.Text.ReceiverName" = "Receipient Name";
+"LoadFromBankAccountHeaderAndCardView.Text.Bank" = "Bank";
+"LoadFromBankAccountHeaderAndCardView.Text.DGparaPaymentAndElectronicMoney" = "DGpara Payment and Electronic Money Institution Inc.";
+
+//MARK: - HowToLoadMoneyFromAccount
+
+"HowToLoadMoneyFromAccount.Title.Tab1Title" = "Copy Required Informations";
+"HowToLoadMoneyFromAccount.Text.Tab1Description" = "Copy the recipient name, IBAN and Description(Wallet ID) fields!";
+"HowToLoadMoneyFromAccount.Title.Tab2Title" = "Open Your Bank App!";
+"HowToLoadMoneyFromAccount.Text.Tab2Description" = "After copying the IBAN and recipient name to your bank application, add your Wallet ID to the description field and load money easily!";
+"HowToLoadMoneyFromAccount.Title.Tab3Title" = "Easy To Load Money";
+"HowToLoadMoneyFromAccount.Text.Tab3Description" = "Your money is in your Opet Wallet minutes after you send money!";
+"HowToLoadMoneyFromAccount.Title.Tab4Title" = "Give Requler Load Money Instruction";
+"HowToLoadMoneyFromAccount.Text.Tab4Description" = "You can instruct regular top ups from your bank app so you never run out of money in your wallet!";
+"HowToLoadMoneyFromAccount.Title.HowToLoad" = "How To Load Money From Bank Account";
+
+//MARK: - SendMoneyAcceptedContactsToZubizu
+
+"SendMoneyAcceptedContactsToZubizu.Text.ChooseThePerson" = "Choose the Person You Send Money";
+"SendMoneyAcceptedContactsToZubizu.Text.ChooseThePersonNumber" = "Enter the Number of the Person You Will Send";
+"SendMoneyAcceptedContactsToZubizu.Text.EnterTheNumber" = "Enter Number";
+"SendMoneyAcceptedContactsToZubizu.Text.MyPhoneDirectory" = "My Phone Directory";
+"SendMoneyAcceptedContactsToZubizu.Text.PersmissionDenied" = "Permission Denied";
+"SendMoneyAcceptedContactsToZubizu.Text.UnkownError" = "Unkown Error";
+"SendMoneyAcceptedContactsToZubizu.Text.InfoAlertText" = "You can select the people to whom you will send money by entering their number.";
+"SendMoneyAcceptedContactsToZubizu.Text.Search" = "Search";
+
+//MARK: - SendMoneyScreen
+
+"SendMoneyScreen.Text.SendNow" = "Send Now";
+"SendMoneyScreen.Text.SendLater" = "Send Later";
+"SendMoneyScreen.Text.GiveRegularInstruction" = "Give Regular Instruction";
+"SendMoneyScreen.Text.SendMoney" = "Send Money";
+
+//MARK: - CommunicationPreferencesScreen
+"CommunicationPreferencesScreen.Title.NavigationTitle" =  "Communication Preferences" ;
+"CommunicationPreferencesScreen.Title.SMS" = "SMS";
+"CommunicationPreferencesScreen.Text.AllowSms" = "I allow the sending of SMS.";
+"CommunicationPreferencesScreen.Title.Email" = "E-Posta";
+"CommunicationPreferencesScreen.Text.AllowEmail" = "I allow the sending of E-Mail.";
+"CommunicationPreferencesScreen.Title.Phone" = "Phone";
+"CommunicationPreferencesScreen.Text.AllowPhone" = "I allow phone calls.";
+
+//MARK: - CurrentPariodTransactionsScreen
+
+"CurrentPariodTransactionsScreen.Text.AvailableBalance" = "Available Balance";
+"CurrentPariodTransactionsScreen.Text.TotalSpending" = "Total Spending";
+"CurrentPariodTransactionsScreen.Title.SplitSpending" = "SPLIT THE SPENDING";
+
+//MARK: - FeesAndLimitsScreen
+
+"FeesAndLimitsScreen.Title.NavigationTitle" = "Fees And Limits";
+"FeesAndLimitsScreen.Title.AccountLimits" = "Account Limits";
+"FeesAndLimitsScreen.Title.TransactionFees" = "Transaction Fees";
+
+//MARK: - HomeScreenTabView
+"HomeScreenTabView.Title.MicroCredit" = "Micro Credit Transactions";
+"HomeScreenTabView.Title.PendingTransactions" = "Pending Transactions";
+"HomeScreenTabView.Title.TransactionHistory" = "Transaction Info";
+//MARK: - IncomingAskForMoneyAccept
+"IncomingAskForMoneyAccept.Text.MoneyRequest" = "Money Request";
+"IncomingAskForMoneyAccept.Text.Explanation" = "Explanation";
+"IncomingAskForMoneyAccept.Text.Amount" = "Amount to Send";
+"IncomingAskForMoneyAccept.Text.TransactionFee" = "Transaction Fee";
+"IncomingAskForMoneyAccept.Text.TotalAmount" = "Total Amount";
+"IncomingAskForMoneyAccept.Text.Date" = "Date";
+"IncomingAskForMoneyAccept.Text.EnterExplanation" = "Enter Explanation";
+
+//MARK: - IncomingSplitTheBillDetail
+"IncomingSplitTheBillDetail.Text.SharedSpend" = "Spending to be Shared";
+"IncomingSplitTheBillDetail.Text.TransactionFee" = "Transaction Fee";
+"IncomingSplitTheBillDetail.Text.TotalAmount" = "Total Amount";
+
+
+//MARK: - OutGoingAskForMoneyDetail
+
+"OutGoingAskForMoneyDetail.Title.MoneyRequest" = "Money Request";
+"OutGoingAskForMoneyDetail.Title.SelectedContacts" = "Selected Contacts";
+"OutGoingAskForMoneyDetail.Text.SharedSpend" = "Spending to be Shared";
+"OutGoingAskForMoneyDetail.Text.SuccessFullyCancel" = "Your Ask For Money Request Has Been Canceled";
+
+
+//MARK: - QrPaymentScreen
+
+"QrPaymentScreen.Title.ScanQr" = "Scan QR";
+"QrPaymentScreen.Text.CancellationAmount" = "Cancellation Amount";
+"QrPaymentScreen.Text.RefoundAmount" = "Refound Amount";
+"QrPaymentScreen.Text.PaymentMethod" = "Select A Payment Method";
+
+//MARK: - QrTransactionSummary
+
+"QrTransactionSummary.Title.ScanQr" = "Scan QR";
+"QrTransactionSummary.Text.PaymentMethod" = "Payment Method";
+
+//MARK: - QrWithDrawMoneyScreen
+
+"QrWithDrawMoneyScreen.Title.SendNow" = "Send Now";
+"QrWithDrawMoneyScreen.Text.PaymentMethod" = "Payment Method";
+"QrWithDrawMoneyScreen.Text.VirtualCard" = "Opet Virtual Card";
+"QrWithDrawMoneyScreen.Text.CurrentBalance" = "Current Balance";
+"QrWithDrawMoneyScreen.Text.WithdrawalMethod" = "Withdrawal Method";
+"QrWithDrawMoneyScreen.Text.DailyWithdrawLimit" = "Remaining Daily Withdrawal Limit";
+"QrWithDrawMoneyScreen.Text.MonthlyWithdrawLimit" = "Remaining Monthly Withdrawal Limit";
+"QrWithDrawMoneyScreen.Text.EnterAmount" = "Enter the amount you want to withdraw";
+"QrWithDrawMoneyScreen.Text.ViewFeeFromAtm" = "You can view transaction fee from ATM";
+"QrWithDrawMoneyScreen.Text.Other" = "Other";
+
+//MARK: - SendMoneyAmountAndDescription
+
+"SendMoneyAmountAndDescription.Text.EnterAmountAndDescription" = "Enter Amount And Description";
+"SendMoneyAmountAndDescription.Text.AvailableBalance" = "Available Balance";
+"SendMoneyAmountAndDescription.Text.EnterExplanation" = "Enter Explanation";
+
+
+//MARK: - SendMoneyIbanTabScreen
+
+"SendMoneyIbanTabScreen.Title.SendMoney" = "Send Money";
+"SendMoneyIbanTabScreen.Title.HowSendMoneyToIban" = "How do I send money to IBAN";
+"SendMoneyIbanTabScreen.Title.SenderInformation" = "Sender Information";
+"SendMoneyIbanTabScreen.Title.AvailableWalletAmount" = "Available Wallet Amount";
+"SendMoneyIbanTabScreen.Title.RecipientInfo" = "Recipient Info";
+"SendMoneyIbanTabScreen.Title.RecipientIban" = "Recipient IBAN";
+"SendMoneyIbanTabScreen.Title.RecipientNameSurname" = "Recipient Name Surname";
+"SendMoneyIbanTabScreen.Title.TransactionInformation" = "Transaction Information";
+"SendMoneyIbanTabScreen.Title.TransactionDate" = "Transaction Date";
+"SendMoneyIbanTabScreen.Title.TransactionType" = "Transaction Type";
+
+
+//MARK: - SendMoneySuccesfull
+
+"SendMoneySuccesfull.Text.YourTransactionSuccessful" = "Your Transaction is Successful!";
+"SendMoneySuccesfull.Text.YourMoneyTransferWasSuccessful" = "Your Money Transfer Was Successful.";
+"SendMoneySuccesfull.Text.ShowReceipt" = "Show Receipt";
+"SendMoneySuccesfull.Text.ShareReceipt" = "Share Receipt";
+
+//MARK: - SendMoneyToIbanTransactionSummary
+
+"SendMoneyToIbanTransactionSummary.Text.YourTransactionSuccessful" = "Your Transaction Successful!";
+"SendMoneyToIbanTransactionSummary.Text.RecipientInfo" = "Recipient Information";
+"SendMoneyToIbanTransactionSummary.Text.RecipientIban" = "Recipient IBAN";
+"SendMoneyToIbanTransactionSummary.Text.RecipientNameSurname" = "Recipient Name Surname";
+"SendMoneyToIbanTransactionSummary.Text.RecipientBankIban" = "Recipient IBAN Bank";
+"SendMoneyToIbanTransactionSummary.Text.TransactionInformation" = "Transaction Information";
+"SendMoneyToIbanTransactionSummary.Text.Date" = "Date";
+"SendMoneyToIbanTransactionSummary.Text.TransactionType" = "Transaction Type";
+"SendMoneyToIbanTransactionSummary.Text.TransactionExplanation" = "This money transfer will be sent from DGpara's Vakıfbank account. Your username will appear in the transaction description field.";
+
+
+//MARK: - SettingsScreen
+
+"SettingsScreen.Title.Settings" = "Settings";
+"SettingsScreen.Title.ProfileInformation" = "Wallet Profile Information";
+"SettingsScreen.Title.ChangePassword" = "Wallet Change Password";
+"SettingsScreen.Title.ChangePhoneNumber" = "Wallet Change Phone Number";
+"SettingsScreen.Title.ChangeLanguage" = "Wallet Change Language";
+"SettingsScreen.Title.ChangeSecretQuestion" = "Wallet Change Secret Question";
+"SettingsScreen.Title.CommunicationPreferences" = "Wallet Communication Preferences";
+"SettingsScreen.Title.ExplicitConsentPreferences" = "Wallet Explicit Consent Preferences";
+
+
+//MARK: - SplitTheBillPhoneSelectionScreen
+
+"SplitTheBillPhoneSelectionScreen.Text.SelectWantToSplit" = "Select People You Want To Split";
+"SplitTheBillPhoneSelectionScreen.Text.EnterNumberToSplit" = "Enter Phone Number of People You Want To Split";
+"SplitTheBillPhoneSelectionScreen.Text.Add" = "Add";
+"SplitTheBillPhoneSelectionScreen.Text.PeopleYouWantToAllocateYourExpensesTo" = "You can select the people you want to allocate your expenses to by selecting them from the directory, calling them by name or number in your directory";
+"SplitTheBillPhoneSelectionScreen.Text.PersonAdded" = "Person Added";
+
+//MARK: - SplitTheBillSummaryScreen
+
+"SplitTheBillSummaryScreen.Text.AcceptExplanation" = "Expenditure splitting transaction details are as follows. If you approve, the following people will receive an expenditure splitting request in the amounts you specify.";
+
+
+
+//MARK: - SplittingScreen
+
+"SplittingScreen.Text.SpendToBeSplitting" = "Spend To Be Splitting";
+"SplittingScreen.Text.SelectedPerson" = "Selected Person";
+"SplittingScreen.Text.SplitEqual" = "Split Equal";
+"SplittingScreen.Text.RemoveThePerson" = "Remove The Person";
+"SplittingScreen.Text.SpendingSplitList" = "From your Spending Split List";
+"SplittingScreen.Text.Removed" = "will be removed.";
+"SplittingScreen.Text.AmountAlert" = "Your spending amount and the amount you split must be equal.";
+"SplittingScreen.Title.AmountAlert" = "Amount does not match";
+
+//MARK: - UserAgreementScreen
+
+"UserAgreementScreen.Title.UserAgreement" = "User Agreement";
+"UserAgreementScreen.Title.IConfirm" = "I CONFIRM";
+"UserAgreementScreen.Title.IConfirmText" = "Scroll down to read and confirm agreements";
+
+
+//MARK: - CreateSecretQuestionScreen
+
+"CreateSecretQuestionScreen.Title.ChangeSecretQuestion" = "Change Secret Question";
+"CreateSecretQuestionScreen.Text.NewSecretQuestion" = "New Secret Question";
+"CreateSecretQuestionScreen.Text.AnswerOfQuestion" = "Answer Of Question";
+"CreateSecretQuestionScreen.Text.SecretQuestionAnswerExplanation" = "With the secret question you set, you can create a new password when you forget your password or lose your identity.";
+"CreateSecretQuestionScreen.Text.AnswerOfSecretQuestion" = "Answer Of Secret Question";
+"CreateSecretQuestionScreen.Text.FirstRule" = "Must contain 4-15 characters";
+"CreateSecretQuestionScreen.Text.CannotContainSpaces" = "Cannot Contain Spaces";
+"CreateSecretQuestionScreen.Text.MayContainSpacialCharacters" = "May Contain Spacial Characters (/, -ex.)";
+
+
+//MARK: - ChangeSecretQuestionScreen
+
+"ChangeSecretQuestionScreen.Title.ChangeSecretQuestion" = "Change Secret Question";
+"ChangeSecretQuestionScreen.Text.CurrentSecretQuestion" = "Current Secret Question";
+"ChangeSecretQuestionScreen.Text.AnswerOfQuestion" = "Answer Of Question";
+"ChangeSecretQuestionScreen.Text.IForgotTheAnswer" = "I Forgot The Answer";
+
+
+//MARK: - OpenConsentPreferencesScreen
+
+"OpenConsentPreferencesScreen.Title.OpenConsentPreferances" = "Open Consent Preferances";
+"OpenConsentPreferencesScreen.Text.PersonalizedAdvertising" = "Opet Personalized Advertising";
+"OpenConsentPreferencesScreen.Text.WalletPersonalizedAdvertising" = "Opet Wallet Personalized Advertising";
+"OpenConsentPreferencesScreen.Text.DataEnrichment" = "Opet Wallet Data Enrichment";
+"OpenConsentPreferencesScreen.Text.OwnerDataEnrichment" = "Opet Owner Data Enrichment";
+
+
+//MARK: - ChangePhoneNumberSecretQuestionScreen
+
+"ChangePhoneNumberSecretQuestionScreen.Title.ChangeSecretQuestion" = "Change Secret Question";
+"ChangePhoneNumberSecretQuestionScreen.Text.CurrentSecretQuestion" = "Current Secret Question";
+"ChangePhoneNumberSecretQuestionScreen.Text.AnswerOfQuestion" = "Answer Of Question";
+"ChangePhoneNumberSecretQuestionScreen.Text.IForgotTheAnswer" = "I Forgot The Answer";
+
+
+//MARK: - ProfileInformationsScreen
+
+"ProfileInformationsScreen.Title.MyProfileInformations" = "My Profile Informations";
+"ProfileInformationsScreen.Text.Name" = "Name";
+"ProfileInformationsScreen.Text.Surname" = "Surname";
+"ProfileInformationsScreen.Text.PhoneNumber" = "Phone Number";
+"ProfileInformationsScreen.Text.BirthDate" = "BirthDate";
+"ProfileInformationsScreen.Text.EMail" = "E-Mail";
+"ProfileInformationsScreen.Text.Job" = "Job";
+"ProfileInformationsScreen.Text.MonthlyNetIncome" = "Monthly Net Income";
+"ProfileInformationsScreen.Text.EstimatedWalletBalance" = "Estimated Wallet Balance";
+"ProfileInformationsScreen.Text.MonthyTransactionCount" = "Monthy Transaction Count";
+"ProfileInformationsScreen.Text.RemoveAccount" = "Remove Account";
+"ProfileInformationsScreen.Text.Warning" = "Warning";
+"ProfileInformationsScreen.Text.WarningText" = "In case you cancel your membership; All your reward and membership points you have accumulated, your campaign participation, your segment, your memberships and matches in contracted brands, and your registered cards will be irrevocably canceled. See you again at Opet! \n \n Confirm??";
+
+//MARK: - Fail Login Attemps Sheet
+
+"FailLoginAttempsSheet.Text.Date"                           = "Date and Hour:";
+"FailLoginAttempsSheet.Text.Description"                    = "Description:";
+"FailLoginAttempsSheet.Text.FailLoginAttemp"                = "Fail Login Attemp";
+"FailLoginAttempsSheet.Title.LoginAttemps"                  = "Login Attemps";
+
+//MARK: - My Wallet Info Screen
+
+"MyWalletInfoScreen.Title.WalletInfo"                       = "My Wallet Information";
+"MyWalletInfoScreen.Text.MoneyInputZubizuWallet"            = "Money Input To Opet Wallet";
+"MyWalletInfoScreen.LimitCardView.Text.Daily"               = "Daily";
+"MyWalletInfoScreen.LimitCardView.Text.Monthly"             = "Monthly";
+"MyWalletInfoScreen.CardLimitView.Text.AmountLimit"         = "Amount Limit";
+"MyWalletInfoScreen.CardLimitView.Text.QuantityLimit"       = "Quantity Limit";
+
+//MARK: - Notifications Screen
+"Notifications.Title"       = "Notifications";
+"Notifications.Text.EmptyNotifications"       = "You have no notifications to view.";
+
+
+//MARK: - AboutWhiteLabel Screen
+"AboutWhiteLabel.Title"       = "About Opet";
+"AboutWhiteLabel.Text.FrequenltyAskedQuestions"     = "Frequently Asked Questions";
+"AboutWhiteLabel.Text.Cookie"     = "Cookie Policy";
+"AboutWhiteLabel.Text.Clarification"     = "Clarification Text";
+"AboutWhiteLabel.Text.PersonalData"     = "Personal Data and Explicit Consent Text";
+"AboutWhiteLabel.Text.RepresentativeInfo"     = "Representative Information Text";
+"AboutWhiteLabel.Text.RemindMe"     = "Remind Me Clarification Text";
+"AboutWhiteLabel.Text.DgpPara"     = "DgPara Payment Service and Electronic Money Framework Agreement";
+"AboutWhiteLabel.Text.UserAgreement"     = "User Agreement";
+"AboutWhiteLabel.Text.WhatIs"     = "What is Opet?";
+"AboutWhiteLabel.Text.ContactUs"     = "Contact Us";
+"AboutWhiteLabel.Text.Suggestion"     = "You can contact us for all your questions, comments and suggestions.";
+
+//MARK: - VerifyIdentity Screen
+"VerifyIdentity.Title" = "Verify Identity";
+"VerifyIdentity.Text.LoadMoney" = "LOAD MONEY";
+"VerifyIdentity.Title.kyc_1" = "By Transferring Money From My Bank Account";
+"VerifyIdentity.Text.kyc_1" = "You can start using Opet Wallet with higher limits by transferring money from a bank account of your own, regardless of the amount.";
+"VerifyIdentity.Title.kyc_2" = "With my new ID Card";
+"VerifyIdentity.Text.kyc_2" = "With your new ID card, you can start using Opet Wallet with higher limits by verifying your identity in just a few steps.";
+
+//MARK: - VerifySteps
+
+"VerifyIdentity.Title.step_1" = "Scan your ID with NFC.";
+"VerifyIdentity.Title.step_2" = "Complete your information.";
+"VerifyIdentity.Title.step_3" = "Define address.";
+"VerifyIdentity.Title.step_4" = "Choose the Opet products you will use.";
+"VerifyIdentity.Title.step_5" = "Do face recognition (selfie) and liveness test.";
+"VerifyIdentity.Text.header" = "You can easily raise your limit by simply completing the following steps!";
+
+"VerifyIdentity.Title.step_OCR" = "Scan your Identity Card";
+"VerifyIdentity.Title.step_NFC" = "Scan your ID with NFC";
+"VerifyIdentity.Title.step_FACE_REG" = "Vitality Test";
+
+// MARK: Permissions
+
+"Permissions.Title.Location" = "Please Turn on Location Permissions in Settings.";
+"Permissions.Title.OpenLocation" = "Go To Location Permissions";
+"Permissions.Title.OpenCamera" = "Go To Camera Permissions";
+"Permissions.Text.Location" = "You must allow location and camera access to withdraw money with Qr";
+"Permissions.Text.Camera" = "You must allow camera access to make purchases with Qr";
+
+
+//MARK: VirtualCard
+"VirtualCard.Title.firstText" = "VIRTUAL CARD";
+"VirtualCard.Title.secondText" = "CREATE";
+
+
+//MARK: SavedCards
+
+"SavedCards.Title.slideButtonText" = "Delete     \nCard";
+"SavedCards.Title.navigationTitle" = "All Cards";
+"SavedCards.Title.WlCards" = "Opet Cards";
+"SavedCards.Title.savedCards" = "Saved Cards";
+"SavedCards.Title.bankAccounts" = "Bank Accounts";
+"SavedCards.Title.addCard" = "Add Card";
+"SavedCards.Title.addWlblwCard" = "Add Opet Card";
+"SavedCards.Title.notFindCard" = "You do not have a Masterpass card added to Opet.";
+"SavedCards.Title.cardSuccessDeleted" = "Your card has been successfully deleted";
+"SavedCards.Title.areYouSureDeleteCard" = "Are you sure you want to delete your card";
+"SavedCards.Title.deleteCard" = "Delete Card";
+"SavedCards.Text.noRegisteredCard" = "You do not have a Masterpass card added to Opet.";
+
+//MARK: MasterPass
+
+"MasterPass.Title.alertTitle" = "Card Add Successful";
+"MasterPass.Title.alertText" = "Your card has been added to MasterPass";
+"MasterPass.Title.otp" = "Otp Expired";
+"MasterPass.Title.otpText" = "Your otp has expired, please request code again";
+"MasterPass.Title.Title.navigationTitle" = "Bank Verification";
+"MasterPass.Title.cardName" = "Card Name";
+"MasterPass.Title.giveCardName" = "Name your card";
+"MasterPass.Title.addCardToMasterPass" = "Add MasterPass Card";
+"MasterPass.Title.WrongCardNumber" = "Card Number Entered is Invalid";
+
+//MARK: CashLimit
+
+"CashLimit.Text.alertText" = "If you wish, you can define a monthly cash withdrawal limit notification and receive a notification when you exceed the limit you set.";
+"CashLimit.Title.navigationTitle" = "Cash Withdrawal Limit Notification";
+"CashLimit.Text.buttonText" = "Define Limit";
+"CashLimit.Text.alertDialogText" = "Confirm to close your Opet card to cash withdrawal.";
+"CashLimit.Title.alertDialogTitle" = "Close to Cash Withdrawal";
+"CashLimit.Title.toggle" = "Cash Withdrawal Limit Notification";
+"CashLimit.Text.textfieldHeader" = "Your Cash Withdrawal Limit";
+"CashLimit.Title.limitTitle" = "Confirm Limit Notification";
+"CashLimit.Title.UpdateLimitTitle" = "Confirm Cash Withdrawal Notification";
+"CashLimit.Text.limitText" = "Confirm the limit notification you have defined.";
+"CashLimit.Text.disableLimitText" = "Confirm to remove the limit notification you defined earlier.";
+"CashLimit.Title.disableLimitTitle" = "Remove Limit Notification";
+"CashLimit.Title.addLimitSuccessTitle" = "Your limit has been defined";
+"CashLimit.Text.addLimitSuccessText" = "The limit you set has been successfully defined";
+"CashLimit.Title.removeLimitSuccessTitle" = "Your limit has been removed";
+"CashLimit.Text.removeLimitSuccessText" = "The limit you set has been successfully removed";
+"CashLimit.Text.Abort" = "CANCEL";
+
+
+//MARK: MonthlyLimit
+"MonthlyLimit.Text.alertText" = "If you wish, you can define a monthly spending limit notification and receive a notification when you exceed the limit you set.";
+"MonthlyLimit.Title.navigationTitle" = "Monthly Expenditure Limit Notification";
+"MonthlyLimit.Title.toggle" = "Monthly Expenditure Limit Notification";
+"MonthlyLimit.Text.textfieldHeader" = "Your Monthly Spending Limit";
+"MonthlyLimit.Title.UpdateLimitTitle" = "Update Cash Withdrawal Notification";
+"MonthlyLimit.Title.disableLimitTitle" = "Remove Limit Notification";
+"MonthlyLimit.Title.YourLimitHasBeenUpdated" = "Your limit has been updated";
+"MonthlyLimit.Text.updatedLimitSuccessText" = "The limit you set has been successfully updated";
+
+//MARK: MyWLCards
+"MyWLCards.Text.lastCard" = "Last Used Card";
+
+
+//MARK: VirtualCards
+"VirtualCards.Title.NavigationTitle" = "My Wallet Transactions";
+"VirtualCards.Text.LoadMoneyToCard" = "Load Money to Card";
+"VirtualCards.Text.Share" = "Share";
+"VirtualCards.Text.CardSettings" = "Card Settings";
+"VirtualCards.Text.SharePeriodTransaction" = "Select the period you want to share";
+"VirtualCards.Text.GetEmail" = "GET EMAIL";
+"VirtualCards.Title.SuccesFullySended" = "Successfully Sent.";
+"VirtualCards.Title.VerifyEmail" = "Verify Your E-Mail Address";
+"VirtualCards.Text.VerifyEmail" = "We have sent you an email to verify your email address. After verifying your email address, your account statement will be sent to your email address.";
+
+//MARK: My Profile
+
+"MyProfileScreen.Title.NavigationTitle" = "My Profile";
+
+
+//MARK: All Transactions History
+
+"AllTransactionsHistoryScreen.Title.TabBarFirst" = "My Account Summary";
+"AllTransactionsHistoryScreen.Title.TabBarSecond" = "My Transactions";
+"AllTransactionsHistoryScreen.Text.EMail" =  "Your account statement is your registered email address";
+
+//MARK: ShareAndTakeEmailPopUp
+
+"ShareAndTakeEmailPopUp.Text.ChooseDate" = "Choose the period you want to share";
+"ShareAndTakeEmailPopUp.Text.GetEmail" = "GET EMAIL";
+
+//MARK: Ask For Money
+"AskForMoneyContactsToZubizu.Text.ChooseThePerson" = "Choose the person to ask for money";
+"AskForMoneyContactsToZubizu.Text.ChooseThePersonNumber" = "Enter the contact number";
+"AskForMoneyContactsToZubizu.Text.AskForMoneySuccessful" = "Your ask for money has been successfully submitted";
+
+//MARK: AccountInformationPopup
+"AccountInformationPopup.Text.AccountType"                           = "Account Type";
+"AccountInformationPopup.Text.TurkishLiraAccount"                    = "Turkish Lira Account";
+"AccountInformationPopup.Text.TotalBalance"                          = "Total Balance";
+"AccountInformationPopup.Text.CashWithdrawableBalance"               = "Cash Withdrawable Balance";
+"AccountInformationPopup.Text.AccountInformation"                    = "Account Information ";
+"AccountInformationPopup.Text.TLCashWithdrawableBalance"             = "Balance in your Turkish Lira Account that you can withdraw in cash";
+
+
+//MARK: ArafCardView
+
+"ArafCardView.Text.Info" = "Your money transfer will take place if the user you send money to becomes Opet within 24 hours. Otherwise, the amount you sent will be returned to your Opet wallet.";
+"ArafCardView.Text.Araf" = "Your money transfer is pending.";
+
+
+//MARK: Card Settings
+
+"CardSettings.Text.MonthlyExpenditureLimitNotification"    = "Monthly Expenditure LimitNotification";
+"CardSettings.Text.CashWithdrawalLimitNotification"        = "Cash Withdrawal Limit Notification";
+"CardSettings.Text.DomesticCashWithdrawal"                 = "Domestic Cash Withdrawal";
+"CardSettings.Text.CashWithdrawalAbroad"                 = "Cash Withdrawal Abroad";
+"CardSettings.Text.DomesticTelephoneEMailExchange"         = "Domestic Telephone / E-MailExchange";
+"CardSettings.Text.OverseasTelephoneEMailExchange"         = "Overseas Telephone / E-Mail Exchange";
+"CardSettings.Text.DomesticECommerce"                      = "Domestic E-Commerce";
+"CardSettings.Text.OverseasECommerce"                      = "Overseas E-Commerce";
+"CardSettings.Text.ExpenditureAbroad"                      = "Expenditure Abroad";
+"CardSettings.Text.TemporarilyCloseMyCard"                 = "Temporarily Close My Card";
+"CardSettings.Text.CardSettings"                           = "Card Settings";
+
+//MARK: My Profile
+
+"MyProfile.Text.Settings"                                  = "Settings";
+"MyProfile.Text.Notifications"                             = "Notifications";
+"MyProfile.Text.MyWalletInformation"                       = "My Wallet Information";
+"MyProfile.Text.FeesAndLimits"                             = "Fees and Limits";
+"MyProfile.Text.AboutWhiteLabel"                           = "About Opet";
+"MyProfile.Text.SignOut"                                   = "Sign Out";
+
+// SendMoneyNavigationBar
+
+"SendMoneyNavigationBar.Text.ForWhiteLabelUsers"                                   = "For Opet Users";
+"SendMoneyNavigationBar.Text.ToIBAN"                                               = "To IBAN";
+
+//MARK: ChangePasswordScreen
+
+"ChangePasswordScreen.Text.NewPasswordAgain"                                       = "New Password (Again )";
+"ChangePasswordScreen.Text.ThePasswordsDidNotMatch"                             = "The Passwords Did Not Match";
+
+//MARK: InvoicedetailScreen
+
+"InvoicedetailScreen.Text.InvoiceInformation"                                       = "Invoice Information";
+"InvoicedetailScreen.Text.NameOfInstitution"                                        = "Name Of Institution";
+"InvoicedetailScreen.Text.SubscriberContractNo"                                     = "Subscriber/Contract No";
+"InvoicedetailScreen.Text.Insert"                                                   = "Insert";
+"InvoicedetailScreen.Text.MustBeDigits"                                             = "Must be  digits";
+"InvoicedetailScreen.Text.Enquire"                                                  = "Enquire";
+"InvoicedetailScreen.Text.EsgazDisclaimer"                                          = "The Institution updates the invoice payments received from the Bank and Payment Institutions to Esgaz after 1 business day. Although the payments you make are completed instantly, esgaz updates the system at the end of the day.";
+"InvoicedetailScreen.Text.InvoiceAmount"                                            = "Invoice Amount";
+"InvoicedetailScreen.Text.AmountToBePaid"                                           = "Amount to be paid";
+"InvoicedetailScreen.Text.PaymentDeadline"                                          = "Payment Deadline";
+"InvoicedetailScreen.Text.PaymentMethod"                                            = "Payment Method";
+"InvoicedetailScreen.Text.WLBLWWallet"                                              = "WLBLW Wallet";
+
+//MARK: InvoiceSummaryScreen
+
+"InvoiceSummaryScreen.Text.InvoiceNo"                                               = "Invoice No";
+
+//MARK: InvoiceGetInstitutionListScreen
+
+"InvoiceGetInstitutionListScreen.Text.SearchByInstitutionName"                     = "Search by Institution Name";
+"InvoiceGetInstitutionListScreen.Text.EnterInstitutionName"                        = "Enter Institution Name";
+"InvoiceGetInstitutionListScreen.Text.AllInstitutions"                             = "All Institutions";
+
+//MARK: LoginWrongInformationView
+"LoginWrongInformationView.Text.YouHaveTheRightToTry"                              = "you have the right to try";
+"LoginWrongInformationView.Text.VerificationMakingSure"                            = "You can try again by making sure you entered your information correctly.";
+// MARK: PayBillScreen
+"PayBillScreen.Text.AutomaticPaymentInstructions"                                  = "Automatic Payment Instructions";
+
+// MARK: QrScreen
+"QrScreen.Text.HelloNameSurname"                                                   = "Hello Name Surname";
+
+// MARK: SelectInvoiceScreen
+"SelectInvoiceScreen.Text.SelectTheInvoiceYouWantToPay"                            = "Select the Invoice You Want to Pay";
+
+
+// MARK: IlluminationTextScreen
+"IlluminationTextScreen.Text.DgParaClarificationText"                              = "DgPara Clarification Text";
+"IlluminationTextScreen.Text.WLBLWClarificationText"                              = "WLBLW Clarification Text";
+
+
+// MARK:  PaymentWithCardSelection
+"PaymentWithCardSelection.Text.ShoppingAmount"                              = "Shopping Amount";
+
+// MARK:  DatePickerSheet
+"DatePickerSheet.Text.PleaseSelectTransactionDate"                              = "Please Select Transaction Date";
+
+// MARK:  FilterResultEmpty
+"FilterResultEmpty.Text.Accountcriteria"                              = "There are no transactions in accordance with the criteria you have selected in the statement of account period.";
+
+// MARK: ShowQR
+"ShowQR.Text.QRCodeRenewal"                              = "Your QR code is renewed within one minute for your security.";
+"ShowQR.Text.WLBLWShowyourQRCode"                        = "To benefit from the privileges at WLBLW points, please show your product QR code";
+
+// MARK: CustomAlertViewDialog
+"CustomAlertViewDialog.Text.ListingInMasterpass"       = "Do you want your cards registered in Masterpass to be listed?";
+
+// MARK: LogOutAlertView
+"LogOutAlertView.Text.AreYouSureYouWantToCheckOut"              = "Are you sure you want to check out";
+
+
+// MARK: SplitDialog
+"SplitDialog.Text.DetermineTheAmountToBePaidByThePerson"              = "Determine the amount to be paid by the person";
+
+// MARK: EmailVerificationCardView
+"EmailVerificationCardView.Text.YourEmailIsVerified"              = "Your email is verified";
+"EmailVerificationCardView.Text.YourEmailIsNotVerified"              = "Your email is not verified";
+
+// MARK: EmailVerificationSended
+"EmailVerificationCardView.Text.VerificationLinkSent"              = "Verification Link Sent";
+
+// MARK: MyProfileVerificationCardView
+"MyProfileVerificationCardView.Text.IdentityVerified"              = "Identity Verified";
+"MyProfileVerificationCardView.Text.VerifyYourIdentity"              = "Verify Your Identity";
+
+// MARK: PaymentTransactionSummaryCardView
+"PaymentTransactionSummaryCardView.Text.WorkplaceTitle"                         = "Workplace Title";
+"PaymentTransactionSummaryCardView.Text.CardNumber"                             = "Card Number";
+"PaymentTransactionSummaryCardView.Text.CancellationRefundAmount"              = "Cancellation/Refund Amount";
+"PaymentTransactionSummaryCardView.Text.TotalCancellationRefundAmount"         = "Total Cancellation / Refund Amount";
+
+// MARK: ProcessingFeeInsideCardView
+"ProcessingFeeInsideCardView.Text.AmountLimit:"        = "Amount Limit:";
+
+// MARK: ScanQrCardView
+"ScanQrCardView.Text.ShoppingAndLoremIpsumDolorSitAmetConsecteturLoremIpsum"   = "Shopping and lorem ipsum dolor sit amet consectetur lorem ipsum.";
+
+// MARK: ChoosenPeopleSplitRow
+"ChoosenPeopleSplitRow.Text.EditAmount"        = "Edit Amount";
+
+
+// MARK: SplitOutgoingRequestRow
+"SplitOutgoingRequestRow.Text.ONWAIT"        = "ON WAIT";
+"SplitOutgoingRequestRow.Text.Expired"        = "Expired";
+"SplitOutgoingRequestRow.Text.REJECTED"        = "REJECTED";
+"SplitOutgoingRequestRow.Text.ACCEPTED"        = "ACCEPTED";
+
+// MARK: StoredCardViewRow
+"StoredCardViewRow.Text.NoCardName"        = "No Card Name";
+
+// MARK: AllCardsTabViewModel
+"AllCardsTabViewModel.Text.YourCardStatusHasBeenChanged"        = "Your card status has been changed";
+
+// MARK: alertModel
+"alertModel.Text.YouAreGoingToCancelTheTransactionDoYouConfirm"               = "You're going to cancel the transaction, do you confirm?";
+"alertModel.Text.YoullCancelTheOperation"                                      = "You'll cancel the operation ";
+"alertModel.Text.YourPasswordHasBeenSuccessfullyUpdated"                      = "Your password has been successfully updated";
+"alertModel.Text.YourPhoneNumberHasBeenSuccessfullyChanged"                    = "Your phone number has been successfully changed";
+"alertModel.title.OtpExpired"                                                     = "one-time password has expired.";
+"alertModel.Text.OtpExpiredPleaseRequestACodeAgain"                            = "one-time password has expired, please request a code again";
+"alertModel.Text.TryAgain"                                                        = "Try Again";
+"alertModel.Text.YouCanNowUseYourNewSecurityQuestionInWhitelbl"               = "You can now use your new security question in Opet";
+"alertModel.title.SuccessfullyModifiedYourSecurityQuestion"                   = "Successfully Modified Your Security Question";
+"alertModel.Text.CameraPermissionNotFoundPleaseAuthoriseCamera"              = "Camera Permission Not Found Please Authorise Camera";
+"alertModel.Text.QRCodeNotRead"                                                     = "QR Code No tRead";
+"alertModel.Text.UnknownError"                                                        = "Unknown Error";
+"alertModel.Text.QrWrongFormat"                                                        = "Qr Wrong Format";
+"alertModel.Text.YourWithdrawalIsSuccessfulYouCanContinueYourTransactionAtTheATM"         = "Your withdrawal is successful. You can continue your transaction at the ATM.";
+"alertModel.Text.YourCommunicationPreferencesHaveBeenSuccessfullyUpdated"                = "Your communication preferences have been successfully updated";
+"alertModel.Text.WalletError"                                                          = "Wallet Error";
+
+"alertModel.Text.YourMoneyTransferWasSuccessful"                             = "Your Money Transfer Was Successful";
+"alertModel.title.RequestRejected"                                            = "Request Rejected";
+"alertModel.Text.TheRequestWasSuccessfullyRejected."                            = "The request was successfully rejected.";
+"alertModel.Text.YourOpenConsentPreferencesSuccessfullyUpdated"                   = "Your Open Consent Preferences Successfully Updated";
+"alertModel.Text.ConfirmIfYouWantToCancelTheExpenseSplitRequest"                   = "Confirm if you want to cancel the expense split request";
+"alertModel.title.YouWillCancelTheRequest"                                    = "You will cancel the request";
+"alertModel.Text.YourUpdateOperationsHaveBeenCarriedOut"                   = "Your update operations have been carried out.";
+"alertModel.Text.YouDoNotHaveACardAvailableForThisTransaction"                   = "You do not have a card available for this transaction";
+"alertModel.Text.LimitMustBeSmall"         = "Amount entered must be less than the current balance, remaining daily limit and remaining monthly limit";
+"alertModel.Text.UpdateAmount"                                               = "Update Amount";
+"alertModel.Text.PleaseCheckThePasswordYouEntered"                   = "Please check the password you entered";
+"alertModel.Text.PleaseEnterTheSamePasswords"                   = "Please enter the same passwords";
+"alertModel.Text.PleaseSelectASecurityQuestion"                   = "Please Select a Security Question";
+"alertModel.Text.WhiteLabelInsufficientBalance"                   = "Opet Insufficient Balance";
+"alertModel.Text.InsufficientBalance"                              = "Insufficient Balance";
+"alertModel.Text.AnErrorOccurredPleaseTryAgain"                   = "An Error occurred Please try again";
+"alertModel.Text.YouCanSplitYourSpendWithAMaximumOf10People"                   = "You can split your spend with a maximum of 10 people.";
+"alertModel.Text.YourTopUpRequestHasBeenSuccessfullyReceived"                   = "Your top-up request has been successfully received";
+"alertModel.Text.YourTopUpRequestFailedPleaseTryAgainLater"                   = "Your Top Up Request Failed Please Try Again Later";
+"alertModel.Text.NetworkError"                                                  = "A connection error occurred. Please try again later";
+"alertModel.Text.PaymentRequestHasBeenSuccessfullyReceived"                   = "Payment request has been successfully received";
