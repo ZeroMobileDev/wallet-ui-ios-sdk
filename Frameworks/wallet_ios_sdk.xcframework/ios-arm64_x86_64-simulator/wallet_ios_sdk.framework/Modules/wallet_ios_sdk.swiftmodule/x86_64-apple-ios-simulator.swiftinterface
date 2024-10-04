@@ -847,6 +847,15 @@ public struct InvoiceInquiryModel : Swift.Codable {
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class PaymentWalletMobileOutputParams : wallet_ios_sdk.BaseResponseMeta {
+  public var cardExpense: Swift.Double?
+  public var cashExpense: Swift.Double?
+  public var cashbackExpense: Swift.Double?
+  @available(*, deprecated, renamed: "cardExpense", message: "Use cardExpense variable")
+  public func getCardExpense() -> Swift.Double
+  @available(*, deprecated, renamed: "cardExpense", message: "Use cardExpense variable")
+  public func setCardExpense(cardExpense: Swift.Double)
+  @available(*, deprecated, renamed: "cashExpense", message: "Use cashExpense variable")
+  public func getCashExpense() -> Swift.Double
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -1375,6 +1384,15 @@ public struct GetInstitutionListInstitutionModel : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class TopupPayCommitOutputParams : wallet_ios_sdk.BaseResponseMeta {
+  public var cardExpense: Swift.Double?
+  public var cashExpense: Swift.Double?
+  public var cashbackExpense: Swift.Double?
+  @available(*, deprecated, renamed: "cardExpense", message: "Use cardExpense variable")
+  public func getCardExpense() -> Swift.Double
+  @available(*, deprecated, renamed: "cardExpense", message: "Use cardExpense variable")
+  public func setCardExpense(cardExpense: Swift.Double)
+  @available(*, deprecated, renamed: "cashExpense", message: "Use cashExpense variable")
+  public func getCashExpense() -> Swift.Double
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -3359,6 +3377,9 @@ extension wallet_ios_sdk.WalletCoreSDK {
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class TopupPayStartOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var token: Swift.String?, orderID: Swift.String?
   public var amountWallet: Swift.Int?, amountCard: Swift.Int?
+  public var cardExpense: Swift.Double?
+  public var cashExpense: Swift.Double?
+  public var cashbackExpense: Swift.Double?
   @available(*, deprecated, renamed: "token", message: "Use token variable")
   public func getToken() -> Swift.String
   @available(*, deprecated, renamed: "token", message: "Use token variable")
@@ -3375,6 +3396,12 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func getAmountCard() -> Swift.Int
   @available(*, deprecated, renamed: "amountCard", message: "Use amountCard variable")
   public func setAmountCard(amountCard: Swift.Int)
+  @available(*, deprecated, renamed: "cardExpense", message: "Use cardExpense variable")
+  public func getCardExpense() -> Swift.Double
+  @available(*, deprecated, renamed: "cardExpense", message: "Use cardExpense variable")
+  public func setCardExpense(cardExpense: Swift.Double)
+  @available(*, deprecated, renamed: "cashExpense", message: "Use cashExpense variable")
+  public func getCashExpense() -> Swift.Double
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
