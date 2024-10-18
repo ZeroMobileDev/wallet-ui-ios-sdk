@@ -279,6 +279,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import AVFoundation;
 @import Foundation;
+@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -325,6 +326,13 @@ SWIFT_CLASS("_TtCV11WalletUISdk15CodeScannerView21ScannerViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
+@class UIPresentationController;
+
+SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
+@interface ScannerViewController (SWIFT_EXTENSION(WalletUISdk)) <UIAdaptivePresentationControllerDelegate>
+- (void)presentationControllerDidDismiss:(UIPresentationController * _Nonnull)presentationController;
+@end
+
 @class AVCaptureMetadataOutput;
 @class AVMetadataObject;
 @class AVCaptureConnection;
@@ -332,13 +340,6 @@ SWIFT_CLASS("_TtCV11WalletUISdk15CodeScannerView21ScannerViewController")
 SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
 @interface ScannerViewController (SWIFT_EXTENSION(WalletUISdk)) <AVCaptureMetadataOutputObjectsDelegate>
 - (void)captureOutput:(AVCaptureMetadataOutput * _Nonnull)output didOutputMetadataObjects:(NSArray<AVMetadataObject *> * _Nonnull)metadataObjects fromConnection:(AVCaptureConnection * _Nonnull)connection;
-@end
-
-@class UIPresentationController;
-
-SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
-@interface ScannerViewController (SWIFT_EXTENSION(WalletUISdk)) <UIAdaptivePresentationControllerDelegate>
-- (void)presentationControllerDidDismiss:(UIPresentationController * _Nonnull)presentationController;
 @end
 
 @class UIImagePickerController;
@@ -371,6 +372,12 @@ SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
 
 
 
+
+
+SWIFT_CLASS("_TtC11WalletUISdk11WalletUiSDK")
+@interface WalletUiSDK : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 #endif
 #if __has_attribute(external_source_symbol)

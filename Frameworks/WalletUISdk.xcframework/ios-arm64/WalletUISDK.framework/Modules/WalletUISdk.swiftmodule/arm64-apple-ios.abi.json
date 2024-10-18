@@ -120,7 +120,7 @@
                 "kind": "TypeNominal",
                 "name": "WalletUiSDK",
                 "printedName": "WalletUISdk.WalletUiSDK",
-                "usr": "s:11WalletUISdk0A5UiSDKC"
+                "usr": "c:@M@WalletUISdk@objc(cs)WalletUiSDK"
               }
             ],
             "declKind": "Var",
@@ -146,7 +146,7 @@
                     "kind": "TypeNominal",
                     "name": "WalletUiSDK",
                     "printedName": "WalletUISdk.WalletUiSDK",
-                    "usr": "s:11WalletUISdk0A5UiSDKC"
+                    "usr": "c:@M@WalletUISdk@objc(cs)WalletUiSDK"
                   }
                 ],
                 "declKind": "Accessor",
@@ -171,14 +171,19 @@
                 "kind": "TypeNominal",
                 "name": "WalletUiSDK",
                 "printedName": "WalletUISdk.WalletUiSDK",
-                "usr": "s:11WalletUISdk0A5UiSDKC"
+                "usr": "c:@M@WalletUISdk@objc(cs)WalletUiSDK"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11WalletUISdk0A5UiSDKCACycfc",
+            "usr": "c:@M@WalletUISdk@objc(cs)WalletUiSDK(im)init",
             "mangledName": "$s11WalletUISdk0A5UiSDKCACycfc",
             "moduleName": "WalletUISdk",
+            "overriding": true,
+            "objc_name": "init",
             "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -1366,11 +1371,68 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:11WalletUISdk0A5UiSDKC",
+        "usr": "c:@M@WalletUISdk@objc(cs)WalletUiSDK",
         "mangledName": "$s11WalletUISdk0A5UiSDKC",
         "moduleName": "WalletUISdk",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {
