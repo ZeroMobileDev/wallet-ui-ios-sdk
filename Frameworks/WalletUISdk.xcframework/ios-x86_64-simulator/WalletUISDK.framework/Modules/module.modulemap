@@ -8,6 +8,8 @@
 framework module WalletUISdk {
     umbrella header "WalletUiSdk.h"
     export *
+    
+    module * { export * }
 
     module PrivateHeaders {
         header "MfsIOSLibrary.h"
