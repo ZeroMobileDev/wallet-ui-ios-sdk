@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name wallet_ios_sdk
+// swift-module-flags: -target x86_64-apple-ios17.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name wallet_ios_sdk
 import DeveloperToolsSupport
 import Foundation
 import Security
@@ -2380,6 +2380,7 @@ public struct CityModel : Swift.Codable {
   public var M_DGFIN_GET_CUSTOMER: Swift.Int
   public var M_DGFIN_GET_TOKEN: Swift.Int
   public var M_DGFIN_GET_CUSTOMER_INFO_GSM: Swift.Int
+  public var BALANCE_GetMasterpassConfig: Swift.Int
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class CancelSplitTheBillInputParams : wallet_ios_sdk.BaseRequestModel {
@@ -3358,6 +3359,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func paymentWalletMobile(paymentWalletMobileInputParams: wallet_ios_sdk.PaymentWalletMobileInputParams, completion: @escaping (_ result: wallet_ios_sdk.PaymentWalletMobileOutputParams) -> ())
   public func topupPayStart(topupPayStartInputParams: wallet_ios_sdk.TopupPayStartInputParams, completion: @escaping (_ result: wallet_ios_sdk.TopupPayStartOutputParams) -> ())
   public func topupPayCommit(topupPayCommitInputParams: wallet_ios_sdk.TopupPayCommitInputParams, completion: @escaping (_ result: wallet_ios_sdk.TopupPayCommitOutputParams) -> ())
+  public func getMasterpassConfig(getMasterpassConfigInputParams: wallet_ios_sdk.GetMasterpassConfigInputParams, completion: @escaping (_ result: wallet_ios_sdk.GetMasterpassConfigOutputParams) -> ())
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetResponseMessagesOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var responseMessagesList: [wallet_ios_sdk.ResponseMessagesListModel]?
@@ -3380,6 +3382,12 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public var cardExpense: Swift.Double?
   public var cashExpense: Swift.Double?
   public var cashbackExpense: Swift.Double?
+  @available(*, deprecated, renamed: "cardExpense", message: "Use cardExpense variable")
+  public func getCardExpense() -> Swift.Double
+  @available(*, deprecated, renamed: "cardExpense", message: "Use cardExpense variable")
+  public func setCardExpense(cardExpense: Swift.Double)
+  @available(*, deprecated, renamed: "cashExpense", message: "Use cashExpense variable")
+  public func getCashExpense() -> Swift.Double
   @available(*, deprecated, renamed: "token", message: "Use token variable")
   public func getToken() -> Swift.String
   @available(*, deprecated, renamed: "token", message: "Use token variable")
@@ -3396,12 +3404,6 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func getAmountCard() -> Swift.Int
   @available(*, deprecated, renamed: "amountCard", message: "Use amountCard variable")
   public func setAmountCard(amountCard: Swift.Int)
-  @available(*, deprecated, renamed: "cardExpense", message: "Use cardExpense variable")
-  public func getCardExpense() -> Swift.Double
-  @available(*, deprecated, renamed: "cardExpense", message: "Use cardExpense variable")
-  public func setCardExpense(cardExpense: Swift.Double)
-  @available(*, deprecated, renamed: "cashExpense", message: "Use cashExpense variable")
-  public func getCashExpense() -> Swift.Double
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -3999,6 +4001,12 @@ extension wallet_ios_sdk.WalletCoreSDK {
 extension wallet_ios_sdk.WalletCoreSDK {
   public func getMobileComponents(completion: @escaping (_ result: wallet_ios_sdk.GetMobileComponentsOutputParams) -> ())
   public func GetSupportedLanguagesInterface(completion: @escaping (_ result: wallet_ios_sdk.GetSupportedLanguagesOutputParams) -> ())
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetMasterpassConfigOutputParams : wallet_ios_sdk.BaseResponseMeta {
+  public var token: Swift.String?, clientId: Swift.String?, macroMerchantId: Swift.String?, referenceNo: Swift.String?, userId: Swift.String?, api: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers public class InvoiceGetPrepaidPrequeryMessageInputParams : wallet_ios_sdk.BaseRequestModel {
   public var phoneNumber: Swift.String
@@ -6401,6 +6409,13 @@ public struct LimitDefinitionModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+@objc @_inheritsConvenienceInitializers public class GetMasterpassConfigInputParams : wallet_ios_sdk.BaseRequestModel {
+  public var referenceNumber: Swift.Int16?
+  public var userValidationType: Swift.String?
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetCustomerPrepaidCardListOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var cardList: [wallet_ios_sdk.GetCustomerPrepaidCardListModel]?
   public var customerId: Swift.Int64?
@@ -7712,6 +7727,8 @@ extension wallet_ios_sdk.BankAccountDeleteOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.BankAccountDeleteOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.GetPrepaidCardTrnPermissionOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.GetPrepaidCardTrnPermissionOutputParams : Swift.Decodable {}
+extension wallet_ios_sdk.GetMasterpassConfigOutputParams : Swift.Encodable {}
+extension wallet_ios_sdk.GetMasterpassConfigOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.MasterpassPaymentCompleteOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.MasterpassPaymentCompleteOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.InvoiceGetPrepaidInformationOutputParams : Swift.Encodable {}
