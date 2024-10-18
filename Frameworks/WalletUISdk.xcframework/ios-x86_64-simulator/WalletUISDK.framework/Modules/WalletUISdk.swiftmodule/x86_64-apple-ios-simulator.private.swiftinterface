@@ -22,9 +22,9 @@ import _CoreNFC_UIKit
 import _StringProcessing
 import _SwiftConcurrencyShims
 import wallet_ios_sdk
-public class WalletUiSDK {
+@_inheritsConvenienceInitializers @objc public class WalletUiSDK : ObjectiveC.NSObject {
   public static let shared: WalletUISdk.WalletUiSDK
-  public init()
+  @objc override dynamic public init()
   public func setWindow(with window: UIKit.UIWindow)
   public func setController(_ viewController: UIKit.UINavigationController)
   public func goToDashboard()

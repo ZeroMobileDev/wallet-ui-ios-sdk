@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		teNqD7gAHkMx02XDR8AtN0t9VxU=
+		KraWy8zFv6C0JbslBPDddVijovQ=
 		</data>
 		<key>Frameworks/wallet_ios_sdk.framework/Assets.car</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Headers/WalletUiSdk.h</key>
 		<data>
-		nV1DR8deg50B+qMDFWt/or0Q7sk=
+		TG8o1GKDBrUthGPhFN3Rlg0md6I=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		T2s0whlIMRtjNxYWTwL8Gk24jCs=
+		E5fB7h4HdJikPfupjipp0GP81Kk=
 		</data>
 		<key>PrivateHeaders/MfsCard.h</key>
 		<data>
@@ -281,7 +281,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B33L9J13VJdvsufNnochQPyTkIwEBaKm8c59j0NI7uU=
+			f7ZiXKAdN+hrDsa+MJ4dINhh102w5Z6b/aPH9LaqgFE=
 			</data>
 		</dict>
 		<key>Frameworks/wallet_ios_sdk.framework/Assets.car</key>
@@ -435,7 +435,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5CP7M/lj5X57LLMDB308RkfRkcEvB+itynoYNzlP7vk=
+			ZgMUgMl14N2Asrh/ZNOUJfiYeXPicMDe+DTb8PZEx+M=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/Info.plist</key>
@@ -547,7 +547,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3wYhYjpNaKIWxm6XSqllZ1bn4suiV7i9rGeSI9eIXVI=
+			WlJlpoPQQQIrGJb1uySohsvcSsy2El+G6UvQEDFbPyw=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MfsCard.h</key>
