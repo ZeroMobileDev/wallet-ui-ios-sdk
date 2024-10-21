@@ -40,7 +40,7 @@ import wallet_ios_sdk
     public static func paymentWalletMobilePhone(transactCode: Swift.Int? = nil, amount: Swift.Double? = nil, referenceNumber: Swift.Int? = nil, originalReferenceNumber: Swift.Int? = nil, descriptionText: Swift.String? = nil, userName: Swift.String? = nil, completion: @escaping (Swift.Result<Any, any Swift.Error>) -> Swift.Void)
     public static func topupPayStart(amount: Swift.Double? = nil, expenseAmount: Swift.Double? = nil, userValidationType: Swift.String? = nil, destinationAccountID: Swift.Int? = nil, descriptionText: Swift.String? = nil, referenceNumber: Swift.Int? = nil, completion: @escaping (Swift.Result<Any, any Swift.Error>) -> Swift.Void)
     public static func topupPayCommit(commitToken: Swift.String? = nil, orderID: Swift.String? = nil, masterpassCardID: Swift.String? = nil, amount: Swift.Double? = nil, completion: @escaping (Swift.Result<Any, any Swift.Error>) -> Swift.Void)
-    public static func getMasterpassConfig(userValidationType: Swift.String?, referenceNumber: Swift.Int16, completion: @escaping (Swift.Result<wallet_ios_sdk.GetMasterpassConfigOutputParams, any Swift.Error>) -> Swift.Void)
+    public static func getMasterpassConfig(userValidationType: Swift.String?, referenceNumber: Swift.Int?, completion: @escaping (Swift.Result<wallet_ios_sdk.GetMasterpassConfigOutputParams, any Swift.Error>) -> Swift.Void)
   }
   public enum Navigate {
     public static func dashboard()

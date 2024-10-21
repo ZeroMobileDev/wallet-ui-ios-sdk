@@ -866,9 +866,17 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   },
                   {
                     "kind": "TypeFunc",
@@ -904,8 +912,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:11WalletUISdk0A5UiSDKC7BalanceO19getMasterpassConfig18userValidationType15referenceNumber10completionySSSg_s5Int16Vys6ResultOy14wallet_ios_sdk03GetgH12OutputParamsCs5Error_pGctFZ",
-                "mangledName": "$s11WalletUISdk0A5UiSDKC7BalanceO19getMasterpassConfig18userValidationType15referenceNumber10completionySSSg_s5Int16Vys6ResultOy14wallet_ios_sdk03GetgH12OutputParamsCs5Error_pGctFZ",
+                "usr": "s:11WalletUISdk0A5UiSDKC7BalanceO19getMasterpassConfig18userValidationType15referenceNumber10completionySSSg_SiSgys6ResultOy14wallet_ios_sdk03GetgH12OutputParamsCs5Error_pGctFZ",
+                "mangledName": "$s11WalletUISdk0A5UiSDKC7BalanceO19getMasterpassConfig18userValidationType15referenceNumber10completionySSSg_SiSgys6ResultOy14wallet_ios_sdk03GetgH12OutputParamsCs5Error_pGctFZ",
                 "moduleName": "WalletUISdk",
                 "static": true,
                 "declAttributes": [
