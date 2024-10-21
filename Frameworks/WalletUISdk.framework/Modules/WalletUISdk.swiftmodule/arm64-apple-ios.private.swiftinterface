@@ -219,6 +219,8 @@ public enum WalletCardStatusType : Swift.String {
   }
 }
 extension WalletUISdk.EnquraSessionManager : EnQualify.EnVerifyDelegate {
+  final public func infoDocumentAddSuccess()
+  final public func infoDocumentAddFailure()
   @objc final public func appointmentTolerance(time: Swift.Int)
   @objc final public func luminosityAnalyzed(result: Swift.String)
   @objc final public func dismissBeforeAnswered()
@@ -382,6 +384,8 @@ extension Swift.String {
   public func getInitials() -> (Swift.String, Swift.String?)
   public func removeSpaceAndBracketsFromPhone() -> Swift.String
   public func removeSpaceBracketsAndPlusFromPhone() -> Swift.String
+  public func uppercasedTurkish() -> Swift.String
+  public func uppercasedLocalized() -> Swift.String
 }
 extension SwiftUI.Font {
   public static var title: SwiftUI.Font {
