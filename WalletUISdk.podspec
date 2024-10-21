@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "WalletUISdk"
-  s.version      = "1.1.5"
+  s.version      = "1.1.6"
   s.summary      = "WalletUISdk is a library for WalletUI."
   s.homepage     = "https://www.dgpays.com/"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Enes Genç" => "enes.genc@dgpaysit.com" }
-  s.source       = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/1.1.5.zip" }
+  s.source       = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/1.1.6.zip" }
   s.ios.deployment_target = "13.0"
   s.platform     = :ios, "13.0"
   s.requires_arc = true
@@ -34,7 +34,10 @@ Pod::Spec.new do |s|
 
   #s.public_header_files = "WalletUISdk/WalletUiSdk.h"
   # , "Frameworks/MasterPass/Library/include/MfsIOSLibrary/*.h"
-  s.vendored_frameworks = "Frameworks/wallet_ios_sdk.xcframework", "Frameworks/WalletUISdk.xcframework"
+  s.vendored_frameworks = [
+    "Frameworks/wallet_ios_sdk.xcframework",
+    "Frameworks/WalletUISdk.xcframework"
+  ]
   # , "WalletUISdk.framework"
   # s.vendored_libraries = ["Frameworks/MasterPass/Library/libMfsIOSLibrary2Universal.a", "Frameworks/MasterPass/Library/ssl/libcrypto.a", "Frameworks/MasterPass/Library/ssl/libssl.a"]
 
