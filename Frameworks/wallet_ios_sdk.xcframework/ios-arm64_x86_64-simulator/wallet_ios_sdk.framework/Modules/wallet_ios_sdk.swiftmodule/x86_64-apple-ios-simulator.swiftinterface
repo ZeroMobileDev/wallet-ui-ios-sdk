@@ -288,33 +288,22 @@ public struct DebtListModel : Swift.Codable {
   @objc deinit
 }
 public struct ActionDetailModel : Swift.Codable {
-  public var sourceAccountId: Swift.Int64?
-  public var destinationAccountId: Swift.Int64?
-  public var amount: Swift.Double?
-  public var currentBalance: Swift.Double?
-  public var newBalance: Swift.Double?
+  public var sourceAccountId: Swift.Int64?, destinationAccountId: Swift.Int64?
+  public var amount: Swift.Double?, currentBalance: Swift.Double?, newBalance: Swift.Double?
   public var currency: Swift.String?
   public var loadMoneyIsRefund: Swift.Bool?
-  public var description: Swift.String?
-  public var orderId: Swift.String?
-  public var vposOrderId: Swift.String?
-  public var txnStatus: Swift.String?
+  public var description: Swift.String?, orderId: Swift.String?, vposOrderId: Swift.String?, txnStatus: Swift.String?
   public var refundTxnId: Swift.Int64?
   public var txnIsRefund: Swift.Bool?
   public var merchantCategoryGroupId: Swift.Int16?
-  public var merchantCategoryCode: Swift.Int16?
-  public var resultCode: Swift.Int?
-  public var resultDescription: Swift.String?
-  public var destinationBankAccountNumber: Swift.String?
-  public var expenseAmount: Swift.Double?
-  public var merchantName: Swift.String?
-  public var paymentPurpose: Swift.String?
-  public var paymentPurposeCode: Swift.String?
-  public var cardToken: Swift.String?
-  public var sourcePhoneNumber: Swift.String?
-  public var destinationPhoneNumber: Swift.String?
   public var merchantCategoryGroupName: Swift.String?
+  public var merchantCategoryCode: Swift.Int16?
+  public var expenseAmount: Swift.Double?
+  public var resultCode: Swift.Int?
+  public var resultDescription: Swift.String?, destinationBankAccountNumber: Swift.String?, merchantName: Swift.String?, paymentPurposeCode: Swift.String?
+  public var paymentPurpose: Swift.String?, cardToken: Swift.String?, sourcePhoneNumber: Swift.String?, destinationPhoneNumber: Swift.String?
   public var isContacless: Swift.Bool?
+  public var detail: [wallet_ios_sdk.DetailModel]?
   @available(*, deprecated, renamed: "sourceAccountId", message: "Use sourceAccountId variable")
   public func getSourceAccountId() -> Swift.Int64
   @available(*, deprecated, renamed: "destinationAccountId", message: "Use destinationAccountId variable")
@@ -556,20 +545,15 @@ public struct CustomerData : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct TxnListModel : Swift.Codable {
-  public var accountId: Swift.Int64?
-  public var refNumber: Swift.Int64?
-  public var txnCategoryId: Swift.Int64?
-  public var txnTypeId: Swift.Int?
-  public var instrumentId: Swift.Int?
+  public var accountId: Swift.Int64?, refNumber: Swift.Int64?
   public var dateTime: Swift.String?
-  public var amount: Swift.Double?
-  public var balance: Swift.Double?
-  public var actionType: Swift.String?
-  public var holdByFraud: Swift.String?
-  public var targetFullName: Swift.String?
+  public var amount: Swift.Double?, balance: Swift.Double?
+  public var txnTypeId: Swift.Int?
   public var txnName: Swift.String?
+  public var txnCategoryId: Swift.Int64?
   public var txnCategoryName: Swift.String?
-  public var instrumentName: Swift.String?
+  public var instrumentId: Swift.Int?
+  public var instrumentName: Swift.String?, actionType: Swift.String?, holdByFraud: Swift.String?, targetFullName: Swift.String?
   public var actionDetail: wallet_ios_sdk.ActionDetailModel?
   @available(*, deprecated, renamed: "accountId", message: "Use accountId variable")
   public func getAccountId() -> Swift.Int64
@@ -946,7 +930,7 @@ public struct LimitValuesModel : Swift.Codable {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class BeginOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var accountId: Swift.Int64?
-  public var sendOtp: Swift.Bool?
+  public var sendOtp: Swift.Bool?, phoneChangedSendOtp: Swift.Bool?
   @available(*, deprecated, renamed: "accountId", message: "Use accountId variable")
   public func getAccountId() -> Swift.Int64
   @available(*, deprecated, renamed: "accountId", message: "Use accountId variable")
@@ -2380,6 +2364,7 @@ public struct CityModel : Swift.Codable {
   public var M_DGFIN_GET_CUSTOMER: Swift.Int
   public var M_DGFIN_GET_TOKEN: Swift.Int
   public var M_DGFIN_GET_CUSTOMER_INFO_GSM: Swift.Int
+  public var M_UPDATE_CUSTOMER_PHONE_NUMBER: Swift.Int
   public var BALANCE_GetMasterpassConfig: Swift.Int
   @objc deinit
 }
@@ -2672,6 +2657,15 @@ public struct LimitPeriodTypesModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
+public class DetailModel : Swift.Codable {
+  public var processtype: Swift.Int?
+  public var processDescription: Swift.String?
+  public var amount: Swift.Double?
+  public init(processtype: Swift.Int?, processDescription: Swift.String?, amount: Swift.Double?)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 public struct BuildingResultListModel : Swift.Codable {
   public var ada: Swift.String?
   public var kod: Swift.Int64?
@@ -2834,7 +2828,7 @@ public struct WalletListModel : Swift.Codable {
   public var walletName: Swift.String?
   public var currencyId: Swift.Int?
   public var balance: Swift.Double?
-  public var availableCashBalance: Swift.Double?
+  public var availableCashBalance: Swift.Double?, cashbackBalance: Swift.Double?
   public var isDefault: Swift.Bool?
   @available(*, deprecated, renamed: "walletId", message: "Use walletId variable")
   public func getWalletID() -> Swift.Int64
@@ -2846,6 +2840,7 @@ public struct WalletListModel : Swift.Codable {
   public func getBalance() -> Swift.Double
   @available(*, deprecated, renamed: "availableCashBalance", message: "Use availableCashBalance variable")
   public func getAvailableCashBalance() -> Swift.Double
+  public func getCashbackBalance() -> Swift.Double
   public func getIsDefault() -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -4188,6 +4183,11 @@ public struct CollectionTypesModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class UpdateCustomerPhoneNumberOutputParams : wallet_ios_sdk.BaseResponseMeta {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class SplitTheBillOutputParams : wallet_ios_sdk.BaseResponseMeta {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
@@ -4356,6 +4356,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func updateCustomerAddressInfoInterface(updateCustomerAddressInfoInputParams: wallet_ios_sdk.UpdateCustomerAddressInfoInputParams, completion: @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ())
   public func addAnonimCustomer(addAnonimCustomerInputParams: wallet_ios_sdk.AddAnonimCustomerInputParams, completion: @escaping (_ result: wallet_ios_sdk.AddAnonimCustomerOutputParams) -> ())
   public func completeRegistration(completeRegistrationInputParams: wallet_ios_sdk.CompleteRegistrationInputParams, completion: @escaping (_ result: wallet_ios_sdk.CompleteRegistrationOutputParams) -> ())
+  public func updateCustomerPhoneNumber(updateCustomerPhoneNumberInputParams: wallet_ios_sdk.UpdateCustomerPhoneNumberInputParams, completion: @escaping (_ result: wallet_ios_sdk.UpdateCustomerPhoneNumberOutputParams) -> ())
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class UpdateCustomerInfoOutputParams : wallet_ios_sdk.BaseResponseMeta {
   @objc deinit
@@ -6793,17 +6794,15 @@ public struct CorpOperationParamsModel : Swift.Codable {
   @objc deinit
 }
 public struct AccountActionListModel : Swift.Codable {
-  public var accountId: Swift.Int64?
-  public var refNumber: Swift.Int64?
+  public var accountId: Swift.Int64?, refNumber: Swift.Int64?
   public var dateTime: Swift.String?
-  public var amount: Swift.Double?
-  public var balance: Swift.Double?
+  public var amount: Swift.Double?, balance: Swift.Double?
   public var txnTypeId: Swift.Int16?
+  public var txnName: Swift.String?
   public var txnCategoryId: Swift.Int64?
+  public var txnCategoryName: Swift.String?
   public var instrumentId: Swift.Int16?
-  public var actionType: Swift.String?
-  public var holdByFraud: Swift.String?
-  public var targetFullName: Swift.String?
+  public var instrumentName: Swift.String?, actionType: Swift.String?, holdByFraud: Swift.String?, targetFullName: Swift.String?
   public var actionDetail: wallet_ios_sdk.ActionDetailModel?
   @available(*, deprecated, renamed: "accountId", message: "Use accountId variable")
   public func getAccountId() -> Swift.Int64
@@ -7502,6 +7501,12 @@ public struct AdressModel : Swift.Codable {
   @objc override dynamic public init()
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers public class UpdateCustomerPhoneNumberInputParams : wallet_ios_sdk.BaseRequestModel {
+  public var customerId: Swift.Int?
+  public var phoneNumber: Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers public class SetCommunicationPreferencesInputParams : wallet_ios_sdk.BaseRequestModel {
   public var communicationPreferences: [wallet_ios_sdk.CommunicationPreferenceModel]
   override public func encode(to encoder: any Swift.Encoder) throws
@@ -7739,6 +7744,8 @@ extension wallet_ios_sdk.GetExpenseAmountOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.GetExpenseAmountOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.GetMfsTokenOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.GetMfsTokenOutputParams : Swift.Decodable {}
+extension wallet_ios_sdk.UpdateCustomerPhoneNumberOutputParams : Swift.Encodable {}
+extension wallet_ios_sdk.UpdateCustomerPhoneNumberOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.SplitTheBillOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.SplitTheBillOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.LogoutOutputParams : Swift.Encodable {}

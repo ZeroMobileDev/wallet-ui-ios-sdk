@@ -75,6 +75,7 @@
 "Common.Text.CardCreated"                     = "Card Created";
 "Common.Text.RequestSuccessFull"                               = "Talebiniz başarıyla iletildi.";
 "Common.Text.Myself"                                            = "Myself";
+"Common.Text.All"                                               = "All";
 
 
 //MARK: - self.setTitle("ForgotPassword.SetTitle.NavigationTitle".localized()) Kullanım Şekli buradaki gibi
@@ -97,7 +98,7 @@
 
 "RegisterView.Text.Register" = "Register";
 "RegisterView.Text.Name" = "Name";
-"RegisterView.Text.ReferenceCode" = "Reference Code";
+"RegisterView.Text.ReferenceCode" = "Invitation Code";
 "RegisterView.Text.SurName" = "Surname";
 "RegisterView.Text.IDNumber" = "T.R. Identification Number";
 "RegisterView.Text.BirthDate" = "Birth Date";
@@ -175,6 +176,7 @@
 "LoginWithPasswordView.Text.Error.BlockAccount" = "Your account has been blocked for your security";
 "LoginWithPasswordView.Text.Error.ResetPassword" = "If you forgot your password, you can access your account by renewing it";
 "LoginWithPasswordView.Text.Error.ResetMyPassword" = "RESET MY PASSWORD";
+"LoginWithPasswordView.Text.EnterPassword" = "Enter Password";
 
 //MARK: - ForgotPasswordEmail
 
@@ -434,11 +436,14 @@
 "QrPaymentScreen.Text.CancellationAmount" = "Cancellation Amount";
 "QrPaymentScreen.Text.RefoundAmount" = "Refound Amount";
 "QrPaymentScreen.Text.PaymentMethod" = "Select A Payment Method";
+"QrPaymentScreen.Text.TransactionInfo" = "Transaction Information";
 
 //MARK: - QrTransactionSummary
 
 "QrTransactionSummary.Title.ScanQr" = "Scan QR";
 "QrTransactionSummary.Text.PaymentMethod" = "Payment Method";
+"PaymentTransactionSummaryCardView.Text.WorkplaceTitle" = "Workplace Title";
+"QrTransactionSummary.Text.ProcessingFee" = "Toplam Tutar";
 
 //MARK: - QrWithDrawMoneyScreen
 

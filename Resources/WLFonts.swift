@@ -12,39 +12,39 @@ extension Font {
     ///
     /// Use the closest weight if your typeface does not support a particular weight
     ///
-    static private var regularFontName: String {
+    private static var regularFontName: String {
         "SourceSansPro-Regular"
     }
 
-    static private var mediumFontName: String {
+    private static var mediumFontName: String {
         "SourceSansPro-Regular" // Orta kalınlıkta font yoksa regular kullanılır
     }
 
-    static private var boldFontName: String {
+    private static var boldFontName: String {
         "SourceSansPro-Bold"
     }
 
-    static private var semiBoldFontName: String {
+    private static var semiBoldFontName: String {
         "SourceSansPro-Bold" // Kalın font yoksa bold kullanılır
     }
 
-    static private var extraBoldFontName: String {
+    private static var extraBoldFontName: String {
         "SourceSansPro-Bold"
     }
 
-    static private var heavyFontName: String {
+    private static var heavyFontName: String {
         "SourceSansPro-Bold" // Çok kalın font yoksa extra bold kullanılır
     }
 
-    static private var lightFontName: String {
+    private static var lightFontName: String {
         "SourceSansPro-Light"
     }
 
-    static private var thinFontName: String {
+    private static var thinFontName: String {
         "SourceSansPro-Light" // İnce font yoksa light kullanılır
     }
 
-    static private var ultraThinFontName: String {
+    private static var ultraThinFontName: String {
         "SourceSansPro-Light" // Çok ince font yoksa light kullanılır
     }
 
@@ -213,7 +213,7 @@ extension Font {
             fontName = ultraThinFontName
         case nil: // weight nil ise varsayılan olarak regular font kullanılır
             fontName = regularFontName
-        case .some(_):
+        case .some:
             fontName = regularFontName
         }
 

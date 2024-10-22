@@ -37,7 +37,7 @@
 "Common.Title.ProcessingFee"                                    = "İşlem Ücreti";
 "Common.Text.TotalAmount"                                       = "Toplam Tutar";
 "Common.Text.SendNow"                                           = "Hemen Gönder";
-"Common.Text.AskNow"                                            = "Hemen İste";
+"Common.Text.AskNow"                                            = "Para İste";
 "Common.Text.Amount"                                            = "Tutar";
 "Common.Text.EmptyTextField"                                    = "Lütfen Tüm Boş Alanları Doldurun";
 "Common.Text.Yes"                                               = "EVET";
@@ -63,7 +63,7 @@
 "Common.Text.WithdrawMoney"                                     = "Para Çek";
 "Common.Text.CurrentBalance"                                    = "Güncel bakiye";
 "Common.Text.YouEnteredYourInformationIncorrectly"              = "Bilgilerinizi Hatalı Girdiniz!";
-"Common.Text.ShopNow"                                           = "Alışveriş Yap";
+"Common.Text.ShopNow"                                           = "Qr Ödeme";
 "Common.Text.Split"                                             = "Bölüş";
 "Common.Text.SplitTheSpending"                                  = "Harcama Bölüş";
 "Common.Text.SPENDSPLIT"                                        = "HARCAMA BÖLÜŞ";
@@ -76,6 +76,7 @@
 "Common.Text.CardCreated"                                       = "Kart Oluşturuldu";
 "Common.Text.RequestSuccessFull"                                = "Talebiniz başarıyla iletildi.";
 "Common.Text.Myself"                                            = "Kendim";
+"Common.Text.All"                                               = "Tümü";
 
 // MARK: - BeginScreen
 
@@ -97,18 +98,18 @@
 "RegisterView.Text.SurName" = "Soyad";
 "RegisterView.Text.IDNumber" = "T.C. Kimlik Numarası";
 "RegisterView.Text.BirthDate" = "Doğum Tarihi";
-"RegisterView.Text.ReferenceCode" = "Referans Numarası";
+"RegisterView.Text.ReferenceCode" = "Satış temsilcisi Kodu";
 "RegisterView.Text.Validation.Email" = "Girilen e-posta adresi formata uygun değildir.";
 
 // MARK: - RegisterViewSecond
 
 "RegisterViewSecond.Text.Password" = "Şifre";
-"RegisterViewSecond.Text.PasswordAgain" = "Şifre Tekrar";
-"RegisterViewSecond.Text.ForCorrectPassword" = "Parolanızın geçerli olması için;";
-"RegisterViewSecond.Text.FirstRule" = "Altı karakter uzunluğunda olmalı";
-"RegisterViewSecond.Text.SecondRule" = "Ardışık rakamlardan oluşmamalı";
-"RegisterViewSecond.Text.ThirdRuler"  = "İlk hanesi 0, ilk iki hanesi 1 ve 9 olmamalı";
-"RegisterViewSecond.Text.FourthRule"  = "Cep telefon numaranız, doğum tarihiniz ve T.C. kimlik numaranız gibi kolay tahmin edilebilir rakamlardan oluşmamalı";
+"RegisterViewSecond.Text.PasswordAgain" = "Tekrar Şifre Tekrar";
+"RegisterViewSecond.Text.ForCorrectPassword" = "Parola Gereksinimleri;";
+"RegisterViewSecond.Text.FirstRule" = "Parolanız 6 hane olmalıdır.";
+"RegisterViewSecond.Text.SecondRule" = "Ardışık ya da tekrarlayan rakamlardan oluşmamalıdır (örn: 123456 veya 111111).";
+"RegisterViewSecond.Text.ThirdRuler"  = "İlk hane 0 olmamalıdır ve ilk iki hane 1 ve 9 ile başlamamalıdır.";
+"RegisterViewSecond.Text.FourthRule"  = "Cep telefonu, doğum tarihi veya T.C. kimlik numaranız gibi kolay tahmin edilebilir sayılardan oluşmamalıdır.";
 "RegisterViewSecond.Text.FifthRule"  = "Aynı rakamlardan oluşmamalı";
 
 //MARK: - InfoTextView
@@ -168,6 +169,7 @@
 "LoginWithPasswordView.Text.Error.BlockAccount" = "Hesabınız güvenliğiniz için bloke edildi";
 "LoginWithPasswordView.Text.Error.ResetPassword" = "Şifrenizi unuttuysanız yenileyerek hesabınıza erişebilirsiniz";
 "LoginWithPasswordView.Text.Error.ResetMyPassword" = "ŞİFREMİ YENİLE";
+"LoginWithPasswordView.Text.EnterPassword" = "Şifrenizi Giriniz";
 
 //MARK: - ForgotPasswordEmail
 
@@ -184,7 +186,7 @@
 
 "HomeScreen.Text.MyWallet" = "Cüzdanım";
 "HomeScreen.Text.WalletID" = "CÜZDAN ID: ";
-"HomeScreen.Text.IncreaseLimit" = "Limit Arttır";
+"HomeScreen.Text.IncreaseLimit" = "LİMİTİNİ ARTTIR";
 "HomeScreen.Text.MyZBZCards" = "OPET Kartlarım";
 "HomeScreen.Text.Money" = "Para";
 "HomeScreen.Text.Ask" = "İste";
@@ -274,7 +276,7 @@
 //MARK: - LoadMoney
 
 "LoadMoney.Title.NavigationTitle" = "Para Yükle";
-"LoadMoney.Title.LoadWithCard" = "Banka / Kredi Kartı ile Yükle";
+"LoadMoney.Title.LoadWithCard" = "Kart ile Yükle";
 "LoadMoney.Title.LoadBankAccount" = "Banka Hesabından Yükle";
 "LoadMoney.Title.LoadAutomatic" = "Otomatik Yükleme Talimatı Ver";
 
@@ -284,7 +286,7 @@
 "LoadMoneyLoadWithDebitCreditCard.Title.ChoosePaymentMethod" = "Ödeme Yöntemi Seçiniz";
 "LoadMoneyLoadWithDebitCreditCard.Title.LoadWithCard" = "Banka / Kredi Kartı ile Yükle";
 "LoadMoneyLoadWithDebitCreditCard.Title.RemainingUploadLimit" = "Kalan Yükleme Limitiniz";
-"LoadMoneyLoadWithDebitCreditCard.Title.IWantPayWithDifferentCard" = "Farklı bir kart İle ödemek istiyorum";
+"LoadMoneyLoadWithDebitCreditCard.Title.IWantPayWithDifferentCard" = "Farklı bir kart ile ödemek istiyorum";
 "LoadMoneyLoadWithDebitCreditCard.Title.ChangeCard" = "Kart Değiştir";
 "LoadMoneyLoadWithDebitCreditCard.Title.OtherAmount" = "Diğer Tutar";
 "LoadMoneyLoadWithDebitCreditCard.Title.AccountName" = "Opet Hesabı";
@@ -327,8 +329,8 @@
 //MARK: - RemainingLimitCardView
 
 "RemainingLimitCardView.Text.RemainingLimit" = "Kalan Limit";
-"RemainingLimitCardView.Text.DailyRemainingLimit" = "Günlük Kalan Limit";
-"RemainingLimitCardView.Text.MonthlyRemainingLimit" = "Aylık Kalan Limit";
+"RemainingLimitCardView.Text.DailyRemainingLimit" = "Günlük Kalan Yükleme Limitiniz";
+"RemainingLimitCardView.Text.MonthlyRemainingLimit" = "Aylık Kalan Yükleme Limitiniz";
 
 //MARK: - LoadFromBankAccount
 
@@ -366,7 +368,7 @@
 "SendMoneyAcceptedContactsToZubizu.Text.ChooseThePerson" = "Para Göndereceğiniz Kişiyi Seçiniz";
 "SendMoneyAcceptedContactsToZubizu.Text.ChooseThePersonNumber" = "Göndereceğiniz Kişinin Numarasını Girin";
 "SendMoneyAcceptedContactsToZubizu.Text.EnterTheNumber" = "Numara Giriniz";
-"SendMoneyAcceptedContactsToZubizu.Text.MyPhoneDirectory" = "Rehberim";
+"SendMoneyAcceptedContactsToZubizu.Text.MyPhoneDirectory" = "Rehber";
 "SendMoneyAcceptedContactsToZubizu.Text.PersmissionDenied" = "İzin Reddedildi";
 "SendMoneyAcceptedContactsToZubizu.Text.UnkownError" = "Bilinmeyen Bir Hata Oluştu";
 "SendMoneyAcceptedContactsToZubizu.Text.InfoAlertText" = "Para göndereceğin kişileri numarasını girerek seçebilirsin.";
@@ -390,7 +392,7 @@
 
 //MARK: - CurrentPariodTransactionsScreen
 
-"CurrentPariodTransactionsScreen.Text.AvailableBalance" = "Kullanılabilir Bakiye";
+"CurrentPariodTransactionsScreen.Text.AvailableBalance" = "Kullanılabilir Nakit Bakiye";
 "CurrentPariodTransactionsScreen.Text.TotalSpending" = "Toplam Harcama";
 "CurrentPariodTransactionsScreen.Title.SplitSpending" = "HARCAMA BÖLÜŞ";
 
@@ -436,15 +438,18 @@
 
 //MARK: - QrPaymentScreen
 
-"QrPaymentScreen.Title.ScanQr" = "QR Tara";
+"QrPaymentScreen.Title.ScanQr" = "QR Ödeme";
 "QrPaymentScreen.Text.CancellationAmount" = "İptal Tutarı";
 "QrPaymentScreen.Text.RefoundAmount" = "İade Tutarı";
 "QrPaymentScreen.Text.PaymentMethod" = "Ödeme Yönteminizi Seçiniz";
+"QrPaymentScreen.Text.TransactionInfo" = "İşlem Bilgileri";
+"PaymentTransactionSummaryCardView.Text.WorkplaceTitle" = "İşyeri Ünvanı";
 
 //MARK: - QrTransactionSummary
 
-"QrTransactionSummary.Title.ScanQr" = "QR Tara";
+"QrTransactionSummary.Title.ScanQr" = "QR Ödeme";
 "QrTransactionSummary.Text.PaymentMethod" = "Ödeme Yöntemi";
+"QrTransactionSummary.Text.ProcessingFee" = "Toplam Tutar";
 
 //MARK: - QrWithDrawMoneyScreen
 
@@ -467,7 +472,7 @@
 //MARK: - SendMoneyAmountAndDescription
 
 "SendMoneyAmountAndDescription.Text.EnterAmountAndDescription" = "Tutar Ve Açıklama Giriniz";
-"SendMoneyAmountAndDescription.Text.AvailableBalance" = "Kullanılabilir Bakiye";
+"SendMoneyAmountAndDescription.Text.AvailableBalance" = "Kullanılabilir Nakit Bakiyem";
 "SendMoneyAmountAndDescription.Text.EnterExplanation" = "Açıklama Giriniz";
 
 
@@ -476,7 +481,7 @@
 "SendMoneyIbanTabScreen.Title.SendMoney" = "Para Gönder";
 "SendMoneyIbanTabScreen.Title.HowSendMoneyToIban" = "IBAN'a Nasıl para gönderirim";
 "SendMoneyIbanTabScreen.Title.SenderInformation" = "Gönderici Bilgileri";
-"SendMoneyIbanTabScreen.Title.AvailableWalletAmount" = "Kullanılabilir Cüzdan Bakiyesi";
+"SendMoneyIbanTabScreen.Title.AvailableWalletAmount" = "Kullanılabilir Nakit Bakiyesi";
 "SendMoneyIbanTabScreen.Title.RecipientInfo" = "Alıcı Bilgileri";
 "SendMoneyIbanTabScreen.Title.RecipientIban" = "Alıcı IBAN";
 "SendMoneyIbanTabScreen.Title.RecipientNameSurname" = "Alıcı Adı Soyadı";
@@ -754,8 +759,8 @@
 
 //MARK: All Transactions History
 
-"AllTransactionsHistoryScreen.Title.TabBarFirst" = "Hesap Özetim";
-"AllTransactionsHistoryScreen.Title.TabBarSecond" = "İşlemlerim";
+"AllTransactionsHistoryScreen.Title.TabBarFirst" = "Dönem İçi İşlemlerim";
+"AllTransactionsHistoryScreen.Title.TabBarSecond" = "Geçmiş dönem İşlemlerim";
 "AllTransactionsHistoryScreen.Text.EMail" =  "Hesap özetiniz kayıtlı e-posta adresiniz olan";
 
 //MARK: ShareAndTakeEmailPopUp

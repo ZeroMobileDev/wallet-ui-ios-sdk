@@ -1,8 +1,19 @@
 {
   "images" : [
     {
-      "filename" : "kart ekle.pdf",
-      "idiom" : "universal"
+      "filename" : "money-transfer.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "money-transfer@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "money-transfer@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {

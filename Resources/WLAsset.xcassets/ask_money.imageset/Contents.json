@@ -1,8 +1,19 @@
 {
   "images" : [
     {
-      "filename" : "kart ekle.pdf",
-      "idiom" : "universal"
+      "filename" : "Family.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Family@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Family@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {
