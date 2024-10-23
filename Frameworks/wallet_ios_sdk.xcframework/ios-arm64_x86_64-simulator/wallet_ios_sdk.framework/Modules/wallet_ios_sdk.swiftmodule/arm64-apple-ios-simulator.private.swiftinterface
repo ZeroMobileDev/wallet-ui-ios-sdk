@@ -3373,7 +3373,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class TopupPayStartOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var token: Swift.String?, orderID: Swift.String?
-  public var amountWallet: Swift.Int?, amountCard: Swift.Int?
+  public var amountWallet: Swift.Double?, amountCard: Swift.Double?
   public var cardExpense: Swift.Double?
   public var cashExpense: Swift.Double?
   public var cashbackExpense: Swift.Double?
@@ -3392,13 +3392,13 @@ extension wallet_ios_sdk.WalletCoreSDK {
   @available(*, deprecated, renamed: "orderID", message: "Use orderID variable")
   public func setOrderID(orderID: Swift.String)
   @available(*, deprecated, renamed: "amountWallet", message: "Use amountWallet variable")
-  public func getAmountWallet() -> Swift.Int
+  public func getAmountWallet() -> Swift.Double
   @available(*, deprecated, renamed: "amountWallet", message: "Use amountWallet variable")
-  public func setAmountWallet(amountWallet: Swift.Int)
+  public func setAmountWallet(amountWallet: Swift.Double)
   @available(*, deprecated, renamed: "amountCard", message: "Use amountCard variable")
-  public func getAmountCard() -> Swift.Int
+  public func getAmountCard() -> Swift.Double
   @available(*, deprecated, renamed: "amountCard", message: "Use amountCard variable")
-  public func setAmountCard(amountCard: Swift.Int)
+  public func setAmountCard(amountCard: Swift.Double)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -6413,7 +6413,6 @@ public struct LimitDefinitionModel : Swift.Codable {
 @objc @_inheritsConvenienceInitializers public class GetMasterpassConfigInputParams : wallet_ios_sdk.BaseRequestModel {
   public var masterPassReferenceNumber: Swift.Int?
   public var userValidationType: Swift.String?
-  override public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
 }
