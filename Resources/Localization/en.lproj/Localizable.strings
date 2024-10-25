@@ -76,6 +76,7 @@
 "Common.Text.RequestSuccessFull"                               = "Talebiniz başarıyla iletildi.";
 "Common.Text.Myself"                                            = "Myself";
 "Common.Text.All"                                               = "All";
+"Common.Text.EditAll"                                           = "Edit All";
 
 
 //MARK: - self.setTitle("ForgotPassword.SetTitle.NavigationTitle".localized()) Kullanım Şekli buradaki gibi
@@ -103,6 +104,7 @@
 "RegisterView.Text.IDNumber" = "T.R. Identification Number";
 "RegisterView.Text.BirthDate" = "Birth Date";
 "RegisterView.Text.Validation.Email" = "The e-mail address entered is not suitable for the format.";
+"ForgotPasswordEmail.Text.VerificationLinkSended" = "Verification Link Sended";
 
 // MARK: - RegisterViewSecond
 
@@ -428,6 +430,7 @@
 "OutGoingAskForMoneyDetail.Title.SelectedContacts" = "Selected Contacts";
 "OutGoingAskForMoneyDetail.Text.SharedSpend" = "Spending to be Shared";
 "OutGoingAskForMoneyDetail.Text.SuccessFullyCancel" = "Your Ask For Money Request Has Been Canceled";
+"OutGoingAskForMoneyDetail.Text.SuccessFullyCancelSendMoney" = "Your Send Money Money Request Has Been Canceled";
 
 
 //MARK: - QrPaymentScreen
@@ -509,6 +512,7 @@
 "SettingsScreen.Title.ChangeSecretQuestion" = "Wallet Change Secret Question";
 "SettingsScreen.Title.CommunicationPreferences" = "Wallet Communication Preferences";
 "SettingsScreen.Title.ExplicitConsentPreferences" = "Wallet Explicit Consent Preferences";
+"SettingsScreen.Title.ProfileSettingsScreen.Title.Profile" = "Profile";
 
 
 //MARK: - SplitTheBillPhoneSelectionScreen
@@ -561,6 +565,7 @@
 "ChangeSecretQuestionScreen.Text.CurrentSecretQuestion" = "Current Secret Question";
 "ChangeSecretQuestionScreen.Text.AnswerOfQuestion" = "Answer Of Question";
 "ChangeSecretQuestionScreen.Text.IForgotTheAnswer" = "I Forgot The Answer";
+"ChangeSecretQuestionScreen.Text.EnterAnswer" = "Enter Answer";
 
 
 //MARK: - OpenConsentPreferencesScreen
@@ -589,9 +594,11 @@
 "ProfileInformationsScreen.Text.BirthDate" = "BirthDate";
 "ProfileInformationsScreen.Text.EMail" = "E-Mail";
 "ProfileInformationsScreen.Text.Job" = "Job";
+"ProfileInformationsScreen.Text.JobInfo" = "Job Informations";
+"ProfileInformationsScreen.Text.CustomerInfo" = "Customer Informations";
 "ProfileInformationsScreen.Text.MonthlyNetIncome" = "Monthly Net Income";
 "ProfileInformationsScreen.Text.EstimatedWalletBalance" = "Estimated Wallet Balance";
-"ProfileInformationsScreen.Text.MonthyTransactionCount" = "Monthy Transaction Count";
+"ProfileInformationsScreen.Text.MonthyTransactionCount" = "Monthly Transaction Count";
 "ProfileInformationsScreen.Text.RemoveAccount" = "Remove Account";
 "ProfileInformationsScreen.Text.Warning" = "Warning";
 "ProfileInformationsScreen.Text.WarningText" = "In case you cancel your membership; All your reward and membership points you have accumulated, your campaign participation, your segment, your memberships and matches in contracted brands, and your registered cards will be irrevocably canceled. See you again at Opet! \n \n Confirm??";
@@ -725,7 +732,7 @@
 "MonthlyLimit.Text.updatedLimitSuccessText" = "The limit you set has been successfully updated";
 
 //MARK: MyWLCards
-"MyWLCards.Text.lastCard" = "Last Used Card";
+"MyWLCards.Text.lastCard" = "MY REGISTERED OPET CARD";
 
 
 //MARK: VirtualCards
@@ -742,7 +749,7 @@
 //MARK: My Profile
 
 "MyProfileScreen.Title.NavigationTitle" = "My Profile";
-
+"MyProfileScreen.Title.WalletId" = "Wallet ID:";
 
 //MARK: All Transactions History
 
@@ -759,6 +766,7 @@
 "AskForMoneyContactsToZubizu.Text.ChooseThePerson" = "Choose the person to ask for money";
 "AskForMoneyContactsToZubizu.Text.ChooseThePersonNumber" = "Enter the contact number";
 "AskForMoneyContactsToZubizu.Text.AskForMoneySuccessful" = "Your ask for money has been successfully submitted";
+"AskForMoneyContactsToZubizu.Text.PhoneNumber" = "Phone Number";
 
 //MARK: AccountInformationPopup
 "AccountInformationPopup.Text.AccountType"                           = "Account Type";
@@ -876,7 +884,7 @@
 
 // MARK: EmailVerificationCardView
 "EmailVerificationCardView.Text.YourEmailIsVerified"              = "Your email is verified";
-"EmailVerificationCardView.Text.YourEmailIsNotVerified"              = "Your email is not verified";
+"EmailVerificationCardView.Text.YourEmailIsNotVerified"              = "Verify Email Adress";
 
 // MARK: EmailVerificationSended
 "EmailVerificationCardView.Text.VerificationLinkSent"              = "Verification Link Sent";

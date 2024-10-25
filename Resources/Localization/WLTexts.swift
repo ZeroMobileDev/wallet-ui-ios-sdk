@@ -53,6 +53,7 @@ enum WLTexts: String {
     case commonTextDelete = "Common.Text.Delete"
     case commonTextRequestSuccessFull = "Common.Text.RequestSuccessFull"
     case commonTextRequestAll = "Common.Text.All"
+    case commonTextEditAll = "Common.Text.EditAll"
 
     // MARK: - Begin
 
@@ -266,6 +267,7 @@ enum WLTexts: String {
     case askForMoneyContactsToZubizuTextChooseThePerson = "AskForMoneyContactsToZubizu.Text.ChooseThePerson"
     case askForMoneyContactsToZubizuTextChooseThePersonNumber = "AskForMoneyContactsToZubizu.Text.ChooseThePersonNumber"
     case askForMoneyContactsToZubizuTextAskForMoneySuccessful = "AskForMoneyContactsToZubizu.Text.AskForMoneySuccessful"
+    case askForMoneyContactsToZubizuTextAskForMoneyPhoneNumber = "AskForMoneyContactsToZubizu.Text.PhoneNumber"
     case sendMoneyAcceptedContactsToZubizuTextChooseThePerson = "SendMoneyAcceptedContactsToZubizu.Text.ChooseThePerson"
     case sendMoneyAcceptedContactsToZubizuTextChooseThePersonNumber = "SendMoneyAcceptedContactsToZubizu.Text.ChooseThePersonNumber"
     case sendMoneyAcceptedContactsToZubizuTextEnterTheNumber = "SendMoneyAcceptedContactsToZubizu.Text.EnterTheNumber"
@@ -360,6 +362,7 @@ enum WLTexts: String {
     case settingsScreenTitleChangeSecretQuestion = "SettingsScreen.Title.ChangeSecretQuestion"
     case settingsScreenTitleCommunicationPreferences = "SettingsScreen.Title.CommunicationPreferences"
     case settingsScreenTitleExplicitConsentPreferences = "SettingsScreen.Title.ExplicitConsentPreferences"
+    case settingsScreenTitleProfile = "SettingsScreen.Title.ProfileSettingsScreen.Title.Profile"
     case splitTheBillPhoneSelectionScreenTextSelectWantToSplit = "SplitTheBillPhoneSelectionScreen.Text.SelectWantToSplit"
     case splitTheBillPhoneSelectionScreenTextEnterNumberToSplit = "SplitTheBillPhoneSelectionScreen.Text.EnterNumberToSplit"
     case splitTheBillPhoneSelectionScreenTextAdd = "SplitTheBillPhoneSelectionScreen.Text.Add"
@@ -390,6 +393,7 @@ enum WLTexts: String {
     case changeSecretQuestionScreenTextCurrentSecretQuestion = "ChangeSecretQuestionScreen.Text.CurrentSecretQuestion"
     case changeSecretQuestionScreenTextAnswerOfQuestion = "ChangeSecretQuestionScreen.Text.AnswerOfQuestion"
     case changeSecretQuestionScreenTextIForgotTheAnswer = "ChangeSecretQuestionScreen.Text.IForgotTheAnswer"
+    case changeSecretQuestionScreenTextEnterAnswer = "ChangeSecretQuestionScreen.Text.EnterAnswer"
     case openConsentPreferencesScreenTitleOpenConsentPreferances = "OpenConsentPreferencesScreen.Title.OpenConsentPreferances"
     case openConsentPreferencesScreenTextPersonalizedAdvertising = "OpenConsentPreferencesScreen.Text.PersonalizedAdvertising"
     case openConsentPreferencesScreenTextWalletPersonalizedAdv = "OpenConsentPreferencesScreen.Text.WalletPersonalizedAdvertising"
@@ -406,6 +410,8 @@ enum WLTexts: String {
     case profileInformationsScreenTextBirthDate = "ProfileInformationsScreen.Text.BirthDate"
     case profileInformationsScreenTextEMail = "ProfileInformationsScreen.Text.EMail"
     case profileInformationsScreenTextJob = "ProfileInformationsScreen.Text.Job"
+    case profileInformationsScreenTextJobInfo = "ProfileInformationsScreen.Text.JobInfo"
+  case profileInformationsScreenTextCustomerInfo = "ProfileInformationsScreen.Text.CustomerInfo"
     case profileInformationsScreenTextMonthlyNetIncome = "ProfileInformationsScreen.Text.MonthlyNetIncome"
     case profileInformationsScreenTextEstimatedWalletBalance = "ProfileInformationsScreen.Text.EstimatedWalletBalance"
     case profileInformationsScreenTextMonthyTransactionCount = "ProfileInformationsScreen.Text.MonthyTransactionCount"
@@ -512,6 +518,7 @@ enum WLTexts: String {
     case virtualCardsTitleVerifyEmail = "VirtualCards.Title.VerifyEmail"
     case virtualCardsTextVerifyEmail = "VirtualCards.Text.VerifyEmail"
     case myProfileScreenTitleNavigationTitle = "MyProfileScreen.Title.NavigationTitle"
+    case myProfileScreenTitleWalletId = "MyProfileScreen.Title.WalletId"
     case allTransactionsHistoryScreenTitleTabBarFirst = "AllTransactionsHistoryScreen.Title.TabBarFirst"
     case allTransactionsHistoryScreenTitleTabBarSecond = "AllTransactionsHistoryScreen.Title.TabBarSecond"
     case allTransactionsHistoryScreenTextEMail = "AllTransactionsHistoryScreen.Text.EMail"
@@ -544,6 +551,7 @@ enum WLTexts: String {
     case myProfileAboutWhiteLabel = "MyProfile.Text.AboutWhiteLabel"
     case myProfileSignOut = "MyProfile.Text.SignOut"
     case outGoingAskForMoneyDetailTextSuccessFullyCancel = "OutGoingAskForMoneyDetail.Text.SuccessFullyCancel"
+    case outGoingAskForMoneyDetailTextSuccessFullyCancelSendMoney = "OutGoingAskForMoneyDetail.Text.SuccessFullyCancelSendMoney"
     case sendMoneyNavigationBarForWhiteLabelUsers = "SendMoneyNavigationBar.Text.ForWhiteLabelUsers"
     case sendMoneyNavigationBarToIBAN = "SendMoneyNavigationBar.Text.ToIBAN"
     case cardInformationScreenWLBLWAccount = "CardInformationScreen.Text.WLBLWAccount"
@@ -638,7 +646,8 @@ enum WLTexts: String {
 
     case emailVerificationCardViewYourEmailIsVerified = "EmailVerificationCardView.Text.YourEmailIsVerified"
     case emailVerificationCardViewYourEmailIsNotVerified = "EmailVerificationCardView.Text.YourEmailIsNotVerified"
-    
+    case forgotPasswordEmailTextVerificationLinkSended = "ForgotPasswordEmail.Text.VerificationLinkSended"
+  
     // MARK: EmailVerificationSended
 
     case emailVerificationCardViewVerificationLinkSent = "EmailVerificationCardView.Text.VerificationLinkSent"

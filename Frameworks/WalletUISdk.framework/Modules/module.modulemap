@@ -1,29 +1,16 @@
 //
-//  dgparaWalletUiSdk.modulemap
-//  dgparaWalletUiSdk
+//  WalletUISdk.modulemap
+//  WalletUISdk
 //
 //  Created by Enes Genç on 20.08.2024.
 //
 
 framework module WalletUISdk {
     umbrella header "WalletUiSdk.h"
-    export *
 
-    module PrivateHeaders {
-        header "MfsIOSLibrary.h"
-        header "MfsCard.h"
-        header "MfsCheckbox.h"
-        header "MfsResponse.h"
-        header "MfsTextField.h"
-        header "MfsWebView.h"
-        export *
-        private header "MfsIOSLibrary.h"
-        private header "MfsCard.h"
-        private header "MfsCheckbox.h"
-        private header "MfsResponse.h"
-        private header "MfsTextField.h"
-        private header "MfsWebView.h"
-    }
+    export *
+    
+    module * { export * }
 }
 
 module WalletUISdk.Swift {

@@ -77,6 +77,7 @@
 "Common.Text.RequestSuccessFull"                                = "Talebiniz başarıyla iletildi.";
 "Common.Text.Myself"                                            = "Kendim";
 "Common.Text.All"                                               = "Tümü";
+"Common.Text.EditAll"                                           = "Tümünü Düzenle";
 
 // MARK: - BeginScreen
 
@@ -179,6 +180,7 @@
 "ForgotPasswordEmail.Text.IfNotAccessMail" = "Mailine erişemiyorsan tıkla";
 "ForgotPasswordEmail.Text.SendLink" = "LİNK GÖNDER";
 "ForgotPasswordEmail.Text.ForgotPassword" = "Şifremi Unuttum";
+"ForgotPasswordEmail.Text.VerificationLinkSended" = "Doğrulama Linki Gönderildi";
 
 
 
@@ -434,6 +436,7 @@
 "OutGoingAskForMoneyDetail.Title.SelectedContacts" = "Seçili Kişiler";
 "OutGoingAskForMoneyDetail.Text.SharedSpend" = "Bölüşülecek Harcama";
 "OutGoingAskForMoneyDetail.Text.SuccessFullyCancel" = "Para İsteme Talebiniz İptal Edilmiştir";
+"OutGoingAskForMoneyDetail.Text.SuccessFullyCancelSendMoney" = "Para Gönderme Talebiniz İptal Edilmiştir";
 
 
 //MARK: - QrPaymentScreen
@@ -521,6 +524,7 @@
 "SettingsScreen.Title.ChangeSecretQuestion" = "Cüzdan Güvenlik Sorunu Değiştir";
 "SettingsScreen.Title.CommunicationPreferences" = "Cüzdan İletişim Tercihleri";
 "SettingsScreen.Title.ExplicitConsentPreferences" = "Cüzdan Açık Rıza Tercihleri";
+"SettingsScreen.Title.ProfileSettingsScreen.Title.Profile" = "Profil";
 
 
 //MARK: - SplitTheBillPhoneSelectionScreen
@@ -576,6 +580,7 @@
 "ChangeSecretQuestionScreen.Text.CurrentSecretQuestion" = "Mevcut Güvenlik Sorusu";
 "ChangeSecretQuestionScreen.Text.AnswerOfQuestion" = "Sorunuzun Yanıtı";
 "ChangeSecretQuestionScreen.Text.IForgotTheAnswer" = "Yanıtımı Unuttum";
+"ChangeSecretQuestionScreen.Text.EnterAnswer" = "Yanıtı Giriniz";
 
 
 //MARK: - OpenConsentPreferencesScreen
@@ -601,7 +606,10 @@
 "ProfileInformationsScreen.Text.PhoneNumber" = "Telefon Numarası";
 "ProfileInformationsScreen.Text.BirthDate" = "Doğum Tarihi";
 "ProfileInformationsScreen.Text.EMail" = "E-Posta";
+"ProfileInformationsScreen.Text.EMail" = "E-Posta";
 "ProfileInformationsScreen.Text.Job" = "Meslek";
+"ProfileInformationsScreen.Text.JobInfo" = "Meslek Bilgileri";
+"ProfileInformationsScreen.Text.CustomerInfo" = "Kişisel Bilgiler";
 "ProfileInformationsScreen.Text.MonthlyNetIncome" = "Aylık Net Gelir";
 "ProfileInformationsScreen.Text.EstimatedWalletBalance" = "Tahmini Cüzdan Bakiyesi";
 "ProfileInformationsScreen.Text.MonthyTransactionCount" = "Tahmini Aylık İşlem Sayısı";
@@ -739,11 +747,11 @@
 "MonthlyLimit.Text.updatedLimitSuccessText" = "Belirlemiş olduğunuz limit başarıyla güncellenmiştir";
 
 //MARK: MyWLCards
-"MyWLCards.Text.lastCard" = "Son Kullanılan Kartın";
+"MyWLCards.Text.lastCard" = "KAYITLI OPET KARTIM";
 
 
 //MARK: VirtualCards
-"VirtualCards.Title.NavigationTitle" = "Cüzdan İşlemlerim";
+"VirtualCards.Title.NavigationTitle" = "Cüzdan Hesabım";
 "myWLCardsTextlastCard" = "Karta Para Yükle";
 "VirtualCards.Text.CardSettings" = "Kart Ayarları";
 "VirtualCards.Text.Share" = "Paylaş";
@@ -756,6 +764,7 @@
 //MARK: My Profile
 
 "MyProfileScreen.Title.NavigationTitle" = "Profilim";
+"MyProfileScreen.Title.WalletId" = "Cüzdan ID:";
 
 //MARK: All Transactions History
 
@@ -773,6 +782,7 @@
 "AskForMoneyContactsToZubizu.Text.ChooseThePerson" = "Para İsteyeceğiniz Kişiyi Seçiniz";
 "AskForMoneyContactsToZubizu.Text.ChooseThePersonNumber" = "Kişinin Numarasını Girin";
 "AskForMoneyContactsToZubizu.Text.AskForMoneySuccessful" = "Para isteme talebiniz başarıyla iletildi";
+"AskForMoneyContactsToZubizu.Text.PhoneNumber" = "Telefon Numarası";
 
 //MARK: AccountInformationPopup
 "AccountInformationPopup.Text.AccountType"                       = "Hesap Türü";
@@ -885,7 +895,7 @@
 
 // MARK: EmailVerificationCardView-EmailVerificationSended
 "EmailVerificationCardView.Text.YourEmailIsVerified"              = "E-Postan Doğrulandı";
-"EmailVerificationCardView.Text.YourEmailIsNotVerified"              = "E-Postan Doğrulanmadı";
+"EmailVerificationCardView.Text.YourEmailIsNotVerified"              = "E-Posta Adresini Doğrula";
 
 
 // MARK: EmailVerificationSended

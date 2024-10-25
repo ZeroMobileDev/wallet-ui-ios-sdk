@@ -156,12 +156,18 @@ final class WLImageCatalog: ImageCatalog {
     lazy var dgfin_logo = WLImage(imageAssetName: "dgfin_logo")
     lazy var sms_warning = WLImage(imageAssetName: "SmsWarning")
     lazy var opet_white = WLImage(imageAssetName: "opet-white")
+    lazy var opetTransparent = WLImage(imageAssetName: "opetTransparent")
     lazy var my_wallet = WLImage(imageAssetName: "my-wallet")
     lazy var open_yellow = WLImage(imageAssetName: "opet-yellow")
     lazy var my_cards = WLImage(imageAssetName: "my-cards")
     lazy var load_money_button = WLImage(imageAssetName: "load_money_button")
     lazy var empty_view_calander = WLImage(imageAssetName: "empty-view-calander")
+    lazy var bgWalletCardView = WLImage(imageAssetName: "bg-opet-card-view")
     lazy var small_masterpass_logo = WLImage(imageAssetName: "small_masterpass_logo")
+    lazy var dummyProfileImage = WLImage(imageAssetName: "dummyProfileImage")
+    lazy var profileEditImage = WLImage(imageAssetName: "profileEditImage")
+    lazy var blue_right_chevron = WLImage(imageAssetName: "rightChevron")
+    lazy var question_mark_circle = WLImage(imageAssetName: "questionMarkCircle")
     init() {}
 }
 
@@ -322,4 +328,10 @@ protocol ImageCatalog {
     var my_cards: WLImage { get }
     var load_money_button: WLImage { get }
     var small_masterpass_logo: WLImage { get }
+    var opetTransparent: WLImage { get }
+    var dummyProfileImage: WLImage { get }
+    var profileEditImage: WLImage { get }
+    var blue_right_chevron: WLImage { get }
+    var question_mark_circle: WLImage { get }
+    var bgWalletCardView: WLImage { get }
 }

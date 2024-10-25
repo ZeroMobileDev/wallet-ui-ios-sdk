@@ -24,6 +24,11 @@ final class CommonColors: ColorPalette {
     lazy var tabGray = WLColor(color: Color(hex: 0xdfe4ec))
     lazy var dateAndTime = WLColor(color: Color.black)
     lazy var blackColor = WLColor(color: Color.black)
+  lazy var brickRedColor = WLColor(colorAssetName: "brickRedColor")
+  lazy var whiteColor = WLColor(color: Color.white)
+
+    lazy var subTitleColor = WLColor(color: Color(hex: 0x979797))
+    lazy var toogleColor = WLColor(color: Color(hex: 0x5FCC29))
 }
 
 protocol ColorPalette {
@@ -46,6 +51,11 @@ protocol ColorPalette {
     var dateAndTime: WLColor { get }
     var blackColor: WLColor { get }
     var gray: WLColor { get }
+    var brickRedColor: WLColor { get }
+    var whiteColor: WLColor { get }
+    
+    var subTitleColor: WLColor { get }
+    var toogleColor: WLColor { get }
 }
 
 extension Color {
