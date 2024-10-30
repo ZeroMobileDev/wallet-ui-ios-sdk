@@ -223,7 +223,7 @@
 //MARK: - CustomListView
 
 "CustomListView.Title.Repeat" = "Tekrarla";
-"CustomListView.Text.All" = "TÜMÜ >";
+"CustomListView.Text.All" = "TÜM İŞLEMLER >";
 
 //MARK: - SignInPopUp-ForgotPasswordPopUp
 

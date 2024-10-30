@@ -229,7 +229,7 @@
 //MARK: - CustomListView
 
 "CustomListView.Title.Repeat" = "Repeat";
-"CustomListView.Text.All" = "ALL >";
+"CustomListView.Text.All" = "ALL TRANSACTIONS >";
 
 //MARK: - SignInPopUp-ForgotPasswordPopUp
 
