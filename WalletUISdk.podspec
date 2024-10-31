@@ -1,67 +1,50 @@
 Pod::Spec.new do |s|
-  s.name         = "WalletUISdk"
-  s.version      = "1.2.9.1"
-  s.summary      = "WalletUISdk is a library for WalletUI."
-  s.homepage     = "https://www.dgpays.com/"
-  s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author       = { "Enes Genç" => "enes.genc@dgpaysit.com" }
-  s.source       = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/1.2.9.1.zip" }
-  s.ios.deployment_target = "13.0"
-  s.platform     = :ios, "13.0"
-  s.requires_arc = true
-  s.static_framework = true
-  s.swift_versions = '5.0'
-#   s.pod_target_xcconfig = {
-# 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 armv7 arm64',
-# 'VALID_ARCHS' => 'x86_64 armv7 arm64',
-# }
-# s.user_target_xcconfig = {
-# 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 armv7 arm64',
-# 'VALID_ARCHS' => 'x86_64 armv7 arm64',
-# }
-  # s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  # s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+ s.name         = "WalletUISdk"
+ s.version      = "1.2.9.2"
+ s.summary      = "WalletUISdk is a library for WalletUI."
+ s.homepage     = "https://www.dgpays.com/"
+ s.license      = { :type => "MIT", :file => "LICENSE" }
+ s.author       = { "Enes Genç" => "enes.genc@dgpaysit.com" }
+ s.source       = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/1.2.9.2.zip" }
+ s.ios.deployment_target = "13.0"
+ s.platform     = :ios, "13.0"
+ s.requires_arc = true
+ s.static_framework = true
+ s.swift_versions = '5.0'
 
-  # s.source_files = "WalletUISdk/**/*.{h,m,swift}" , "Frameworks/WalletUISdk.modulemap"
-  #  "Frameworks/MasterPass/Library/include/MfsIOSLibrary/*.h"
+ s.vendored_frameworks = [
+   "Frameworks/wallet_ios_sdk.xcframework",
+   "Frameworks/WalletUISdk.framework"
+ ]
 
-  # s.module_map = "Frameworks/WalletUISdk.modulemap"
+ # Private headers'ı exclude edelim
+ s.exclude_files = [
+   'Frameworks/WalletUISdk.framework/Headers/MfsIOSLibrary.h',
+   'Frameworks/WalletUISdk.framework/Headers/MfsCard.h',
+   'Frameworks/WalletUISdk.framework/Headers/MfsCheckbox.h',
+   'Frameworks/WalletUISdk.framework/Headers/MfsResponse.h',
+   'Frameworks/WalletUISdk.framework/Headers/MfsTextField.h',
+   'Frameworks/WalletUISdk.framework/Headers/MfsWebView.h'
+ ]
 
-  # s.dependency 'EnVerify', '1.3.17.1'
-  # s.dependency 'Starscream', '4.0.8'
-  # s.dependency 'AFNetworking', '4.0.1'
-  # s.dependency 'JSONModel', '1.7.0'
+ # Private headers'ı preserve edelim
+ s.preserve_paths = [
+   'Frameworks/WalletUISdk.framework/Headers/MfsIOSLibrary.h',
+   'Frameworks/WalletUISdk.framework/Headers/MfsCard.h',
+   'Frameworks/WalletUISdk.framework/Headers/MfsCheckbox.h',
+   'Frameworks/WalletUISdk.framework/Headers/MfsResponse.h',
+   'Frameworks/WalletUISdk.framework/Headers/MfsTextField.h',
+   'Frameworks/WalletUISdk.framework/Headers/MfsWebView.h'
+ ]
 
-  #s.public_header_files = "WalletUISdk/WalletUiSdk.h"
-  # , "Frameworks/MasterPass/Library/include/MfsIOSLibrary/*.h"
-  s.vendored_frameworks = [
-    "Frameworks/wallet_ios_sdk.xcframework",
-    "Frameworks/WalletUISdk.framework"
-  ]
-  s.private_header_files = [
-  'WalletUISdk.framework/PrivateHeaders/MfsIOSLibrary.h',
-  'WalletUISdk.framework/PrivateHeaders/MfsCard.h',
-  'WalletUISdk.framework/PrivateHeaders/MfsCheckbox.h',
-  'WalletUISdk.framework/PrivateHeaders/MfsResponse.h',
-  'WalletUISdk.framework/PrivateHeaders/MfsTextField.h',
-  'WalletUISdk.framework/PrivateHeaders/MfsWebView.h'
-]
-
-# Tüm PrivateHeaders klasörünü tek seferde belirtmek isterseniz:
-# s.private_header_files = 'WalletUISdk.framework/PrivateHeaders/*.h'
-
-s.public_header_files = 'WalletUISdk.framework/Headers/*.h'
-  # , "WalletUISdk.framework"
-  # s.vendored_libraries = ["Frameworks/MasterPass/Library/libMfsIOSLibrary2Universal.a", "Frameworks/MasterPass/Library/ssl/libcrypto.a", "Frameworks/MasterPass/Library/ssl/libssl.a"]
-
-  s.resource_bundles = {
-    'WalletUISdkResources' => [
-      'Resources/**/*.{xcassets,png,jpg,ttf,otf, lproj}',
-      'Resources/Localization/*.lproj',
-      'WalletUISdk/Resources/Fonts/*.ttf',
-    ]
-  }
-  s.resources = ['Resources/Localization/*.lproj']
-  
-  s.frameworks = 'UIKit', 'Foundation'
+ s.resource_bundles = {
+   'WalletUISdkResources' => [
+     'Resources/**/*.{xcassets,png,jpg,ttf,otf,lproj}',
+     'Resources/Localization/*.lproj',
+     'WalletUISdk/Resources/Fonts/*.ttf',
+   ]
+ }
+ s.resources = ['Resources/Localization/*.lproj']
+ 
+ s.frameworks = 'UIKit', 'Foundation'
 end
