@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "WalletUISdk"
-  s.version      = "1.2.9"
+  s.version      = "1.2.9.1"
   s.summary      = "WalletUISdk is a library for WalletUI."
   s.homepage     = "https://www.dgpays.com/"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Enes Genç" => "enes.genc@dgpaysit.com" }
-  s.source       = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/1.2.9.zip" }
+  s.source       = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/1.2.9.1.zip" }
   s.ios.deployment_target = "13.0"
   s.platform     = :ios, "13.0"
   s.requires_arc = true
@@ -38,6 +38,19 @@ Pod::Spec.new do |s|
     "Frameworks/wallet_ios_sdk.xcframework",
     "Frameworks/WalletUISdk.framework"
   ]
+  s.private_header_files = [
+  'WalletUISdk.framework/PrivateHeaders/MfsIOSLibrary.h',
+  'WalletUISdk.framework/PrivateHeaders/MfsCard.h',
+  'WalletUISdk.framework/PrivateHeaders/MfsCheckbox.h',
+  'WalletUISdk.framework/PrivateHeaders/MfsResponse.h',
+  'WalletUISdk.framework/PrivateHeaders/MfsTextField.h',
+  'WalletUISdk.framework/PrivateHeaders/MfsWebView.h'
+]
+
+# Tüm PrivateHeaders klasörünü tek seferde belirtmek isterseniz:
+# s.private_header_files = 'WalletUISdk.framework/PrivateHeaders/*.h'
+
+s.public_header_files = 'WalletUISdk.framework/Headers/*.h'
   # , "WalletUISdk.framework"
   # s.vendored_libraries = ["Frameworks/MasterPass/Library/libMfsIOSLibrary2Universal.a", "Frameworks/MasterPass/Library/ssl/libcrypto.a", "Frameworks/MasterPass/Library/ssl/libssl.a"]
 
