@@ -8,14 +8,15 @@
 framework module WalletUISdk {
     umbrella header "WalletUiSdk.h"
     export *
+    module * { export * }
 
-    module PrivateHeaders {
-        private header "MfsIOSLibrary.h"
-        private header "MfsCard.h"
-        private header "MfsCheckbox.h"
-        private header "MfsResponse.h"
-        private header "MfsTextField.h"
-        private header "MfsWebView.h"
+    explicit module PrivateHeaders {
+         header "MfsIOSLibrary.h"
+         header "MfsCard.h"
+         header "MfsCheckbox.h"
+         header "MfsResponse.h"
+         header "MfsTextField.h"
+         header "MfsWebView.h"
         export *
     }
 }
