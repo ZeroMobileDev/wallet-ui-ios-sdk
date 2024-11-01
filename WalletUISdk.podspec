@@ -1,11 +1,12 @@
+# WalletUISdk.podspec
 Pod::Spec.new do |s|
   s.name         = "WalletUISdk"
-  s.version      = "1.2.9.9"
+  s.version      = "1.2.9.10"
   s.summary      = "WalletUISdk is a library for WalletUI."
   s.homepage     = "https://www.dgpays.com/"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Enes Genç" => "enes.genc@dgpaysit.com" }
-  s.source       = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/1.2.9.0.zip" }
+  s.source       = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/1.2.9.10.zip" }
   s.ios.deployment_target = "13.0"
   s.platform     = :ios, "13.0"
   s.requires_arc = true
@@ -17,24 +18,21 @@ Pod::Spec.new do |s|
     "Frameworks/WalletUISdk.framework"
   ]
 
-  # Tüm source dosyalarını include edelim
+  # Sadece public header'ları içerelim
   s.source_files = [
-    "Frameworks/WalletUISdk.framework/Headers/*.h",
-    "Frameworks/WalletUISdk.framework/PrivateHeaders/*.h"
+    "Frameworks/WalletUISdk.framework/Headers/*.h"
   ]
 
-  # Sadece public header'ları belirtelim
+  # Public header'ları belirtelim
   s.public_header_files = [
-    "Frameworks/WalletUISdk.framework/Headers/WalletUISdk.h",
-    "Frameworks/WalletUISdk.framework/Headers/WalletUISdk-Swift.h"
+    "Frameworks/WalletUISdk.framework/Headers/WalletUISdk.h"
   ]
 
-  # Private header'ları belirtelim
+  # Private header'ları açıkça belirtelim
   s.private_header_files = [
     "Frameworks/WalletUISdk.framework/PrivateHeaders/*.h"
   ]
 
-  # Resource bundles
   s.resource_bundles = {
     'WalletUISdkResources' => [
       'Resources/**/*.{xcassets,png,jpg,ttf,otf,lproj}',
@@ -46,6 +44,6 @@ Pod::Spec.new do |s|
   
   s.frameworks = 'UIKit', 'Foundation'
 
-  # Module map ekleyelim
+  # Module map'i belirtelim
   s.module_map = "Frameworks/WalletUISdk.framework/Modules/module.modulemap"
 end
