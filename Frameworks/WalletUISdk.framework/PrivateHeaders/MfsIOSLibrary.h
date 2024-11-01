@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MfsCard.h"
 #import "MfsResponse.h"
 #import "MfsTextField.h"
 #import "MfsWebView.h"
