@@ -10,7 +10,12 @@ framework module WalletUISdk {
     export *
 
     module PrivateHeaders {
-        private header "MasterpassHead.h"
+        private header "MfsIOSLibrary.h"
+        private header "MfsCard.h"
+        private header "MfsCheckbox.h"
+        private header "MfsResponse.h"
+        private header "MfsTextField.h"
+        private header "MfsWebView.h"
         export *
     }
 }
