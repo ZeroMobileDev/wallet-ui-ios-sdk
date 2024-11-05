@@ -14,5 +14,3 @@ FOUNDATION_EXPORT const unsigned char WalletUiVersionString[];
 //#import "MfsResponse.h"
 //#import "MfsTextField.h"
 //#import "MfsWebView.h"
-
-//#import "MasterpassHead.h"
