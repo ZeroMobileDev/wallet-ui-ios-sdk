@@ -17,8 +17,7 @@ Cocoapods 1.10 or above is required to install WalletUISdk. Add the WalletUISdk 
 
 ```yaml
 target :YourAppTargetName do 
-  pod 'WalletUISdk', :git => 'https://github.com/ZeroMobileDev/wallet-ui-ios-sdk.git', :tag => '1.0.5'
-  pod 'EnVerify', '1.3.15.7'
+  pod 'WalletUISdk', :git => 'https://github.com/ZeroMobileDev/wallet-ui-ios-sdk.git', :tag => '1.3.5'
 end
 
 post_install do |installer|
