@@ -1,0 +1,19 @@
+//
+//  WalletUISdk.modulemap
+//  WalletUISdk
+//
+//  Created by Enes Genç on 20.08.2024.
+//
+
+framework module WalletUISdk {
+    umbrella header "WalletUiSdk.h"
+
+    export *
+    
+    module * { export * }
+}
+
+module WalletUISdk.Swift {
+  header "WalletUISdk-Swift.h"
+  requires objc
+}
