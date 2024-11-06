@@ -1,12 +1,12 @@
 # WalletUISdk.podspec
 Pod::Spec.new do |s|
   s.name         = "WalletUISdk"
-  s.version      = "1.3.5"
+  s.version      = "1.3.6"
   s.summary      = "WalletUISdk is a library for WalletUI."
   s.homepage     = "https://www.dgpays.com/"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Yasin ÇETİN" => "yasin.cetin@dgpays.com" }
-  s.source       = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/1.3.5.zip" }
+  s.source       = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/1.3.6.zip" }
   s.ios.deployment_target = "13.0"
   s.platform     = :ios, "13.0"
   s.requires_arc = true
@@ -18,19 +18,6 @@ Pod::Spec.new do |s|
     "Frameworks/WalletUISdk.xcframework"
   ]
 
-  # Sadece public header'ları içerelim
-  s.source_files = [
-    "Frameworks/WalletUISdk.xcframework/ios-arm64/WalletUISdk.framework/Headers/*.h",
-    "Frameworks/WalletUISdk.xcframework/ios-x86_64-simulator/WalletUISdk.framework/Headers/*.h"
-  ]
-
-  # Public header'ları belirtelim
-  s.public_header_files = [
-    "Frameworks/WalletUISdk.xcframework/ios-arm64/WalletUISdk.framework/Headers/WalletUISdk.h",
-    "Frameworks/WalletUISdk.xcframework/ios-x86_64-simulator/WalletUISdk.framework/Headers/WalletUISdk.h",
-    "Frameworks/MasterPass/Library/include/MfsIOSLibrary/*.h"
-  ]
-
   s.resource_bundles = {
     'WalletUISdkResources' => [
       'Resources/**/*.{xcassets,png,jpg,ttf,otf,lproj}',
@@ -39,16 +26,10 @@ Pod::Spec.new do |s|
     ]
   }
 
-  s.source_files = "WalletUISdk/**/*.{h,m,swift}" , "Frameworks/MasterPass/Library/include/MfsIOSLibrary/*.h","Frameworks/MasterPass/Library/include/MfsIOSLibrary/*.h", "Frameworks/WalletUISdk.modulemap"
- 
-  s.module_map = "Frameworks/WalletUISdk.modulemap"
- 
   s.dependency 'EnVerify', '1.3.15.7'
   s.dependency 'AFNetworking', '4.0.1'
   s.dependency 'JSONModel', '1.7.0'
  
-  s.vendored_libraries = ["Frameworks/MasterPass/Library/libMfsIOSLibrary2Universal.a", "Frameworks/MasterPass/Library/ssl/libcrypto.a", "Frameworks/MasterPass/Library/ssl/libssl.a"]
-
   s.pod_target_xcconfig = {
     'VALID_ARCHS' => 'arm64 x86_64'
   }
