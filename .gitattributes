@@ -1,0 +1,2 @@
+Frameworks/WalletUISdk.xcframework/ios-arm64/WalletUISdk.framework/WalletUISdk filter=lfs diff=lfs merge=lfs -text
+Frameworks/WalletUISdk.xcframework/ios-x86_64-simulator/WalletUISdk.framework/WalletUISdk filter=lfs diff=lfs merge=lfs -text
