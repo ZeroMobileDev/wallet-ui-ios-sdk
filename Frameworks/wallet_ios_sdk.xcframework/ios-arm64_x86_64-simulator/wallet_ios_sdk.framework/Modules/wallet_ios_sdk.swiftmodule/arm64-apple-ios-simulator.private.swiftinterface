@@ -3372,7 +3372,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
   required public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class TopupPayStartOutputParams : wallet_ios_sdk.BaseResponseMeta {
-  public var token: Swift.String?, orderID: Swift.String?
+  public var token: Swift.String?, orderId: Swift.String?
   public var amountWallet: Swift.Double?, amountCard: Swift.Double?
   public var cardExpense: Swift.Double?
   public var cashExpense: Swift.Double?
