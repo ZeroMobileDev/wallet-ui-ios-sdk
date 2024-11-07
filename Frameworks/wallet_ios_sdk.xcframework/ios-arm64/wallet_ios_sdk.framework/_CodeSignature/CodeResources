@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		GLad0Z/PLqUTIj+1NajUzxpSelE=
+		jN46+A68D9Gm73KaoB5t8AF0cvQ=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Z4wXUdch3FumXA/gXkBmCfPO3PU=
+		3Rz8RZ4vKZVxNH27FIxBqZJOho4=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Z4wXUdch3FumXA/gXkBmCfPO3PU=
+		3Rz8RZ4vKZVxNH27FIxBqZJOho4=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4hRFuuy7nDmGh+d6iCnW1yOsfKs=
+		TRXU+PT0zmVDmUCGMtwj4+RNtNE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -90,14 +90,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ocZarzuNbo4nJQYzfYUwQYFBCsf1Tg+fXcLrvDXCfF0=
+			9XLv0CXJtGYIi1smJzh3hD8+Ep8+TvlT5CmNqnUZnik=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MmVVoQDaZAHZBFMGG5EFNDoHNvuuYjGrs36VdhZ87xE=
+			ewwrp0rc64+SI6fz+nB/oKoncUTjkHRij0on9GTBg2s=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -111,14 +111,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MmVVoQDaZAHZBFMGG5EFNDoHNvuuYjGrs36VdhZ87xE=
+			ewwrp0rc64+SI6fz+nB/oKoncUTjkHRij0on9GTBg2s=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QmOdfsH9yiglMU6MvSUM0EAAnKGKouilzuz8Qq2puI0=
+			C5pkO/LNzgIlhmab91lnXIY5q0v7xFwAg1zecQsxhzw=
 			</data>
 		</dict>
 	</dict>

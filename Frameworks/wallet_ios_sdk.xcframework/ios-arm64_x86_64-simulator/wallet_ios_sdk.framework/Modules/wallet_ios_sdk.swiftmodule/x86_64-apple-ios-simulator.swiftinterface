@@ -6413,6 +6413,7 @@ public struct LimitDefinitionModel : Swift.Codable {
 @objc @_inheritsConvenienceInitializers public class GetMasterpassConfigInputParams : wallet_ios_sdk.BaseRequestModel {
   public var masterPassReferenceNumber: Swift.Int?
   public var userValidationType: Swift.String?
+  override public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
 }
