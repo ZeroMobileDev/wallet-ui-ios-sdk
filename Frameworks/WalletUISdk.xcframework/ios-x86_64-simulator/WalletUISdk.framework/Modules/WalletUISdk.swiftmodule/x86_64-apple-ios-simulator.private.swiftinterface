@@ -542,6 +542,8 @@ extension Swift.Int {
   @objc deinit
 }
 extension SwiftUI.View {
+  public func keyboardAwarePadding() -> some SwiftUI.View
+  
   public func hideKeyboard()
   public func cornerRadius(_ radius: CoreFoundation.CGFloat, corners: UIKit.UIRectCorner) -> some SwiftUI.View
   
