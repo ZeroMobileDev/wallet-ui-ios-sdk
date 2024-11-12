@@ -87,6 +87,7 @@ final class WLImageCatalog: ImageCatalog {
     lazy var purple_gradient = WLImage(imageAssetName: "purple_gradient")
     lazy var masterpass_logo = WLImage(imageAssetName: "masterpass_logo")
     lazy var icon_Share = WLImage(imageAssetName: "iconShare")
+    lazy var icon_calendar_empty_transaction = WLImage(imageAssetName: "ic_calendar_empty_transaction")
     lazy var icon_Xmark = WLImage(imageAssetName: "icon_xmark")
     lazy var bank_icon = WLImage(imageAssetName: "bank-icon")
     lazy var scanQR_first_image = WLImage(imageAssetName: "scanQRFirstImage")
@@ -105,7 +106,8 @@ final class WLImageCatalog: ImageCatalog {
     lazy var qr_border = WLImage(imageAssetName: "qr_border")
     lazy var shopping_cart = WLImage(imageAssetName: "ShoppingCart")
     lazy var invoice_payment = WLImage(imageAssetName: "Invoice-payment")
-    lazy var money_transfer = WLImage(imageAssetName: "money-transfer")
+    lazy var incoming_money_transfer = WLImage(imageAssetName: "incoming_money_transfer")
+    lazy var outgoing_money_transfer = WLImage(imageAssetName: "outgoing_money_transfer")
     lazy var transaction_fee = WLImage(imageAssetName: "transaction-fee")
     lazy var cashback = WLImage(imageAssetName: "cashback")
     lazy var cash_withdraw = WLImage(imageAssetName: "withdraw")
@@ -255,6 +257,7 @@ protocol ImageCatalog {
     var masterpass_logo: WLImage { get }
     var icon_Share: WLImage { get }
     var icon_Xmark: WLImage { get }
+    var icon_calendar_empty_transaction: WLImage { get }
     var bank_icon: WLImage { get }
     var scanQR_first_image: WLImage { get }
     var scanQR_second_image: WLImage { get }
@@ -272,7 +275,8 @@ protocol ImageCatalog {
     var qr_border: WLImage { get }
     var shopping_cart: WLImage { get }
     var invoice_payment: WLImage { get }
-    var money_transfer: WLImage { get }
+    var outgoing_money_transfer: WLImage { get }
+    var incoming_money_transfer: WLImage { get }
     var transaction_fee: WLImage { get }
     var cashback: WLImage { get }
     var cash_withdraw: WLImage { get }

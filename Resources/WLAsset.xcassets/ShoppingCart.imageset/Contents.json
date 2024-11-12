@@ -1,19 +1,8 @@
 {
   "images" : [
     {
-      "filename" : "ShoppingCart.png",
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "filename" : "ShoppingCart@2x.png",
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "filename" : "ShoppingCart@3x.png",
-      "idiom" : "universal",
-      "scale" : "3x"
+      "filename" : "icon-32-px-qr (1).svg",
+      "idiom" : "universal"
     }
   ],
   "info" : {

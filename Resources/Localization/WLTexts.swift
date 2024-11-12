@@ -74,6 +74,7 @@ enum WLTexts: String {
     case commonTextErrorCreatingPdf = "Common.Text.ErrorCreatingPdf"
     case commonTextSuccessful = "Common.Text.Successful"
     case commonTextYourTransactionIsSuccessful = "Common.Text.YourTransactionIsSuccessful"
+    case commonTextYourTransactionSuccessful = "Common.Text.YourTransactionSuccessful"
     case commonTextUnknownErrorOccurred = "Common.Text.UnknownErrorOccurred"
     case commonTextCardCreated = "Common.Text.CardCreated"
     case commonTextMyself = "Common.Text.Myself"
@@ -149,6 +150,13 @@ enum WLTexts: String {
     case verifyAccountInfoTextToUse = "VerifyAccountInfo.Text.ToUse"
     case verifyAccountInfoTitleVerifyID = "VerifyAccountInfo.Title.VerifyID"
 
+    //MARK: - RegisterForgotPassword
+    case registerForgotPasswordTimeFinishedWarning = "RegisterForgotPassword.Text.TimeFinishedWarning" 
+    
+    //MARK: - ForgotPasswordEmail
+    case forgotPasswordEmailMissmatchInfo = "ForgotPasswordEmail.Text.MissMatchInfo"
+    case forgotPasswordEmailError = "ForgotPasswordEmail.Text.Error"
+    
     // MARK: - User Agreement
 
     case userAgreementTitleNaivigationTitle = "UserAgreement.Title.NaivigationTitle"
@@ -159,9 +167,21 @@ enum WLTexts: String {
     case loginWithPasswordViewTextErrorResetMyPassword = "LoginWithPasswordView.Text.Error.ResetMyPassword"
     case loginWithPasswordEnterTextPassword = "LoginWithPasswordView.Text.EnterPassword"
     case forgotPasswordEmailTextResetPassword = "ForgotPasswordEmail.Text.ResetPassword"
-    case forgotPasswordEmailTextPlsEnterEmail = "ForgotPasswordEmail.Text.PlsEnterEmail"
+    case forgotPasswordEmailTextPlsEnterPhoneNumber = "ForgotPasswordEmail.Text.PlsEnterPhoneNumber"
+    case registerForgotPasswordTextSubTitle = "RegisterForgotPassword.Text.SubTitle"
+    case registerForgotPasswordTextTitle = "RegisterForgotPassword.Text.SMSTextfieldTitle"
+    case registerForgotPasswordTextPlaceHolder = "RegisterForgotPassword.Text.SMSTextfieldPlaceHolderText"
+
+    case restartPasswordTextPasswordTitle = "RestartPassword.Text.passwordTitle"
+    case restartPasswordTextPasswordAgainTitle = "RestartPassword.Text.passwordAgainTitle"
+    
+    case restartPasswordButtonTitle = "RestartPassword.Text.buttonTitle"
+    
+    case forgotPasswordEmailTextPhoneNumber = "ForgotPasswordEmail.Text.PhoneNumber"
+    case forgotPasswordEmailTextSecretQuestion = "ForgotPasswordEmail.Text.SecretQuestion"
+    case forgotPasswordEmailTextSecretQuestionAnswer = "ForgotPasswordEmail.Text.SecretQuestionAnswer"
+    case forgotPasswordEmailTextSecretQuestionAnswerTextField = "ForgotPasswordEmail.Text.SecretQuestionAnswerTextField"
     case forgotPasswordEmailTextVerificationLink = "ForgotPasswordEmail.Text.VerificationLink"
-    case forgotPasswordEmailTextIfNotAccessMail = "ForgotPasswordEmail.Text.IfNotAccessMail"
     case forgotPasswordEmailTextSendLink = "ForgotPasswordEmail.Text.SendLink"
     case forgotPasswordEmailTextForgotPassword = "ForgotPasswordEmail.Text.ForgotPassword"
     case homeScreenTextMyWallet = "HomeScreen.Text.MyWallet"
@@ -177,6 +197,7 @@ enum WLTexts: String {
     case homeScreenTextPayment = "HomeScreen.Text.Payment"
     case microCreditNotLoginTextUseMikroCredit = "MicroCreditNotLogin.Text.UseMikroCredit"
     case waitingTransactionsEmptyTextWaitingTransactionsNotHave = "WaitingTransactionsEmpty.Text.WaitingTransactionsNotHave"
+    case waitingTransactionsEmptyTextEmptyTransactionhistorytxt = "WaitingTransactionsEmpty.Text.empty_transaction_history_txt"
     case waitingTransactionsTextAlertText = "WaitingTransactions.Text.AlertText"
     case waitingTransactionsTitleAlertTitle = "WaitingTransactions.Title.AlertTitle"
     case transactionHistoryNotLoginTextPleaseLogin = "TransactionHistoryNotLogin.Text.PleaseLogin"

@@ -104,7 +104,6 @@ public protocol EnquraSessionProtocol {
   func requestVideoAudioPermissions()
   func setNFCBACData()
   func getCustomerSegmentId(completion: @escaping (Swift.Bool) -> Swift.Void)
-  func enesTest()
   func faceDetectStart()
   func nfcStart()
   func ocrStart()
@@ -732,6 +731,7 @@ extension SwiftUI.Binding where Value == Swift.Bool? {
 prefix public func ! (value: SwiftUI.Binding<Swift.Bool>) -> SwiftUI.Binding<Swift.Bool>
 public protocol EnquraSessionManagerDelegate : AnyObject {
   func showAlert(message: Swift.String)
+  func navigateSessionType()
 }
 @_hasMissingDesignatedInitializers final public class EnquraSessionManager : WalletUISdk.EnquraSessionProtocol {
   final public var idVerifyMainSSView: UIKit.UIViewController?
@@ -763,7 +763,6 @@ public protocol EnquraSessionManagerDelegate : AnyObject {
   final public func startSession(with flow: WalletUISdk.EnquraSessionStartFlow)
   final public func requestVideoAudioPermissions()
   final public func nfcStart()
-  final public func enesTest()
   final public func ocrStart()
   final public func faceDetectStart()
   final public func setNFCBACData()
@@ -771,9 +770,6 @@ public protocol EnquraSessionManagerDelegate : AnyObject {
   final public func closeSession()
   final public func addIntegration(onComplete: @escaping () -> Swift.Void)
   @objc deinit
-}
-extension WalletUISdk.EnquraSessionManager {
-  final public func getCustomerSegmentId(completion: @escaping (Swift.Bool) -> Swift.Void)
 }
 public struct GetEnquraIntegrationInfoResponseDTO {
   public let referenceId: Swift.Int64
@@ -836,6 +832,9 @@ public enum DgparaWallletDateFormat {
 }
 extension Foundation.Date {
   public func convertToString(_ format: WalletUISdk.DgparaWallletDateFormat) -> Swift.String
+}
+extension WalletUISdk.EnquraSessionManager {
+  final public func getCustomerSegmentId(completion: @escaping (Swift.Bool) -> Swift.Void)
 }
 public enum ScanError : Swift.Error {
   case badInput

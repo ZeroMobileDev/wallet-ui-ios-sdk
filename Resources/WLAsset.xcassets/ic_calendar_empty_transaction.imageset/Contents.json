@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_calendar_empty_transaction.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

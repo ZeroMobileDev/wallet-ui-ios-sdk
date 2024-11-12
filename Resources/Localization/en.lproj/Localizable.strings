@@ -183,11 +183,29 @@
 //MARK: - ForgotPasswordEmail
 
 "ForgotPasswordEmail.Text.ResetPassword" = "Password Reset";
-"ForgotPasswordEmail.Text.PlsEnterEmail" = "Please enter your e-mail address registered with OPET! If the e-mail address you entered matches your registered e-mail address, a password reset link will be sent.";
+"ForgotPasswordEmail.Text.PlsEnterPhoneNumber" = "Please enter your phone number and answer the security question.";
 "ForgotPasswordEmail.Text.VerificationLink" = "(Verification link will be sent)";
-"ForgotPasswordEmail.Text.IfNotAccessMail" = "Click if you can't access your mail";
 "ForgotPasswordEmail.Text.SendLink" = "SEND A LINK";
 "ForgotPasswordEmail.Text.ForgotPassword" = "I Forgot Password";
+"ForgotPasswordEmail.Text.PhoneNumber" = "Phone Number";
+"ForgotPasswordEmail.Text.SecretQuestion" = "Current Security Question";
+"ForgotPasswordEmail.Text.SecretQuestionAnswer" = "Answer to Your Question";
+"ForgotPasswordEmail.Text.SecretQuestionAnswerTextField" = "Enter Your Answer";
+"ForgotPasswordEmail.Text.MissMatchInfo" = "The information you entered does not match.";
+"ForgotPasswordEmail.Text.Error" = "Error!";
+
+//MARK: - RegisterForgotPassword
+
+"RegisterForgotPassword.Text.SubTitle" = "Please verify your information by entering the password sent to your number $$$ via SMS.";
+"RegisterForgotPassword.Text.SMSTextfieldTitle" = "SMS";
+"RegisterForgotPassword.Text.SMSTextfieldPlaceHolderText" = "Enter SMS Code";
+"RegisterForgotPassword.Text.TimeFinishedWarning" = "Your SMS verification period has expired. Please try again.";
+
+//MARK: - Restart Password
+
+"RestartPassword.Text.passwordTitle" = "New Password";
+"RestartPassword.Text.passwordAgainTitle" = "New Password Again";
+"RestartPassword.Text.buttonTitle" = "Change password";
 
 //MARK: - HomeScreen
 

@@ -72,6 +72,7 @@
 "Common.Text.ErrorCreatingPdf"                                  = "Pdf Oluşturulurken Hata Oluştu";
 "Common.Text.Successful"                                        = "Başarılı";
 "Common.Text.YourTransactionIsSuccessful"                       = "İşleminiz Başarılı!";
+"Common.Text.YourTransactionSuccessful"                       = "İşlem Başarılı.";
 "Common.Text.UnknownErrorOccurred"                              = "Bilinmeyen Bire Hata Oluştu";
 "Common.Text.CardCreated"                                       = "Kart Oluşturuldu";
 "Common.Text.RequestSuccessFull"                                = "Talebiniz başarıyla iletildi.";
@@ -175,14 +176,30 @@
 //MARK: - ForgotPasswordEmail
 
 "ForgotPasswordEmail.Text.ResetPassword" = "Şifre Sıfırlama";
-"ForgotPasswordEmail.Text.PlsEnterEmail" = "Lütfen Opet’ya kayıtlı e-mail adresini gir!  Eğer girdiğin e-mail adresi kayıtlı e-mail adresinle eşleşirse şifre sıfırlama linki gönderilecektir.";
+"ForgotPasswordEmail.Text.PlsEnterPhoneNumber" = "Lütfen telefon numaranızı  giriniz ve güvenlik sorusunun yanıtını veriniz.";
 "ForgotPasswordEmail.Text.VerificationLink" = "(Doğrulama linki gönderilecektir)";
-"ForgotPasswordEmail.Text.IfNotAccessMail" = "Mailine erişemiyorsan tıkla";
-"ForgotPasswordEmail.Text.SendLink" = "LİNK GÖNDER";
+"ForgotPasswordEmail.Text.SendLink" = "DEVAM ET";
 "ForgotPasswordEmail.Text.ForgotPassword" = "Şifremi Unuttum";
 "ForgotPasswordEmail.Text.VerificationLinkSended" = "Doğrulama Linki Gönderildi";
+"ForgotPasswordEmail.Text.PhoneNumber" = "Telefon Numarası";
+"ForgotPasswordEmail.Text.SecretQuestion" = "Mevcut Güvenlik Sorusu";
+"ForgotPasswordEmail.Text.SecretQuestionAnswer" = "Sorunuzun Yanıtı";
+"ForgotPasswordEmail.Text.SecretQuestionAnswerTextField" = "Yanıtı Giriniz";
+"ForgotPasswordEmail.Text.MissMatchInfo" = "Girdiğiniz bilgiler eşleşmiyor.";
+"ForgotPasswordEmail.Text.Error" = "Hata!";
 
+//MARK: - RegisterForgotPassword
 
+"RegisterForgotPassword.Text.SubTitle" = "Lütfen $$$ numaranıza SMS olarak gelen şifreyi girerek bilgilerinizi doğrulayın.";
+"RegisterForgotPassword.Text.SMSTextfieldTitle" = "SMS";
+"RegisterForgotPassword.Text.SMSTextfieldPlaceHolderText" = "SMS Kodunu Giriniz";
+"RegisterForgotPassword.Text.TimeFinishedWarning" = "SMS doğrulama süreniz dolmuştur. Lütfen tekrar deneyin.";
+
+//MARK: - Restart Password
+
+"RestartPassword.Text.passwordTitle" = "Yeni Şifre";
+"RestartPassword.Text.passwordAgainTitle" = "Yeni Şifre Tekrar";
+"RestartPassword.Text.buttonTitle" = "Güncelle";
 
 //MARK: - HomeScreen
 
@@ -205,6 +222,7 @@
 //MARK: - WaitingTransactionsEmpty
 
 "WaitingTransactionsEmpty.Text.WaitingTransactionsNotHave" = "Bekleyen bir işleminiz bulunmamaktadır.";
+"WaitingTransactionsEmpty.Text.empty_transaction_history_txt" = " Dönem içi işlemlerim arasında seçtiğiniz kriterlere uygun işlem bulunmamaktadır.";
 "WaitingTransactions.Text.AlertText" =  "İşlemi İptal Edeceksiniz Onaylıyor Musunuz?";
 "WaitingTransactions.Title.AlertTitle" = "İşlemi İptal Edeceksiniz";
 
@@ -968,6 +986,6 @@
 "alertModel.Text.YourTopUpRequestHasBeenSuccessfullyReceived"                   = "Para Yükleme Talebiniz Başarıyla Alınmıştır";
 "alertModel.Text.YourTopUpRequestFailedPleaseTryAgainLater"                   = "Para Yükleme Talebiniz Başarısız Olmuştur Lütfen Daha Sonra Tekrar Deneyiniz";
 "alertModel.Text.NetworkError"                                                  = "Bağlantı hatası oluştu. Lütfen daha sonra tekrar deneyiniz";
-"alertModel.Text.PaymentRequestHasBeenSuccessfullyReceived"                        = "Ödemeniz Başarıyla Alınmıştır";"
+"alertModel.Text.PaymentRequestHasBeenSuccessfullyReceived"                        = "Ödemeniz Başarıyla Alınmıştır";
 
 

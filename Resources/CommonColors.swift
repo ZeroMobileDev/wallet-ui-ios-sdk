@@ -20,12 +20,16 @@ final class CommonColors: ColorPalette {
     lazy var secondaryBlue = WLColor(colorAssetName: "ColorTeal")
     lazy var disableButton = WLColor(colorAssetName: "disableButton")
     lazy var disableButtonTextColor = WLColor(color: Color(hex: 0xacb7c9))
+    lazy var resetPasswordSubtitleColor = WLColor(color:Color(red: 0.09, green: 0.13, blue: 0.2))
     lazy var redColor = WLColor(color: Color(hex: 0xe32a2c))
     lazy var tabGray = WLColor(color: Color(hex: 0xdfe4ec))
     lazy var dateAndTime = WLColor(color: Color.black)
     lazy var blackColor = WLColor(color: Color.black)
-  lazy var brickRedColor = WLColor(colorAssetName: "brickRedColor")
-  lazy var whiteColor = WLColor(color: Color.white)
+    lazy var brickRedColor = WLColor(colorAssetName: "brickRedColor")
+    lazy var whiteColor = WLColor(color: Color.white)
+    
+    lazy var resetPasswordQuestionBackgroundColor = WLColor(color: Color(red: 0.87, green: 0.89, blue: 0.93))
+    lazy var resetPasswordQuestionTextColor = WLColor(color: Color(red: 0.59, green: 0.59, blue: 0.59))
 
     lazy var subTitleColor = WLColor(color: Color(hex: 0x979797))
     lazy var toogleColor = WLColor(color: Color(hex: 0x5FCC29))
@@ -33,6 +37,11 @@ final class CommonColors: ColorPalette {
 
 protocol ColorPalette {
     var backgroundColor: WLColor { get }
+    var resetPasswordSubtitleColor: WLColor { get }
+    
+    var resetPasswordQuestionBackgroundColor: WLColor { get }
+    var resetPasswordQuestionTextColor: WLColor { get }
+    
     var primaryColor: WLColor { get }
     var secondaryColor: WLColor { get }
     var actionColor: WLColor { get }
