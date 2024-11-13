@@ -77,7 +77,6 @@
 "Common.Text.Myself"                                            = "Myself";
 "Common.Text.All"                                               = "All";
 "Common.Text.EditAll"                                           = "Edit All";
-"Common.Text.SelectOnOption"                                   = "Select on option";
 
 
 //MARK: - self.setTitle("ForgotPassword.SetTitle.NavigationTitle".localized()) Kullanım Şekli buradaki gibi
@@ -222,6 +221,7 @@
 "HomeScreen.Text.Payment" = "Payment";
 
 "HomeScreen.Text.All" = "ALL";
+"HomeScreen.Text.KycInfo" = "To benefit from Easy Loan benefits, you must verify your identity. Would you like to be directed to authentication screens ?";
 
 //MARK: - MicroCreditNotLogin
 
@@ -395,8 +395,6 @@
 "SendMoneyAcceptedContactsToZubizu.Text.UnkownError" = "Unkown Error";
 "SendMoneyAcceptedContactsToZubizu.Text.InfoAlertText" = "You can select the people to whom you will send money by entering their number.";
 "SendMoneyAcceptedContactsToZubizu.Text.Search" = "Search";
-"SendMoneyAcceptedContactsToZubizu.Text.MyPhoneDirectoryPermission" = "Give contacts permission";
-"SendMoneyAcceptedContactsToZubizu.Text.OpenSettings" = "Please turn on phone access in the app permissions for contacts.";
 
 //MARK: - SendMoneyScreen
 
@@ -720,7 +718,6 @@
 "MasterPass.Title.giveCardName" = "Name your card";
 "MasterPass.Title.addCardToMasterPass" = "Add MasterPass Card";
 "MasterPass.Title.WrongCardNumber" = "Card Number Entered is Invalid";
-"MasterPass.Title.OtpLengthError" = "OTP must be 6 character length.";
 
 //MARK: CashLimit
 

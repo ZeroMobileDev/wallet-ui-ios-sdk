@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		ZTc2O1oEtPEXhMkSNlA153pravA=
+		ZCRzu4vmn3Ytu9akyP957Q3+H54=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -118,27 +118,27 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		X0URvGRSTrFFMzrPbsSuKUSvMUM=
+		gc2m1Ow0PgUEriHVNzfxMIXwSas=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		8shfjnbaf9ubqavL+9iJbXT55Jg=
+		Xcod5Jz+lWsrAnFOKR0FriB6ges=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Rq2naieid8A2m33RTHjnCau8kHE=
+		2C+sl+JcyM/etcM7xp8Ju0Ly5+I=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		JxynLv3A3gB+T5ngE8J9ARtGh88=
+		niUU9Xh9A7+HOw8RfKOnnKZhYfE=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Rq2naieid8A2m33RTHjnCau8kHE=
+		2C+sl+JcyM/etcM7xp8Ju0Ly5+I=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4UY2abm/HZXL2nkgvhwrPq5WLNk=
+		nSglYW16Hb4i3qnn1RleEovLyrY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -232,15 +232,6 @@
 		<data>
 		PFHYbs0V3eUFDWQyYQcwEetuqEk=
 		</data>
-		<key>en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2kBu/f4Ad1yXvJl5UbAtM9mijX4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>pubkey2.pem</key>
 		<data>
 		cj6isiQdHOTZdYf8LceLhVucMfQ=
@@ -249,7 +240,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DYGeE/ugahOJ7XfK1pbiTn0yUQA=
+			+fzn6E1+FD/dfochUF5t4SfQd+8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -261,7 +252,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+5gxwe6YF8xLPU/6DE6DgV4jOhpijuvdnvVmW3Sq3qo=
+			/qtEK71Ill/KPOYqFLWC27NLsqw2IW18rwHLtMJVl8Y=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -450,42 +441,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fHXIvcR+ZUusL+zgSCQKQg6LaMVI5rcto+KfSx06Kn8=
+			WLdkRkgVXod38vA7tPqutnAJZRtZnTKg2yiD9NR/QL0=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eTJOs+cYCOMg4vv5Wx3ad3VppwAWwGjU9pMiXvkde30=
+			LpgqnstBuDY73slZwyT6r/5tXu5d9jRhA27hOCMAtC0=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RCbiU/rP/8n7h7IdpNES7Z3KMQ6zWLJd4o/4Kz7NF7Y=
+			chwSENSmAYWbRFTLwPy/sNtrKlX/Fjv8PKkOfbYJbf4=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LIKFb6nttGKwGZ+8NUBv+hqzTTZWg0yTdwG8yFK7rq8=
+			uJjfk1yrY7BQJoLwExpaf0cGf6a1gYeSY/YryGj36Bc=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RCbiU/rP/8n7h7IdpNES7Z3KMQ6zWLJd4o/4Kz7NF7Y=
+			chwSENSmAYWbRFTLwPy/sNtrKlX/Fjv8PKkOfbYJbf4=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2ohHE/Crlr31swbIRv7oIS1RhsRtRwxJQa6zH8oZYaI=
+			8ia4QdbAsFjQPHDRdfq6a6ZPiKcmnTmLDSbATWrXbSo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -649,15 +640,6 @@
 			A7LHCDOjMaKx79Ef8WjtAqjq39Xn0fvzDuzHUJpK6kc=
 			</data>
 		</dict>
-		<key>en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			E2OFgCBgNhEvA1CXRImRYkjfAaDI8uyAHrB/3eE6nEA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>pubkey2.pem</key>
 		<dict>
 			<key>hash2</key>
@@ -669,7 +651,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o8GSZdF9NtU7H5tn9liJA/VAgJOmFz+mXQNrejGv3GQ=
+			WzP+OKy+O68XCqUFSlVasOvQo5tm4dRqngUr2Ovbp+Y=
 			</data>
 			<key>optional</key>
 			<true/>

@@ -18,13 +18,13 @@ class LocalizationService {
     static let changedLanguage = Notification.Name("changedLanguage")
 
     private init() {
-        UserDefaults.standard.setValue(WLLanguages.english_us.rawValue, forKey: "language")
+        UserDefaults.standard.setValue(WLLanguages.turkish.rawValue, forKey: "language")
         UserDefaults.standard.synchronize()
     }
     
     var language: String {
         get {
-            return UserDefaults.standard.string(forKey: "language") ?? WLLanguages.english_us.rawValue
+            return UserDefaults.standard.string(forKey: "language") ?? WLLanguages.turkish.rawValue
         } set {
         
             

@@ -215,6 +215,7 @@
 "HomeScreen.Text.Qr" = "QR";
 "HomeScreen.Text.Payment" = "Ödeme";
 "HomeScreen.Text.All" = "TÜMÜ";
+"HomeScreen.Text.KycInfo" = "Kolay Kredi avantajlarından yararlanmak için kimlik doğrulaması yapmanız gerekmektir. Kimlik doğrulma ekranlarına yönlendirilmek ister misiniz ?";
 
 //MARK: - MicroCreditNotLogin
 
@@ -791,7 +792,7 @@
 //MARK: All Transactions History
 
 "AllTransactionsHistoryScreen.Title.TabBarFirst" = "Dönem İçi İşlemlerim";
-"AllTransactionsHistoryScreen.Title.TabBarSecond" = "Geçmiş dönem İşlemlerim";
+"AllTransactionsHistoryScreen.Title.TabBarSecond" = "Geçmiş Dönem İşlemlerim";
 "AllTransactionsHistoryScreen.Text.EMail" =  "Hesap özetiniz kayıtlı e-posta adresiniz olan";
 
 //MARK: ShareAndTakeEmailPopUp

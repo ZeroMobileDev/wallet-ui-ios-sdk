@@ -78,7 +78,7 @@ enum WLTexts: String {
     case commonTextUnknownErrorOccurred = "Common.Text.UnknownErrorOccurred"
     case commonTextCardCreated = "Common.Text.CardCreated"
     case commonTextMyself = "Common.Text.Myself"
-    
+
     case beginScreenTextPhoneNumber = "BeginScreen.Text.PhoneNumber"
 
     // MARK: - Information
@@ -150,13 +150,15 @@ enum WLTexts: String {
     case verifyAccountInfoTextToUse = "VerifyAccountInfo.Text.ToUse"
     case verifyAccountInfoTitleVerifyID = "VerifyAccountInfo.Title.VerifyID"
 
-    //MARK: - RegisterForgotPassword
-    case registerForgotPasswordTimeFinishedWarning = "RegisterForgotPassword.Text.TimeFinishedWarning" 
-    
-    //MARK: - ForgotPasswordEmail
+    // MARK: - RegisterForgotPassword
+
+    case registerForgotPasswordTimeFinishedWarning = "RegisterForgotPassword.Text.TimeFinishedWarning"
+
+    // MARK: - ForgotPasswordEmail
+
     case forgotPasswordEmailMissmatchInfo = "ForgotPasswordEmail.Text.MissMatchInfo"
     case forgotPasswordEmailError = "ForgotPasswordEmail.Text.Error"
-    
+
     // MARK: - User Agreement
 
     case userAgreementTitleNaivigationTitle = "UserAgreement.Title.NaivigationTitle"
@@ -174,9 +176,9 @@ enum WLTexts: String {
 
     case restartPasswordTextPasswordTitle = "RestartPassword.Text.passwordTitle"
     case restartPasswordTextPasswordAgainTitle = "RestartPassword.Text.passwordAgainTitle"
-    
+
     case restartPasswordButtonTitle = "RestartPassword.Text.buttonTitle"
-    
+
     case forgotPasswordEmailTextPhoneNumber = "ForgotPasswordEmail.Text.PhoneNumber"
     case forgotPasswordEmailTextSecretQuestion = "ForgotPasswordEmail.Text.SecretQuestion"
     case forgotPasswordEmailTextSecretQuestionAnswer = "ForgotPasswordEmail.Text.SecretQuestionAnswer"
@@ -195,6 +197,7 @@ enum WLTexts: String {
     case homeScreenTextSend = "HomeScreen.Text.Send"
     case homeScreenTextQr = "HomeScreen.Text.Qr"
     case homeScreenTextPayment = "HomeScreen.Text.Payment"
+    case homeScreenTextKycInfo = "HomeScreen.Text.KycInfo"
     case microCreditNotLoginTextUseMikroCredit = "MicroCreditNotLogin.Text.UseMikroCredit"
     case waitingTransactionsEmptyTextWaitingTransactionsNotHave = "WaitingTransactionsEmpty.Text.WaitingTransactionsNotHave"
     case waitingTransactionsEmptyTextEmptyTransactionhistorytxt = "WaitingTransactionsEmpty.Text.empty_transaction_history_txt"
@@ -209,7 +212,7 @@ enum WLTexts: String {
     case signInPopUpForgotPasswordPopUpTextSaveEmail = "SignInPopUp_ForgotPasswordPopUp.Text.SaveEmail"
     case signInPopUpForgotPasswordPopUpTextLinkSent = "SignInPopUp_ForgotPasswordPopUp.Text.LinkSent"
     case signInPopUpForgotPasswordPopUpTextLinkSending = "SignInPopUp_ForgotPasswordPopUp.Text.LinkSending"
-    
+
     case signInPopUpForgotPasswordPopUpTextSetPassword = "SignInPopUp_ForgotPasswordPopUp.Text.SetPassword"
     case signInPopUpTextImportantOnNewZubizu = "SignInPopUp.Text.ImportantOnNewZubizu"
     case forgotPasswordPopUpTextPasswordReset = "ForgotPasswordPopUp.Text.PasswordReset"
@@ -231,7 +234,7 @@ enum WLTexts: String {
     case loadMoneyTitleLoadWithCard = "LoadMoney.Title.LoadWithCard"
     case loadMoneyTitleLoadBankAccount = "LoadMoney.Title.LoadBankAccount"
     case loadMoneyTitleLoadAutomatic = "LoadMoney.Title.LoadAutomatic"
-    
+
     case loadMoneyLoadWithDebitCreditCardTitleUnSuccessFullLoad = "LoadMoneyLoadWithDebitCreditCard.Title.UnSuccessFullLoad"
     case loadMoneyLoadWithDebitCreditCardTitleSuccessFullLoad = "LoadMoneyLoadWithDebitCreditCard.Title.SuccessFullLoad"
     case loadMoneyLoadWithDebitCreditCardTitleChooseAmount = "LoadMoneyLoadWithDebitCreditCard.Title.ChooseAmount"
@@ -434,7 +437,7 @@ enum WLTexts: String {
     case profileInformationsScreenTextEMail = "ProfileInformationsScreen.Text.EMail"
     case profileInformationsScreenTextJob = "ProfileInformationsScreen.Text.Job"
     case profileInformationsScreenTextJobInfo = "ProfileInformationsScreen.Text.JobInfo"
-  case profileInformationsScreenTextCustomerInfo = "ProfileInformationsScreen.Text.CustomerInfo"
+    case profileInformationsScreenTextCustomerInfo = "ProfileInformationsScreen.Text.CustomerInfo"
     case profileInformationsScreenTextMonthlyNetIncome = "ProfileInformationsScreen.Text.MonthlyNetIncome"
     case profileInformationsScreenTextEstimatedWalletBalance = "ProfileInformationsScreen.Text.EstimatedWalletBalance"
     case profileInformationsScreenTextMonthyTransactionCount = "ProfileInformationsScreen.Text.MonthyTransactionCount"
@@ -580,12 +583,12 @@ enum WLTexts: String {
     case sendMoneyNavigationBarToIBAN = "SendMoneyNavigationBar.Text.ToIBAN"
     case cardInformationScreenWLBLWAccount = "CardInformationScreen.Text.WLBLWAccount"
     case splitTheBillSummaryScreenAcceptExplanation = "SplitTheBillSummaryScreen.Text.AcceptExplanation"
-    
+
     // MARK: ChangePasswordScreen
 
     case changePasswordScreenNewPasswordAgain = "ChangePasswordScreen.Text.NewPasswordAgain"
     case changePasswordScreenThePasswordsDidNotMatch = "ChangePasswordScreen.Text.ThePasswordsDidNotMatch"
-    
+
     // MARK: InvoicedetailScreen
 
     case invoicedetailScreenInvoiceInformation = "InvoicedetailScreen.Text.InvoiceInformation"
@@ -600,121 +603,121 @@ enum WLTexts: String {
     case invoicedetailScreenPaymentDeadline = "InvoicedetailScreen.Text.PaymentDeadline"
     case invoicedetailScreenPaymentMethod = "InvoicedetailScreen.Text.PaymentMethod"
     case invoicedetailScreenWLBLWWallet = "InvoicedetailScreen.Text.WLBLWWallet"
-    
+
     // MARK: InvoiceSummaryScreen
 
     case invoiceSummaryScreenInvoiceNo = "InvoiceSummaryScreen.Text.InvoiceNo"
-    
+
     // MARK: InvoiceGetInstitutionListScreen
 
     case invoiceGetInstitutionListScreenSearchByInstitutionName = "InvoiceGetInstitutionListScreen.Text.SearchByInstitutionName"
     case invoiceGetInstitutionListScreenEnterInstitutionName = "InvoiceGetInstitutionListScreen.Text.EnterInstitutionName"
     case invoiceGetInstitutionListScreenAllInstitutions = "InvoiceGetInstitutionListScreen.Text.AllInstitutions"
-    
+
     // MARK: LoginWrongInformationView
 
     case loginWrongInformationViewYouHaveTheRightToTry = "LoginWrongInformationView.Text.YouHaveTheRightToTry"
     case loginWrongInformationViewVerificationMakingSure = "LoginWrongInformationView.Text.VerificationMakingSure"
-    
+
     // MARK: PayBillScreen
 
     case payBillScreenAutomaticPaymentInstructions = "PayBillScreen.Text.AutomaticPaymentInstructions"
-    
+
     // MARK: QrScreen
 
     case qrScreenHelloNameSurname = "QrScreen.Text.HelloNameSurname"
-    
+
     // MARK: - ResetPasswordFromEmail
 
     case resetPasswordFromEmailResetPassword = "ResetPasswordFromEmail.Text.ResetPassword"
-    
+
     // MARK: SelectInvoiceScreen
 
     case selectInvoiceScreenSelectTheInvoiceYouWantToPay = "SelectInvoiceScreen.Text.SelectTheInvoiceYouWantToPay"
-    
+
     // MARK: IlluminationTextScreen
 
     case illuminationTextScreenDgParaClarificationText = "IlluminationTextScreen.Text.DgParaClarificationText"
     case illuminationTextScreenWLBLWClarificationText = "IlluminationTextScreen.Text.WLBLWClarificationText"
-    
+
     // MARK: PaymentWithCardSelection
 
     case paymentWithCardSelectionShoppingAmount = "PaymentWithCardSelection.Text.ShoppingAmount"
-    
+
     // MARK: DatePickerSheet
 
     case datePickerSheetPleaseSelectTransactionDate = "DatePickerSheet.Text.PleaseSelectTransactionDate"
-    
+
     // MARK: FilterResultEmpty
 
     case filterResultEmptyAccountcriteria = "FilterResultEmpty.Text.Accountcriteria"
-    
+
     // MARK: ShowQR
 
     case showQRQRCodeRenewal = "ShowQR.Text.QRCodeRenewal"
     case showQRWLBLWShowyourQRCode = "ShowQR.Text.WLBLWShowyourQRCode"
-    
+
     // MARK: CustomAlertViewDialog
 
     case customAlertViewDialogListingInMasterpass = "CustomAlertViewDialog.Text.ListingInMasterpass"
-    
+
     // MARK: LogOutAlertView
 
     case logOutAlertViewAreYouSureYouWantToCheckOut = "LogOutAlertView.Text.AreYouSureYouWantToCheckOut"
-    
+
     // MARK: SplitDialog
 
     case splitDialogDetermineTheAmountToBePaidByThePerson = "SplitDialog.Text.DetermineTheAmountToBePaidByThePerson"
-    
+
     // MARK: EmailVerificationCardView
 
     case emailVerificationCardViewYourEmailIsVerified = "EmailVerificationCardView.Text.YourEmailIsVerified"
     case emailVerificationCardViewYourEmailIsNotVerified = "EmailVerificationCardView.Text.YourEmailIsNotVerified"
     case forgotPasswordEmailTextVerificationLinkSended = "ForgotPasswordEmail.Text.VerificationLinkSended"
-  
+
     // MARK: EmailVerificationSended
 
     case emailVerificationCardViewVerificationLinkSent = "EmailVerificationCardView.Text.VerificationLinkSent"
-    
+
     // MARK: MyProfileVerificationCardView
 
     case myProfileVerificationCardViewIdentityVerified = "MyProfileVerificationCardView.Text.IdentityVerified"
     case myProfileVerificationCardViewVerifyYourIdentity = "MyProfileVerificationCardView.Text.VerifyYourIdentity"
-    
+
     // MARK: PaymentTransactionSummaryCardView
 
     case paymentTransactionSummaryCardViewWorkplaceTitle = "PaymentTransactionSummaryCardView.Text.WorkplaceTitle"
     case paymentTransactionSummaryCardViewCardNumber = "PaymentTransactionSummaryCardView.Text.CardNumber"
     case paymentTransactionSummaryCardViewCancellationRefundAmount = "PaymentTransactionSummaryCardView.Text.CancellationRefundAmount"
     case paymentTransactionSummaryCardViewTotalCancellation = "PaymentTransactionSummaryCardView.Text.TotalCancellationRefundAmount"
-    
+
     // MARK: ProcessingFeeInsideCardView
 
     case paymentTransactionSummaryCardViewAmountLimit = "ProcessingFeeInsideCardView.Text.AmountLimit:"
-    
+
     // MARK: ScanQrCardView
 
     case scanQrCardViewShoppingAndLoremIpsumDolorSitAmet = "ScanQrCardView.Text.ShoppingAndLoremIpsumDolorSitAmetConsecteturLoremIpsum"
-    
+
     // MARK: ChoosenPeopleSplitRow
 
     case choosenPeopleSplitRowEditAmount = "ChoosenPeopleSplitRow.Text.EditAmount"
-    
+
     // MARK: SplitOutgoingRequestRow
 
     case splitOutgoingRequestRowONWAIT = "SplitOutgoingRequestRow.Text.ONWAIT"
     case splitOutgoingRequestRowEXPIRED = "SplitOutgoingRequestRow.Text.Expired"
     case splitOutgoingRequestRowREJECTED = "SplitOutgoingRequestRow.Text.REJECTED"
     case splitOutgoingRequestRowACCEPTED = "SplitOutgoingRequestRow.Text.ACCEPTED"
-    
+
     // MARK: StoredCardViewRow
 
     case storedCardViewRowNoCardName = "StoredCardViewRow.Text.NoCardName"
-    
+
     // MARK: AllCardsTabViewModel
 
     case allCardsTabViewModelYourCardStatusHasBeenChanged = "AllCardsTabViewModel.Text.YourCardStatusHasBeenChanged"
-    
+
     // MARK: alertModel
 
     case alertModelYouAreGoingToCancelTheTransactionDoYouConfirm = "alertModel.Text.YouAreGoingToCancelTheTransactionDoYouConfirm"
@@ -726,7 +729,7 @@ enum WLTexts: String {
     case alertModelTryAgain = "alertModel.Text.TryAgain"
     case alertModelYouCanNowUseYourNewSecurityQuestionInWhitelbl = "alertModel.Text.YouCanNowUseYourNewSecurityQuestionInWhitelbl"
     case alertModelSuccessfullyModifiedYourSecurityQuestion = "alertModel.title.SuccessfullyModifiedYourSecurityQuestion"
-    
+
     case alertModelCameraPermissionNotFoundPleaseAuthoriseCamera = "alertModel.Text.CameraPermissionNotFoundPleaseAuthoriseCamera"
     case alertModelQRCodeNotRead = "alertModel.Text.QRCodeNotRead"
     case alertModelUnknownError = "alertModel.Text.UnknownError"
@@ -758,7 +761,7 @@ enum WLTexts: String {
     case VerifyIdentityTitleStepOCR = "VerifyIdentity.Title.step_OCR"
     case VerifyIdentityTitleStepNFC = "VerifyIdentity.Title.step_NFC"
     case VerifyIdentityTitleStepFaceReg = "VerifyIdentity.Title.step_FACE_REG"
-    
+
     var string: String {
         return NSLocalizedString(
             self.rawValue,
@@ -767,11 +770,11 @@ enum WLTexts: String {
             comment: self.rawValue
         )
     }
-    
+
     var uppercasedString: String {
         self.string.uppercased(with: Locale(identifier: "tr_TR"))
     }
-    
+
     func string(_ args: CVarArg...) -> String {
         String(format: self.string, arguments: args)
     }
