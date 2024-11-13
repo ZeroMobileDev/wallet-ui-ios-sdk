@@ -79,6 +79,7 @@
 "Common.Text.Myself"                                            = "Kendim";
 "Common.Text.All"                                               = "Tümü";
 "Common.Text.EditAll"                                           = "Tümünü Düzenle";
+"Common.Text.SelectOnOption"                                   = "Bir seçenek seçin";
 
 // MARK: - BeginScreen
 
@@ -389,6 +390,8 @@
 "SendMoneyAcceptedContactsToZubizu.Text.ChooseThePersonNumber" = "Göndereceğiniz Kişinin Numarasını Girin";
 "SendMoneyAcceptedContactsToZubizu.Text.EnterTheNumber" = "Numara Giriniz";
 "SendMoneyAcceptedContactsToZubizu.Text.MyPhoneDirectory" = "Rehber";
+"SendMoneyAcceptedContactsToZubizu.Text.MyPhoneDirectoryPermission" = "Rehber Erişimine İzin ver";
+"SendMoneyAcceptedContactsToZubizu.Text.OpenSettings" = "Lütfen rehber için uygulama izinlerinden telefon erişimini açınız.";
 "SendMoneyAcceptedContactsToZubizu.Text.PersmissionDenied" = "İzin Reddedildi";
 "SendMoneyAcceptedContactsToZubizu.Text.UnkownError" = "Bilinmeyen Bir Hata Oluştu";
 "SendMoneyAcceptedContactsToZubizu.Text.InfoAlertText" = "Para göndereceğin kişileri numarasını girerek seçebilirsin.";
@@ -732,6 +735,7 @@
 "MasterPass.Title.giveCardName" = "Kartınıza isim verin";
 "MasterPass.Title.addCardToMasterPass" = "MasterPass'e Kart Ekle";
 "MasterPass.Title.WrongCardNumber" = "Girilen Kart Numarası Geçersizdir";
+"MasterPass.Title.OtpLengthError" = "Doğrulama Kodu 6 karakter olmalıdır.";
 
 //MARK: CashLimit
 

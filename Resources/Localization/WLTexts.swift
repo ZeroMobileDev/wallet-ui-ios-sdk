@@ -54,7 +54,7 @@ enum WLTexts: String {
     case commonTextRequestSuccessFull = "Common.Text.RequestSuccessFull"
     case commonTextRequestAll = "Common.Text.All"
     case commonTextEditAll = "Common.Text.EditAll"
-
+    case CommonTextSelectOnOption = "Common.Text.SelectOnOption"
     // MARK: - Begin
 
     case commonTextCVV = "Common.Text.CVV"
@@ -297,6 +297,8 @@ enum WLTexts: String {
     case sendMoneyAcceptedContactsToZubizuTextUnkownError = "SendMoneyAcceptedContactsToZubizu.Text.UnkownError"
     case sendMoneyAcceptedContactsToZubizuTextInfoAlertText = "SendMoneyAcceptedContactsToZubizu.Text.InfoAlertText"
     case sendMoneyAcceptedContactsToZubizuTextSearch = "SendMoneyAcceptedContactsToZubizu.Text.Search"
+  case sendMoneyAcceptedContactsToZubizuTextMyPhoneDirectoryPermission = "SendMoneyAcceptedContactsToZubizu.Text.MyPhoneDirectoryPermission"
+  case sendMoneyAcceptedContactsToZubizuTextOpenSettings = "SendMoneyAcceptedContactsToZubizu.Text.OpenSettings"
     case sendMoneyScreenTextSendNow = "SendMoneyScreen.Text.SendNow"
     case sendMoneyScreenTextSendLater = "SendMoneyScreen.Text.SendLater"
     case sendMoneyScreenTextGiveRegularInstruction = "SendMoneyScreen.Text.GiveRegularInstruction"
@@ -503,6 +505,7 @@ enum WLTexts: String {
     case masterPassTitlegiveCardName = "MasterPass.Title.giveCardName"
     case masterPassTitleaddCardToMasterPass = "MasterPass.Title.addCardToMasterPass"
     case masterPassTitleWrongCardNumber = "MasterPass.Title.WrongCardNumber"
+    case masterPassTitleOtpLengthError = "MasterPass.Title.OtpLengthError"
     case cashLimitTextalertText = "CashLimit.Text.alertText"
     case cashLimitTitlenavigationTitle = "CashLimit.Title.navigationTitle"
     case cashLimitTextbuttonText = "CashLimit.Text.buttonText"
