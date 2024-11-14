@@ -1602,6 +1602,11 @@ public struct BankExchangeModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class UpdateAccountSessionTimeOutputParams : wallet_ios_sdk.BaseResponseMeta {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class BalanceGetExpenseAmountOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var txnTypeId: Swift.Int?
   public var amount: Swift.Double?
@@ -2263,6 +2268,7 @@ public struct CityModel : Swift.Codable {
   public var M_SET_COMMUNICATION_PREFERENCES_ENC: Swift.Int
   public var M_GET_USER_COMMUNICATION_PREFERENCE: Swift.Int
   public var M_WALLET_PAYMENT: Swift.Int
+  public var M_UPDATE_ACCOUNT_SESSION_TIME: Swift.Int
   public var M_GET_CUSTOMER_PREPAID_CARD_LIST_ENC: Swift.Int
   public var M_GET_INSTRUMENTS: Swift.Int
   public var M_GET_QR_INFO: Swift.Int
@@ -2559,6 +2565,12 @@ public struct LimitPeriodTypesModel : Swift.Codable {
   public var limitValues: [wallet_ios_sdk.LimitValuesModel]?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers public class UpdateAccountSessionTimeInputParams : wallet_ios_sdk.BaseRequestModel {
+  public var approval: Swift.Bool?
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class CheckCustomerSecretQuestionAnswerInputParams : wallet_ios_sdk.BaseRequestModel {
   public var answer: Swift.String
@@ -4545,6 +4557,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func updatePrepaidCardStatusInterface(updatePrepaidCardStatusInputParams: wallet_ios_sdk.UpdatePrepaidCardStatusInputParams, completion: @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ())
   public func walletPaymentInterface(walletPaymentInputParams: wallet_ios_sdk.WalletPaymentInputParams, completion: @escaping (_ result: wallet_ios_sdk.WalletPaymentOutputParams) -> ())
   public func transferBetweenAccounts(transferBetweenAccountsInputParams: wallet_ios_sdk.TransferBetweenAccountsInputParams, completion: @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ())
+  public func updateAccountSessionTime(updateAccountSessionTimeInputParams: wallet_ios_sdk.UpdateAccountSessionTimeInputParams, completion: @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ())
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class SetMonthlyPaymentAmountOutputParams : wallet_ios_sdk.BaseResponseMeta {
   @objc deinit
@@ -6889,12 +6902,9 @@ public struct AccountActionListModel : Swift.Codable {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class ForgotPasswordInputParams : wallet_ios_sdk.BaseRequestModel {
-  public var email: Swift.String
+  public var phoneNumber: Swift.String
+  public var answer: Swift.String
   override public func encode(to encoder: any Swift.Encoder) throws
-  @available(*, deprecated, renamed: "email", message: "Use email variable")
-  public func getEmail() -> Swift.String
-  @available(*, deprecated, renamed: "email", message: "Use email variable")
-  public func setEmail(email: Swift.String)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -7618,6 +7628,8 @@ extension wallet_ios_sdk.InvoiceCalculateCommissionFeeOutputParams : Swift.Encod
 extension wallet_ios_sdk.InvoiceCalculateCommissionFeeOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.VerifyOTPOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.VerifyOTPOutputParams : Swift.Decodable {}
+extension wallet_ios_sdk.UpdateAccountSessionTimeOutputParams : Swift.Encodable {}
+extension wallet_ios_sdk.UpdateAccountSessionTimeOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.BalanceGetExpenseAmountOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.BalanceGetExpenseAmountOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.InvoiceInquiryOutputParams : Swift.Encodable {}
