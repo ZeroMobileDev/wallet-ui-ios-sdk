@@ -114,6 +114,7 @@ enum WLTexts: String {
     case otpScreenTextPlease = "OtpScreen.Text.Please"
     case otpScreenTextReSend = "OtpScreen.Text.ReSend"
     case otpScreenTextToYourNumber = "OtpScreen.Text.ToYourNumber"
+    case OtpScreenTextWrongOtp = "OtpScreen.Text.wrongOtp"
 
     // MARK: - Reset Password With Old Pin
 
@@ -198,6 +199,8 @@ enum WLTexts: String {
     case homeScreenTextQr = "HomeScreen.Text.Qr"
     case homeScreenTextPayment = "HomeScreen.Text.Payment"
     case homeScreenTextKycInfo = "HomeScreen.Text.KycInfo"
+    case homeScreenTextDgfinInfoTitle = "HomeScreen.Text.DgfinInfoTitle"
+    case homeScreenTextDgfinInfo = "HomeScreen.Text.DgfinInfo"
     case microCreditNotLoginTextUseMikroCredit = "MicroCreditNotLogin.Text.UseMikroCredit"
     case waitingTransactionsEmptyTextWaitingTransactionsNotHave = "WaitingTransactionsEmpty.Text.WaitingTransactionsNotHave"
     case waitingTransactionsEmptyTextEmptyTransactionhistorytxt = "WaitingTransactionsEmpty.Text.empty_transaction_history_txt"
@@ -389,6 +392,10 @@ enum WLTexts: String {
     case settingsScreenTitleCommunicationPreferences = "SettingsScreen.Title.CommunicationPreferences"
     case settingsScreenTitleExplicitConsentPreferences = "SettingsScreen.Title.ExplicitConsentPreferences"
     case settingsScreenTitleProfile = "SettingsScreen.Title.ProfileSettingsScreen.Title.Profile"
+    case settingsScreenTitleProfileSettingsScreenTitleSessionType = "SettingsScreen.Title.ProfileSettingsScreen.Title.SessionType"
+    case settingsScreenTextApprove = "SettingsScreen.Text.Approve"
+    case settingsScreenTextNotApprove = "SettingsScreen.Text.NotApprove"
+    case settingsScreenTextNinetyDaysPermissions = "SettingsScreen.Text.NinetyDaysPermissions"
     case splitTheBillPhoneSelectionScreenTextSelectWantToSplit = "SplitTheBillPhoneSelectionScreen.Text.SelectWantToSplit"
     case splitTheBillPhoneSelectionScreenTextEnterNumberToSplit = "SplitTheBillPhoneSelectionScreen.Text.EnterNumberToSplit"
     case splitTheBillPhoneSelectionScreenTextAdd = "SplitTheBillPhoneSelectionScreen.Text.Add"
@@ -441,6 +448,7 @@ enum WLTexts: String {
     case profileInformationsScreenTextMonthlyNetIncome = "ProfileInformationsScreen.Text.MonthlyNetIncome"
     case profileInformationsScreenTextEstimatedWalletBalance = "ProfileInformationsScreen.Text.EstimatedWalletBalance"
     case profileInformationsScreenTextMonthyTransactionCount = "ProfileInformationsScreen.Text.MonthyTransactionCount"
+    case profileInformationsScreenTextEnterNumber = "ProfileInformationsScreen.Text.EnterNumber"
     case profileInformationsScreenTextRemoveAccount = "ProfileInformationsScreen.Text.RemoveAccount"
     case profileInformationsScreenTextWarning = "ProfileInformationsScreen.Text.Warning"
     case profileInformationsScreenTextWarningText = "ProfileInformationsScreen.Text.WarningText"

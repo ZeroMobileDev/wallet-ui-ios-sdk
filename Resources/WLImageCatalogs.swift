@@ -170,6 +170,9 @@ final class WLImageCatalog: ImageCatalog {
     lazy var profileEditImage = WLImage(imageAssetName: "profileEditImage")
     lazy var blue_right_chevron = WLImage(imageAssetName: "rightChevron")
     lazy var question_mark_circle = WLImage(imageAssetName: "questionMarkCircle")
+    lazy var clock = WLImage(imageAssetName: "clock")
+    lazy var opet_pay = WLImage(imageAssetName: "opet_pay")
+    lazy var easy_loan = WLImage(imageAssetName: "easy_loan")
     init() {}
 }
 
@@ -338,4 +341,7 @@ protocol ImageCatalog {
     var blue_right_chevron: WLImage { get }
     var question_mark_circle: WLImage { get }
     var bgWalletCardView: WLImage { get }
+    var clock: WLImage { get }
+    var opet_pay: WLImage { get }
+    var easy_loan: WLImage { get }
 }

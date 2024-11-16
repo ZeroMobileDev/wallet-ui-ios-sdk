@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "icons8-lock-24.png",
+      "filename" : "vector (1) 1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "icons8-lock-48.png",
+      "filename" : "vector (1) 1@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "icons8-lock-72.png",
+      "filename" : "vector (1) 1@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

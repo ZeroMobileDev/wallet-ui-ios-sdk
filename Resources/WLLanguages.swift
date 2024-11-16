@@ -24,15 +24,13 @@ class LocalizationService {
     
     var language: String {
         get {
-            return UserDefaults.standard.string(forKey: "language") ?? WLLanguages.turkish.rawValue
+            return WLLanguages.turkish.rawValue
         } set {
-        
-            
-            if newValue != language {
-                UserDefaults.standard.setValue(newValue, forKey: "language")
+            if newValue != WLLanguages.turkish.rawValue {
+                UserDefaults.standard.setValue(WLLanguages.turkish.rawValue, forKey: "language")
                 UserDefaults.standard.synchronize()
                 
-                WLResourcesBundle.changeLanguage(language:newValue)
+                WLResourcesBundle.changeLanguage(language: WLLanguages.turkish.rawValue)
             }
         }
     }

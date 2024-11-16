@@ -125,6 +125,8 @@
 "OtpScreen.Text.Please" = "Lütfen";
 "OtpScreen.Text.ReSend" = "Yeniden Kod İste";
 "OtpScreen.Text.ToYourNumber" = "numarana gelen doğrulama kodunu gir.";
+"OtpScreen.Text.wrongOtp" = "Doğrulama kodunu eksik veya hatalı girdiniz.";
+
 
 // MARK: - ResetPasswordWithOldPin
 
@@ -206,8 +208,8 @@
 
 "HomeScreen.Text.MyWallet" = "Cüzdanım";
 "HomeScreen.Text.WalletID" = "CÜZDAN ID: ";
-"HomeScreen.Text.IncreaseLimit" = "LİMİTİNİ ARTTIR";
-"HomeScreen.Text.MyZBZCards" = "OPET Kartlarım";
+"HomeScreen.Text.IncreaseLimit" = "HARCAMAYA HAZIR LİMİTİNİZİ ARTTIRIN";
+"HomeScreen.Text.MyZBZCards" = "Kayıtlı Kartlarım";
 "HomeScreen.Text.Money" = "Para";
 "HomeScreen.Text.Ask" = "İste";
 "HomeScreen.Text.Load" = "Yükle";
@@ -215,8 +217,9 @@
 "HomeScreen.Text.Qr" = "QR";
 "HomeScreen.Text.Payment" = "Ödeme";
 "HomeScreen.Text.All" = "TÜMÜ";
-"HomeScreen.Text.KycInfo" = "Kolay Kredi avantajlarından yararlanmak için kimlik doğrulaması yapmanız gerekmektir. Kimlik doğrulma ekranlarına yönlendirilmek ister misiniz ?";
-
+"HomeScreen.Text.KycInfo" = "Kolay Kredi avantajlarından yararlanmak için kimlik doğrulaması yapmanız gerekmektetir. Kimlik doğrulma ekranlarına yönlendirilmek ister misiniz ?";
+"HomeScreen.Text.DgfinInfoTitle" = "Şimdi alın, 30 gün sonra geri ödeyin.";
+"HomeScreen.Text.DgfinInfo" = "Masrafsız ve komisyonsuz!";
 //MARK: - MicroCreditNotLogin
 
 "MicroCreditNotLogin.Text.UseMikroCredit" = "Mikro Kredinizi kullanmak için tıklayınız.";
@@ -547,7 +550,10 @@
 "SettingsScreen.Title.CommunicationPreferences" = "Cüzdan İletişim Tercihleri";
 "SettingsScreen.Title.ExplicitConsentPreferences" = "Cüzdan Açık Rıza Tercihleri";
 "SettingsScreen.Title.ProfileSettingsScreen.Title.Profile" = "Profil";
-
+"SettingsScreen.Title.ProfileSettingsScreen.Title.SessionType" = "Şifre Kontrolünü Değiştir";
+"SettingsScreen.Text.Approve"                                            = "ONAYLIYORUM";
+"SettingsScreen.Text.NotApprove"                                            = "ONAYLAMIYORUM";
+"SettingsScreen.Text.NinetyDaysPermissions"                           = "Tek seferlik şifre girişi ile 90 gün boyunca şifresiz şekilde akaryakıt alımı yapılmasını onaylıyorum";
 
 //MARK: - SplitTheBillPhoneSelectionScreen
 
@@ -635,6 +641,8 @@
 "ProfileInformationsScreen.Text.MonthlyNetIncome" = "Aylık Net Gelir";
 "ProfileInformationsScreen.Text.EstimatedWalletBalance" = "Tahmini Cüzdan Bakiyesi";
 "ProfileInformationsScreen.Text.MonthyTransactionCount" = "Tahmini Aylık İşlem Sayısı";
+"ProfileInformationsScreen.Text.EnterNumber" = "Lütfen sadece sayı giriniz.";
+
 "ProfileInformationsScreen.Text.RemoveAccount" = "Hesabımı Kapat";
 "ProfileInformationsScreen.Text.Warning" = "Uyarı";
 "ProfileInformationsScreen.Text.WarningText" = "Üyeliğiniz iptal ettiğiniz durumda; biriktirdiğiniz tüm ödül ve üyelik puanlarınız, kampanya katılımlarınız, segmentiniz, anlaşmalı markalardaki üyelik ve eşleştirmeleriniz ve kayıtlı kartlarınız geri alınamaz şekilde iptal edilecektir. Opet'da Yeniden görüşmek üzere! \n \n Onaylıyor musunuz?";
@@ -719,7 +727,7 @@
 "SavedCards.Title.bankAccounts" = "Banka Hesaplarım";
 "SavedCards.Title.addCard" = "Kart Ekle";
 "SavedCards.Title.addWlblwCard" = "Opet Kartımı Ekle";
-"SavedCards.Title.notFindCard" = "Opet'a eklenmiş bir Masterpass kartınız bulunmamaktadır.";
+"SavedCards.Title.notFindCard" = "Opet'e eklenmiş bir Masterpass kartınız bulunmamaktadır.";
 "SavedCards.Title.cardSuccessDeleted" = "Kartınız Başarılı Bir Şekilde Silindi";
 "SavedCards.Title.areYouSureDeleteCard" = "Kartınızı Silmek İstediğinize Emin Misiniz";
 "SavedCards.Title.deleteCard" = "Kartı Sil";
@@ -889,6 +897,7 @@
 
 // MARK: SelectInvoiceScreen
 "SelectInvoiceScreen.Text.SelectTheInvoiceYouWantToPay"                              = "Ödemek İstediğiniz Faturayı Seçin";
+
 
 // MARK: IlluminationTextScreen
 "IlluminationTextScreen.Text.DgParaClarificationText"                              = "DgPara Aydınlatma Metni";
