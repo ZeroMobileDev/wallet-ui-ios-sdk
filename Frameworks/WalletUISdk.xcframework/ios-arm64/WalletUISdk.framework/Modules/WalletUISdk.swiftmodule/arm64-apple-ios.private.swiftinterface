@@ -46,7 +46,7 @@ public class WalletUiSDK {
     public static func getMasterpassConfig(userValidationType: Swift.String?, referenceNumber: Swift.Int?, completion: @escaping (Swift.Result<wallet_ios_sdk.GetMasterpassConfigOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
   }
   public enum Navigate {
-    public static func logout()
+    public static func logout(result: @escaping (wallet_ios_sdk.BaseOutputParams) -> Swift.Void)
     public static func dashboard()
     public static func cardList()
     public static func history()
@@ -645,7 +645,7 @@ public struct WalletCard : Swift.Identifiable, Swift.Hashable {
   }
 }
 extension UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public func initWalletUi(config: WalletUISdk.UIConfig? = nil, environment: WalletUISdk.WalletUiEnvironment, successCallback: @escaping (Swift.String) -> Swift.Void, closeCallback: ((Swift.String) -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) public func initWalletUi(config: WalletUISdk.UIConfig? = nil, environment: WalletUISdk.WalletUiEnvironment, successCallback: @escaping (Swift.String) -> Swift.Void, errorCallback: @escaping (Swift.String) -> Swift.Void, closeCallback: ((Swift.String) -> Swift.Void)?)
 }
 public enum WalletUiEnvironment : Swift.String {
   case TEST

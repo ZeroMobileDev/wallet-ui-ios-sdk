@@ -432,7 +432,7 @@
 
 //MARK: - HomeScreenTabView
 
-"HomeScreenTabView.Title.TransactionHistory" = "İşlem Bilgileri";
+"HomeScreenTabView.Title.TransactionHistory" = "İşlem Geçmişi";
 "HomeScreenTabView.Title.MicroCredit" = "Mikro Kredi İşlemlerim";
 "HomeScreenTabView.Title.PendingTransactions" = "Bekleyen İşlemlerim";
 
