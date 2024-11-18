@@ -55,6 +55,7 @@ enum WLTexts: String {
     case commonTextRequestAll = "Common.Text.All"
     case commonTextEditAll = "Common.Text.EditAll"
     case CommonTextSelectOnOption = "Common.Text.SelectOnOption"
+    case CommonTextNonZeroValue = "Common.Text.NonZeroValue"
     // MARK: - Begin
 
     case commonTextCVV = "Common.Text.CVV"
