@@ -108,7 +108,7 @@
 // MARK: - RegisterViewSecond
 
 "RegisterViewSecond.Text.Password" = "Şifre";
-"RegisterViewSecond.Text.PasswordAgain" = "Tekrar Şifre Tekrar";
+"RegisterViewSecond.Text.PasswordAgain" = "Şifre Tekrar";
 "RegisterViewSecond.Text.ForCorrectPassword" = "Parola Gereksinimleri;";
 "RegisterViewSecond.Text.FirstRule" = "Parolanız 6 hane olmalıdır.";
 "RegisterViewSecond.Text.SecondRule" = "Ardışık ya da tekrarlayan rakamlardan oluşmamalıdır (örn: 123456 veya 111111).";
