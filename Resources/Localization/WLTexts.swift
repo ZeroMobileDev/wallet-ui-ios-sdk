@@ -383,6 +383,7 @@ enum WLTexts: String {
     case sendMoneyToIbanTransactionSummaryTextTransactionInformation = "SendMoneyToIbanTransactionSummary.Text.TransactionInformation"
     case sendMoneyToIbanTransactionSummaryTextDate = "SendMoneyToIbanTransactionSummary.Text.Date"
     case sendMoneyToIbanTransactionSummaryTextTransactionType = "SendMoneyToIbanTransactionSummary.Text.TransactionType"
+    case sendMoneyToIbanTransactionSummaryTextSelectTransactionType = "SendMoneyToIbanTransactionSummary.Text.SelectTransactionType"
     case sendMoneyToIbanTransactionSummaryTextTransactionExplanation = "SendMoneyToIbanTransactionSummary.Text.TransactionExplanation"
     case settingsScreenTitleSettings = "SettingsScreen.Title.Settings"
     case settingsScreenTitleProfileInformation = "SettingsScreen.Title.ProfileInformation"

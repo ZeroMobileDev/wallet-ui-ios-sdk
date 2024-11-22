@@ -194,6 +194,7 @@ public enum Pattern : Swift.String {
   case iban
   case cardNumber
   case maskedCardNumber8Digit
+  case maskedCardNumber8Digit2
   case maskedCardNumber6Digit
   case monthAndYear
   case amount
@@ -376,6 +377,7 @@ extension Swift.String {
   public func isNotEmpty() -> Swift.Bool
   public func applyPattern(pattern: WalletUISdk.Pattern, replacmentCharacter: Swift.Character = "#") -> Swift.String
   public func applyMasterpassMasking() -> Swift.String
+  public func formatAsCardNumber() -> Swift.String
   public func isValidEmail() -> Swift.Bool
   public func changeComma() -> Swift.Double
   public func currencyFormatting() -> Swift.String

@@ -538,6 +538,7 @@
 "SendMoneyToIbanTransactionSummary.Text.Date" = "Tarih";
 "SendMoneyToIbanTransactionSummary.Text.TransactionType" = "İşlem Türü";
 "SendMoneyToIbanTransactionSummary.Text.TransactionExplanation" = "Bu para transferi DGpara’nın Vakıfbank hesabından gönderilecektir. İşlem açıklama alanında kullanıcı adınız gözükecektir.";
+"SendMoneyToIbanTransactionSummary.Text.SelectTransactionType" = "İşlem Türünü Seçin";
 
 
 //MARK: - SettingsScreen
@@ -749,7 +750,7 @@
 
 //MARK: CashLimit
 
-"CashLimit.Text.alertText" = "Dilerseniz aylık nakit çekim limit bildirimi tanımlayarak belirlediğiniz limiti aştığınızda bildirim alabilirsiniz.​";
+"CashLimit.Text.alertText" = "Dilerseniz nakit çekim limit bildirimi tanımlayarak belirlediğiniz limiti aştığınızda bildirim alabilirsiniz.​";
 "CashLimit.Title.navigationTitle" = "Nakit Çekim Limit Bildirimi";
 "CashLimit.Text.buttonText" = "Limit Tanımla";
 "CashLimit.Text.alertDialogText" = "Opet kartınızı nakit çekime kapatmak için onaylayınız.";
@@ -988,7 +989,7 @@
 "alertModel.Text.ConfirmIfYouWantToCancelTheExpenseSplitRequest"                   = "Harcama bölüş talebini iptal etmek istiyorsanız onaylayınız.";
 "alertModel.title.YouWillCancelTheRequest"                                  = "Talebi İptal Edeceksiniz";
 "alertModel.Text.YourUpdateOperationsHaveBeenCarriedOut"                   = "Güncelleme işlemleriniz gerçekleştirilmiştir.";
-"alertModel.Text.YouDoNotHaveACardAvailableForThisTransaction"                   = "Bu işlem için uygun kartınız bulunmamaktadır";
+"alertModel.Text.YouDoNotHaveACardAvailableForThisTransaction"                   = "Şu anda aktif bir kartınız bulunmamaktadır. Geçici olarak kapatılmış bir kartınız varsa, kart ayarlarını güncelleyebilir veya çağrı merkeziyle iletişime geçerek destek alabilirsiniz. Cüzdanda kayıtlı mevcut bir kartınız bulunmuyor ise müşteri temsilcisi ile iletişime geçebilirsiniz.";
 "alertModel.Text.LimitMustBeSmall"                   = "Girilen Tutar güncel bakiye, kalan günlük limit ve kalan aylık limit küçük olmalıdır";
 "alertModel.Text.UpdateAmount"                   = "Tutarı Güncelle";
 "alertModel.Text.PleaseCheckThePasswordYouEntered"                   = "Lütfen Girdiğiniz Şifreyi Kontrol Ediniz";
