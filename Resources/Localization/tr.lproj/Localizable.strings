@@ -655,7 +655,7 @@
 "FailLoginAttempsSheet.Text.Date"                           = "Tarih ve Saat:";
 "FailLoginAttempsSheet.Text.Description"                    = "Açıklama:";
 "FailLoginAttempsSheet.Text.FailLoginAttemp"                = "Hatalı Giriş Denemesi";
-"FailLoginAttempsSheet.Title.LoginAttemps"                  = "Giriş Hareketleri";
+"FailLoginAttempsSheet.Title.LoginAttemps" = "Hatalı Giriş Hareketleri";
 
 //MARK: - My Wallet Info Screen
 
