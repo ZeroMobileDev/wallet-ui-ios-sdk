@@ -108,6 +108,7 @@ enum WLTexts: String {
     case registerViewSecondTextThirdRuler = "RegisterViewSecond.Text.ThirdRuler"
     case registerViewSecondTextFourthRule = "RegisterViewSecond.Text.FourthRule"
     case registerViewSecondTextFifthRule = "RegisterViewSecond.Text.FifthRule"
+    case registerViewSecondIncorrectEmail = "RegisterViewSecond.Text.IncorrectEmail"
 
     // MARK: - OTP
 
@@ -135,6 +136,7 @@ enum WLTexts: String {
     case securityQuestionTextSecurityQuestion = "SecurityQuestion.Text.SecurityQuestion"
     case securityQuestionTextSetSecurityQuestion = "SecurityQuestion.Text.SetSecurityQuestion"
     case securityQuestionTextAnswerQuestion = "SecurityQuestion.Text.AnswerQuestion"
+    case securityQuestionTextAnswerQuestionPlaceHolder = "SecurityQuestion.Text.AnswerQuestionPlaceHolder"
     case securityQuestionTextSecurityQuestionExplanation = "SecurityQuestion.Text.SecurityQuestionExplanation"
     case securityQuestionTextAnswerSecurityQuestion = "SecurityQuestion.Text.AnswerSecurityQuestion"
 
@@ -310,6 +312,7 @@ enum WLTexts: String {
     case sendMoneyScreenTextSendLater = "SendMoneyScreen.Text.SendLater"
     case sendMoneyScreenTextGiveRegularInstruction = "SendMoneyScreen.Text.GiveRegularInstruction"
     case sendMoneyScreenTextSendMoney = "SendMoneyScreen.Text.SendMoney"
+    case sendMoneyScreenTextIncorrectIBAN = "SendMoneyScreen.Text.IncorrectIBAN"
     case communicationPreferencesScreenTitleNavigationTitle = "CommunicationPreferencesScreen.Title.NavigationTitle"
     case communicationPreferencesScreenTitleSMS = "CommunicationPreferencesScreen.Title.SMS"
     case communicationPreferencesScreenTextAllowSms = "CommunicationPreferencesScreen.Text.AllowSms"

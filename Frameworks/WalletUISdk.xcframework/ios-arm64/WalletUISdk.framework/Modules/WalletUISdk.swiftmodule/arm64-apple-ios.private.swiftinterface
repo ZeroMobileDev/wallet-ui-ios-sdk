@@ -22,10 +22,6 @@ import _CoreNFC_UIKit
 import _StringProcessing
 import _SwiftConcurrencyShims
 import wallet_ios_sdk
-public struct GeneralError : Swift.Error {
-  public let code: Swift.Int
-  public let message: Swift.String
-}
 public class WalletUiSDK {
   public static let shared: WalletUISdk.WalletUiSDK
   public init()
@@ -648,8 +644,24 @@ public struct WalletCard : Swift.Identifiable, Swift.Hashable {
     get
   }
 }
+public struct GeneralError : Swift.Error, Swift.Codable, Swift.CustomStringConvertible {
+  public let code: Swift.String
+  public let message: Swift.String
+  public init(code: Swift.String, message: Swift.String)
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var description: Swift.String {
+    get
+  }
+}
+extension WalletUISdk.GeneralError {
+  public static func fromJSON(_ data: Foundation.Data) throws -> WalletUISdk.GeneralError
+  public static func decode(from string: Swift.String) throws -> WalletUISdk.GeneralError
+  public func toJSON() throws -> Foundation.Data
+  public func toString() throws -> Swift.String
+}
 extension UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public func initWalletUi(config: WalletUISdk.UIConfig? = nil, environment: WalletUISdk.WalletUiEnvironment, successCallback: @escaping (Swift.String) -> Swift.Void, errorCallback: @escaping (Swift.String) -> Swift.Void, closeCallback: ((Swift.String) -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) public func initWalletUi(config: WalletUISdk.UIConfig? = nil, environment: WalletUISdk.WalletUiEnvironment, successCallback: @escaping (Swift.String) -> Swift.Void, errorCallback: @escaping (WalletUISdk.GeneralError) -> Swift.Void, closeCallback: ((Swift.String) -> Swift.Void)?)
 }
 public enum WalletUiEnvironment : Swift.String {
   case TEST

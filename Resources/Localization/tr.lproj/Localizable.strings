@@ -104,6 +104,7 @@
 "RegisterView.Text.BirthDate" = "Doğum Tarihi";
 "RegisterView.Text.ReferenceCode" = "Satış temsilcisi Kodu";
 "RegisterView.Text.Validation.Email" = "Girilen e-posta adresi formata uygun değildir.";
+"RegisterViewSecond.Text.IncorrectEmail"  = "Geçersiz e-posta";
 
 // MARK: - RegisterViewSecond
 
@@ -147,6 +148,7 @@
 "SecurityQuestion.Text.SecurityQuestion" = "Güvenlik Sorusu";
 "SecurityQuestion.Text.SetSecurityQuestion" = "Devam etmek için güvenlik sorusu belirlemelisiniz.";
 "SecurityQuestion.Text.AnswerQuestion" = "Sorunuzun Yanıtı";
+"SecurityQuestion.Text.AnswerQuestionPlaceHolder" = "Yanıtınızı Giriniz";
 "SecurityQuestion.Text.SecurityQuestionExplanation" = "Belirlediğiniz güvenlik sorunuzla, şifrenizi unuttuğunuzda ya da kimliğinizi kaybettiğinizde yeni bir şifre oluşturabilirsiniz. ";
 "SecurityQuestion.Text.AnswerSecurityQuestion" = "Güvenlik sorunuzun cevabı;";
 
@@ -218,7 +220,7 @@
 "HomeScreen.Text.Qr" = "QR";
 "HomeScreen.Text.Payment" = "Ödeme";
 "HomeScreen.Text.All" = "TÜMÜ";
-"HomeScreen.Text.KycInfo" = "Kolay Kredi avantajlarından yararlanmak için kimlik doğrulaması yapmanız gerekmektetir. Kimlik doğrulma ekranlarına yönlendirilmek ister misiniz ?";
+"HomeScreen.Text.KycInfo" = "Kolay Kredi avantajlarından yararlanabilmek için kimlik doğrulaması yapmanız gerekmektedir. Kimlik doğrulama ekranına yönlendirilmek ister misiniz?";
 "HomeScreen.Text.DgfinInfoTitle" = "Şimdi alın, 30 gün sonra geri ödeyin.";
 "HomeScreen.Text.DgfinInfo" = "Masrafsız ve komisyonsuz!";
 //MARK: - MicroCreditNotLogin
@@ -408,6 +410,7 @@
 "SendMoneyScreen.Text.SendLater" = "İleri Tarihte Gönder";
 "SendMoneyScreen.Text.GiveRegularInstruction" = "Düzenli Talimat Ver";
 "SendMoneyScreen.Text.SendMoney" = "Para Gönder";
+"SendMoneyScreen.Text.IncorrectIBAN" = "Geçersiz iban";
 
 //MARK: - CommunicationPreferencesScreen
 "CommunicationPreferencesScreen.Title.NavigationTitle" = "İletişim Tercihleri";
