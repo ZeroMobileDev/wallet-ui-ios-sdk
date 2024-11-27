@@ -110,6 +110,7 @@
 
 "RegisterViewSecond.Text.Password" = "Şifre";
 "RegisterViewSecond.Text.PasswordAgain" = "Şifre Tekrar";
+"RegisterViewSecond.Text.PasswordReEnter" = "Tekrar Şifre Giriniz";
 "RegisterViewSecond.Text.ForCorrectPassword" = "Parola Gereksinimleri;";
 "RegisterViewSecond.Text.FirstRule" = "Parolanız 6 hane olmalıdır.";
 "RegisterViewSecond.Text.SecondRule" = "Ardışık ya da tekrarlayan rakamlardan oluşmamalıdır (örn: 123456 veya 111111).";
@@ -727,7 +728,7 @@
 
 "SavedCards.Title.slideButtonText" = "Kartı     \nSil";
 "SavedCards.Title.navigationTitle" = "Tüm Kartlarım";
-"SavedCards.Title.WlCards" = "Opet Kartlarım";
+"SavedCards.Title.WlCards" = "Opet Kartım";
 "SavedCards.Title.savedCards" = "Kayıtlı Kartlarım";
 "SavedCards.Title.bankAccounts" = "Banka Hesaplarım";
 "SavedCards.Title.addCard" = "Kart Ekle";
@@ -787,7 +788,7 @@
 
 
 //MARK: VirtualCards
-"VirtualCards.Title.NavigationTitle" = "Cüzdan Hesabım";
+"VirtualCards.Title.NavigationTitle" = "Cüzdan İşlemlerim";
 "myWLCardsTextlastCard" = "Karta Para Yükle";
 "VirtualCards.Text.CardSettings" = "Kart Ayarları";
 "VirtualCards.Text.Share" = "Paylaş";

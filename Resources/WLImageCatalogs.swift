@@ -60,6 +60,7 @@ final class WLImageCatalog: ImageCatalog {
     lazy var gift = WLImage(imageAssetName: "gift")
     lazy var campaign = WLImage(imageAssetName: "campaign")
     lazy var login_error = WLImage(imageAssetName: "login-error")
+    lazy var login_error_icon = WLImage(imageAssetName: "login_error_icon")
     lazy var vakifbank_icon = WLImage(imageAssetName: "vakifbank")
     lazy var pop_up_icon_successful = WLImage(imageAssetName: "pop-up-icon-successful")
     lazy var pop_up_icon_info = WLImage(imageAssetName: "pop-up-icon-info")
@@ -232,6 +233,7 @@ protocol ImageCatalog {
     var gift: WLImage { get }
     var campaign: WLImage { get }
     var login_error: WLImage { get }
+    var login_error_icon: WLImage { get }
     var vakifbank_icon: WLImage { get }
     var pop_up_icon_successful: WLImage { get }
     var pop_up_icon_info: WLImage { get }

@@ -1,19 +1,8 @@
 {
   "images" : [
     {
-      "filename" : "illus.png",
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "filename" : "illus@2x.png",
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "filename" : "illus@3x.png",
-      "idiom" : "universal",
-      "scale" : "3x"
+      "filename" : "load-money-bank-account-info-tab-3.svg",
+      "idiom" : "universal"
     }
   ],
   "info" : {

@@ -97,7 +97,7 @@ public protocol EnquraSessionProtocol {
   func setRootNavigationController(_ navigationController: UIKit.UINavigationController)
   func getNavigation() -> UIKit.UINavigationController?
   func initializeSession(onComplete: @escaping () -> Swift.Void)
-  func startSession(with flow: WalletUISdk.EnquraSessionStartFlow)
+  func startSession(with flow: WalletUISdk.EnquraSessionStartFlow, onComplete: @escaping () -> Swift.Void)
   func requestVideoAudioPermissions()
   func setNFCBACData()
   func getCustomerSegmentId(completion: @escaping (Swift.Bool) -> Swift.Void)
@@ -192,6 +192,7 @@ public enum Pattern : Swift.String {
   case maskedCardNumber8Digit
   case maskedCardNumber8Digit2
   case maskedCardNumber6Digit
+  case maskedCardNumber6Digit4
   case monthAndYear
   case amount
   case cvv
@@ -779,7 +780,7 @@ public protocol EnquraSessionManagerDelegate : AnyObject {
   final public func setRootNavigationController(_ navigationController: UIKit.UINavigationController)
   final public func getNavigation() -> UIKit.UINavigationController?
   final public func initializeSession(onComplete: @escaping () -> Swift.Void)
-  final public func startSession(with flow: WalletUISdk.EnquraSessionStartFlow)
+  final public func startSession(with flow: WalletUISdk.EnquraSessionStartFlow, onComplete: @escaping () -> Swift.Void)
   final public func requestVideoAudioPermissions()
   final public func nfcStart()
   final public func ocrStart()

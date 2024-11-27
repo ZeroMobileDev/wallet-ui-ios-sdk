@@ -102,6 +102,7 @@ enum WLTexts: String {
     case registerViewTextValidationEmail = "RegisterView.Text.Validation.Email"
     case registerViewSecondTextPassword = "RegisterViewSecond.Text.Password"
     case registerViewSecondTextPasswordAgain = "RegisterViewSecond.Text.PasswordAgain"
+    case registerViewSecondTextPasswordReEnter = "RegisterViewSecond.Text.PasswordReEnter"
     case registerViewSecondTextForCorrectPassword = "RegisterViewSecond.Text.ForCorrectPassword"
     case registerViewSecondTextFirstRule = "RegisterViewSecond.Text.FirstRule"
     case registerViewSecondTextSecondRule = "RegisterViewSecond.Text.SecondRule"
