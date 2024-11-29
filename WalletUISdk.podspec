@@ -1,12 +1,12 @@
 # WalletUISdk.podspec
 Pod::Spec.new do |s|
   s.name         = "WalletUISdk"
-  s.version      = "1.3.30"
+  s.version      = "1.3.31"
   s.summary      = "WalletUISdk is a library for WalletUI."
   s.homepage     = "https://www.dgpays.com/"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Yasin ÇETİN" => "yasin.cetin@dgpays.com" }
-  s.source       = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/1.3.30.zip" }
+  s.source       = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/1.3.31.zip" }
   s.ios.deployment_target = "13.0"
   s.platform     = :ios, "13.0"
   s.requires_arc = true
@@ -36,7 +36,8 @@ Pod::Spec.new do |s|
   s.dependency 'EnVerify', '1.3.18.1'
   s.dependency 'AFNetworking', '4.0.1'
   s.dependency 'JSONModel', '1.7.0'
- 
+  s.dependency 'lottie-ios'
+
   s.pod_target_xcconfig = {
     'VALID_ARCHS' => 'arm64 x86_64'
   }
