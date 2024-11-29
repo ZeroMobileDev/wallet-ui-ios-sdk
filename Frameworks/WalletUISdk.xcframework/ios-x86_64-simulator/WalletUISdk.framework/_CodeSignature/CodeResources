@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		y55Ou0Sd2Q55Gt9FmqRfUunkYag=
+		EHIHpYVF8o6QkmgbDWIEgoCzlzE=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Headers/WalletUISdk-Swift.h</key>
 		<data>
-		0pmiA4MOBNPnN8ogoWqtpiY5nj4=
+		WG9SBAVur4jc4BAt4L0evMvXIlo=
 		</data>
 		<key>Headers/WalletUiSdk.h</key>
 		<data>
@@ -118,27 +118,27 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Qsi0BAUTNJL/tPjBiKjmD8qDhak=
+		jJJZ9E8fDqDvqcvES9mh+3IM2gc=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		oVRnvL5qXMai1cii5mrRC62c3WE=
+		M55vQBV/kavgqOKp8fSbbdRX1iA=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		RGAHQj0lGSknJGmDpBAED7FOBEc=
+		l62d2lnz9muOm+jKJK+QwP6YUUk=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		k6XDciK/IcHXfttzXPDmPlpPxbs=
+		YvG8lqJNgrH46GgiG3eDwIwqsCM=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		RGAHQj0lGSknJGmDpBAED7FOBEc=
+		l62d2lnz9muOm+jKJK+QwP6YUUk=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HRg+H/K0QUYgPb/2dVFRUF4tJZo=
+		J3MeNAdszxswYFov4jMmn0l7Ea8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -216,21 +216,17 @@
 		<data>
 		ZZs3eSw3Rycvvju/4XmUbqlF3uE=
 		</data>
-		<key>TensorFlowLite.bundle/Info.plist</key>
+		<key>faceDetectAnimation.json</key>
 		<data>
-		ottMw1WKLBsKSBO6p9/UuvrFKTE=
+		8pt0LzNd0541RoePHWo+LeVmkbU=
 		</data>
-		<key>TensorFlowLite.bundle/PrivacyInfo.xcprivacy</key>
+		<key>nfcAnimation.json</key>
 		<data>
-		i3YpomTpJHpRGpdt+oGaesmknBg=
+		QvcYqGwMIwfTphnllGAdP7Mmsz4=
 		</data>
-		<key>TensorFlowLiteC.bundle/Info.plist</key>
+		<key>ocrAnimation.json</key>
 		<data>
-		0fTVX8YG4cKrTTkdrGwKxWwcpc4=
-		</data>
-		<key>TensorFlowLiteC.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		PFHYbs0V3eUFDWQyYQcwEetuqEk=
+		XaGW9wTPVcmzReACL1yvyqD0B68=
 		</data>
 		<key>pubkey2.pem</key>
 		<data>
@@ -240,7 +236,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ndocMI9Xib2mCe+L+1BnUAYZifo=
+			BW8JqBFHkEhhfMVMbmJMcB4Y1l4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -252,11 +248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y55Ou0Sd2Q55Gt9FmqRfUunkYag=
+			EHIHpYVF8o6QkmgbDWIEgoCzlzE=
 			</data>
 			<key>hash2</key>
 			<data>
-			6t3nmicKXIOoOdnwylLvWpoOS2rzl1rg5uM81PDalKs=
+			zIzprnv5mYEvFRRtgbgmmBHGjzePNjbrt2X+ObvGr9A=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -428,11 +424,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0pmiA4MOBNPnN8ogoWqtpiY5nj4=
+			WG9SBAVur4jc4BAt4L0evMvXIlo=
 			</data>
 			<key>hash2</key>
 			<data>
-			mopBbA4RsWwt62zeirsf1/JWkulkRrOd0LGYbT/msHw=
+			Kc9xgshosBkTcICpxV1FtFundVKxaGP+oFK1EEchcS8=
 			</data>
 		</dict>
 		<key>Headers/WalletUiSdk.h</key>
@@ -549,66 +545,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Qsi0BAUTNJL/tPjBiKjmD8qDhak=
+			jJJZ9E8fDqDvqcvES9mh+3IM2gc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ShNTKxBtu1gTsnImRa4ScteMyhdC/4N1Zlp7kenVRLU=
+			3hqzyb6T86pZmxbKsESSdWCaz2ULVJmApAFgxuYag5Y=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oVRnvL5qXMai1cii5mrRC62c3WE=
+			M55vQBV/kavgqOKp8fSbbdRX1iA=
 			</data>
 			<key>hash2</key>
 			<data>
-			KaHxl3z93y1LNnEN4qHT7eQLn5JllmO8iKsHEvLS74Q=
+			N7p23gUB865eB3ZuQx3KkD04xfA3tlSCPHI/SSDL/p0=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RGAHQj0lGSknJGmDpBAED7FOBEc=
+			l62d2lnz9muOm+jKJK+QwP6YUUk=
 			</data>
 			<key>hash2</key>
 			<data>
-			xMAkm9wy3hul/hlXzLQ2/007a13Mnu65SlxwawTw1r0=
+			hjsrdexVZPiaH6bh/wXNOqGJmwxVVDGXPn50cSvmMyQ=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k6XDciK/IcHXfttzXPDmPlpPxbs=
+			YvG8lqJNgrH46GgiG3eDwIwqsCM=
 			</data>
 			<key>hash2</key>
 			<data>
-			EOeNiIkr5N/cxRs2p2XTEVFAsIViVflRGQCpE90S7cQ=
+			caRQ15WXeV49jmDiMSKEEEfsQY7bHv6oU1UfbKzA8G0=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RGAHQj0lGSknJGmDpBAED7FOBEc=
+			l62d2lnz9muOm+jKJK+QwP6YUUk=
 			</data>
 			<key>hash2</key>
 			<data>
-			xMAkm9wy3hul/hlXzLQ2/007a13Mnu65SlxwawTw1r0=
+			hjsrdexVZPiaH6bh/wXNOqGJmwxVVDGXPn50cSvmMyQ=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HRg+H/K0QUYgPb/2dVFRUF4tJZo=
+			J3MeNAdszxswYFov4jMmn0l7Ea8=
 			</data>
 			<key>hash2</key>
 			<data>
-			HcmJ4PDqEskzSzJIQQOCjvwh81Q1Awshge8TG6TJOkQ=
+			RsrjKJT8xEh1uQmtdR+dgrzCtQ4zxfG0efF2EUmG1CU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -820,48 +816,37 @@
 			hKiYBFuXIThL4ZYwN67Ji8VPDOvyFAw2tEW90XRq99g=
 			</data>
 		</dict>
-		<key>TensorFlowLite.bundle/Info.plist</key>
+		<key>faceDetectAnimation.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ottMw1WKLBsKSBO6p9/UuvrFKTE=
+			8pt0LzNd0541RoePHWo+LeVmkbU=
 			</data>
 			<key>hash2</key>
 			<data>
-			HKcrhdJSlgQtKJ5bJ47uaUmUG+prUQHQGyFLWRGdhDI=
+			ucye2pDHLtQLSjTmdaj712NsC8aH/2liNRI0IRlAQdI=
 			</data>
 		</dict>
-		<key>TensorFlowLite.bundle/PrivacyInfo.xcprivacy</key>
+		<key>nfcAnimation.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i3YpomTpJHpRGpdt+oGaesmknBg=
+			QvcYqGwMIwfTphnllGAdP7Mmsz4=
 			</data>
 			<key>hash2</key>
 			<data>
-			jWXQtDoSYs/inoM5bACz25T7Eg1E0RiNknNB8UpsIjw=
+			uJZR0OsKzgB9trypD+taCjdnPw7ibYXB2CZRyoTi7fg=
 			</data>
 		</dict>
-		<key>TensorFlowLiteC.bundle/Info.plist</key>
+		<key>ocrAnimation.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0fTVX8YG4cKrTTkdrGwKxWwcpc4=
+			XaGW9wTPVcmzReACL1yvyqD0B68=
 			</data>
 			<key>hash2</key>
 			<data>
-			TJg91P2VvSdgloldSsbybTFA15JshNMd3Lk9ESuf4ng=
-			</data>
-		</dict>
-		<key>TensorFlowLiteC.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PFHYbs0V3eUFDWQyYQcwEetuqEk=
-			</data>
-			<key>hash2</key>
-			<data>
-			A7LHCDOjMaKx79Ef8WjtAqjq39Xn0fvzDuzHUJpK6kc=
+			VW1hJs4fXoSrvK1oUrvCsnyZ6p1DUHas4EDHpSHhC3k=
 			</data>
 		</dict>
 		<key>pubkey2.pem</key>
@@ -879,11 +864,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ndocMI9Xib2mCe+L+1BnUAYZifo=
+			BW8JqBFHkEhhfMVMbmJMcB4Y1l4=
 			</data>
 			<key>hash2</key>
 			<data>
-			2sFtU203uIElMl9LtjHEG0U14odhz1wQxsTddGmU4WE=
+			Ebqo6l9fuCIAdVUpovfAgPy1BtR6pTIQB/Q+EFeqtNk=
 			</data>
 			<key>optional</key>
 			<true/>

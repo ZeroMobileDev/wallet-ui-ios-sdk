@@ -10,6 +10,7 @@ import CoreText
 import DeveloperToolsSupport
 import EnQualify
 import Foundation
+import Lottie
 import Network
 import Swift
 import SwiftUI
@@ -106,6 +107,9 @@ public protocol EnquraSessionProtocol {
   func ocrStart()
   func closeSession()
   func callSessionClose()
+  func faceRetry()
+  func nfcRetry()
+  func idRetry()
 }
 public enum AgentRequestType {
   case none
@@ -221,8 +225,19 @@ public enum WalletCardStatusType : Swift.String {
   }
 }
 extension WalletUISdk.EnquraSessionManager : EnQualify.EnVerifyDelegate {
-  @objc final public func infoDocumentAddSuccess()
-  @objc final public func infoDocumentAddFailure()
+  @objc final public func agentMessageRequest(message: Swift.String)
+  @objc final public func addGenericIdDocCompleted(with data: [Swift.String : Swift.String])
+  @objc final public func addGenericIdDocFailure()
+  @objc final public func capturePhotoCompleted()
+  @objc final public func capturePhotoFailure()
+  @objc final public func captureVideoCompleted()
+  @objc final public func captureVideoFailure()
+  @objc final public func photoLibraryAuthorization(status: Swift.String)
+  @objc final public func addGenericPassportCompleted()
+  @objc final public func addGenericPassportFailure()
+  @objc final public func screenRecorderOnError(eventData: Foundation.NSError?)
+  final public func infoDocumentAddSuccess()
+  final public func infoDocumentAddFailure()
   @objc final public func appointmentTolerance(time: Swift.Int)
   @objc final public func luminosityAnalyzed(result: Swift.String)
   @objc final public func dismissBeforeAnswered()
@@ -306,7 +321,7 @@ extension WalletUISdk.EnquraSessionManager : EnQualify.EnVerifyDelegate {
   @objc final public func roomIDSendCompleted()
   @objc final public func screenRecorderOnStart()
   @objc final public func screenRecorderOnComplete()
-  @objc final public func screenRecorderOnError(eventData: Swift.String)
+  final public func screenRecorderOnError(eventData: Swift.String)
   @objc final public func requestVideoAudioPermissionsResult(_ granted: Swift.Bool)
   final public func connectionTypeChanged()
   @objc final public func idVerifyReady()
@@ -358,6 +373,14 @@ public struct RoundedCorner : SwiftUI.Shape {
   public typealias Body = SwiftUI._ShapeView<WalletUISdk.RoundedCorner, SwiftUI.ForegroundStyle>
 }
 
+public struct AnimationView : SwiftUI.UIViewRepresentable {
+  public init(name: WalletUISdk.AnimationFileName, loopMode: Lottie.LottieLoopMode = .loop)
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: SwiftUI.UIViewRepresentableContext<WalletUISdk.AnimationView>) -> UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: UIKit.UIView, context: SwiftUI.UIViewRepresentableContext<WalletUISdk.AnimationView>)
+  public typealias Body = Swift.Never
+  public typealias Coordinator = Swift.Void
+  public typealias UIViewType = UIKit.UIView
+}
 extension Swift.String {
   public var length: Swift.Int {
     get
@@ -443,6 +466,10 @@ extension Foundation.Date {
   public var month: Swift.Int {
     get
   }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class AnimationUIView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public init(name: WalletUISdk.AnimationFileName, loopMode: Lottie.LottieLoopMode = .loop, frame: CoreFoundation.CGRect = .zero)
+  @objc deinit
 }
 public typealias Leading<V> = SwiftUI.Group<V> where V : SwiftUI.View
 public typealias Trailing<V> = SwiftUI.Group<V> where V : SwiftUI.View
@@ -556,6 +583,25 @@ extension SwiftUI.View {
   public func customStatusBarStyle() -> some SwiftUI.View
   
 }
+extension UIKit.UIApplication {
+  @_Concurrency.MainActor(unsafe) public var firstKeyWindow: UIKit.UIWindow? {
+    get
+  }
+  @available(macCatalystApplicationExtension, unavailable)
+  @available(iOSApplicationExtension, unavailable)
+  @available(tvOSApplicationExtension, unavailable)
+  @_Concurrency.MainActor(unsafe) public var topmostViewController: UIKit.UIViewController? {
+    get
+  }
+}
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var topmostPresentedViewController: UIKit.UIViewController? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var topmostViewController: UIKit.UIViewController? {
+    get
+  }
+}
 public struct QrTransactionSummaryModel : Swift.Hashable {
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WalletUISdk.QrTransactionSummaryModel, b: WalletUISdk.QrTransactionSummaryModel) -> Swift.Bool
@@ -663,6 +709,17 @@ extension WalletUISdk.GeneralError {
 }
 extension UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public func initWalletUi(config: WalletUISdk.UIConfig? = nil, environment: WalletUISdk.WalletUiEnvironment, successCallback: @escaping (Swift.String) -> Swift.Void, errorCallback: @escaping (WalletUISdk.GeneralError) -> Swift.Void, closeCallback: ((Swift.String) -> Swift.Void)?)
+}
+public enum AnimationFileName : Swift.String {
+  case nfc
+  case agentCall
+  case faceDetect
+  case ocr
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 public enum WalletUiEnvironment : Swift.String {
   case TEST
@@ -922,6 +979,9 @@ extension WalletUISdk.AccountActionType : Swift.Equatable {}
 extension WalletUISdk.AccountActionType : Swift.Hashable {}
 extension WalletUISdk.ScreenType : Swift.Equatable {}
 extension WalletUISdk.ScreenType : Swift.Hashable {}
+extension WalletUISdk.AnimationFileName : Swift.Equatable {}
+extension WalletUISdk.AnimationFileName : Swift.Hashable {}
+extension WalletUISdk.AnimationFileName : Swift.RawRepresentable {}
 extension WalletUISdk.WalletUiEnvironment : Swift.Equatable {}
 extension WalletUISdk.WalletUiEnvironment : Swift.Hashable {}
 extension WalletUISdk.WalletUiEnvironment : Swift.RawRepresentable {}

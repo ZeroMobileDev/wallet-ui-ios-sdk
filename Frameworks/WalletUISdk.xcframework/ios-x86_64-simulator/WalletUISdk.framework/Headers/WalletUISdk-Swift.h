@@ -278,6 +278,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import AVFoundation;
+@import CoreFoundation;
 @import Foundation;
 @import UIKit;
 #endif
@@ -302,9 +303,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 
-
-
 @class NSCoder;
+
+SWIFT_CLASS("_TtC11WalletUISdk15AnimationUIView")
+@interface AnimationUIView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+
 @class UITouch;
 @class UIEvent;
 @class NSString;
@@ -318,13 +326,6 @@ SWIFT_CLASS("_TtCV11WalletUISdk15CodeScannerView21ScannerViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
-@class UIPresentationController;
-
-SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
-@interface ScannerViewController (SWIFT_EXTENSION(WalletUISdk)) <UIAdaptivePresentationControllerDelegate>
-- (void)presentationControllerDidDismiss:(UIPresentationController * _Nonnull)presentationController;
-@end
-
 @class AVCaptureMetadataOutput;
 @class AVMetadataObject;
 @class AVCaptureConnection;
@@ -332,6 +333,13 @@ SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
 SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
 @interface ScannerViewController (SWIFT_EXTENSION(WalletUISdk)) <AVCaptureMetadataOutputObjectsDelegate>
 - (void)captureOutput:(AVCaptureMetadataOutput * _Nonnull)output didOutputMetadataObjects:(NSArray<AVMetadataObject *> * _Nonnull)metadataObjects fromConnection:(AVCaptureConnection * _Nonnull)connection;
+@end
+
+@class UIPresentationController;
+
+SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
+@interface ScannerViewController (SWIFT_EXTENSION(WalletUISdk)) <UIAdaptivePresentationControllerDelegate>
+- (void)presentationControllerDidDismiss:(UIPresentationController * _Nonnull)presentationController;
 @end
 
 @class UIImagePickerController;
@@ -352,6 +360,9 @@ SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
 - (void)captureOutput:(AVCapturePhotoOutput * _Nonnull)output willCapturePhotoForResolvedSettings:(AVCaptureResolvedPhotoSettings * _Nonnull)resolvedSettings;
 - (void)captureOutput:(AVCapturePhotoOutput * _Nonnull)output didCapturePhotoForResolvedSettings:(AVCaptureResolvedPhotoSettings * _Nonnull)resolvedSettings;
 @end
+
+
+
 
 
 

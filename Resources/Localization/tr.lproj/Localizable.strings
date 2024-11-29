@@ -702,8 +702,8 @@
 "VerifyIdentity.Title.step_4" = "Kullanacağın Opet ürünlerini seç.";
 "VerifyIdentity.Title.step_5" = "Yüz tanıma (selfie) ve canlılık testini yap.";
 
-"VerifyIdentity.Title.step_OCR" = "Kimlik kartını kameraya okutma";
-"VerifyIdentity.Title.step_NFC" = "NFC ile kimlik kartı taratma";
+"VerifyIdentity.Title.step_OCR" = "Kimlik kartını kameraya taratın";
+"VerifyIdentity.Title.step_NFC" = "Kimlik kartınızı NFC cihazınıza okutun";
 "VerifyIdentity.Title.step_FACE_REG" = "Canlılık Testi";
 "VerifyIdentity.Text.header" = "Sadece aşağıdaki adımları tamamlayarak kolayca limitini yükseltebilirsin!";
 
