@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   s.dependency 'EnVerify', '1.3.18.1'
   s.dependency 'AFNetworking', '4.0.1'
   s.dependency 'JSONModel', '1.7.0'
-  s.dependency 'lottie-ios'
+  s.dependency 'lottie-ios', '4.5.0'
 
   s.pod_target_xcconfig = {
     'VALID_ARCHS' => 'arm64 x86_64'
