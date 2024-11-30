@@ -185,6 +185,7 @@ public protocol EnquraSessionDelegate : AnyObject {
   func verifyCompleted()
   func verifyFailed()
   func faceDetectStarted()
+  func identityFailure()
 }
 public enum Pattern : Swift.String {
   case phoneNumber
@@ -845,6 +846,7 @@ public protocol EnquraSessionManagerDelegate : AnyObject {
   final public func setNFCBACData()
   final public func callSessionClose()
   final public func closeSession()
+  final public func closeSessionWithPop()
   final public func addIntegration(onComplete: @escaping () -> Swift.Void)
   @objc deinit
 }
