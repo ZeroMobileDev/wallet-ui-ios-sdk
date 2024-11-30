@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.resource_bundles = {
     'WalletUISdkResources' => [
-      'Resources/**/*.{xcassets,png,jpg,ttf,otf,lproj}',
+      'Resources/**/*.{xcassets,png,jpg,ttf,otf,lproj, json}',
       'Resources/Localization/*.lproj',
       'WalletUISdk/Resources/Fonts/*.ttf',
       'WalletUISdk/Resources/Animation/*.json',
@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
 
   s.resources = [
   'Resources/Localization/*.lproj',
+  'Resources/Animation/*.json',
   'Frameworks/WalletUISdk.xcframework/ios-arm64/WalletUISdk.framework/*.pem'
 ]
 

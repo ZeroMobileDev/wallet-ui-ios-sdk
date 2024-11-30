@@ -399,6 +399,7 @@ enum WLTexts: String {
     case settingsScreenTitleExplicitConsentPreferences = "SettingsScreen.Title.ExplicitConsentPreferences"
     case settingsScreenTitleProfile = "SettingsScreen.Title.ProfileSettingsScreen.Title.Profile"
     case settingsScreenTitleProfileSettingsScreenTitleSessionType = "SettingsScreen.Title.ProfileSettingsScreen.Title.SessionType"
+    case settingsScreenTitleProfileSettingsScreenTitlePassword_check = "SettingsScreen.Title.ProfileSettingsScreen.Title.Password_Check"
     case settingsScreenTextApprove = "SettingsScreen.Text.Approve"
     case settingsScreenTextNotApprove = "SettingsScreen.Text.NotApprove"
     case settingsScreenTextNinetyDaysPermissions = "SettingsScreen.Text.NinetyDaysPermissions"

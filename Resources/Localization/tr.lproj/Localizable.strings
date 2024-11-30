@@ -557,6 +557,7 @@
 "SettingsScreen.Title.ExplicitConsentPreferences" = "Cüzdan Açık Rıza Tercihleri";
 "SettingsScreen.Title.ProfileSettingsScreen.Title.Profile" = "Profil";
 "SettingsScreen.Title.ProfileSettingsScreen.Title.SessionType" = "Şifre Kontrolünü Değiştir";
+"SettingsScreen.Title.ProfileSettingsScreen.Title.Password_Check" = "Şifre Kontrolü";
 "SettingsScreen.Text.Approve"                                            = "ONAYLIYORUM";
 "SettingsScreen.Text.NotApprove"                                            = "ONAYLAMIYORUM";
 "SettingsScreen.Text.NinetyDaysPermissions"                           = "Tek seferlik şifre girişi ile 90 gün boyunca şifresiz şekilde akaryakıt alımı yapılmasını onaylıyorum";
