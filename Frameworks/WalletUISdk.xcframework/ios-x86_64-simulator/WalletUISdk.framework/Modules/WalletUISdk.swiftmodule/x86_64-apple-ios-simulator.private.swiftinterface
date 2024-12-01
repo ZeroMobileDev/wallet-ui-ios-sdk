@@ -99,6 +99,7 @@ public protocol EnquraSessionProtocol {
   func getNavigation() -> UIKit.UINavigationController?
   func initializeSession(onComplete: @escaping () -> Swift.Void)
   func startSession(with flow: WalletUISdk.EnquraSessionStartFlow, onComplete: @escaping () -> Swift.Void)
+  func continueSession(with flow: WalletUISdk.AgentRequestType, onComplete: @escaping () -> Swift.Void)
   func requestVideoAudioPermissions()
   func setNFCBACData()
   func getCustomerSegmentId(completion: @escaping (Swift.Bool) -> Swift.Void)
@@ -507,7 +508,6 @@ extension Foundation.NumberFormatter {
 extension AVFoundation.AVCaptureDevice {
   public static func zoomedCameraForQRCode(withMinimumCodeSize minimumCodeSize: Swift.Float = 20) -> AVFoundation.AVCaptureDevice?
 }
-
 public enum PermissionsError : Swift.Identifiable {
   public var id: Swift.String {
     get
@@ -829,6 +829,7 @@ public protocol EnquraSessionManagerDelegate : AnyObject {
   final public func getNavigation() -> UIKit.UINavigationController?
   final public func initializeSession(onComplete: @escaping () -> Swift.Void)
   final public func startSession(with flow: WalletUISdk.EnquraSessionStartFlow, onComplete: @escaping () -> Swift.Void)
+  final public func continueSession(with flow: WalletUISdk.AgentRequestType, onComplete: @escaping () -> Swift.Void)
   final public func requestVideoAudioPermissions()
   final public func nfcStart()
   final public func ocrStart()

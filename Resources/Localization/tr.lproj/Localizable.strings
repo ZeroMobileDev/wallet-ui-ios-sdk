@@ -404,6 +404,7 @@
 "SendMoneyAcceptedContactsToZubizu.Text.UnkownError" = "Bilinmeyen Bir Hata Oluştu";
 "SendMoneyAcceptedContactsToZubizu.Text.InfoAlertText" = "Para göndereceğin kişileri numarasını girerek seçebilirsin.";
 "SendMoneyAcceptedContactsToZubizu.Text.Search" = "Arama";
+"SendMoneyAcceptedContactsToZubizu.Text.NotValidPhoneNumber" = "Lütfen geçerli bir telefon numarası giriniz.";
 
 //MARK: - SendMoneyScreen
 
@@ -803,7 +804,7 @@
 
 "MyProfileScreen.Title.NavigationTitle" = "Profilim";
 "MyProfileScreen.Title.WalletId" = "Cüzdan ID:";
-
+"MyProfileScreen.Title.VerifyMessage" = "E-posta adresinizi doğrulamak için Kimlik Doğrulaması yapmanız gerekmektedir. Kimlik Doğrulama ekranlarına yönlendirilmek ister misiniz?";
 //MARK: All Transactions History
 
 "AllTransactionsHistoryScreen.Title.TabBarFirst" = "Dönem İçi İşlemlerim";
