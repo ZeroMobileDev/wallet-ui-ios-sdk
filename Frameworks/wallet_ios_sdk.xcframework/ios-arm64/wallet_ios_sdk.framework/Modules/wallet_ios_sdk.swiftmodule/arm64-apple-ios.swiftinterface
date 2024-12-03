@@ -995,6 +995,14 @@ public struct StreetResultListModel : Swift.Codable {
   @objc override dynamic public init()
   @objc deinit
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class DgFinGetTokenLoanCreateOutputParams : wallet_ios_sdk.BaseResponseMeta {
+  public var accessToken: Swift.String?
+  public var refreshToken: Swift.String?
+  public var tokenType: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class SecurityQuestionResetOutputParams : wallet_ios_sdk.BaseResponseMeta {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
@@ -2371,6 +2379,7 @@ public struct CityModel : Swift.Codable {
   public var M_DGFIN_GET_TOKEN: Swift.Int
   public var M_DGFIN_GET_CUSTOMER_INFO_GSM: Swift.Int
   public var M_UPDATE_CUSTOMER_PHONE_NUMBER: Swift.Int
+  public var M_DGFIN_GET_TOKEN_LOAN_CREATE: Swift.Int
   public var BALANCE_GetMasterpassConfig: Swift.Int
   @objc deinit
 }
@@ -3262,6 +3271,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func dgFinGetCustomer(dgFinGetCustomerInputParams: wallet_ios_sdk.DgFinGetCustomerInputParams, completion: @escaping (_ result: wallet_ios_sdk.DgFinGetCustomerOutputParams) -> ())
   public func dgFinGetCustomerInfoGsm(dgFinGetCustomerInputParams: wallet_ios_sdk.DgFinGetCustomerInputParams, completion: @escaping (_ result: wallet_ios_sdk.GetCustomerInfoOutputParams) -> ())
   public func dgFinGetToken(dgFinGetTokenInputParams: wallet_ios_sdk.DgFinGetTokenInputParams, completion: @escaping (_ result: wallet_ios_sdk.DgFinGetTokenOutputParams) -> ())
+  public func dgFinGetTokenLoanCreate(dgFinGetTokenLoanCreateInputParams: wallet_ios_sdk.DgFinGetTokenLoanCreateInputParams, completion: @escaping (_ result: wallet_ios_sdk.DgFinGetTokenLoanCreateOutputParams) -> ())
 }
 public struct TypesModel : Swift.Codable {
   public var typeNumber: Swift.String?
@@ -5141,6 +5151,12 @@ public struct ValueModel : Swift.Codable {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers public class DgFinGetTokenLoanCreateInputParams : wallet_ios_sdk.BaseRequestModel {
+  public var phoneNumber: Swift.String
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class AddBalanceToWalletByStoredCardOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var htmlForm: Swift.String?
@@ -7588,6 +7604,8 @@ extension wallet_ios_sdk.GetCustomerSegmentsOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.GetCustomerSegmentsOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.BeginOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.BeginOutputParams : Swift.Decodable {}
+extension wallet_ios_sdk.DgFinGetTokenLoanCreateOutputParams : Swift.Encodable {}
+extension wallet_ios_sdk.DgFinGetTokenLoanCreateOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.SecurityQuestionResetOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.SecurityQuestionResetOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.MasterpassUnlinkCustomerOutputParams : Swift.Encodable {}

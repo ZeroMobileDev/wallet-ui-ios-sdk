@@ -25,15 +25,15 @@ extension Font {
     }
 
     private static var semiBoldFontName: String {
-        "SourceSansPro-Bold" // Kalın font yoksa bold kullanılır
+        "SourceSansPro-Semibold" // Kalın font yoksa bold kullanılır
     }
 
     private static var extraBoldFontName: String {
-        "SourceSansPro-Bold"
+        "SourceSansPro-Black"
     }
 
     private static var heavyFontName: String {
-        "SourceSansPro-Bold" // Çok kalın font yoksa extra bold kullanılır
+        "SourceSansPro-Black" // Çok kalın font yoksa extra bold kullanılır
     }
 
     private static var lightFontName: String {
@@ -45,7 +45,7 @@ extension Font {
     }
 
     private static var ultraThinFontName: String {
-        "SourceSansPro-Light" // Çok ince font yoksa light kullanılır
+        "SourceSansPro-ExtraLight" // Çok ince font yoksa light kullanılır
     }
 
     /// Sizes

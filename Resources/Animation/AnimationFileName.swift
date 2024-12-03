@@ -8,8 +8,10 @@
 import Foundation
 
 public enum AnimationFileName: String {
-  case nfc = "nfcAnimation"
-  case agentCall = "agentCallAnimation"
-  case faceDetect = "faceDetectAnimation"
-  case ocr = "ocrAnimation"
+    case nfc = "nfcAnimation"
+    case agentCall = "agentCallAnimation"
+    case faceDetect = "faceDetectAnimation"
+    case ocr = "ocrAnimation"
+    case bg = "bgAnimation"
+    case logo = "logoAnimation"
 }

@@ -376,7 +376,7 @@ public struct RoundedCorner : SwiftUI.Shape {
 }
 
 public struct AnimationView : SwiftUI.UIViewRepresentable {
-  public init(name: WalletUISdk.AnimationFileName, loopMode: Lottie.LottieLoopMode = .loop)
+  public init(name: WalletUISdk.AnimationFileName, loopMode: Lottie.LottieLoopMode = .loop, onAnimationFinished: (() -> Swift.Void)? = nil)
   @_Concurrency.MainActor(unsafe) public func makeUIView(context: SwiftUI.UIViewRepresentableContext<WalletUISdk.AnimationView>) -> UIKit.UIView
   @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: UIKit.UIView, context: SwiftUI.UIViewRepresentableContext<WalletUISdk.AnimationView>)
   public typealias Body = Swift.Never
@@ -470,7 +470,7 @@ extension Foundation.Date {
   }
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class AnimationUIView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public init(name: WalletUISdk.AnimationFileName, loopMode: Lottie.LottieLoopMode = .loop, frame: CoreFoundation.CGRect = .zero)
+  @_Concurrency.MainActor(unsafe) public init(name: WalletUISdk.AnimationFileName, loopMode: Lottie.LottieLoopMode = .loop, frame: CoreFoundation.CGRect = .zero, onAnimationFinished: (() -> Swift.Void)? = nil)
   @objc deinit
 }
 public typealias Leading<V> = SwiftUI.Group<V> where V : SwiftUI.View
@@ -716,6 +716,8 @@ public enum AnimationFileName : Swift.String {
   case agentCall
   case faceDetect
   case ocr
+  case bg
+  case logo
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {

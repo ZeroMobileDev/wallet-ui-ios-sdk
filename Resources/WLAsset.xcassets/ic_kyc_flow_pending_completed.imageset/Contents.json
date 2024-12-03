@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_kyc_flow_pending_completed.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

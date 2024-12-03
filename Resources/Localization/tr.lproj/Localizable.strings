@@ -325,7 +325,7 @@
 //MARK: - StoredCard
 
 "StoredCard.Title.AddCard" = "Kart Ekle";
-"StoredCard.Title.MySavedCards" = "Kayıtlı Kartlarım";
+"StoredCard.Title.MySavedCards" = "MASTERPASS’E KAYITLI KARTLARIM";
 
 //MARK: - CardInformationScreen
 
@@ -412,7 +412,7 @@
 "SendMoneyScreen.Text.SendLater" = "İleri Tarihte Gönder";
 "SendMoneyScreen.Text.GiveRegularInstruction" = "Düzenli Talimat Ver";
 "SendMoneyScreen.Text.SendMoney" = "Para Gönder";
-"SendMoneyScreen.Text.IncorrectIBAN" = "Geçersiz iban";
+"SendMoneyScreen.Text.IncorrectIBAN" = "Lütfen geçerli bir IBAN giriniz";
 
 //MARK: - CommunicationPreferencesScreen
 "CommunicationPreferencesScreen.Title.NavigationTitle" = "İletişim Tercihleri";
@@ -804,7 +804,7 @@
 
 "MyProfileScreen.Title.NavigationTitle" = "Profilim";
 "MyProfileScreen.Title.WalletId" = "Cüzdan ID:";
-"MyProfileScreen.Title.VerifyMessage" = "E-posta adresinizi doğrulamak için Kimlik Doğrulaması yapmanız gerekmektedir. Kimlik Doğrulama ekranlarına yönlendirilmek ister misiniz?";
+"MyProfileScreen.Title.VerifyMessage" = "E-posta adresinizi doğrulamak için kimlik doğrulaması yapmanız gerekmektedir. Kimlik doğrulama ekranlarına yönlendirilmek  ister misiniz?";
 //MARK: All Transactions History
 
 "AllTransactionsHistoryScreen.Title.TabBarFirst" = "Dönem İçi İşlemlerim";
