@@ -114,7 +114,7 @@
 "RegisterViewSecond.Text.ForCorrectPassword" = "Parola Gereksinimleri;";
 "RegisterViewSecond.Text.FirstRule" = "Parolanız 6 hane olmalıdır.";
 "RegisterViewSecond.Text.SecondRule" = "Ardışık ya da tekrarlayan rakamlardan oluşmamalıdır (örn: 123456 veya 111111).";
-"RegisterViewSecond.Text.ThirdRuler"  = "İlk hane 0 olmamalıdır ve ilk iki hane 1 ve 9 ile başlamamalıdır.";
+"RegisterViewSecond.Text.ThirdRuler"  = "İlk hane 0 olmamalıdır ve ilk iki hane 19 ile başlamamalıdır.";
 "RegisterViewSecond.Text.FourthRule"  = "Cep telefonu, doğum tarihi veya T.C. kimlik numaranız gibi kolay tahmin edilebilir sayılardan oluşmamalıdır.";
 "RegisterViewSecond.Text.FifthRule"  = "Aynı rakamlardan oluşmamalı";
 
@@ -1001,7 +1001,7 @@
 "alertModel.Text.PleaseCheckThePasswordYouEntered"                   = "Lütfen Girdiğiniz Şifreyi Kontrol Ediniz";
 "alertModel.Text.PleaseEnterTheSamePasswords"                   = "Lütfen Aynı şifreleri Giriniz";
 "alertModel.Text.PleaseSelectASecurityQuestion"                   = "Lütfen Bir Güvenlik Sorusu Seçiniz";
-"alertModel.Text.WhiteLabelInsufficientBalance"                   = "Opet Bakiyeniz Yetersiz";
+"alertModel.Text.WhiteLabelInsufficientBalance"                   = "Opet Pay'de yeterli bakiye bulunmamaktadır. Lütfen bakiye yükleyerek tekrar deneyiniz.";
 "alertModel.Text.InsufficientBalance"                   = "Bakiyeniz Yetersiz";
 "alertModel.Text.AnErrorOccurredPleaseTryAgain"                   = "Bir hata oluştu. Lütfen yeniden deneyin";
 "alertModel.Text.YouCanSplitYourSpendWithAMaximumOf10People"                   = "Harcamanızı maksimum 10 kişi ile bölüşebilirsiniz.";
