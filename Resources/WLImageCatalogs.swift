@@ -61,7 +61,6 @@ final class WLImageCatalog: ImageCatalog {
     lazy var campaign = WLImage(imageAssetName: "campaign")
     lazy var login_error = WLImage(imageAssetName: "login-error")
     lazy var login_error_icon = WLImage(imageAssetName: "login_error_icon")
-    lazy var is_succus_verify = WLImage(imageAssetName: "is_succus_verify")
     lazy var vakifbank_icon = WLImage(imageAssetName: "vakifbank")
     lazy var pop_up_icon_successful = WLImage(imageAssetName: "pop-up-icon-successful")
     lazy var pop_up_icon_info = WLImage(imageAssetName: "pop-up-icon-info")
@@ -238,7 +237,6 @@ protocol ImageCatalog {
     var campaign: WLImage { get }
     var login_error: WLImage { get }
     var login_error_icon: WLImage { get }
-    var is_succus_verify: WLImage { get }
     var vakifbank_icon: WLImage { get }
     var pop_up_icon_successful: WLImage { get }
     var pop_up_icon_info: WLImage { get }

@@ -1,19 +1,8 @@
 {
   "images" : [
     {
-      "filename" : "Group 24 Copy.png",
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "filename" : "Group 24 Copy@2x.png",
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "filename" : "Group 24 Copy@3x.png",
-      "idiom" : "universal",
-      "scale" : "3x"
+      "filename" : "success_logo.svg",
+      "idiom" : "universal"
     }
   ],
   "info" : {

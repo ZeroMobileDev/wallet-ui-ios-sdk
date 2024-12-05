@@ -39,7 +39,7 @@
 "Common.Text.SendNow"                                           = "Hemen Gönder";
 "Common.Text.AskNow"                                            = "Para İste";
 "Common.Text.Amount"                                            = "Tutar";
-"Common.Text.EmptyTextField"                                    = "Lütfen Tüm Boş Alanları Doldurun";
+"Common.Text.EmptyTextField"                                    = "Lütfen tüm boş alanları doldurunuz.";
 "Common.Text.Yes"                                               = "EVET";
 "Common.Text.No"                                                = "HAYIR";
 "Common.Text.Start"                                             = "BAŞLA";
@@ -69,11 +69,11 @@
 "Common.Text.SPENDSPLIT"                                        = "HARCAMA BÖLÜŞ";
 "Common.Text.WLBLW"                                             = "Opet";
 "Common.Text.Detail"                                            = "Detay";
-"Common.Text.ErrorCreatingPdf"                                  = "Pdf Oluşturulurken Hata Oluştu";
+"Common.Text.ErrorCreatingPdf"                                  = "PDF oluşturulurken bir hatayla karşılaşıldı. Lütfen daha sonra tekrar deneyiniz.";
 "Common.Text.Successful"                                        = "Başarılı";
 "Common.Text.YourTransactionIsSuccessful"                       = "İşleminiz Başarılı!";
 "Common.Text.YourTransactionSuccessful"                       = "İşlem Başarılı.";
-"Common.Text.UnknownErrorOccurred"                              = "Bilinmeyen Bire Hata Oluştu";
+"Common.Text.UnknownErrorOccurred"                              = "Bilinmeyen bir hata ile karşılaşıldı. Lütfen tekrar deneyiniz.";
 "Common.Text.CardCreated"                                       = "Kart Oluşturuldu";
 "Common.Text.RequestSuccessFull"                                = "Talebiniz başarıyla iletildi.";
 "Common.Text.Myself"                                            = "Kendim";
@@ -98,6 +98,7 @@
 "RegisterView.Text.DgPara.Advertisement.Messages" = "Opet Bilişim Hizmetleri A.Ş. ve DgPara Ödeme ve Elektronik Para Kuruluşu A.Ş.’nin sunacağı pazarlama ve tanıtım amaçlı iletişime izin veriyorum.";
 
 "RegisterView.Text.Register" = "Üye Ol";
+"RegisterView.Text.PasswordAndSecurityQuestion" = "Devam etmek için şifre ve güvenlik sorusu belirlemelisiniz.";
 "RegisterView.Text.Name" = "Ad";
 "RegisterView.Text.SurName" = "Soyad";
 "RegisterView.Text.IDNumber" = "T.C. Kimlik Numarası";
@@ -138,7 +139,7 @@
 "ResetPasswordWithOldPin.Text.NewPassword" = "Yeni Şifre";
 "ResetPasswordWithOldPin.Text.NewPasswordAgain" = "Yeni Şifre Tekrar";
 "ResetPasswordWithOldPin.Text.ResetForYourSecurity" = "Güvenliğiniz için şifrenizi yenilemelisiniz.";
-"ResetPasswordWithOldPin.Text.PasswordsDontMatch" = "Girilen Şifreler Uyuşmuyor";
+"ResetPasswordWithOldPin.Text.PasswordsDontMatch" = "Girilen şifreler uyuşmamaktadır. Lütfen aynı şifreyi giriniz.";
 "ResetPasswordWithOldPin.Text.PasswordException" = "Şifre Hatası";
 
 //MARK: - SecurityQuestion
@@ -413,6 +414,7 @@
 "SendMoneyScreen.Text.GiveRegularInstruction" = "Düzenli Talimat Ver";
 "SendMoneyScreen.Text.SendMoney" = "Para Gönder";
 "SendMoneyScreen.Text.IncorrectIBAN" = "Lütfen geçerli bir IBAN giriniz";
+"SendMoneyScreen.Text.IncorrectAmount" = "Kullanılabilir bakiyenizden büyük tutar girişi yapılamaz.";
 
 //MARK: - CommunicationPreferencesScreen
 "CommunicationPreferencesScreen.Title.NavigationTitle" = "İletişim Tercihleri";
@@ -746,12 +748,12 @@
 "MasterPass.Title.alertTitle" = "Kart Ekleme Başarılı";
 "MasterPass.Title.alertText" = "Kartınız MasterPass'e eklendi";
 "MasterPass.Title.otp" = "Otp Süreniz Doldu";
-"MasterPass.Title.otpText" = "Otp süreniz dolmuştur lütfen tekrar kod isteyiniz";
+"MasterPass.Title.otpText" = "Otp süreniz dolmuştur lütfen tekrar kod isteyiniz.";
 "MasterPass.Title.navigationTitle" = "Banka Doğrulaması";
 "MasterPass.Title.cardName" = "Kart Adı";
 "MasterPass.Title.giveCardName" = "Kartınıza isim verin";
 "MasterPass.Title.addCardToMasterPass" = "MasterPass'e Kart Ekle";
-"MasterPass.Title.WrongCardNumber" = "Girilen Kart Numarası Geçersizdir";
+"MasterPass.Title.WrongCardNumber" = "Girilen kart numarası geçersizdir. Lütfen geçerli bir kart numarası giriniz.";
 "MasterPass.Title.OtpLengthError" = "Doğrulama Kodu 6 karakter olmalıdır.";
 
 //MARK: CashLimit
@@ -829,7 +831,7 @@
 "AccountInformationPopup.Text.TotalBalance"                      = "Toplam Bakiye";
 "AccountInformationPopup.Text.CashWithdrawableBalance"           = "Nakit Çekilebilir Bakiye";
 "AccountInformationPopup.Text.AccountInformation"                = "Hesap Bilgileri";
-"AccountInformationPopup.Text.TLCashWithdrawableBalance"         = "Türk Lirası Hesabınızdaki Nakit Olarak Çekebileceğiniz Bakiye";
+"AccountInformationPopup.Text.TLCashWithdrawableBalance"         = "Türk Lirası hesabınızdaki nakit çekilebilir bakiye";
 
 //MARK: ArafCardView
 //MARK: Card Settings
@@ -972,22 +974,21 @@
 "AllCardsTabViewModel.Text.YourCardStatusHasBeenChanged"        = "Kartınızın statüsü değiştirildi";
 
 // MARK: alertModel
-"alertModel.Text.YouAreGoingToCancelTheTransactionDoYouConfirm"        = "İşlemi İptal Ediceksiniz Onaylıyor Musunuz?";
+"alertModel.Text.YouAreGoingToCancelTheTransactionDoYouConfirm"        = "İşlem iptal edilecektir. Onaylıyor musunuz?";
 "alertModel.Text.YoullCancelTheOperation"                            = "İşlemi İptal Ediceksiniz";
 "alertModel.Text.YourPasswordHasBeenSuccessfullyUpdated"                            = "Şifreniz Başarılı Bir Şekilde Güncellendi";
-"alertModel.Text.YourPhoneNumberHasBeenSuccessfullyChanged"                            = "Telefon numaranız başarıyla değiştirildi";
+"alertModel.Text.YourPhoneNumberHasBeenSuccessfullyChanged"                            = "Telefon numaranız başarıyla değiştirildi.";
 "alertModel.title.OtpExpired"                                                    = "Otp Süreniz Doldu";
-"alertModel.Text.OtpExpiredPleaseRequestACodeAgain"                             = "Otp süreniz dolmuştur lütfen tekrar kod isteyiniz";
+"alertModel.Text.OtpExpiredPleaseRequestACodeAgain"                             = "Otp süreniz dolmuştur lütfen tekrar kod isteyiniz.";
 "alertModel.Text.TryAgain"                                                   = "Yeniden Dene";
 "alertModel.Text.YouCanNowUseYourNewSecurityQuestionInWhitelbl"              = "Opet'de şimdi yeni güvenlik sorunuzu kullanabilirsiniz";
 "alertModel.title.SuccessfullyModifiedYourSecurityQuestion"              = "Güvenlik Sorunuzu Başarıyla Değiştirildi";
-"alertModel.Text.CameraPermissionNotFoundPleaseAuthoriseCamera"              = "Kamera İzni Bulunamadı Lütfen Kamera İzni Verin";
-"alertModel.Text.QRCodeNotRead"                                               = "QR Code Okunamadı";
-"alertModel.Text.UnknownError"                                                = "Bilinmeyen Hata";
-"alertModel.Text.QrWrongFormat"                                                = "Qr Yanlış Biçimde";
+"alertModel.Text.CameraPermissionNotFoundPleaseAuthoriseCamera"              = "Uygulamanın kamera erişim izni bulunamadı. Lütfen telefonunuzun ayarlar kısmından uygulamanın kameraya erişim izinlerini güncelleyiniz.";
+"alertModel.Text.QRCodeNotRead"                                               = "QR kod okunamadı. Lütfen tekrar deneyiniz.";
+"alertModel.Text.UnknownError"                                                = "Bilinmeyen bir hata ile karşılaşıldı. Lütfen tekrar deneyiniz.";
+"alertModel.Text.QrWrongFormat"                                                = "Qr formatı hatalıdır. Lütfen geçerli bir QR kod ile tekrar deneyiniz.";
 "alertModel.Text.YourWithdrawalIsSuccessfulYouCanContinueYourTransactionAtTheATM"          = "Para Çekme işleminiz başarılı. İşleminize ATM’den devam edebilirsiniz";
-"alertModel.Text.YourCommunicationPreferencesHaveBeenSuccessfullyUpdated"                = "iletişim tercihleriniz başarılı şekilde güncellendi";
-"alertModel.Text.WalletError"                                                          = "Cüzdan Hatası";
+"alertModel.Text.YourCommunicationPreferencesHaveBeenSuccessfullyUpdated"                = "iletişim tercihleriniz başarılı şekilde güncellendi.";
 "alertModel.Text.YourMoneyTransferWasSuccessful"                                               = "Para transferiniz başarıyla gerçekleşti.";
 "alertModel.title.RequestRejected"                                                          = "Talep Reddedildi";
 "alertModel.Text.YourCommunicationPreferencesHaveBeenSuccessfullyUpdated"                   = "Talep başarı ile reddedildi.";
@@ -996,18 +997,18 @@
 "alertModel.title.YouWillCancelTheRequest"                                  = "Talebi İptal Edeceksiniz";
 "alertModel.Text.YourUpdateOperationsHaveBeenCarriedOut"                   = "Güncelleme işlemleriniz gerçekleştirilmiştir.";
 "alertModel.Text.YouDoNotHaveACardAvailableForThisTransaction"                   = "Şu anda aktif bir kartınız bulunmamaktadır. Geçici olarak kapatılmış bir kartınız varsa, kart ayarlarını güncelleyebilir veya çağrı merkeziyle iletişime geçerek destek alabilirsiniz. Cüzdanda kayıtlı mevcut bir kartınız bulunmuyor ise müşteri temsilcisi ile iletişime geçebilirsiniz.";
-"alertModel.Text.LimitMustBeSmall"                   = "Girilen Tutar güncel bakiye, kalan günlük limit ve kalan aylık limit küçük olmalıdır";
+"alertModel.Text.LimitMustBeSmall"                   = "Girilen tutar, güncel bakiyeden, kalan günlük ve aylık limitten küçük olmalıdır.";
 "alertModel.Text.UpdateAmount"                   = "Tutarı Güncelle";
 "alertModel.Text.PleaseCheckThePasswordYouEntered"                   = "Lütfen Girdiğiniz Şifreyi Kontrol Ediniz";
-"alertModel.Text.PleaseEnterTheSamePasswords"                   = "Lütfen Aynı şifreleri Giriniz";
-"alertModel.Text.PleaseSelectASecurityQuestion"                   = "Lütfen Bir Güvenlik Sorusu Seçiniz";
-"alertModel.Text.WhiteLabelInsufficientBalance"                   = "Opet Pay'de yeterli bakiye bulunmamaktadır. Lütfen bakiye yükleyerek tekrar deneyiniz.";
-"alertModel.Text.InsufficientBalance"                   = "Bakiyeniz Yetersiz";
-"alertModel.Text.AnErrorOccurredPleaseTryAgain"                   = "Bir hata oluştu. Lütfen yeniden deneyin";
+"alertModel.Text.PleaseEnterTheSamePasswords"                   = "Lütfen aynı şifreyi giriniz.";
+"alertModel.Text.PleaseSelectASecurityQuestion"                   = "Lütfen bir güvenlik sorusu seçiniz.";
+"alertModel.Text.AnErrorOccurredPleaseTryAgain"                   = "Bir hatayla karşılaşıldı. Lütfen tekrar deneyiniz.";
 "alertModel.Text.YouCanSplitYourSpendWithAMaximumOf10People"                   = "Harcamanızı maksimum 10 kişi ile bölüşebilirsiniz.";
-"alertModel.Text.YourTopUpRequestHasBeenSuccessfullyReceived"                   = "Para Yükleme Talebiniz Başarıyla Alınmıştır";
-"alertModel.Text.YourTopUpRequestFailedPleaseTryAgainLater"                   = "Para Yükleme Talebiniz Başarısız Olmuştur Lütfen Daha Sonra Tekrar Deneyiniz";
-"alertModel.Text.NetworkError"                                                  = "Bağlantı hatası oluştu. Lütfen daha sonra tekrar deneyiniz";
-"alertModel.Text.PaymentRequestHasBeenSuccessfullyReceived"                        = "Ödemeniz Başarıyla Alınmıştır";
-
+"alertModel.Text.YourTopUpRequestHasBeenSuccessfullyReceived"                   = "Para yükleme talebiniz başarıyla alınmıştır.";
+"alertModel.Text.YourTopUpRequestFailedPleaseTryAgainLater"                   = "Para yükleme talebiniz başarısız olmuştur. Lütfen daha sonra tekrar deneyiniz.";
+"alertModel.Text.PaymentRequestHasBeenSuccessfullyReceived"                        = "Ödemeniz başarıyla alınmıştır.";
+"alertModel.Text.WalletError" = "Cüzdanda bir hatayla karşılaşıldı. Lütfen daha sonra tekrar deneyiniz.";
+"alertModel.Text.InsufficientBalance" = "Opet Pay cüzdan bakiyeniz yetersiz. Lütfen para yükleyip tekrar deneyiniz.";
+"alertModel.Text.WhiteLabelInsufficientBalance" = "Opet Pay cüzdan bakiyeniz yetersiz. Lütfen para yükleyip tekrar deneyiniz.";
+"alertModel.Text.NetworkError" = "Servis zaman aşımına uğramıştır. Lütfen daha sonra tekrar deneyiniz.";
 

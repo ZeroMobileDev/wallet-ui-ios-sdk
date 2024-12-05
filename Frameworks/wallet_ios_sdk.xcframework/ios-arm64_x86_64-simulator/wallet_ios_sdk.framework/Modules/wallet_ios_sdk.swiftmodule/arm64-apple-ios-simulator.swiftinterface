@@ -2117,6 +2117,7 @@ public struct CityModel : Swift.Codable {
   public var M_LOGIN_WITH_PASSWORD: Swift.Int
   public var M_LOGIN_WITH_PASSWORD_ENC: Swift.Int
   public var M_SET_PASSWORD: Swift.Int
+  public var M_SET_PASSWORD_AND_SET_QUESTION: Swift.Int
   public var M_SET_PASSWORD_ENC: Swift.Int
   public var M_LOGOUT: Swift.Int
   public var M_LOGOUT_ENC: Swift.Int
@@ -3393,6 +3394,14 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
+@objc @_inheritsConvenienceInitializers public class SetPasswordAndSecretQuestionAnswerInputParams : wallet_ios_sdk.BaseRequestModel {
+  public var password: Swift.String
+  public var questionId: Swift.String
+  public var answer: Swift.String
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class TopupPayStartOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var token: Swift.String?, orderId: Swift.String?
   public var amountWallet: Swift.Double?, amountCard: Swift.Double?
@@ -4352,6 +4361,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func InitialInterface(initialInputParams: wallet_ios_sdk.InitialInputParams, completion: @escaping (_ result: wallet_ios_sdk.InitialOutputParams) -> ())
   public func LoginWithPasswordInterface(loginWithPasswordInputParams: wallet_ios_sdk.LoginWithPasswordInputParams, completion: @escaping (_ result: wallet_ios_sdk.LoginWithPasswordOutputParams) -> ())
   public func SetPasswordInterface(setPasswordInputParams: wallet_ios_sdk.SetPasswordInputParams, completion: @escaping (_ result: wallet_ios_sdk.SetPasswordOutputParams) -> ())
+  public func SetPasswordAndSecretQuestionAnswerInterface(setPasswordAndQuestionAnswerInputParams: wallet_ios_sdk.SetPasswordAndSecretQuestionAnswerInputParams, completion: @escaping (_ result: wallet_ios_sdk.SetPasswordAndSecretQuestionAnswerOutputParams) -> ())
   public func ChangePasswordInterface(changePasswordInputParams: wallet_ios_sdk.ChangePasswordInputParams, completion: @escaping (_ result: wallet_ios_sdk.ChangePasswordOutputParams) -> ())
   public func CustomOtpVerificationInterface(completion: @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ())
   public func FailLoginAttemptSeenInterface(completion: @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ())
@@ -7391,6 +7401,11 @@ public struct TargetAccountListModel : Swift.Codable {
   @objc override dynamic public init()
   @objc deinit
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class SetPasswordAndSecretQuestionAnswerOutputParams : wallet_ios_sdk.BaseResponseMeta {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 public struct AdressModel : Swift.Codable {
   public var countryCode: Swift.String?
   public var cityCode: Swift.Int?
@@ -7900,6 +7915,8 @@ extension wallet_ios_sdk.AccountActionsInquiryOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.AccountActionsInquiryOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.GetCitiesOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.GetCitiesOutputParams : Swift.Decodable {}
+extension wallet_ios_sdk.SetPasswordAndSecretQuestionAnswerOutputParams : Swift.Encodable {}
+extension wallet_ios_sdk.SetPasswordAndSecretQuestionAnswerOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.ReOtpOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.ReOtpOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.SendAccountActionsWithEmailOutPutParams : Swift.Encodable {}

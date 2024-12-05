@@ -333,6 +333,13 @@ SWIFT_CLASS("_TtCV11WalletUISdk15CodeScannerView21ScannerViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
+@class UIPresentationController;
+
+SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
+@interface ScannerViewController (SWIFT_EXTENSION(WalletUISdk)) <UIAdaptivePresentationControllerDelegate>
+- (void)presentationControllerDidDismiss:(UIPresentationController * _Nonnull)presentationController;
+@end
+
 @class AVCaptureMetadataOutput;
 @class AVMetadataObject;
 @class AVCaptureConnection;
@@ -340,13 +347,6 @@ SWIFT_CLASS("_TtCV11WalletUISdk15CodeScannerView21ScannerViewController")
 SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
 @interface ScannerViewController (SWIFT_EXTENSION(WalletUISdk)) <AVCaptureMetadataOutputObjectsDelegate>
 - (void)captureOutput:(AVCaptureMetadataOutput * _Nonnull)output didOutputMetadataObjects:(NSArray<AVMetadataObject *> * _Nonnull)metadataObjects fromConnection:(AVCaptureConnection * _Nonnull)connection;
-@end
-
-@class UIPresentationController;
-
-SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
-@interface ScannerViewController (SWIFT_EXTENSION(WalletUISdk)) <UIAdaptivePresentationControllerDelegate>
-- (void)presentationControllerDidDismiss:(UIPresentationController * _Nonnull)presentationController;
 @end
 
 @class UIImagePickerController;
@@ -366,6 +366,13 @@ SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
 - (void)captureOutput:(AVCapturePhotoOutput * _Nonnull)output didFinishProcessingPhoto:(AVCapturePhoto * _Nonnull)photo error:(NSError * _Nullable)error;
 - (void)captureOutput:(AVCapturePhotoOutput * _Nonnull)output willCapturePhotoForResolvedSettings:(AVCaptureResolvedPhotoSettings * _Nonnull)resolvedSettings;
 - (void)captureOutput:(AVCapturePhotoOutput * _Nonnull)output didCapturePhotoForResolvedSettings:(AVCaptureResolvedPhotoSettings * _Nonnull)resolvedSettings;
+@end
+
+
+SWIFT_CLASS("_TtC11WalletUISdk21SplashAnimationUIView")
+@interface SplashAnimationUIView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 

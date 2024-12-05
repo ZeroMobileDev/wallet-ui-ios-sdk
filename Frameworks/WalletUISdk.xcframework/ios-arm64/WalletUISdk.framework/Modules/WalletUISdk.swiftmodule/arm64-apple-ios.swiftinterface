@@ -188,6 +188,14 @@ public protocol EnquraSessionDelegate : AnyObject {
   func faceDetectStarted()
   func identityFailure()
 }
+public struct SplashAnimationView : SwiftUI.UIViewRepresentable {
+  public init(name: WalletUISdk.AnimationFileName, loopMode: Lottie.LottieLoopMode = .loop, onAnimationFinished: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: SwiftUI.UIViewRepresentableContext<WalletUISdk.SplashAnimationView>) -> UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: UIKit.UIView, context: SwiftUI.UIViewRepresentableContext<WalletUISdk.SplashAnimationView>)
+  public typealias Body = Swift.Never
+  public typealias Coordinator = Swift.Void
+  public typealias UIViewType = UIKit.UIView
+}
 public enum Pattern : Swift.String {
   case phoneNumber
   case purePhoneNumber
@@ -531,6 +539,10 @@ public enum AccountActionType {
   public var hashValue: Swift.Int {
     get
   }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class SplashAnimationUIView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public init(name: WalletUISdk.AnimationFileName, loopMode: Lottie.LottieLoopMode = .loop, frame: CoreFoundation.CGRect = .zero, onAnimationFinished: (() -> Swift.Void)? = nil)
+  @objc deinit
 }
 extension SwiftUI.VerticalAlignment {
   public enum Custom : SwiftUI.AlignmentID {
