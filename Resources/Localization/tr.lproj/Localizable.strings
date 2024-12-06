@@ -8,7 +8,7 @@
 // MARK: - Common
 
 
-"Common.Text.Welcome"                                           = "Hoş Geldin!";
+"Common.Text.Welcome"                                           = "İyi Günler";
 "Common.SetTitle.Continue"                                      = "DEVAM ET";
 "Common.Text.Register"                                          = "KAYIT OL";
 "Common.Text.OK"                                                = "TAMAM";
@@ -212,7 +212,7 @@
 //MARK: - HomeScreen
 
 "HomeScreen.Text.MyWallet" = "Cüzdanım";
-"HomeScreen.Text.WalletID" = "CÜZDAN ID: ";
+"HomeScreen.Text.WalletID" = "Opet Pay ID: ";
 "HomeScreen.Text.IncreaseLimit" = "HARCAMAYA HAZIR LİMİTİNİZİ ARTTIRIN";
 "HomeScreen.Text.MyZBZCards" = "Kayıtlı Kartlarım";
 "HomeScreen.Text.Money" = "Para";
@@ -222,7 +222,7 @@
 "HomeScreen.Text.Qr" = "QR";
 "HomeScreen.Text.Payment" = "Ödeme";
 "HomeScreen.Text.All" = "TÜMÜ";
-"HomeScreen.Text.KycInfo" = "Kolay Kredi avantajlarından yararlanabilmek için kimlik doğrulaması yapmanız gerekmektedir. Kimlik doğrulama ekranına yönlendirilmek ister misiniz?";
+"HomeScreen.Text.KycInfo" = "Şimdi Al, Sonra Öde avantajlarından yararlanabilmek için kimlik doğrulaması yapmanız gerekmektedir. Kimlik doğrulama ekranına yönlendirilmek ister misiniz?";
 "HomeScreen.Text.DgfinInfoTitle" = "Şimdi alın, 30 gün sonra geri ödeyin.";
 "HomeScreen.Text.DgfinInfo" = "Masrafsız ve komisyonsuz!";
 //MARK: - MicroCreditNotLogin
@@ -364,7 +364,7 @@
 
 //MARK: - LoadFromBankAccount
 
-"LoadFromBankAccount.Text.Description" = "Açıklama (Cüzdan ID)";
+"LoadFromBankAccount.Text.Description" = "Açıklama (Opet Pay ID)";
 "LoadFromBankAccount.Text.HowToLoad" = "Hesaptan Nasıl  Para Yüklerim?";
 "LoadFromBankAccount.Title.LoadFromBankAccount" = "Banka Hesabından Yükle";
 "LoadFromBankAccount.Text.DailyRemainingLimit" = "Günlük Kalan Limit";
@@ -551,15 +551,15 @@
 //MARK: - SettingsScreen
 
 "SettingsScreen.Title.Settings" = "Ayarlar";
-"SettingsScreen.Title.ProfileInformation" = "Cüzdan Profil Bilgileri";
-"SettingsScreen.Title.ChangePassword" = "Cüzdan Şifreni Değiştir";
-"SettingsScreen.Title.ChangePhoneNumber" = "Cüzdan Telefon Numaranı Değiştir";
-"SettingsScreen.Title.ChangeLanguage" = "Cüzdan Dil Değiştir";
-"SettingsScreen.Title.ChangeSecretQuestion" = "Cüzdan Güvenlik Sorunu Değiştir";
-"SettingsScreen.Title.CommunicationPreferences" = "Cüzdan İletişim Tercihleri";
-"SettingsScreen.Title.ExplicitConsentPreferences" = "Cüzdan Açık Rıza Tercihleri";
+"SettingsScreen.Title.ProfileInformation" = "Opet Pay Profil Bilgileri";
+"SettingsScreen.Title.ChangePassword" = "Opet Pay Şifreni Değiştir";
+"SettingsScreen.Title.ChangePhoneNumber" = "Opet Pay Telefon Numaranı Değiştir";
+"SettingsScreen.Title.ChangeLanguage" = "Opet Pay Dil Değiştir";
+"SettingsScreen.Title.ChangeSecretQuestion" = "Opet Pay Güvenlik Sorunu Değiştir";
+"SettingsScreen.Title.CommunicationPreferences" = "Opet Pay İletişim Tercihleri";
+"SettingsScreen.Title.ExplicitConsentPreferences" = "Opet Pay Açık Rıza Tercihleri";
 "SettingsScreen.Title.ProfileSettingsScreen.Title.Profile" = "Profil";
-"SettingsScreen.Title.ProfileSettingsScreen.Title.SessionType" = "Şifre Kontrolünü Değiştir";
+"SettingsScreen.Title.ProfileSettingsScreen.Title.SessionType" = "Opet Pay Şifre Kontrolünü Değiştir";
 "SettingsScreen.Title.ProfileSettingsScreen.Title.Password_Check" = "Şifre Kontrolü";
 "SettingsScreen.Text.Approve"                                            = "ONAYLIYORUM";
 "SettingsScreen.Text.NotApprove"                                            = "ONAYLAMIYORUM";
@@ -625,8 +625,8 @@
 
 "OpenConsentPreferencesScreen.Title.OpenConsentPreferances" = "Açık Rıza Tercihleri";
 "OpenConsentPreferencesScreen.Text.PersonalizedAdvertising" = "Opet Kişiselleştirilmiş Reklamcılık";
-"OpenConsentPreferencesScreen.Text.WalletPersonalizedAdvertising" = "Opet Cüzdan Kişiselleştirmiş Reklamcılık";
-"OpenConsentPreferencesScreen.Text.DataEnrichment" = "Opet Cüzdan Veri Zenginleştirme";
+"OpenConsentPreferencesScreen.Text.WalletPersonalizedAdvertising" = "Opet Pay Kişiselleştirmiş Reklamcılık";
+"OpenConsentPreferencesScreen.Text.DataEnrichment" = "Opet Pay Veri Zenginleştirme";
 "OpenConsentPreferencesScreen.Text.OwnerDataEnrichment" = "Opet Veri Zenginleştirme";
 
 
@@ -792,7 +792,7 @@
 
 
 //MARK: VirtualCards
-"VirtualCards.Title.NavigationTitle" = "Cüzdan İşlemlerim";
+"VirtualCards.Title.NavigationTitle" = "Opet Pay İşlemlerim";
 "myWLCardsTextlastCard" = "Karta Para Yükle";
 "VirtualCards.Text.CardSettings" = "Kart Ayarları";
 "VirtualCards.Text.Share" = "Paylaş";
@@ -805,7 +805,7 @@
 //MARK: My Profile
 
 "MyProfileScreen.Title.NavigationTitle" = "Profilim";
-"MyProfileScreen.Title.WalletId" = "Cüzdan ID:";
+"MyProfileScreen.Title.WalletId" = "Opet Pay ID:";
 "MyProfileScreen.Title.VerifyMessage" = "E-posta adresinizi doğrulamak için kimlik doğrulaması yapmanız gerekmektedir. Kimlik doğrulama ekranlarına yönlendirilmek  ister misiniz?";
 //MARK: All Transactions History
 
