@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		KKCD/ui0z4fQFAflUru+h/AesYA=
+		GPoUR7ONbsodgXXT/enXpJ+vJC8=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		5S8n5Sg6UO7yk6t0U405IgDJYBw=
+		kqsFEf7NDBxpG5e4dFIsy85fm3Y=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		IHSglYUSRLDEbuhTiTKLWmlQHYs=
+		HkmG7Vf/054aQL6nU18yX7jmb6E=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		F/D8JsSS2OPVrdoORszX5gzeNAw=
+		ZGLJ3kyF9v+Se+AIzjaekr5n7/o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -256,11 +256,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KKCD/ui0z4fQFAflUru+h/AesYA=
+			GPoUR7ONbsodgXXT/enXpJ+vJC8=
 			</data>
 			<key>hash2</key>
 			<data>
-			4NS3zb0HOF6uFj6W1tC+Qc5JLyEIZAYG+cl4MiNg8R0=
+			7YKfmtIJJRj+L2TNywZvGBwoibCwXPTQfno53jhPvG8=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -553,22 +553,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5S8n5Sg6UO7yk6t0U405IgDJYBw=
+			kqsFEf7NDBxpG5e4dFIsy85fm3Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			JUgAdbmTsWB5+beANYIpKodHJeo5cVs52w999A0UbWE=
+			srxABvXbQgjSpQXuGgqGBy3dgZr1teCVP6pc/QOJ6LM=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IHSglYUSRLDEbuhTiTKLWmlQHYs=
+			HkmG7Vf/054aQL6nU18yX7jmb6E=
 			</data>
 			<key>hash2</key>
 			<data>
-			/hyxtQnZ+GQkUhfaTdNpMW75iJLOZKoY1BsPCkyRC6o=
+			gcvtzRdWiBup4qjwI03F9QebIaxTECOOsLo4Tv4IAK4=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -608,11 +608,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			F/D8JsSS2OPVrdoORszX5gzeNAw=
+			ZGLJ3kyF9v+Se+AIzjaekr5n7/o=
 			</data>
 			<key>hash2</key>
 			<data>
-			pEQQ4+ZklXCxX0kDaqj952vMsMQhCoVgeFaaT17pGAM=
+			TlNNbZ+D3nKP8Yvx2xtS3a/JDhGY90R9tIl7oa0v5CE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

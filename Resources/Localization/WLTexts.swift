@@ -803,4 +803,7 @@ extension WLTexts {
     var asText: SwiftUI.Text {
         Text(self.string).font(.body)
     }
+  var asTextWithoutBodyFont: SwiftUI.Text {
+      Text(self.string)
+  }
 }
