@@ -174,6 +174,7 @@ final class WLImageCatalog: ImageCatalog {
     lazy var clock = WLImage(imageAssetName: "clock")
     lazy var opet_pay = WLImage(imageAssetName: "opet_pay")
     lazy var easy_loan = WLImage(imageAssetName: "easy_loan")
+    lazy var easy_loan_info = WLImage(imageAssetName: "easy_loan_info")
     lazy var ic_kyc_flow_pending_completed = WLImage(imageAssetName: "ic_kyc_flow_pending_completed")
     lazy var ic_kyc_flow_successfully_completed = WLImage(imageAssetName: "ic_kyc_flow_successfully_completed")
     lazy var success_logo = WLImage(imageAssetName: "success_logo")
@@ -349,6 +350,7 @@ protocol ImageCatalog {
     var clock: WLImage { get }
     var opet_pay: WLImage { get }
     var easy_loan: WLImage { get }
+    var easy_loan_info: WLImage { get }
     var ic_kyc_flow_pending_completed: WLImage { get }
     var ic_kyc_flow_successfully_completed: WLImage { get }
     var success_logo: WLImage { get }

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "easy_loan_info.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

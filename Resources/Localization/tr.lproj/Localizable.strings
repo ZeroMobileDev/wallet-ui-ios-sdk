@@ -551,15 +551,15 @@
 //MARK: - SettingsScreen
 
 "SettingsScreen.Title.Settings" = "Ayarlar";
-"SettingsScreen.Title.ProfileInformation" = "Opet Pay Profil Bilgileri";
-"SettingsScreen.Title.ChangePassword" = "Opet Pay Şifreni Değiştir";
-"SettingsScreen.Title.ChangePhoneNumber" = "Opet Pay Telefon Numaranı Değiştir";
-"SettingsScreen.Title.ChangeLanguage" = "Opet Pay Dil Değiştir";
-"SettingsScreen.Title.ChangeSecretQuestion" = "Opet Pay Güvenlik Sorunu Değiştir";
-"SettingsScreen.Title.CommunicationPreferences" = "Opet Pay İletişim Tercihleri";
-"SettingsScreen.Title.ExplicitConsentPreferences" = "Opet Pay Açık Rıza Tercihleri";
+"SettingsScreen.Title.ProfileInformation" = "Profil Bilgileri";
+"SettingsScreen.Title.ChangePassword" = "Şifreni Değiştir";
+"SettingsScreen.Title.ChangePhoneNumber" = "Telefon Numaranı Değiştir";
+"SettingsScreen.Title.ChangeSecretQuestion" = "Güvenlik Sorunu Değiştir";
+"SettingsScreen.Title.ChangeLanguage" = "Dil Değiştir";
+"SettingsScreen.Title.CommunicationPreferences" = "İletişim Tercihleri";
+"SettingsScreen.Title.ExplicitConsentPreferences" = "Açık Rıza Tercihleri";
 "SettingsScreen.Title.ProfileSettingsScreen.Title.Profile" = "Profil";
-"SettingsScreen.Title.ProfileSettingsScreen.Title.SessionType" = "Opet Pay Şifre Kontrolünü Değiştir";
+"SettingsScreen.Title.ProfileSettingsScreen.Title.SessionType" = "Şifre Kontrolünü Değiştir";
 "SettingsScreen.Title.ProfileSettingsScreen.Title.Password_Check" = "Şifre Kontrolü";
 "SettingsScreen.Text.Approve"                                            = "ONAYLIYORUM";
 "SettingsScreen.Text.NotApprove"                                            = "ONAYLAMIYORUM";
