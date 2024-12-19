@@ -280,6 +280,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import AVFoundation;
 @import CoreFoundation;
 @import Foundation;
+@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -313,6 +314,23 @@ SWIFT_CLASS("_TtC11WalletUISdk15AnimationUIView")
 
 
 
+@protocol UIViewControllerContextTransitioning;
+
+SWIFT_CLASS("_TtC11WalletUISdk16PopTransitioning")
+@interface PopTransitioning : NSObject <UIViewControllerAnimatedTransitioning>
+- (NSTimeInterval)transitionDuration:(id <UIViewControllerContextTransitioning> _Nullable)transitionContext SWIFT_WARN_UNUSED_RESULT;
+- (void)animateTransition:(id <UIViewControllerContextTransitioning> _Nonnull)transitionContext;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11WalletUISdk17PushTransitioning")
+@interface PushTransitioning : NSObject <UIViewControllerAnimatedTransitioning>
+- (NSTimeInterval)transitionDuration:(id <UIViewControllerContextTransitioning> _Nullable)transitionContext SWIFT_WARN_UNUSED_RESULT;
+- (void)animateTransition:(id <UIViewControllerContextTransitioning> _Nonnull)transitionContext;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UITouch;
 @class UIEvent;
 @class NSString;
@@ -333,13 +351,6 @@ SWIFT_CLASS("_TtCV11WalletUISdk15CodeScannerView21ScannerViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
-@class UIPresentationController;
-
-SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
-@interface ScannerViewController (SWIFT_EXTENSION(WalletUISdk)) <UIAdaptivePresentationControllerDelegate>
-- (void)presentationControllerDidDismiss:(UIPresentationController * _Nonnull)presentationController;
-@end
-
 @class AVCaptureMetadataOutput;
 @class AVMetadataObject;
 @class AVCaptureConnection;
@@ -347,6 +358,13 @@ SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
 SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
 @interface ScannerViewController (SWIFT_EXTENSION(WalletUISdk)) <AVCaptureMetadataOutputObjectsDelegate>
 - (void)captureOutput:(AVCaptureMetadataOutput * _Nonnull)output didOutputMetadataObjects:(NSArray<AVMetadataObject *> * _Nonnull)metadataObjects fromConnection:(AVCaptureConnection * _Nonnull)connection;
+@end
+
+@class UIPresentationController;
+
+SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
+@interface ScannerViewController (SWIFT_EXTENSION(WalletUISdk)) <UIAdaptivePresentationControllerDelegate>
+- (void)presentationControllerDidDismiss:(UIPresentationController * _Nonnull)presentationController;
 @end
 
 @class UIImagePickerController;

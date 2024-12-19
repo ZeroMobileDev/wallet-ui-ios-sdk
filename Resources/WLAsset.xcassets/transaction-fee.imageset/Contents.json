@@ -1,19 +1,8 @@
 {
   "images" : [
     {
-      "filename" : "Database.png",
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "filename" : "Database@2x.png",
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "filename" : "Database@3x.png",
-      "idiom" : "universal",
-      "scale" : "3x"
+      "filename" : "transaction-fee.svg",
+      "idiom" : "universal"
     }
   ],
   "info" : {

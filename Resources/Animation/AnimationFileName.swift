@@ -14,4 +14,5 @@ public enum AnimationFileName: String {
     case ocr = "ocrAnimation"
     case bg = "bgAnimation"
     case logo = "logoAnimation"
+    case loading = "opetPayLoading"
 }

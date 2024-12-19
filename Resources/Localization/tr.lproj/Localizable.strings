@@ -550,11 +550,11 @@
 
 //MARK: - SettingsScreen
 
-"SettingsScreen.Title.Settings" = "Ayarlar";
+"SettingsScreen.Title.Settings" = "Opet Pay Ayarlar";
 "SettingsScreen.Title.ProfileInformation" = "Profil Bilgileri";
 "SettingsScreen.Title.ChangePassword" = "Şifreni Değiştir";
 "SettingsScreen.Title.ChangePhoneNumber" = "Telefon Numaranı Değiştir";
-"SettingsScreen.Title.ChangeSecretQuestion" = "Güvenlik Sorunu Değiştir";
+"SettingsScreen.Title.ChangeSecretQuestion" = "Güvenlik Sorusunu Değiştir";
 "SettingsScreen.Title.ChangeLanguage" = "Dil Değiştir";
 "SettingsScreen.Title.CommunicationPreferences" = "İletişim Tercihleri";
 "SettingsScreen.Title.ExplicitConsentPreferences" = "Açık Rıza Tercihleri";
@@ -731,9 +731,9 @@
 //MARK: SavedCards
 
 "SavedCards.Title.slideButtonText" = "Kartı     \nSil";
-"SavedCards.Title.navigationTitle" = "Tüm Kartlarım";
-"SavedCards.Title.WlCards" = "Opet Kartım";
-"SavedCards.Title.savedCards" = "Kayıtlı Kartlarım";
+"SavedCards.Title.navigationTitle" = "Kayıtlı Kartlarım";
+"SavedCards.Title.WlCards" = "OPET Pay Kartım";
+"SavedCards.Title.savedCards" = "Ödeme Kartlarım";
 "SavedCards.Title.bankAccounts" = "Banka Hesaplarım";
 "SavedCards.Title.addCard" = "Kart Ekle";
 "SavedCards.Title.addWlblwCard" = "Opet Kartımı Ekle";
@@ -981,8 +981,8 @@
 "alertModel.title.OtpExpired"                                                    = "Otp Süreniz Doldu";
 "alertModel.Text.OtpExpiredPleaseRequestACodeAgain"                             = "Otp süreniz dolmuştur lütfen tekrar kod isteyiniz.";
 "alertModel.Text.TryAgain"                                                   = "Yeniden Dene";
-"alertModel.Text.YouCanNowUseYourNewSecurityQuestionInWhitelbl"              = "Opet'de şimdi yeni güvenlik sorunuzu kullanabilirsiniz";
-"alertModel.title.SuccessfullyModifiedYourSecurityQuestion"              = "Güvenlik Sorunuzu Başarıyla Değiştirildi";
+"alertModel.Text.YouCanNowUseYourNewSecurityQuestionInWhitelbl"              = "Opet Pay’de yeni güvenlik sorunuzu kullanabilirsiniz.";
+"alertModel.title.SuccessfullyModifiedYourSecurityQuestion"              = "Güvenlik Sorunuz Başarıyla Değiştirildi.";
 "alertModel.Text.CameraPermissionNotFoundPleaseAuthoriseCamera"              = "Uygulamanın kamera erişim izni bulunamadı. Lütfen telefonunuzun ayarlar kısmından uygulamanın kameraya erişim izinlerini güncelleyiniz.";
 "alertModel.Text.QRCodeNotRead"                                               = "QR kod okunamadı. Lütfen tekrar deneyiniz.";
 "alertModel.Text.UnknownError"                                                = "Bilinmeyen bir hata ile karşılaşıldı. Lütfen tekrar deneyiniz.";

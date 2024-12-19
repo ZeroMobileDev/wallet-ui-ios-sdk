@@ -111,6 +111,9 @@ final class WLImageCatalog: ImageCatalog {
     lazy var outgoing_money_transfer = WLImage(imageAssetName: "outgoing_money_transfer")
     lazy var transaction_fee = WLImage(imageAssetName: "transaction-fee")
     lazy var cashback = WLImage(imageAssetName: "cashback")
+    lazy var fuel = WLImage(imageAssetName: "fuel")
+    lazy var shopping = WLImage(imageAssetName: "shopping")
+    lazy var transfer = WLImage(imageAssetName: "transfer")
     lazy var cash_withdraw = WLImage(imageAssetName: "withdraw")
     lazy var forgot_password_popup_image = WLImage(imageAssetName: "mail")
     lazy var money = WLImage(imageAssetName: "Money")
@@ -288,6 +291,9 @@ protocol ImageCatalog {
     var incoming_money_transfer: WLImage { get }
     var transaction_fee: WLImage { get }
     var cashback: WLImage { get }
+    var fuel: WLImage { get }
+    var shopping: WLImage { get }
+    var transfer: WLImage { get }
     var cash_withdraw: WLImage { get }
     var forgot_password_popup_image: WLImage { get }
     var money: WLImage { get }

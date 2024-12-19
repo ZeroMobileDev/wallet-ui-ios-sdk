@@ -723,6 +723,12 @@ extension WalletUISdk.GeneralError {
 extension UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public func initWalletUi(config: WalletUISdk.UIConfig? = nil, environment: WalletUISdk.WalletUiEnvironment, successCallback: @escaping (Swift.String) -> Swift.Void, errorCallback: @escaping (WalletUISdk.GeneralError) -> Swift.Void, closeCallback: ((Swift.String) -> Swift.Void)?)
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PopTransitioning : ObjectiveC.NSObject, UIKit.UIViewControllerAnimatedTransitioning {
+  @_Concurrency.MainActor(unsafe) @objc public func transitionDuration(using transitionContext: (any UIKit.UIViewControllerContextTransitioning)?) -> Foundation.TimeInterval
+  @_Concurrency.MainActor(unsafe) @objc public func animateTransition(using transitionContext: any UIKit.UIViewControllerContextTransitioning)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
+  @objc deinit
+}
 public enum AnimationFileName : Swift.String {
   case nfc
   case agentCall
@@ -730,6 +736,7 @@ public enum AnimationFileName : Swift.String {
   case ocr
   case bg
   case logo
+  case loading
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -740,6 +747,7 @@ public enum WalletUiEnvironment : Swift.String {
   case TEST
   case UAT
   case PREPROD
+  case PROD
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -978,6 +986,12 @@ extension WalletUISdk.CodeScannerView {
   public var requirePhotoOutput: Swift.Bool {
     get
   }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PushTransitioning : ObjectiveC.NSObject, UIKit.UIViewControllerAnimatedTransitioning {
+  @_Concurrency.MainActor(unsafe) @objc public func transitionDuration(using transitionContext: (any UIKit.UIViewControllerContextTransitioning)?) -> Foundation.TimeInterval
+  @_Concurrency.MainActor(unsafe) @objc public func animateTransition(using transitionContext: any UIKit.UIViewControllerContextTransitioning)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
+  @objc deinit
 }
 extension WalletUISdk.QrTransactionType : Swift.Equatable {}
 extension WalletUISdk.QrTransactionType : Swift.Hashable {}
