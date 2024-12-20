@@ -4206,10 +4206,15 @@ public struct CollectionTypesModel : Swift.Codable {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetMfsTokenOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var token: Swift.String?
+  public var userId: Swift.String?
   @available(*, deprecated, renamed: "token", message: "Use token variable")
   public func getToken() -> Swift.String
   @available(*, deprecated, renamed: "token", message: "Use token variable")
   public func setToken(_ token: Swift.String)
+  @available(*, deprecated, renamed: "userId", message: "Use userId variable")
+  public func getUserId() -> Swift.String
+  @available(*, deprecated, renamed: "userId", message: "Use userId variable")
+  public func setUserId(_ userId: Swift.String)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws

@@ -747,6 +747,8 @@
 
 "MasterPass.Title.alertTitle" = "Kart Ekleme Başarılı";
 "MasterPass.Title.alertText" = "Kartınız MasterPass'e eklendi";
+"MasterPass.Title.updateAlertTitle" = "Başarılı";
+"MasterPass.Title.updateAlertText" = "Masterpass hesabınız Opet Pay ile başarıyla eşleştirilmiştir.";
 "MasterPass.Title.otp" = "Otp Süreniz Doldu";
 "MasterPass.Title.otpText" = "Otp süreniz dolmuştur lütfen tekrar kod isteyiniz.";
 "MasterPass.Title.navigationTitle" = "Banka Doğrulaması";

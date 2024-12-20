@@ -56,6 +56,7 @@ enum WLTexts: String {
     case commonTextEditAll = "Common.Text.EditAll"
     case CommonTextSelectOnOption = "Common.Text.SelectOnOption"
     case CommonTextNonZeroValue = "Common.Text.NonZeroValue"
+
     // MARK: - Begin
 
     case commonTextCVV = "Common.Text.CVV"
@@ -309,8 +310,8 @@ enum WLTexts: String {
     case sendMoneyAcceptedContactsToZubizuTextInfoAlertText = "SendMoneyAcceptedContactsToZubizu.Text.InfoAlertText"
     case sendMoneyAcceptedContactsToZubizuTextSearch = "SendMoneyAcceptedContactsToZubizu.Text.Search"
     case sendMoneyAcceptedContactsToZubizuNotValidPhoneNumber = "SendMoneyAcceptedContactsToZubizu.Text.NotValidPhoneNumber"
-  case sendMoneyAcceptedContactsToZubizuTextMyPhoneDirectoryPermission = "SendMoneyAcceptedContactsToZubizu.Text.MyPhoneDirectoryPermission"
-  case sendMoneyAcceptedContactsToZubizuTextOpenSettings = "SendMoneyAcceptedContactsToZubizu.Text.OpenSettings"
+    case sendMoneyAcceptedContactsToZubizuTextMyPhoneDirectoryPermission = "SendMoneyAcceptedContactsToZubizu.Text.MyPhoneDirectoryPermission"
+    case sendMoneyAcceptedContactsToZubizuTextOpenSettings = "SendMoneyAcceptedContactsToZubizu.Text.OpenSettings"
     case sendMoneyScreenTextSendNow = "SendMoneyScreen.Text.SendNow"
     case sendMoneyScreenTextSendLater = "SendMoneyScreen.Text.SendLater"
     case sendMoneyScreenTextGiveRegularInstruction = "SendMoneyScreen.Text.GiveRegularInstruction"
@@ -519,6 +520,8 @@ enum WLTexts: String {
     case savedCardsTextnoRegisteredCard = "SavedCards.Text.noRegisteredCard"
     case masterPassTitlealertTitle = "MasterPass.Title.alertTitle"
     case masterPassTitlealertText = "MasterPass.Title.alertText"
+    case masterPassTitleUpdatealertTitle = "MasterPass.Title.updateAlertTitle"
+    case masterPassTitleUpdatealertText = "MasterPass.Title.updateAlertText"
     case masterPassTitleotp = "MasterPass.Title.otp"
     case masterPassTitleotpText = "MasterPass.Title.otpText"
     case masterPassTitleTitlenavigationTitle = "MasterPass.Title.Title.navigationTitle"
@@ -803,7 +806,8 @@ extension WLTexts {
     var asText: SwiftUI.Text {
         Text(self.string).font(.body)
     }
-  var asTextWithoutBodyFont: SwiftUI.Text {
-      Text(self.string)
-  }
+
+    var asTextWithoutBodyFont: SwiftUI.Text {
+        Text(self.string)
+    }
 }
