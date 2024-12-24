@@ -417,6 +417,7 @@ extension Swift.String {
   public func getFileExtension() -> Swift.String
   public func removingWhitespaces() -> Swift.String
   public func phoneNumberCorrective() -> Swift.String
+  public func phoneNumberWithCountyCodeWithoutPlus() -> Swift.String
   public func phoneNumberCorrectiveWithFormat() -> Swift.String
   public func checkNationCode() -> Swift.String
   public func getInitials() -> (Swift.String, Swift.String?)
