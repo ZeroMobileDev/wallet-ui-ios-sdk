@@ -33,8 +33,6 @@ public class AnimationUIView: UIView {
     }
 
     private func configureView() {
-        print("AnimationTest => AnimationUIView => configureView")
-
         self.animationView.animation = LottieAnimation.named(self.name.rawValue, bundle: WLResourcesBundle.current ?? Bundle.main)
         self.animationView.contentMode = .scaleAspectFit
         self.animationView.loopMode = self.loopMode
@@ -44,7 +42,6 @@ public class AnimationUIView: UIView {
                 self?.onAnimationFinished?()
             }
         }
-        print("AnimationTest => AnimationUIView => configureView")
         self.animationView.translatesAutoresizingMaskIntoConstraints = false
         self.addSubview(self.animationView)
 

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		b78Gxni/h3xcn499Uop3/FZ9X6A=
+		vT6h3odTom3Qd+y9vI2uUCTRiLo=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		NMOZS4SAjh0MsRXZ416L9SBn56o=
+		YTBp9j7qAzZMh5vQVr91g7HJ5Rw=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ZFjMuHfZUOCjuQUhQ5sORqY5cv8=
+		It+fJ1FrcXywiC3NepkI/fK/GIU=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -244,6 +244,10 @@
 		<data>
 		cj6isiQdHOTZdYf8LceLhVucMfQ=
 		</data>
+		<key>star.dgpara.com.der</key>
+		<data>
+		ErsOYBUglor9rjLNfRFkwqZpQ/c=
+		</data>
 		<key>tr.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -260,11 +264,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			b78Gxni/h3xcn499Uop3/FZ9X6A=
+			vT6h3odTom3Qd+y9vI2uUCTRiLo=
 			</data>
 			<key>hash2</key>
 			<data>
-			wq2qI795KS2Yhmkxavhyin2LGfsI5zjYV3AKnQm79Q0=
+			vfxXxI++HAL4VsGFJFFHBYN6qVwuaTfLNa7QGRt2AdE=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -557,22 +561,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NMOZS4SAjh0MsRXZ416L9SBn56o=
+			YTBp9j7qAzZMh5vQVr91g7HJ5Rw=
 			</data>
 			<key>hash2</key>
 			<data>
-			4r0JNdJ6jff8huMzRCZnXX8HaH8N/50BwCGHOgvRSug=
+			gFe5IuYu7p+MM4unaA6AcU9muc505B1rVTWJ4DIJCEs=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZFjMuHfZUOCjuQUhQ5sORqY5cv8=
+			It+fJ1FrcXywiC3NepkI/fK/GIU=
 			</data>
 			<key>hash2</key>
 			<data>
-			84Qj8LpAEMB6d5n2dP+qJu5sXUN5TRpEHrkX4iHu3MY=
+			LFyrM3UNjqLk8OYVVFyPQQs188pJCwa+ikun2HOX3zg=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -903,6 +907,17 @@
 			<key>hash2</key>
 			<data>
 			KydtQBtLBb61ru+E7fcA0uWapKF+qDthtlpALISULDc=
+			</data>
+		</dict>
+		<key>star.dgpara.com.der</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ErsOYBUglor9rjLNfRFkwqZpQ/c=
+			</data>
+			<key>hash2</key>
+			<data>
+			yoWM3eXtwlK/Rza2KCJvuAoZcK3fC/2CGS1Uapk6MVM=
 			</data>
 		</dict>
 		<key>tr.lproj/Localizable.strings</key>

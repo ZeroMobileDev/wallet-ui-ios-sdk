@@ -25,11 +25,9 @@ public struct AnimationView: UIViewRepresentable {
         self.name = name
         self.loopMode = loopMode
         self.onAnimationFinished = onAnimationFinished
-        print("AnimationTest => AnimationView => init")
     }
 
     public func makeUIView(context: UIViewRepresentableContext<AnimationView>) -> UIView {
-        print("AnimationTest => AnimationView => makeUIView")
         let view = AnimationUIView(
             name: self.name,
             loopMode: self.loopMode,

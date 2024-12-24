@@ -3098,6 +3098,8 @@ public struct AddressTypesModel : Swift.Codable {
   required public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class Engine {
+  public var isLoggingActivated: Swift.Bool
+  public func isSSLPinningEnabled() -> Swift.Bool
   public func Notify(notifyInputParams: wallet_ios_sdk.NotifyInputParams, completion: @escaping (_ result: wallet_ios_sdk.NotifyOutputParams) -> ())
   public func notifyV2(notifyInputParams: wallet_ios_sdk.InitParam, _ value: Swift.String, completion: @escaping (_ result: wallet_ios_sdk.InitResponse) -> ())
   public func engineInit(initParam: wallet_ios_sdk.InitParam, completion: @escaping (_ result: wallet_ios_sdk.InitResponse) -> ())
@@ -3328,9 +3330,6 @@ public class Meta : Swift.Codable {
   @available(*, deprecated, renamed: "languageCode", message: "Use languageCode variable")
   public func setLanguageCode(languageCode: Swift.String)
   @objc override dynamic public init()
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class HostConnection {
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetCustomerLimitInfoOutputParams : wallet_ios_sdk.BaseResponseMeta {
