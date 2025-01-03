@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "contracts_consent_text.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

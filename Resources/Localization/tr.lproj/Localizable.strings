@@ -565,6 +565,10 @@
 "SettingsScreen.Text.NotApprove"                                            = "ONAYLAMIYORUM";
 "SettingsScreen.Text.NinetyDaysPermissions"                           = "Tek seferlik şifre girişi ile 90 gün boyunca şifresiz şekilde akaryakıt alımı yapılmasını onaylıyorum";
 
+// MARK: - ContractsScreen
+"ContractsScreen.Title.Contracts" = "Sözleşmeler";
+"ContractsScreen.Title.ButtonText" = "Kapat";
+
 //MARK: - SplitTheBillPhoneSelectionScreen
 
 "SplitTheBillPhoneSelectionScreen.Text.SelectWantToSplit" = "Bölüştürmek İstediğiniz Kişileri Seçin";

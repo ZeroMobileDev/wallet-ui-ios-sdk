@@ -749,6 +749,11 @@ public enum WalletUiEnvironment : Swift.String {
   case UAT
   case PREPROD
   case PROD
+  public var displayName: Swift.String {
+    get
+  }
+  public static func getLastSelectedEnvironment() -> WalletUISdk.WalletUiEnvironment
+  public static func saveSelectedEnvironment(_ env: WalletUISdk.WalletUiEnvironment)
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {

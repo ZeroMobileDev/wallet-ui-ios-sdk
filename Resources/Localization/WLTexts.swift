@@ -605,6 +605,11 @@ enum WLTexts: String {
     case sendMoneyNavigationBarToIBAN = "SendMoneyNavigationBar.Text.ToIBAN"
     case cardInformationScreenWLBLWAccount = "CardInformationScreen.Text.WLBLWAccount"
     case splitTheBillSummaryScreenAcceptExplanation = "SplitTheBillSummaryScreen.Text.AcceptExplanation"
+    
+    //MARK: - SettingsScreen
+    case contractsScreenTitleContracts = "ContractsScreen.Title.Contracts"
+    case contractsScreenButtonText = "ContractsScreen.Title.ButtonText"
+
 
     // MARK: ChangePasswordScreen
 

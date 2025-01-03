@@ -277,6 +277,16 @@ public struct DebtListModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetDigitalSlipPreferenceOutputParams : wallet_ios_sdk.BaseResponseMeta {
+  public var digitalSlipPreferenceId: Swift.Int64?
+  @available(*, deprecated, renamed: "digitalSlipPreferenceId", message: "Use digitalSlipPreferenceId variable")
+  public func getDigitalSlipPreferenceId() -> Swift.Int64
+  @available(*, deprecated, renamed: "digitalSlipPreferenceId", message: "Use digitalSlipPreferenceId variable")
+  public func setDigitalSlipPreferenceId(digitalSlipPreferenceId: Swift.Int64)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 @objc @_inheritsConvenienceInitializers public class GetMfsTokenInputParams : wallet_ios_sdk.BaseRequestModel {
   public var userValidationType: Swift.String
   override public func encode(to encoder: any Swift.Encoder) throws
@@ -554,6 +564,7 @@ public struct TxnListModel : Swift.Codable {
   public var txnCategoryName: Swift.String?
   public var instrumentId: Swift.Int?
   public var instrumentName: Swift.String?, actionType: Swift.String?, holdByFraud: Swift.String?, targetFullName: Swift.String?
+  public var showDigitalSlip: Swift.Bool?
   public var actionDetail: wallet_ios_sdk.ActionDetailModel?
   @available(*, deprecated, renamed: "accountId", message: "Use accountId variable")
   public func getAccountId() -> Swift.Int64
@@ -575,6 +586,8 @@ public struct TxnListModel : Swift.Codable {
   public func getActionType() -> Swift.String
   @available(*, deprecated, renamed: "targetFullName", message: "Use targetFullName variable")
   public func getTargetFullName() -> Swift.String
+  @available(*, deprecated, renamed: "showDigitalSlip", message: "Use showDigitalSlip variable")
+  public func getShowDigitalSlip() -> Swift.Bool
   @available(*, deprecated, renamed: "actionDetail", message: "Use actionDetail variable")
   public func getActionDetail() -> wallet_ios_sdk.ActionDetailModel
   @available(*, deprecated, renamed: "holdByFraud", message: "Use holdByFraud variable")
@@ -748,10 +761,27 @@ public struct InvoiceInquiryModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
+@objc @_inheritsConvenienceInitializers public class GetDigitalSlipInputParams : wallet_ios_sdk.BaseRequestModel {
+  public var refNumber: Swift.Int64
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @available(*, deprecated, renamed: "refNumber", message: "Use refNumber variable")
+  public func getRefNumber() -> Swift.Int64
+  @available(*, deprecated, renamed: "refNumber", message: "Use refNumber variable")
+  public func setRefNumber(refNumber: Swift.Int64)
+  public func getActionType() -> Swift.String
+  public func setActionType(actionType: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class DeleteAccountOutputParams : wallet_ios_sdk.BaseResponseMeta {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers public class GetDigitalSlipPreferenceInputParams : wallet_ios_sdk.BaseRequestModel {
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class UpdatePrepaidCardStatusOutputParams : wallet_ios_sdk.BaseResponseMeta {
   @objc deinit
@@ -2290,6 +2320,9 @@ public struct CityModel : Swift.Codable {
   public var M_ADD_ENQURA_INTEGRATION_ENC: Swift.Int
   public var M_GET_OPEN_CONSENT_PREFERENCES: Swift.Int
   public var M_SET_OPEN_CONSENT_PREFERENCES: Swift.Int
+  public var M_GET_DIGITAL_SLIP: Swift.Int
+  public var M_GET_DIGITAL_SLIP_PREFERENCE: Swift.Int
+  public var M_UPDATE_DIGITAL_SLIP_PREFERENCE: Swift.Int
   public var M_GET_CUSTOMER_CASHBACK_DATA: Swift.Int
   public var M_GET_CUSTOMER_REMAINING_LIMIT_INFO_V2_ENC: Swift.Int
   public var M_GET_COMMUNICATION_PREFERENCES: Swift.Int
@@ -3098,8 +3131,6 @@ public struct AddressTypesModel : Swift.Codable {
   required public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class Engine {
-  public var isLoggingActivated: Swift.Bool
-  public func isSSLPinningEnabled() -> Swift.Bool
   public func Notify(notifyInputParams: wallet_ios_sdk.NotifyInputParams, completion: @escaping (_ result: wallet_ios_sdk.NotifyOutputParams) -> ())
   public func notifyV2(notifyInputParams: wallet_ios_sdk.InitParam, _ value: Swift.String, completion: @escaping (_ result: wallet_ios_sdk.InitResponse) -> ())
   public func engineInit(initParam: wallet_ios_sdk.InitParam, completion: @escaping (_ result: wallet_ios_sdk.InitResponse) -> ())
@@ -3330,6 +3361,9 @@ public class Meta : Swift.Codable {
   @available(*, deprecated, renamed: "languageCode", message: "Use languageCode variable")
   public func setLanguageCode(languageCode: Swift.String)
   @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class HostConnection {
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetCustomerLimitInfoOutputParams : wallet_ios_sdk.BaseResponseMeta {
@@ -4905,6 +4939,16 @@ public struct GetWalletVirtualCardTxnsDailyByAccountIdModel : Swift.Codable {
   @objc override dynamic public init()
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers public class UpdateDigitalSlipPreferenceInputParams : wallet_ios_sdk.BaseRequestModel {
+  public var digitalSlipPreferenceId: Swift.Int64
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @available(*, deprecated, renamed: "digitalSlipPreferenceId", message: "Use digitalSlipPreferenceId variable")
+  public func getDigitalSlipPreferenceId() -> Swift.Int64
+  @available(*, deprecated, renamed: "digitalSlipPreferenceId", message: "Use digitalSlipPreferenceId variable")
+  public func setDigitalSlipPreferenceId(digitalSlipPreferenceId: Swift.Int64)
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers public class BankAccountDeleteInputParams : wallet_ios_sdk.BaseRequestModel {
   public var targetAccountID: Swift.Int64
   override public func encode(to encoder: any Swift.Encoder) throws
@@ -5155,6 +5199,16 @@ public struct ValueModel : Swift.Codable {
   public func setSize(size: Swift.Int)
   @objc override dynamic public init()
   @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetDigitalSlipOutputParams : wallet_ios_sdk.BaseResponseMeta {
+  public var base64Content: Swift.String?
+  @available(*, deprecated, renamed: "base64Content", message: "Use base64Content variable")
+  public func getDigitalSlipBase64Content() -> Swift.String
+  @available(*, deprecated, renamed: "base64Content", message: "Use base64Content variable")
+  public func setDigitalSlipBase64Content(receiptBase64Content: Swift.String)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetInstitutionNameByIbanOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var institutionName: Swift.String?
@@ -5866,6 +5920,11 @@ extension wallet_ios_sdk.WalletCoreSDK {
   @objc override dynamic public init()
   @objc deinit
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class UpdateDigitalSlipPreferenceOutputParams : wallet_ios_sdk.BaseResponseMeta {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class CheckOnlinePaymentLimitOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var token: Swift.String?
   public var orderId: Swift.String?
@@ -6460,8 +6519,8 @@ public struct LimitDefinitionModel : Swift.Codable {
   @objc override dynamic public init()
   @objc deinit
 }
-public typealias ServiceClosureType<M> = (_ completion: @escaping (_ result: M) -> ()) -> Swift.Void where M : wallet_ios_sdk.BaseResponseMeta
-public typealias ServiceClosureTypeWithRequest<T, M> = (T, _ completion: @escaping (_ result: M) -> ()) -> Swift.Void where T : Swift.Encodable, M : wallet_ios_sdk.BaseResponseMeta
+public typealias ServiceClosureType<M> = (_ completion: @escaping (_ result: M) -> Swift.Void) -> Swift.Void where M : wallet_ios_sdk.BaseResponseMeta
+public typealias ServiceClosureTypeWithRequest<T, M> = (T, _ completion: @escaping (_ result: M) -> Swift.Void) -> Swift.Void where T : Swift.Encodable, M : wallet_ios_sdk.BaseResponseMeta
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class WalletCoreSDKServices : ObjectiveC.NSObject {
   public static let shared: wallet_ios_sdk.WalletCoreSDKServices
   final public let getFailLoginAttemptInterface: (@escaping (_ result: wallet_ios_sdk.GetFailLoginAttemptOutputParams) -> ()) -> ()
@@ -6560,8 +6619,11 @@ public typealias ServiceClosureTypeWithRequest<T, M> = (T, _ completion: @escapi
   final public let dgFinGetTokenLoanCreate: (wallet_ios_sdk.DgFinGetTokenLoanCreateInputParams, @escaping (_ result: wallet_ios_sdk.DgFinGetTokenLoanCreateOutputParams) -> ()) -> ()
   final public let dgFinGetCustomerInfoGsm: (wallet_ios_sdk.DgFinGetCustomerInputParams, @escaping (_ result: wallet_ios_sdk.GetCustomerInfoOutputParams) -> ()) -> ()
   final public let dgFinGetCustomer: (wallet_ios_sdk.DgFinGetCustomerInputParams, @escaping (_ result: wallet_ios_sdk.DgFinGetCustomerOutputParams) -> ()) -> ()
-  public func call<M>(service: (_ completion: @escaping (_ result: M) -> ()) -> Swift.Void, onSuccess: @escaping () -> Swift.Void = { }, onResult: @escaping (M) -> Swift.Void = {_ in }) where M : wallet_ios_sdk.BaseResponseMeta
-  public func call<T, M>(request: T, service: (T, _ completion: @escaping (_ result: M) -> ()) -> Swift.Void, onSuccess: @escaping () -> Swift.Void = { }, onResult: @escaping (M) -> Swift.Void = {_ in }) where T : Swift.Encodable, M : wallet_ios_sdk.BaseResponseMeta
+  final public let getDigitalSlip: (wallet_ios_sdk.GetDigitalSlipInputParams, @escaping (_ result: wallet_ios_sdk.GetDigitalSlipOutputParams) -> ()) -> ()
+  final public let getDigitalSlipPereferance: (@escaping (_ result: wallet_ios_sdk.GetDigitalSlipPreferenceOutputParams) -> ()) -> ()
+  final public let updateDigitalSlipPereferance: (wallet_ios_sdk.UpdateDigitalSlipPreferenceInputParams, @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
+  public func call<M>(service: (_ completion: @escaping (_ result: M) -> Swift.Void) -> Swift.Void, onSuccess: @escaping () -> Swift.Void = {}, onResult: @escaping (M) -> Swift.Void = { _ in }) where M : wallet_ios_sdk.BaseResponseMeta
+  public func call<T, M>(request: T, service: (T, _ completion: @escaping (_ result: M) -> Swift.Void) -> Swift.Void, onSuccess: @escaping () -> Swift.Void = {}, onResult: @escaping (M) -> Swift.Void = { _ in }) where T : Swift.Encodable, M : wallet_ios_sdk.BaseResponseMeta
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetCustomerPrepaidCardListOutputParams : wallet_ios_sdk.BaseResponseMeta {
@@ -6950,6 +7012,7 @@ public struct AccountActionListModel : Swift.Codable {
   public var txnCategoryName: Swift.String?
   public var instrumentId: Swift.Int16?
   public var instrumentName: Swift.String?, actionType: Swift.String?, holdByFraud: Swift.String?, targetFullName: Swift.String?
+  public var showDigitalSlip: Swift.Bool?
   public var actionDetail: wallet_ios_sdk.ActionDetailModel?
   @available(*, deprecated, renamed: "accountId", message: "Use accountId variable")
   public func getAccountId() -> Swift.Int64
@@ -6971,6 +7034,8 @@ public struct AccountActionListModel : Swift.Codable {
   public func getActionType() -> Swift.String
   @available(*, deprecated, renamed: "targetFullName", message: "Use targetFullName variable")
   public func getTargetFullName() -> Swift.String
+  @available(*, deprecated, renamed: "showDigitalSlip", message: "Use showDigitalSlip variable")
+  public func getShowDigitalSlip() -> Swift.Bool
   @available(*, deprecated, renamed: "actionDetail", message: "Use actionDetail variable")
   public func getActionDetail() -> wallet_ios_sdk.ActionDetailModel
   @available(*, deprecated, renamed: "holdByFraud", message: "Use holdByFraud variable")
@@ -7382,6 +7447,9 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func getOpenConsentPreferencesInterface(getOpenConsentPreferencesInputParams: wallet_ios_sdk.GetOpenConsentPreferencesInputParams, completion: @escaping (_ result: wallet_ios_sdk.GetOpenConsentPreferencesOutputParams) -> ())
   public func getFaq(getFAQInputParams: wallet_ios_sdk.GetFAQInputParams, completion: @escaping (_ result: wallet_ios_sdk.GetFAQOutputParams) -> ())
   public func setOpenConsentPreferencesInterface(setOpenConsentPreferencesInputParams: wallet_ios_sdk.SetOpenConsentPreferencesInputParams, completion: @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ())
+  public func getDigitalSlipInterface(getDigitalSlipInputParams: wallet_ios_sdk.GetDigitalSlipInputParams, completion: @escaping (_ result: wallet_ios_sdk.GetDigitalSlipOutputParams) -> ())
+  public func getDigitalSlipPreferenceInterface(completion: @escaping (_ result: wallet_ios_sdk.GetDigitalSlipPreferenceOutputParams) -> ())
+  public func updateDigitalSlipPreferenceInterface(updateDigitalSlipPreferenceInputParams: wallet_ios_sdk.UpdateDigitalSlipPreferenceInputParams, completion: @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ())
 }
 @objc @_inheritsConvenienceInitializers public class InvoiceCalculateCommissionFeeInputParams : wallet_ios_sdk.BaseRequestModel {
   public var debtInquiryOperationReferenceNumber: Swift.String
@@ -7701,6 +7769,8 @@ extension wallet_ios_sdk.GetAllBuildingWithStreetCodeInKpsOutputParams : Swift.E
 extension wallet_ios_sdk.GetAllBuildingWithStreetCodeInKpsOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.CreateAccountOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.CreateAccountOutputParams : Swift.Decodable {}
+extension wallet_ios_sdk.GetDigitalSlipPreferenceOutputParams : Swift.Encodable {}
+extension wallet_ios_sdk.GetDigitalSlipPreferenceOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.WalletPaymentOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.WalletPaymentOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.InvoiceInstitutionOutputParams : Swift.Encodable {}
@@ -7943,6 +8013,8 @@ extension wallet_ios_sdk.CompleteRegistrationOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.CompleteRegistrationOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.GetLimitDefinitionOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.GetLimitDefinitionOutputParams : Swift.Decodable {}
+extension wallet_ios_sdk.GetDigitalSlipOutputParams : Swift.Encodable {}
+extension wallet_ios_sdk.GetDigitalSlipOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.GetInstitutionNameByIbanOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.GetInstitutionNameByIbanOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.AddBalanceToWalletByStoredCardOutputParams : Swift.Encodable {}
@@ -7967,6 +8039,8 @@ extension wallet_ios_sdk.GetLatestAgreementOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.GetLatestAgreementOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.SwitchSessionCheckOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.SwitchSessionCheckOutputParams : Swift.Decodable {}
+extension wallet_ios_sdk.UpdateDigitalSlipPreferenceOutputParams : Swift.Encodable {}
+extension wallet_ios_sdk.UpdateDigitalSlipPreferenceOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.CheckOnlinePaymentLimitOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.CheckOnlinePaymentLimitOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.InvoiceGetReceiptInfoOutputParams : Swift.Encodable {}

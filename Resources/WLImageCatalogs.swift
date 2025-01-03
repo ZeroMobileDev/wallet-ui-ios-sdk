@@ -181,6 +181,13 @@ final class WLImageCatalog: ImageCatalog {
     lazy var ic_kyc_flow_pending_completed = WLImage(imageAssetName: "ic_kyc_flow_pending_completed")
     lazy var ic_kyc_flow_successfully_completed = WLImage(imageAssetName: "ic_kyc_flow_successfully_completed")
     lazy var success_logo = WLImage(imageAssetName: "success_logo")
+    // MARK: - Contracts
+    lazy var contracts = WLImage(imageAssetName: "contracts")
+    lazy var contracts_information = WLImage(imageAssetName: "contracts_information")
+    lazy var contracts_data_processing = WLImage(imageAssetName: "contracts_data_processing")
+    lazy var contracts_money_agreement = WLImage(imageAssetName: "contracts_money_agreement")
+    lazy var contracts_consent_text = WLImage(imageAssetName: "contracts_consent_text")
+    lazy var card_plus = WLImage(imageAssetName: "card_plus")
     init() {}
 }
 
@@ -360,4 +367,12 @@ protocol ImageCatalog {
     var ic_kyc_flow_pending_completed: WLImage { get }
     var ic_kyc_flow_successfully_completed: WLImage { get }
     var success_logo: WLImage { get }
+    // MARK: - Contracts
+    var contracts: WLImage { get }
+    var contracts_information: WLImage { get }
+    var contracts_data_processing: WLImage { get }
+    var contracts_money_agreement: WLImage { get }
+    var contracts_consent_text: WLImage { get }
+    
+    var card_plus: WLImage { get }
 }
