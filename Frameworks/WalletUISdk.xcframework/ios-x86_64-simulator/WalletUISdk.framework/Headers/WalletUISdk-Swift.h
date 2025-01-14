@@ -314,6 +314,13 @@ SWIFT_CLASS("_TtC11WalletUISdk15AnimationUIView")
 
 
 
+SWIFT_CLASS("_TtC11WalletUISdk11LoadingView")
+@interface LoadingView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 @protocol UIViewControllerContextTransitioning;
 
 SWIFT_CLASS("_TtC11WalletUISdk16PopTransitioning")
@@ -344,6 +351,13 @@ SWIFT_CLASS("_TtCV11WalletUISdk15CodeScannerView21ScannerViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
+@class UIPresentationController;
+
+SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
+@interface ScannerViewController (SWIFT_EXTENSION(WalletUISdk)) <UIAdaptivePresentationControllerDelegate>
+- (void)presentationControllerDidDismiss:(UIPresentationController * _Nonnull)presentationController;
+@end
+
 @class AVCaptureMetadataOutput;
 @class AVMetadataObject;
 @class AVCaptureConnection;
@@ -351,13 +365,6 @@ SWIFT_CLASS("_TtCV11WalletUISdk15CodeScannerView21ScannerViewController")
 SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
 @interface ScannerViewController (SWIFT_EXTENSION(WalletUISdk)) <AVCaptureMetadataOutputObjectsDelegate>
 - (void)captureOutput:(AVCaptureMetadataOutput * _Nonnull)output didOutputMetadataObjects:(NSArray<AVMetadataObject *> * _Nonnull)metadataObjects fromConnection:(AVCaptureConnection * _Nonnull)connection;
-@end
-
-@class UIPresentationController;
-
-SWIFT_AVAILABILITY(maccatalyst,introduced=14.0)
-@interface ScannerViewController (SWIFT_EXTENSION(WalletUISdk)) <UIAdaptivePresentationControllerDelegate>
-- (void)presentationControllerDidDismiss:(UIPresentationController * _Nonnull)presentationController;
 @end
 
 @class UIImagePickerController;
@@ -398,6 +405,12 @@ SWIFT_CLASS("_TtC11WalletUISdk21SplashAnimationUIView")
 
 
 
+
+
+@interface UIView (SWIFT_EXTENSION(WalletUISdk))
+- (void)wl_embedView:(UIView * _Nonnull)view;
+- (void)wl_embedView:(UIView * _Nonnull)view insets:(UIEdgeInsets)insets;
+@end
 
 
 

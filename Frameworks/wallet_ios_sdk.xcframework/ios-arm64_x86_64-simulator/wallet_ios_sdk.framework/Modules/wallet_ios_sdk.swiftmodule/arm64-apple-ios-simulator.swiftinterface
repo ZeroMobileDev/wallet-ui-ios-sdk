@@ -2414,6 +2414,7 @@ public struct CityModel : Swift.Codable {
   public var M_DGFIN_GET_CUSTOMER_INFO_GSM: Swift.Int
   public var M_UPDATE_CUSTOMER_PHONE_NUMBER: Swift.Int
   public var M_DGFIN_GET_TOKEN_LOAN_CREATE: Swift.Int
+  public var M_GET_JOBS: Swift.Int
   public var BALANCE_GetMasterpassConfig: Swift.Int
   @objc deinit
 }
@@ -2711,6 +2712,33 @@ public struct LimitPeriodTypesModel : Swift.Codable {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
+}
+public struct JobListModel : Swift.Codable {
+  public var id: Swift.String?, fieldKey: Swift.String?, typeId: Swift.String?
+  public var isActive: Swift.Bool?
+  public var statusId: Swift.Int?
+  @available(*, deprecated, renamed: "id", message: "Use id variable")
+  public func getId() -> Swift.String
+  @available(*, deprecated, renamed: "id", message: "Use id variable")
+  public mutating func setId(id: Swift.String)
+  @available(*, deprecated, renamed: "fieldKey", message: "Use fieldKey variable")
+  public func getFieldKey() -> Swift.String
+  @available(*, deprecated, renamed: "fieldKey", message: "Use fieldKey variable")
+  public mutating func setFieldKey(fieldKey: Swift.String)
+  @available(*, deprecated, renamed: "typeId", message: "Use typeId variable")
+  public func getTypeId() -> Swift.String
+  @available(*, deprecated, renamed: "typeId", message: "Use typeId variable")
+  public mutating func setTypeId(typeId: Swift.String)
+  @available(*, deprecated, renamed: "isActive", message: "Use isActive variable")
+  public func getIsActive() -> Swift.Bool
+  @available(*, deprecated, renamed: "isActive", message: "Use isActive variable")
+  public mutating func setIsActive(isActive: Swift.Bool)
+  @available(*, deprecated, renamed: "statusId", message: "Use statusId variable")
+  public func getStatusId() -> Swift.Int
+  @available(*, deprecated, renamed: "statusId", message: "Use statusId variable")
+  public mutating func setStatusId(statusId: Swift.Int)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public class DetailModel : Swift.Codable {
   public var processtype: Swift.Int?
@@ -4427,6 +4455,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func addAnonimCustomer(addAnonimCustomerInputParams: wallet_ios_sdk.AddAnonimCustomerInputParams, completion: @escaping (_ result: wallet_ios_sdk.AddAnonimCustomerOutputParams) -> ())
   public func completeRegistration(completeRegistrationInputParams: wallet_ios_sdk.CompleteRegistrationInputParams, completion: @escaping (_ result: wallet_ios_sdk.CompleteRegistrationOutputParams) -> ())
   public func updateCustomerPhoneNumber(updateCustomerPhoneNumberInputParams: wallet_ios_sdk.UpdateCustomerPhoneNumberInputParams, completion: @escaping (_ result: wallet_ios_sdk.UpdateCustomerPhoneNumberOutputParams) -> ())
+  public func getJobs(getJobsInputParams: wallet_ios_sdk.GetJobsInputParams, completion: @escaping (_ result: wallet_ios_sdk.GetJobsOutputParams) -> ())
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class UpdateCustomerInfoOutputParams : wallet_ios_sdk.BaseResponseMeta {
   @objc deinit
@@ -5276,6 +5305,16 @@ public struct ValueModel : Swift.Codable {
   public func setBinNumber(binNumber: Swift.String)
   @objc override dynamic public init()
   @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetJobsOutputParams : wallet_ios_sdk.BaseResponseMeta {
+  public var jobList: [wallet_ios_sdk.JobListModel]?
+  @available(*, deprecated, renamed: "questionList", message: "Use questionList variable")
+  public func getJobList() -> [wallet_ios_sdk.JobListModel]
+  @available(*, deprecated, renamed: "questionList", message: "Use questionList variable")
+  public func setJobList(jobList: [wallet_ios_sdk.JobListModel])
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class BankAccountCreateOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var targetAccountId: Swift.Int64?
@@ -6606,6 +6645,7 @@ public typealias ServiceClosureTypeWithRequest<T, M> = (T, _ completion: @escapi
   final public let getSecretQuestion: (wallet_ios_sdk.GetSecretQuestionInputParams, @escaping (_ result: wallet_ios_sdk.GetSecretQuestionOutputParams) -> ()) -> ()
   final public let setSecretQuestionAnswer: (wallet_ios_sdk.SetSecretQuestionAnswerInputParams, @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
   final public let securityQuestionReset: (@escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
+  final public let getJobs: (wallet_ios_sdk.GetJobsInputParams, @escaping (_ result: wallet_ios_sdk.GetJobsOutputParams) -> ()) -> ()
   final public let failLoginAttemptSeen: (@escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
   final public let LoginWithPassword: (wallet_ios_sdk.LoginWithPasswordInputParams, @escaping (_ result: wallet_ios_sdk.LoginWithPasswordOutputParams) -> ()) -> ()
   final public let logoutInterface: (@escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
@@ -7471,6 +7511,16 @@ extension wallet_ios_sdk.WalletCoreSDK {
   @objc override dynamic public init()
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers public class GetJobsInputParams : wallet_ios_sdk.BaseRequestModel {
+  public var statusId: Swift.Int
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @available(*, deprecated, renamed: "statusId", message: "Use statusId variable")
+  public func getStatusId() -> Swift.Int
+  @available(*, deprecated, renamed: "statusId", message: "Use statusId variable")
+  public func setStatusId(statusId: Swift.Int)
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers public class TopupPayCommitInputParams : wallet_ios_sdk.BaseRequestModel {
   public var remoteIPAddress: Swift.String?
   public var commitToken: Swift.String?, orderID: Swift.String?, masterpassCardID: Swift.String?
@@ -8019,6 +8069,8 @@ extension wallet_ios_sdk.GetInstitutionNameByIbanOutputParams : Swift.Encodable 
 extension wallet_ios_sdk.GetInstitutionNameByIbanOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.AddBalanceToWalletByStoredCardOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.AddBalanceToWalletByStoredCardOutputParams : Swift.Decodable {}
+extension wallet_ios_sdk.GetJobsOutputParams : Swift.Encodable {}
+extension wallet_ios_sdk.GetJobsOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.BankAccountCreateOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.BankAccountCreateOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.ApplyPrepaidCardOutputParams : Swift.Encodable {}

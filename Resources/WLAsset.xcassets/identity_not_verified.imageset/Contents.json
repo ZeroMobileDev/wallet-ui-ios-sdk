@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "identity_not_verified.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

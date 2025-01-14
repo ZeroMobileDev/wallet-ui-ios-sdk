@@ -12,10 +12,12 @@ import EnQualify
 import Foundation
 import Lottie
 import Network
+import ReplayKit
 import Swift
 import SwiftUI
 import SystemConfiguration
 import UIKit
+import UIKit.UIView
 @_exported import WalletUISdk
 import WebKit
 import _Concurrency
@@ -23,6 +25,21 @@ import _CoreNFC_UIKit
 import _StringProcessing
 import _SwiftConcurrencyShims
 import wallet_ios_sdk
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class LoadingView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) final public func show(in view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) final public func showInWindow()
+  @_Concurrency.MainActor(unsafe) final public func hide()
+  @_Concurrency.MainActor(unsafe) final public func setLoadingMessage(_ message: Swift.String)
+  @objc deinit
+}
+final public class ActivityTracker {
+  public init()
+  final public func addActivity()
+  final public func removeActivity()
+  @objc deinit
+}
 public class WalletUiSDK {
   public static let shared: WalletUISdk.WalletUiSDK
   public init()
@@ -108,6 +125,7 @@ public protocol EnquraSessionProtocol {
   func ocrStart()
   func closeSession()
   func callSessionClose()
+  func callSessionCloseWithoutFinish()
   func faceRetry()
   func nfcRetry()
   func idRetry()
@@ -187,6 +205,7 @@ public protocol EnquraSessionDelegate : AnyObject {
   func verifyFailed()
   func faceDetectStarted()
   func identityFailure()
+  func faceRecordFailure()
 }
 public struct SplashAnimationView : SwiftUI.UIViewRepresentable {
   public init(name: WalletUISdk.AnimationFileName, loopMode: Lottie.LottieLoopMode = .loop, onAnimationFinished: (() -> Swift.Void)? = nil)
@@ -760,6 +779,13 @@ public enum WalletUiEnvironment : Swift.String {
     get
   }
 }
+extension UIKit.UIView {
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func wlLoadViewFromNib() -> UIKit.UIView?
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func wl_embedView(_ view: UIKit.UIView)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func wl_embedView(_ view: UIKit.UIView, insets: UIKit.UIEdgeInsets)
+  @_Concurrency.MainActor(unsafe) public func wlConstrainToEdges(_ subview: UIKit.UIView)
+}
 public enum ToWhichPage : Swift.Int, Swift.CaseIterable {
   case askForMoney
   case sendMoney
@@ -874,6 +900,7 @@ public protocol EnquraSessionManagerDelegate : AnyObject {
   final public func faceDetectStart()
   final public func setNFCBACData()
   final public func callSessionClose()
+  final public func callSessionCloseWithoutFinish()
   final public func closeSession()
   final public func closeSessionWithPop()
   final public func addIntegration(onComplete: @escaping () -> Swift.Void)

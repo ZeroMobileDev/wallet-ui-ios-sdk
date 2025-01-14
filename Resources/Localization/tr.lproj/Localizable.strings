@@ -103,7 +103,8 @@
 "RegisterView.Text.SurName" = "Soyad";
 "RegisterView.Text.IDNumber" = "T.C. Kimlik Numarası";
 "RegisterView.Text.BirthDate" = "Doğum Tarihi";
-"RegisterView.Text.ReferenceCode" = "Satış temsilcisi Kodu";
+"RegisterView.Text.ReferenceCode" = "Referans Numarası";
+"RegisterView.Text.ReferenceCodeHint" = "Referans numarasını giriniz.";
 "RegisterView.Text.Validation.Email" = "Girilen e-posta adresi formata uygun değildir.";
 "RegisterViewSecond.Text.IncorrectEmail"  = "Geçersiz e-posta";
 
@@ -650,16 +651,20 @@
 "ProfileInformationsScreen.Text.EMail" = "E-Posta";
 "ProfileInformationsScreen.Text.EMail" = "E-Posta";
 "ProfileInformationsScreen.Text.Job" = "Meslek";
+"ProfileInformationsScreen.Text.SelectJob" = "Meslek Seçiniz";
 "ProfileInformationsScreen.Text.JobInfo" = "Meslek Bilgileri";
 "ProfileInformationsScreen.Text.CustomerInfo" = "Kişisel Bilgiler";
 "ProfileInformationsScreen.Text.MonthlyNetIncome" = "Aylık Net Gelir";
+"ProfileInformationsScreen.Text.MonthlyNetIncomeInfo" = "Aylık Net Gelir Giriniz";
 "ProfileInformationsScreen.Text.EstimatedWalletBalance" = "Tahmini Cüzdan Bakiyesi";
+"ProfileInformationsScreen.Text.EstimatedWalletBalanceInfo" = "Tahmini Cüzdan Bakiyesi Giriniz";
 "ProfileInformationsScreen.Text.MonthyTransactionCount" = "Tahmini Aylık İşlem Sayısı";
+"ProfileInformationsScreen.Text.MonthyTransactionCountInfo" = "Tahmini Aylık İşlem Sayısı Giriniz";
 "ProfileInformationsScreen.Text.EnterNumber" = "Lütfen sadece sayı giriniz.";
 
 "ProfileInformationsScreen.Text.RemoveAccount" = "Hesabımı Kapat";
 "ProfileInformationsScreen.Text.Warning" = "Uyarı";
-"ProfileInformationsScreen.Text.WarningText" = "Üyeliğiniz iptal ettiğiniz durumda; biriktirdiğiniz tüm ödül ve üyelik puanlarınız, kampanya katılımlarınız, segmentiniz, anlaşmalı markalardaki üyelik ve eşleştirmeleriniz ve kayıtlı kartlarınız geri alınamaz şekilde iptal edilecektir. Opet'da Yeniden görüşmek üzere! \n \n Onaylıyor musunuz?";
+"ProfileInformationsScreen.Text.WarningText" = "Üyeliğiniz iptal ettiğiniz durumda; biriktirdiğiniz tüm ödül ve üyelik puanlarınız, kampanya katılımlarınız, segmentiniz, anlaşmalı markalardaki üyelik ve eşleştirmeleriniz ve kayıtlı kartlarınız geri alınamaz şekilde iptal edilecektir. Opet'te yeniden görüşmek üzere! \n \n Onaylıyor musunuz?";
 
 
 //MARK: - Fail Login Attemps Sheet
