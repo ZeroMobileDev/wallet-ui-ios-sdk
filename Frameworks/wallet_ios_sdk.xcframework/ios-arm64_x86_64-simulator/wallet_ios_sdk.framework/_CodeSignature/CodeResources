@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OYgRCn52RLOiOllwaaWqqd7tP9Y=
+		vHj0uSmmqF9SYn2/AuFYNVh/Wps=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		MtU7iiq6aUjb8pBhZwBgNdrCvTA=
+		Ubrm1Tn66uJ62pTq4u346atp2uc=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NmutzPIJcG8VbBD+AhuatabS540=
+		8GdYUujLRWBSLzXPDsszgjolsd8=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		MtU7iiq6aUjb8pBhZwBgNdrCvTA=
+		Ubrm1Tn66uJ62pTq4u346atp2uc=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fDBgXbmqHCKXigysElxpskGmPcA=
+		UHNn0H4q/iDWbJcb8Wsa0ryf/F4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -110,7 +110,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7lvQXPB3kv0uNtd7qKBUtyOFrQkmSnxtze5ELaO1Gic=
+			kRfsi88iTSrFs+fmz2gd8+FCmqmGns1wjNaU0bilFf0=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -138,14 +138,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l0fqPIIW5aUw8IuJ5QoSMTY+TGIDDFdCMFILCWMOlQo=
+			9Bko46gp7ny/0OKBdBCrKeDjhghjIo7hWHyYXURWtCk=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7lvQXPB3kv0uNtd7qKBUtyOFrQkmSnxtze5ELaO1Gic=
+			kRfsi88iTSrFs+fmz2gd8+FCmqmGns1wjNaU0bilFf0=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -173,7 +173,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RP3qP6b7uzTg4xoveCCa3g9SsfkdZ00vZ/FHaQfL6Qg=
+			kPFM8YYlPjar+Ftbtbh/MlMRuXCMYUFM/oZHX9VNb9A=
 			</data>
 		</dict>
 	</dict>
