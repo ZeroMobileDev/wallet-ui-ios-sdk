@@ -611,6 +611,28 @@ enum WLTexts: String {
     case cardInformationScreenWLBLWAccount = "CardInformationScreen.Text.WLBLWAccount"
     case splitTheBillSummaryScreenAcceptExplanation = "SplitTheBillSummaryScreen.Text.AcceptExplanation"
     
+    // MARK: - AdressVerify
+    
+    case adressVerifyTitle = "AdressVerify.Title.navigationTitle"
+    case adressVerifyTextFieldTitle = "AdressVerify.Title.textfieldHeader"
+    case adressVerifyTextFieldPlaceHolder = "AdressVerify.Text.placeHolderText"
+    case adressVerifyTextFieldInfo = "AdressVerify.Text.textFieldInfo"
+    
+    // MARK: - AdressVerifyInfo
+    
+    case adressVerifyInfoTitle = "AdressVerifyInfo.Title.navigationTitle"
+    case adressVerifyInfoTextEdevlet = "AdressVerifyInfo.Title.textEdevlet"
+    case adressVerifyInfoTextRegisterSystem = "AdressVerifyInfo.Title.registerSystem"
+    
+    // MARK: - AdressVerifyDetail
+    case adressVerifyDetailRegisterSystemFirst = "AdressVerifyDetail.Text.registerSystemFirst"
+    case adressVerifyDetailRegisterSystemSecond = "AdressVerifyDetail.Text.registerSystemSecond"
+    case adressVerifyDetailRegisterSystemThird = "AdressVerifyDetail.Text.registerSystemThird"
+    
+    case adressVerifyDetailEdevletFirst = "AdressVerifyDetail.Text.edevletFirst"
+    case adressVerifyDetailEdevletSecond = "AdressVerifyDetail.Text.edevletSecond"
+    
+    
     //MARK: - SettingsScreen
     case contractsScreenTitleContracts = "ContractsScreen.Title.Contracts"
     case contractsScreenButtonText = "ContractsScreen.Title.ButtonText"

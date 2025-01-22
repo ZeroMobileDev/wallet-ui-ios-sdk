@@ -4090,7 +4090,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func GetSupportedLanguagesInterface(completion: @escaping (_ result: wallet_ios_sdk.GetSupportedLanguagesOutputParams) -> ())
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetMasterpassConfigOutputParams : wallet_ios_sdk.BaseResponseMeta {
-  public var token: Swift.String?, clientId: Swift.String?, macroMerchantId: Swift.String?, referenceNo: Swift.String?, userId: Swift.String?, api: Swift.String?
+  public var token: Swift.String?, clientId: Swift.String?, macroMerchantId: Swift.String?, referenceNo: Swift.String?, userId: Swift.String?, api: Swift.String?, masterpassURL: Swift.String?
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -6662,6 +6662,7 @@ public typealias ServiceClosureTypeWithRequest<T, M> = (T, _ completion: @escapi
   final public let getDigitalSlip: (wallet_ios_sdk.GetDigitalSlipInputParams, @escaping (_ result: wallet_ios_sdk.GetDigitalSlipOutputParams) -> ()) -> ()
   final public let getDigitalSlipPereferance: (@escaping (_ result: wallet_ios_sdk.GetDigitalSlipPreferenceOutputParams) -> ()) -> ()
   final public let updateDigitalSlipPereferance: (wallet_ios_sdk.UpdateDigitalSlipPreferenceInputParams, @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
+  final public let getKpsAdressVerify: (wallet_ios_sdk.GetKpsAddressVerifyInputParams, @escaping (_ result: wallet_ios_sdk.GetKpsAddressVerifyOutputParams) -> ()) -> ()
   public func call<M>(service: (_ completion: @escaping (_ result: M) -> Swift.Void) -> Swift.Void, onSuccess: @escaping () -> Swift.Void = {}, onResult: @escaping (M) -> Swift.Void = { _ in }) where M : wallet_ios_sdk.BaseResponseMeta
   public func call<T, M>(request: T, service: (T, _ completion: @escaping (_ result: M) -> Swift.Void) -> Swift.Void, onSuccess: @escaping () -> Swift.Void = {}, onResult: @escaping (M) -> Swift.Void = { _ in }) where T : Swift.Encodable, M : wallet_ios_sdk.BaseResponseMeta
   @objc deinit

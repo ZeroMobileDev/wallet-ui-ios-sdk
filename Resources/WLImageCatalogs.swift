@@ -190,6 +190,18 @@ final class WLImageCatalog: ImageCatalog {
     lazy var card_plus = WLImage(imageAssetName: "card_plus")
     lazy var identity_not_verified = WLImage(imageAssetName: "identity_not_verified")
     lazy var identity_verified = WLImage(imageAssetName: "identity_verified")
+    
+    // MARK: - AdressVerify
+    
+    lazy var eDevlet = WLImage(imageAssetName: "eDevlet")
+    lazy var registerSystem = WLImage(imageAssetName: "registerSystem")
+    
+    lazy var aks_1 = WLImage(imageAssetName: "aks_1")
+    lazy var aks_2 = WLImage(imageAssetName: "aks_2")
+    lazy var aks_3 = WLImage(imageAssetName: "aks_3")
+    lazy var edevlet_1 = WLImage(imageAssetName: "edevlet_1")
+    lazy var edevlet_2 = WLImage(imageAssetName: "edevlet_2")
+
     init() {}
 }
 
@@ -369,7 +381,19 @@ protocol ImageCatalog {
     var ic_kyc_flow_pending_completed: WLImage { get }
     var ic_kyc_flow_successfully_completed: WLImage { get }
     var success_logo: WLImage { get }
+    
+    // MARK: - AdressVerify
+    
+    var eDevlet: WLImage { get }
+    var registerSystem: WLImage { get }
+    var aks_1: WLImage { get }
+    var aks_2: WLImage { get }
+    var aks_3: WLImage { get }
+    var edevlet_1: WLImage { get }
+    var edevlet_2: WLImage { get }
+    
     // MARK: - Contracts
+    
     var contracts: WLImage { get }
     var contracts_information: WLImage { get }
     var contracts_data_processing: WLImage { get }

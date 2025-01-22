@@ -801,6 +801,28 @@
 //MARK: MyWLCards
 "MyWLCards.Text.lastCard" = "KAYITLI OPET KARTIM";
 
+// MARK: - AdressVerify
+
+"AdressVerify.Title.navigationTitle" = "Adres Doğrulama";
+"AdressVerify.Title.textfieldHeader" = "Adres Numarası";
+"AdressVerify.Text.placeHolderText" = "Adres Numaranızı Giriniz";
+"AdressVerify.Text.textFieldInfo" = "Adres numarası nasıl öğrenilir?";
+
+// MARK: - AdressVerifyInfo
+"AdressVerifyInfo.Title.navigationTitle" = "Adres Numarası Nasıl Öğrenilir?";
+"AdressVerifyInfo.Title.textEdevlet" = "e-Devlet Giriş";
+"AdressVerifyInfo.Title.registerSystem" = "Adres Kayıt Sistemi";
+
+// MARK: - AdressVerifyDetail
+
+"AdressVerifyDetail.Text.registerSystemFirst" = "Adres Kayıt Sistemi’ne giriş yaparak
+“Sorgula” ya tıkla.";
+"AdressVerifyDetail.Text.registerSystemSecond" = "Ekranda bulunan bilgilere ikametgah adresini gir.";
+"AdressVerifyDetail.Text.registerSystemThird" = "Ekranında alt kısımda bulunan Bağımsız Kimlik Nı bölümünden 10 haneli Adres No’nu öğrenebilirsin.";
+
+
+"AdressVerifyDetail.Text.edevletFirst" = "E-Devlet’e giriş yaparak arama bölümüne “Adres No öğrenme” yazınız.";
+"AdressVerifyDetail.Text.edevletSecond" = "Adres No öğrenme bölümünden 10 haneli NVİ Adres No’nu öğrenebilirsin.";
 
 //MARK: VirtualCards
 "VirtualCards.Title.NavigationTitle" = "Opet Pay İşlemlerim";

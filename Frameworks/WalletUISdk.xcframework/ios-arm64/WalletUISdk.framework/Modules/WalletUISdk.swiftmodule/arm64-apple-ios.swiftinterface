@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name WalletUISdk
 import AVFoundation
 import Combine
+import CommonCrypto
 import Contacts
 import CoreLocation
 import CoreMedia
@@ -439,6 +440,8 @@ extension Swift.String {
   public func phoneNumberWithCountyCodeWithoutPlus() -> Swift.String
   public func phoneNumberCorrectiveWithFormat() -> Swift.String
   public func checkNationCode() -> Swift.String
+  public func toBase64() -> Swift.String?
+  public func fromBase64() -> Swift.String?
   public func getInitials() -> (Swift.String, Swift.String?)
   public func removeSpaceAndBracketsFromPhone() -> Swift.String
   public func removeSpaceBracketsAndPlusFromPhone() -> Swift.String
@@ -576,6 +579,9 @@ public struct QrPaymentModel : Swift.Hashable {
   public var hashValue: Swift.Int {
     get
   }
+}
+@_hasMissingDesignatedInitializers public class AESEncryption {
+  @objc deinit
 }
 public struct UIConfig {
   public var brandName: Swift.String
