@@ -73,6 +73,8 @@
 "Common.Text.Successful"                                        = "Başarılı";
 "Common.Text.YourTransactionIsSuccessful"                       = "İşleminiz Başarılı!";
 "Common.Text.YourTransactionSuccessful"                       = "İşlem Başarılı.";
+"Common.Text.YourTransactionSuccessful"                       = "İşlem Başarılı.";
+"Common.Text.YourRejectionSuccessful"                       = "Reddetme işleminiz başarılı";
 "Common.Text.UnknownErrorOccurred"                              = "Bilinmeyen bir hata ile karşılaşıldı. Lütfen tekrar deneyiniz.";
 "Common.Text.CardCreated"                                       = "Kart Oluşturuldu";
 "Common.Text.RequestSuccessFull"                                = "Talebiniz başarıyla iletildi.";

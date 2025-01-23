@@ -26,6 +26,9 @@ final class CommonColors: ColorPalette {
     lazy var dateAndTime = WLColor(color: Color.black)
     lazy var blackColor = WLColor(color: Color.black)
     lazy var brickRedColor = WLColor(colorAssetName: "brickRedColor")
+    lazy var unVerifiedRedColor = WLColor(colorAssetName: "UnverifiedEmail")
+    lazy var verifiedGreenColor = WLColor(colorAssetName: "VerifiedGreenColor")
+    
     lazy var whiteColor = WLColor(color: Color.white)
     lazy var darkBlue = WLColor(color: Color(red: 0.12, green: 0.18, blue: 0.35))
 
@@ -67,6 +70,8 @@ protocol ColorPalette {
     var subTitleColor: WLColor { get }
     var toogleColor: WLColor { get }
     var darkBlue: WLColor { get }
+    var unVerifiedRedColor: WLColor { get }
+    var verifiedGreenColor: WLColor { get }
 }
 
 extension Color {

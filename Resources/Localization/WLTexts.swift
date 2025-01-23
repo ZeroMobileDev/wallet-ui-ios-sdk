@@ -77,6 +77,7 @@ enum WLTexts: String {
     case commonTextSuccessful = "Common.Text.Successful"
     case commonTextYourTransactionIsSuccessful = "Common.Text.YourTransactionIsSuccessful"
     case commonTextYourTransactionSuccessful = "Common.Text.YourTransactionSuccessful"
+    case commonTextYourRejectionSuccessful = "Common.Text.YourRejectionSuccessful"
     case commonTextUnknownErrorOccurred = "Common.Text.UnknownErrorOccurred"
     case commonTextCardCreated = "Common.Text.CardCreated"
     case commonTextMyself = "Common.Text.Myself"
