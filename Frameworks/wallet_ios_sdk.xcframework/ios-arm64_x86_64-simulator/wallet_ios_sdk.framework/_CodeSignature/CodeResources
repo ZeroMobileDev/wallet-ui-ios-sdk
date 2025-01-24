@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vHj0uSmmqF9SYn2/AuFYNVh/Wps=
+		XO5yV05hvWyXEZtzvpNG0BzbALk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ubrm1Tn66uJ62pTq4u346atp2uc=
+		4Rvkw0s123vYbJkBA//ku9QVs5o=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		lBA0s1kOCGqVRtSo7ard+1WvzAc=
+		Pt6hU/Ee7+sDjvssCevpyZbgCJk=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		lBA0s1kOCGqVRtSo7ard+1WvzAc=
+		Pt6hU/Ee7+sDjvssCevpyZbgCJk=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8GdYUujLRWBSLzXPDsszgjolsd8=
+		ybFzGHqeYIgCPP6jVYj1r9J6g6k=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ubrm1Tn66uJ62pTq4u346atp2uc=
+		4Rvkw0s123vYbJkBA//ku9QVs5o=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		T/p4SsZ8Dw5syqu5Lk2KyrFeuRg=
+		SIfq3IhYY96rvOH7hxGLcX8rZE4=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -62,11 +62,15 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		T/p4SsZ8Dw5syqu5Lk2KyrFeuRg=
+		SIfq3IhYY96rvOH7hxGLcX8rZE4=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UHNn0H4q/iDWbJcb8Wsa0ryf/F4=
+		HzYK7FCKWDCIg0Lr817nmy8j+b8=
+		</data>
+		<key>star.dgpara.com.der</key>
+		<data>
+		ErsOYBUglor9rjLNfRFkwqZpQ/c=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -110,14 +114,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kRfsi88iTSrFs+fmz2gd8+FCmqmGns1wjNaU0bilFf0=
+			XqrepXkjG8m2TUDuIurgyyDO7SbfDGI6630MMXkOUQ0=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y4PC/KoIDK+VttbbPeqcR6QgwGbo32gqMbaOww9sx44=
+			JXWeI8SdFpckld2t7m2ylJrOIitg9qnvd3PfG13rBu0=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -131,28 +135,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y4PC/KoIDK+VttbbPeqcR6QgwGbo32gqMbaOww9sx44=
+			JXWeI8SdFpckld2t7m2ylJrOIitg9qnvd3PfG13rBu0=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Bko46gp7ny/0OKBdBCrKeDjhghjIo7hWHyYXURWtCk=
+			7QhC+Gqax8+5L0b8B9s42Udnt8Sc8RpEggLmSTfgI5A=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kRfsi88iTSrFs+fmz2gd8+FCmqmGns1wjNaU0bilFf0=
+			XqrepXkjG8m2TUDuIurgyyDO7SbfDGI6630MMXkOUQ0=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pBATNNe9Sv2t1hhUccH5OqKgs+AD7OhGJxFtlRCDHmA=
+			Q2d/ajv6+tN+UJ+XmDivFKQQkT+wSZsjGKDmRrj5Lrs=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -166,14 +170,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pBATNNe9Sv2t1hhUccH5OqKgs+AD7OhGJxFtlRCDHmA=
+			Q2d/ajv6+tN+UJ+XmDivFKQQkT+wSZsjGKDmRrj5Lrs=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kPFM8YYlPjar+Ftbtbh/MlMRuXCMYUFM/oZHX9VNb9A=
+			XHd7rU9b5BaP76hApfBQwhAAkso+0qd58G1oBMbxHqQ=
+			</data>
+		</dict>
+		<key>star.dgpara.com.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yoWM3eXtwlK/Rza2KCJvuAoZcK3fC/2CGS1Uapk6MVM=
 			</data>
 		</dict>
 	</dict>
