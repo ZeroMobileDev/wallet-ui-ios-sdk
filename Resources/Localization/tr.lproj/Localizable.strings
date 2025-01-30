@@ -83,6 +83,8 @@
 "Common.Text.EditAll"                                           = "Tümünü Düzenle";
 "Common.Text.SelectOnOption"                                   = "Bir seçenek seçin";
 "Common.Text.NonZeroValue"                                   = "Girdiğiniz tutar 0'dan büyük olmalıdır.";
+"Common.Text.ClosedCard"                                   = "Kullanıma Aç";
+"Common.Text.EmptyCard"                                   = "Kart Oluştur";
 
 // MARK: - BeginScreen
 

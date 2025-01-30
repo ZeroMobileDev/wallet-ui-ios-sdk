@@ -5196,6 +5196,7 @@ public var isSuccessNotify: Swift.Bool
 public var resultCodeSuccess: Swift.Int
 public var resultCodeError: Swift.Int
 public var bundlePackageName: Swift.String
+public var isSSLPinning: Swift.Bool
 public func insertLog(message: Swift.String)
 public struct ValueModel : Swift.Codable {
   public var orderNo: Swift.Int?

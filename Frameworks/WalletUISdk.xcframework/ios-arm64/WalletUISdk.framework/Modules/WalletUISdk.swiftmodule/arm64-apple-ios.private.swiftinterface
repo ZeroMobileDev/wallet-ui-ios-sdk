@@ -26,6 +26,18 @@ import _CoreNFC_UIKit
 import _StringProcessing
 import _SwiftConcurrencyShims
 import wallet_ios_sdk
+public protocol WalletOutputParams {
+}
+extension wallet_ios_sdk.BalanceGetExpenseAmountOutputParams : WalletUISdk.WalletOutputParams {
+}
+extension wallet_ios_sdk.PaymentWalletMobileOutputParams : WalletUISdk.WalletOutputParams {
+}
+extension wallet_ios_sdk.TopupPayStartOutputParams : WalletUISdk.WalletOutputParams {
+}
+extension wallet_ios_sdk.TopupPayCommitOutputParams : WalletUISdk.WalletOutputParams {
+}
+extension wallet_ios_sdk.GetMasterpassConfigOutputParams : WalletUISdk.WalletOutputParams {
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class LoadingView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)

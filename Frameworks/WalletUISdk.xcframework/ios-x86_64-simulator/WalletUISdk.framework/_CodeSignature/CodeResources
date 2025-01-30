@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		cxPjZL8AFkYgXC++0gm3juBLgnQ=
+		mBeQAbxvk7zAFQv4Sar/bqhIj20=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -118,27 +118,27 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		86qiDmWmdX59+zIsEhJVz+BR0xE=
+		VGpMBpQIe9k8Mfxn1CIsuelZtq8=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		4FYFRBz8EV7Z1n3nLBMAobJDkSo=
+		4nIvEpBwzaUj4n3symhAtBcBBTk=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		JttFRu8nzmOB/4hS+2BOR0UJhdU=
+		pyw3u3+0UfSIEqv0XAJVeBFZrus=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3/VsodQHisYLrskd2E4aKOfMr8s=
+		mPvxk7BWbWRjj/nZSvZ2IQ21uvs=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		JttFRu8nzmOB/4hS+2BOR0UJhdU=
+		pyw3u3+0UfSIEqv0XAJVeBFZrus=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sXqW5eP119qcgEzize2//uPyPP8=
+		kjX9nmOcVSgO8Qy32tk0nGB8VXk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -248,7 +248,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xsIxudNhqqSVnv7sJfVTH1VcYcM=
+			IifaAdos+Y+xnpmSA9BC3+1KrWI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -260,11 +260,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cxPjZL8AFkYgXC++0gm3juBLgnQ=
+			mBeQAbxvk7zAFQv4Sar/bqhIj20=
 			</data>
 			<key>hash2</key>
 			<data>
-			vktt970JqJKwSyTZiKM27bcZcFuZc5d4gNteOPQjGf8=
+			8tYqIRmw0bKJw6HkO2N6DxcSQ/DHhJacsA4gvE2s5N4=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -557,66 +557,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			86qiDmWmdX59+zIsEhJVz+BR0xE=
+			VGpMBpQIe9k8Mfxn1CIsuelZtq8=
 			</data>
 			<key>hash2</key>
 			<data>
-			U78WannbXwnp6r6hXzTZ4Yxz2q1ueFY6VUQFafl4Moc=
+			wtrY+nl9VoURzK4ahjhmJKbWIC095hTZorHoItv5Njw=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4FYFRBz8EV7Z1n3nLBMAobJDkSo=
+			4nIvEpBwzaUj4n3symhAtBcBBTk=
 			</data>
 			<key>hash2</key>
 			<data>
-			UsHRmjVtmzvjZYzGC0DEx5HFdXl8EdlAQ0/nkPGDyJQ=
+			Vd+rabL1NW49yztcOZ5Tl6c09ceMvIYWExjGFaCfkyk=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JttFRu8nzmOB/4hS+2BOR0UJhdU=
+			pyw3u3+0UfSIEqv0XAJVeBFZrus=
 			</data>
 			<key>hash2</key>
 			<data>
-			JwKocyQ5NUFWgBT9axR65TN1ZP4j1WCVE9kwf1108MA=
+			kO0/G/kth/ghI2bBpjQU2LnrSCKGwx7A2/CocVKX8nM=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3/VsodQHisYLrskd2E4aKOfMr8s=
+			mPvxk7BWbWRjj/nZSvZ2IQ21uvs=
 			</data>
 			<key>hash2</key>
 			<data>
-			kwtE+jJs1sFh6f1j1ylp+Vlr8/8kFrm+9WkEfFghthI=
+			pVMeSM7xX3kuCGK987Rj7LkwVZjBjySYTSFIP/x7yGA=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JttFRu8nzmOB/4hS+2BOR0UJhdU=
+			pyw3u3+0UfSIEqv0XAJVeBFZrus=
 			</data>
 			<key>hash2</key>
 			<data>
-			JwKocyQ5NUFWgBT9axR65TN1ZP4j1WCVE9kwf1108MA=
+			kO0/G/kth/ghI2bBpjQU2LnrSCKGwx7A2/CocVKX8nM=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sXqW5eP119qcgEzize2//uPyPP8=
+			kjX9nmOcVSgO8Qy32tk0nGB8VXk=
 			</data>
 			<key>hash2</key>
 			<data>
-			9P3U9XXFm98U+1DC/RxyipM2l4f8cn0uOg/B2F7RpwA=
+			nkRKwPsR5xPtfvycvuCTboYd5K45fIa4CAlhu9x94Ew=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -909,11 +909,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xsIxudNhqqSVnv7sJfVTH1VcYcM=
+			IifaAdos+Y+xnpmSA9BC3+1KrWI=
 			</data>
 			<key>hash2</key>
 			<data>
-			2A89cIa6C3pEc/fHOWa4MDh8sS98GEnzwLrCQD+v+U8=
+			IrpGvdhRg0KuKiRutiurLndowGhIzaB/hTFg684Bjno=
 			</data>
 			<key>optional</key>
 			<true/>
