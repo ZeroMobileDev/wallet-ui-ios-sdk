@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		DtrDGeSy61L3zt5EGnF9wmec0yo=
+		VBn1mqgzirryL22LoIPeVHf5OVE=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		Xa0241cxlMBB6MnWcar1GDfqd64=
+		W5jIgzez/+pxIVQj2FE/TE/0kgs=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -260,11 +260,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DtrDGeSy61L3zt5EGnF9wmec0yo=
+			VBn1mqgzirryL22LoIPeVHf5OVE=
 			</data>
 			<key>hash2</key>
 			<data>
-			3s1MhO+1mm3OJrPkEpvEtb4QC8ALRhmYRYIHO048sYc=
+			RnFYTUxKPNhbkpS3lR8I/WiaZPcUVUK9BlUIV+6All8=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -557,11 +557,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xa0241cxlMBB6MnWcar1GDfqd64=
+			W5jIgzez/+pxIVQj2FE/TE/0kgs=
 			</data>
 			<key>hash2</key>
 			<data>
-			TK5VzwFm2ThtONI8BifzD3V0BhGYfQp2t1vNjSLh+k0=
+			8i6WCKmkmgKWMZH9eAJdtzzwTaTDhvO4uSAuPxPL5sY=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.abi.json</key>
