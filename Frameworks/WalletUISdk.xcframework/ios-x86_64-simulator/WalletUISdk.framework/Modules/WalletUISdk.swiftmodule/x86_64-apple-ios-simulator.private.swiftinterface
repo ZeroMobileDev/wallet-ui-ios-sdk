@@ -54,8 +54,18 @@ final public class ActivityTracker {
   @objc deinit
 }
 public class WalletUiSDK {
+  public enum HomeTabType {
+    case transactions
+    case pending
+    public static func == (a: WalletUISdk.WalletUiSDK.HomeTabType, b: WalletUISdk.WalletUiSDK.HomeTabType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
   public static let shared: WalletUISdk.WalletUiSDK
   public init()
+  public static func setDefaultHomeTab(_ tab: WalletUISdk.WalletUiSDK.HomeTabType)
   public func setWindow(with window: UIKit.UIWindow)
   public func setController(_ viewController: UIKit.UINavigationController)
   public func goToDashboard()
@@ -74,15 +84,14 @@ public class WalletUiSDK {
   }
   public enum Navigate {
     public static func logout(result: @escaping (Swift.Result<wallet_ios_sdk.BaseOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
-    public static func dashboard()
+    public static func dashboard(selectedTab: WalletUISdk.WalletUiSDK.HomeTabType = .transactions)
     public static func cardList()
     public static func history()
     public static func sendMoney()
     public static func sendMoneyPhone()
     public static func sendMoneyIBAN()
     public static func loadMoney()
-    public static func loadMoneyMasterpass()
-    public static func loadMoneyCreditCard()
+    public static func loadMoneyWithIban()
     public static func askMoney()
     public static func QR()
     public static func getMassterpassConfig() -> [Swift.String : Swift.String]
@@ -1034,6 +1043,8 @@ extension WalletUISdk.CodeScannerView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
   @objc deinit
 }
+extension WalletUISdk.WalletUiSDK.HomeTabType : Swift.Equatable {}
+extension WalletUISdk.WalletUiSDK.HomeTabType : Swift.Hashable {}
 extension WalletUISdk.QrTransactionType : Swift.Equatable {}
 extension WalletUISdk.QrTransactionType : Swift.Hashable {}
 extension WalletUISdk.QrTransactionType : Swift.RawRepresentable {}
