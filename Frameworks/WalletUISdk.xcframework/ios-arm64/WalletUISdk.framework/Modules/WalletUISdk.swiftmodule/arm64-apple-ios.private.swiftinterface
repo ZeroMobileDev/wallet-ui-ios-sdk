@@ -53,6 +53,15 @@ final public class ActivityTracker {
   final public func removeActivity()
   @objc deinit
 }
+public enum WalletAgreementAgreementStatus : Swift.String {
+  case viewed
+  case accepted
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public class WalletUiSDK {
   public enum HomeTabType {
     case transactions
@@ -642,6 +651,16 @@ extension SwiftUI.View {
   
   public func customStatusBarStyle() -> some SwiftUI.View
   
+  @inlinable public func hidden(_ isHidden: Swift.Bool) -> some SwiftUI.View {
+    Group {
+      if isHidden {
+        hidden()
+      } else {
+        self
+      }
+    }
+  }
+  
 }
 extension UIKit.UIApplication {
   @_Concurrency.MainActor(unsafe) public var firstKeyWindow: UIKit.UIWindow? {
@@ -1053,6 +1072,9 @@ extension WalletUISdk.CodeScannerView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
   @objc deinit
 }
+extension WalletUISdk.WalletAgreementAgreementStatus : Swift.Equatable {}
+extension WalletUISdk.WalletAgreementAgreementStatus : Swift.Hashable {}
+extension WalletUISdk.WalletAgreementAgreementStatus : Swift.RawRepresentable {}
 extension WalletUISdk.WalletUiSDK.HomeTabType : Swift.Equatable {}
 extension WalletUISdk.WalletUiSDK.HomeTabType : Swift.Hashable {}
 extension WalletUISdk.QrTransactionType : Swift.Equatable {}

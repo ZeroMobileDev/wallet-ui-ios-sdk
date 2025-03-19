@@ -28,6 +28,7 @@ final class CommonColors: ColorPalette {
     lazy var brickRedColor = WLColor(colorAssetName: "brickRedColor")
     lazy var unVerifiedRedColor = WLColor(colorAssetName: "UnverifiedEmail")
     lazy var verifiedGreenColor = WLColor(colorAssetName: "VerifiedGreenColor")
+    lazy var cardColorBg = WLColor(colorAssetName: "card_color_bg")
     
     lazy var whiteColor = WLColor(color: Color.white)
     lazy var darkBlue = WLColor(color: Color(red: 0.12, green: 0.18, blue: 0.35))
@@ -72,6 +73,7 @@ protocol ColorPalette {
     var darkBlue: WLColor { get }
     var unVerifiedRedColor: WLColor { get }
     var verifiedGreenColor: WLColor { get }
+    var cardColorBg: WLColor { get }
 }
 
 extension Color {

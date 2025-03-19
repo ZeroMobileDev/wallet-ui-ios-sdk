@@ -576,6 +576,7 @@ enum WLTexts: String {
     case myProfileScreenTitleNavigationTitle = "MyProfileScreen.Title.NavigationTitle"
     case myProfileScreenTitleWalletId = "MyProfileScreen.Title.WalletId"
     case myProfileScreenTitleVerifyMessage = "MyProfileScreen.Title.VerifyMessage"
+    case myProfileScreenTitleVerifyMessage2 = "MyProfileScreen.Title.VerifyMessage2"
     case allTransactionsHistoryScreenTitleTabBarFirst = "AllTransactionsHistoryScreen.Title.TabBarFirst"
     case allTransactionsHistoryScreenTitleTabBarSecond = "AllTransactionsHistoryScreen.Title.TabBarSecond"
     case allTransactionsHistoryScreenTextEMail = "AllTransactionsHistoryScreen.Text.EMail"

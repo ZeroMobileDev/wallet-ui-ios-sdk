@@ -187,7 +187,11 @@ final class WLImageCatalog: ImageCatalog {
     lazy var contracts_data_processing = WLImage(imageAssetName: "contracts_data_processing")
     lazy var contracts_money_agreement = WLImage(imageAssetName: "contracts_money_agreement")
     lazy var contracts_consent_text = WLImage(imageAssetName: "contracts_consent_text")
+    
     lazy var card_plus = WLImage(imageAssetName: "card_plus")
+    lazy var card_logo = WLImage(imageAssetName: "opet_card_logo")
+    lazy var card_bg = WLImage(imageAssetName: "opet_card_bg")
+    
     lazy var identity_not_verified = WLImage(imageAssetName: "identity_not_verified")
     lazy var identity_verified = WLImage(imageAssetName: "identity_verified")
     
@@ -403,4 +407,6 @@ protocol ImageCatalog {
     var identity_verified: WLImage { get }
     
     var card_plus: WLImage { get }
+    var card_logo: WLImage { get }
+    var card_bg: WLImage { get }
 }

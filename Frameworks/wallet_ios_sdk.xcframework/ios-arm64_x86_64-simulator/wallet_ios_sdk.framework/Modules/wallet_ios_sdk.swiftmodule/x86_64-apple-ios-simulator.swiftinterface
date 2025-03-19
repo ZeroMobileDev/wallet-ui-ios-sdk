@@ -539,6 +539,7 @@ public struct CustomerData : Swift.Codable {
   public func getHasSecretQuestionAnswer() -> Swift.String
   public mutating func setHasSecretQuestionAnswer(hasSecretQuestionAnswer: Swift.String)
   public func getJob() -> Swift.String
+  public func getCustomerReferenceCode() -> Swift.String
   public mutating func setJob(job: Swift.String)
   public func getBirthPlace() -> Swift.String
   public mutating func setBirthPlace(birthPlace: Swift.String)
@@ -763,13 +764,8 @@ public struct InvoiceInquiryModel : Swift.Codable {
 }
 @objc @_inheritsConvenienceInitializers public class GetDigitalSlipInputParams : wallet_ios_sdk.BaseRequestModel {
   public var refNumber: Swift.Int64
+  public var actionType: Swift.String
   override public func encode(to encoder: any Swift.Encoder) throws
-  @available(*, deprecated, renamed: "refNumber", message: "Use refNumber variable")
-  public func getRefNumber() -> Swift.Int64
-  @available(*, deprecated, renamed: "refNumber", message: "Use refNumber variable")
-  public func setRefNumber(refNumber: Swift.Int64)
-  public func getActionType() -> Swift.String
-  public func setActionType(actionType: Swift.String)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -1084,6 +1080,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func getCitiesInterface(completion: @escaping (_ result: wallet_ios_sdk.GetCitiesOutputParams) -> ())
   public func getNationalities(completion: @escaping (_ result: wallet_ios_sdk.GetNationalitiesOutputParams) -> ())
   public func getAddressTypes(getAddressTypesInputParams: wallet_ios_sdk.GetAddressTypesInputParams, completion: @escaping (_ result: wallet_ios_sdk.GetAddressTypesOutputParams) -> ())
+  public func getCampaignsInterface(getCampaignsInputParams: wallet_ios_sdk.GetCampaignsInputParams, completion: @escaping (_ result: wallet_ios_sdk.GetCampaignsOutputParams) -> ())
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetKpsAddressVerifyOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var addressVerifyResult: wallet_ios_sdk.AddressVerifyResultModel?
@@ -1276,6 +1273,15 @@ public struct InstitutionModel : Swift.Codable {
   public static func lastIndexOf(text: Swift.String, of: Swift.String) -> Swift.Int?
   public static func AesEncryptWithWB(encParameters: Swift.String) -> Swift.String
   public static func AsciiToHex(hex: Swift.String) -> Swift.String
+  @objc deinit
+}
+extension UIKit.UIColor {
+  convenience public init?(hex: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers public class GetCustomerSecretQuestionInputParams : wallet_ios_sdk.BaseRequestModel {
+  public var languageCode: Swift.String
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc override dynamic public init()
   @objc deinit
 }
 public struct DistrictResultListModel : Swift.Codable {
@@ -1675,11 +1681,12 @@ public struct BankExchangeModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-@_inheritsConvenienceInitializers @objc public class WalletCoreSDK : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class WalletCoreSDK : ObjectiveC.NSObject {
+  public static let shared: wallet_ios_sdk.WalletCoreSDK
+  public var properties: wallet_ios_sdk.WalletCoreSDKProperties?
+  public func start(properties: wallet_ios_sdk.WalletCoreSDKProperties)
   public func interfaceInit(initParam: wallet_ios_sdk.InitParam, completion: @escaping (_ result: wallet_ios_sdk.InitResponse) -> ())
-  public func interfaceInitV5(initParam: wallet_ios_sdk.InitParam, completion: @escaping (_ result: wallet_ios_sdk.InitResponse) -> ())
   public func NotifyInterface(notifyInputParams: wallet_ios_sdk.NotifyInputParams, completion: @escaping (_ result: wallet_ios_sdk.NotifyOutputParams) -> ())
-  @objc override dynamic public init()
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class InvoiceInquiryOutputParams : wallet_ios_sdk.BaseResponseMeta {
@@ -1765,6 +1772,14 @@ public struct WalletVirtualCardTxnsMonthlyByAccountIdModel : Swift.Codable {
   public func setActionTypeId(actionTypeId: Swift.Int)
   @objc override dynamic public init()
   @objc deinit
+}
+public struct WalletCoreSDKProperties {
+  public var coreURL: Swift.String
+  public var secureURL: Swift.String
+  public var apiKey: Swift.String
+  public var clientId: Swift.String
+  public var cloudPublicKey: Swift.String
+  public init(coreURL: Swift.String, secureURL: Swift.String, apiKey: Swift.String, clientId: Swift.String, cloudPublicKey: Swift.String)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class InvoicePaymentOutputParams : wallet_ios_sdk.BaseResponseMeta {
   @available(*, deprecated, renamed: "refNumber", message: "Use refNumber variable")
@@ -2403,6 +2418,7 @@ public struct CityModel : Swift.Codable {
   public var M_GET_CUSTOMER_ADRESS_INFO: Swift.Int
   public var UPDATE_CUSTOMER_ADDRESS_INFO: Swift.Int
   public var GET_ADDRESS_TYPES: Swift.Int
+  public var M_GET_CAMPAIGNS: Swift.Int
   public var BALANCE_GET_EXPENSE_AMOUNT: Swift.Int
   public var BALANCE_PaymentWalletMobile: Swift.Int
   public var BALANCE_TopupPayStart: Swift.Int
@@ -2416,6 +2432,7 @@ public struct CityModel : Swift.Codable {
   public var M_DGFIN_GET_TOKEN_LOAN_CREATE: Swift.Int
   public var M_GET_JOBS: Swift.Int
   public var BALANCE_GetMasterpassConfig: Swift.Int
+  public var CHECK_EMAIL: Swift.Int
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class CancelSplitTheBillInputParams : wallet_ios_sdk.BaseRequestModel {
@@ -2891,6 +2908,14 @@ public struct PendingOrderListModel : Swift.Codable {
   @objc override dynamic public init()
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers public class CheckEmailInputParams : wallet_ios_sdk.BaseRequestModel {
+  public var countryCode: Swift.String
+  public var phoneNumber: Swift.String
+  public var emailAddress: Swift.String
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers public class GetExpensesInputParams : wallet_ios_sdk.BaseRequestModel {
   public var walletCustomerSegmentId: Swift.Int16
   public var labelName: Swift.String
@@ -3019,15 +3044,8 @@ public struct AddressTypesModel : Swift.Codable {
 @objc @_inheritsConvenienceInitializers public class VerifyOTPInputParams : wallet_ios_sdk.BaseRequestModel {
   public var otpCode: Swift.String
   public var phone: Swift.String
+  public var languageCode: Swift.String
   override public func encode(to encoder: any Swift.Encoder) throws
-  @available(*, deprecated, renamed: "otpCode", message: "Use otpCode variable")
-  public func getOtpCode() -> Swift.String
-  @available(*, deprecated, renamed: "otpCode", message: "Use otpCode variable")
-  public func setOtpCode(otpCode: Swift.String)
-  @available(*, deprecated, renamed: "phone", message: "Use phone variable")
-  public func getPhone() -> Swift.String
-  @available(*, deprecated, renamed: "phone", message: "Use phone variable")
-  public func setPhone(phone: Swift.String)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -3163,15 +3181,13 @@ public struct AddressTypesModel : Swift.Codable {
   public func isSSLPinningEnabled() -> Swift.Bool
   public func Notify(notifyInputParams: wallet_ios_sdk.NotifyInputParams, completion: @escaping (_ result: wallet_ios_sdk.NotifyOutputParams) -> ())
   public func notifyV2(notifyInputParams: wallet_ios_sdk.InitParam, _ value: Swift.String, completion: @escaping (_ result: wallet_ios_sdk.InitResponse) -> ())
-  public func engineInit(initParam: wallet_ios_sdk.InitParam, completion: @escaping (_ result: wallet_ios_sdk.InitResponse) -> ())
-  public func engineInitV4(initParam: wallet_ios_sdk.InitParam, completion: @escaping (_ result: wallet_ios_sdk.InitResponse) -> ())
   public func engineInitV5(initParam: wallet_ios_sdk.InitParam, completion: @escaping (_ result: wallet_ios_sdk.InitResponse) -> ())
   public func getUniqueMPANumber() -> Swift.String
   public func createUniqueMPANumber()
   public func setUniqueMPANumber(unique: Swift.String)
   public func setRandomNumber(random: Swift.String)
   public func getRandomNumber() -> Swift.String
-  public func createMPAPublicKey(cpk: Swift.String)
+  public func createMPAPublicKey()
   public func getMpaFingerprint() -> Swift.String
   public func setClientRandomNumber(ClientRandomNumber: Swift.String)
   public func getClientRandomNumber() -> Swift.String
@@ -3207,6 +3223,7 @@ public struct CustomerRemainingLimitsModel : Swift.Codable {
   public var value: Swift.Double?
   public var description: Swift.String?
   public var visible: Swift.Bool?
+  public var limitValueTypeId: Swift.Int?
   @available(*, deprecated, renamed: "status", message: "Use status variable")
   public func getStatus() -> Swift.Int
   @available(*, deprecated, renamed: "status", message: "Use status variable")
@@ -3256,7 +3273,6 @@ public struct CustomerRemainingLimitsModel : Swift.Codable {
   required public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetWalletCardInfoOutputParams : wallet_ios_sdk.BaseResponseMeta {
-  public var logoName: Swift.String?
   public var CardCustomerName: Swift.String?
   public var CardNumber: Swift.String?
   public var CardCvv: Swift.String?
@@ -3391,9 +3407,6 @@ public class Meta : Swift.Codable {
   @available(*, deprecated, renamed: "languageCode", message: "Use languageCode variable")
   public func setLanguageCode(languageCode: Swift.String)
   @objc override dynamic public init()
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class HostConnection {
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetCustomerLimitInfoOutputParams : wallet_ios_sdk.BaseResponseMeta {
@@ -4027,7 +4040,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
   required public init(from decoder: any Swift.Decoder) throws
 }
 extension wallet_ios_sdk.WalletCoreSDK {
-  public func getWalletCardInfoInterface(applicationViewForEmbedded: UIKit.UIView, req: wallet_ios_sdk.GetWalletCardInfoInputParams, completion: @escaping (_ isSuccess: wallet_ios_sdk.BaseCardView?, _ errorCode: Swift.String?, _ errorMessage: Swift.String?) -> ())
+  public func getWalletCardInfoInterface(applicationViewForEmbedded: UIKit.UIView, req: wallet_ios_sdk.GetWalletCardInfoInputParams, cardModel: wallet_ios_sdk.WalletCardModel, completion: @escaping (_ isSuccess: wallet_ios_sdk.BaseCardView?, _ errorCode: Swift.String?, _ errorMessage: Swift.String?) -> ())
   public func activatePhysicalCard(activatePhysicalCardInputParams: wallet_ios_sdk.ActivatePhysicalCardInputParams, completion: @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ())
   public func SetPrepaidCardPin(setPrepaidCardPinInputParams: wallet_ios_sdk.SetPrepaidCardPinInputParams, completion: @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ())
   public func personalizedAnonymousCardInterface(personalizedAnonymousCardInputParams: wallet_ios_sdk.PersonalizedAnonymousCardInputParams, completion: @escaping (_ result: wallet_ios_sdk.PersonalizedAnonymousCardOutputParams) -> ())
@@ -4335,23 +4348,9 @@ public struct CollectionTypesModel : Swift.Codable {
   public var cardToken: Swift.String
   public var amount: Foundation.Decimal
   public var locationData: Swift.String
+  public var trxType: Swift.Int?
   override public func encode(to encoder: any Swift.Encoder) throws
-  @available(*, deprecated, renamed: "qrCode", message: "Use qrCode variable")
-  public func getQrCode() -> Swift.String
-  @available(*, deprecated, renamed: "qrCode", message: "Use qrCode variable")
-  public func setQrCode(qrCode: Swift.String)
-  @available(*, deprecated, renamed: "cardToken", message: "Use cardToken variable")
-  public func getCardToken() -> Swift.String
-  @available(*, deprecated, renamed: "cardToken", message: "Use cardToken variable")
-  public func setCardToken(cardToken: Swift.String)
-  @available(*, deprecated, renamed: "amount", message: "Use amount variable")
-  public func getAmount() -> Swift.Double
-  @available(*, deprecated, renamed: "amount", message: "Use amount variable")
   public func setAmount(amount: Swift.Double)
-  @available(*, deprecated, renamed: "locationData", message: "Use locationData variable")
-  public func getLocationData() -> Swift.String
-  @available(*, deprecated, renamed: "locationData", message: "Use locationData variable")
-  public func setLocationData(locationData: Swift.String)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -4458,6 +4457,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func completeRegistration(completeRegistrationInputParams: wallet_ios_sdk.CompleteRegistrationInputParams, completion: @escaping (_ result: wallet_ios_sdk.CompleteRegistrationOutputParams) -> ())
   public func updateCustomerPhoneNumber(updateCustomerPhoneNumberInputParams: wallet_ios_sdk.UpdateCustomerPhoneNumberInputParams, completion: @escaping (_ result: wallet_ios_sdk.UpdateCustomerPhoneNumberOutputParams) -> ())
   public func getJobs(getJobsInputParams: wallet_ios_sdk.GetJobsInputParams, completion: @escaping (_ result: wallet_ios_sdk.GetJobsOutputParams) -> ())
+  public func checkEmailInterface(checkEmailInputParams: wallet_ios_sdk.CheckEmailInputParams, completion: @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ())
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class UpdateCustomerInfoOutputParams : wallet_ios_sdk.BaseResponseMeta {
   @objc deinit
@@ -4883,6 +4883,13 @@ public struct SectionResultListModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
+@objc @_inheritsConvenienceInitializers public class GetCampaignsInputParams : wallet_ios_sdk.BaseRequestModel {
+  public var campaignTypeId: Swift.Int
+  public var languageCode: Swift.String
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetNationalitiesOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var nationalities: [wallet_ios_sdk.NationalitiesModel]?
   @available(*, deprecated, renamed: "nationalities", message: "Use nationalities variable")
@@ -4996,6 +5003,13 @@ public struct GetWalletVirtualCardTxnsDailyByAccountIdModel : Swift.Codable {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
+}
+public struct WalletCardModel {
+  public var logo: UIKit.UIImage?
+  public var backgroundImage: UIKit.UIImage?
+  public var backgroundColor: UIKit.UIColor
+  public var tintColor: UIKit.UIColor
+  public init()
 }
 @_hasMissingDesignatedInitializers public class Instance {
   final public let ERRORS: wallet_ios_sdk.Errors
@@ -5151,19 +5165,12 @@ public struct InvoicesModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public var HOST_URL: Swift.String
-public var HOST_OTHER: Swift.String
-public var CLOUD_PUBLIC_KEY: Swift.String
 public let HOST_SWITCH: Swift.String
 public let HOST_ACCOUNT_ENC_SWITCH: Swift.String
 public var REQUEST_PUBLIC_KEY: Swift.String
 public var REGISTER_DEVICE: Swift.String
 public var SCSESSION: Swift.String
 public var HOST_CREATE: Swift.String
-public var REQUEST_PUBLIC_KEY_URL: Swift.String
-public var REGISTER_DEVICE_URL: Swift.String
-public var SCSESSION_URL: Swift.String
-public var CREATE_URL: Swift.String
 public let PARAMETER_UNIQUE_MPA_NUMBER: Swift.String
 public let PARAMETER_FCM_ID: Swift.String
 public let PARAMETER_FINGER_PRINT: Swift.String
@@ -6537,19 +6544,13 @@ public struct LimitDefinitionModel : Swift.Codable {
   public var key: Swift.String?
   public var value: Swift.Double?
   public var description: Swift.String?
+  public var limitValueTypeId: Swift.Int?
   public var visible: Swift.Bool?
-  @available(*, deprecated, renamed: "status", message: "Use status variable")
   public func getStatus() -> Swift.Int
-  @available(*, deprecated, renamed: "key", message: "Use key variable")
   public func getKey() -> Swift.String
-  @available(*, deprecated, renamed: "value", message: "Use value variable")
   public func getValue() -> Swift.Double
-  @available(*, deprecated, renamed: "description", message: "Use description variable")
   public func getDescription() -> Swift.String
-  @available(*, deprecated, renamed: "visible", message: "Use visible variable")
   public func getVisible() -> Swift.Bool
-  @available(*, deprecated, renamed: "visible", message: "Use visible variable")
-  public mutating func setVisible(visible: Swift.Bool)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -6567,14 +6568,14 @@ public typealias ServiceClosureTypeWithRequest<T, M> = (T, _ completion: @escapi
   final public let getFailLoginAttemptInterface: (@escaping (_ result: wallet_ios_sdk.GetFailLoginAttemptOutputParams) -> ()) -> ()
   final public let getCustomerInfo: (@escaping (_ result: wallet_ios_sdk.GetCustomerInfoOutputParams) -> ()) -> ()
   final public let unlinkCustomerInterface: (@escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
-  final public let getCustomerSecretQuestionId: (@escaping (_ result: wallet_ios_sdk.GetCustomerSecretQuestionOutputParams) -> ()) -> ()
   final public let getMerchantCategoryGroupList: (@escaping (_ result: wallet_ios_sdk.GetMerchantCategoryGroupListOutputParams) -> ()) -> ()
   final public let GetCustomerLimitInfo: (@escaping (_ result: wallet_ios_sdk.GetCustomerLimitInfoOutputParams) -> ()) -> ()
   final public let getCustomerRemainingLimitInfoV2: (@escaping (_ result: wallet_ios_sdk.GetCustomerRemainingLimitInfoV2OutputParams) -> ()) -> ()
   final public let getCustomerRemainingLimitInfoV3: (@escaping (_ result: wallet_ios_sdk.GetCustomerRemainingLimitInfoV3OutputParams) -> ()) -> ()
   final public let getLimitDefinitionV2: (wallet_ios_sdk.GetLimitDefinitionV2InputParams, @escaping (_ result: wallet_ios_sdk.GetLimitDefinitionV2OutputParams) -> ()) -> ()
   final public let checkOnlinePaymentLimit: (wallet_ios_sdk.CheckOnlinePaymentLimitInputParams, @escaping (_ result: wallet_ios_sdk.CheckOnlinePaymentLimitOutputParams) -> ()) -> ()
-  final public let initV5: (wallet_ios_sdk.InitParam, @escaping (_ result: wallet_ios_sdk.InitResponse) -> ()) -> ()
+  final public let getCustomerSecretQuestionId: (wallet_ios_sdk.GetCustomerSecretQuestionInputParams, @escaping (_ result: wallet_ios_sdk.GetCustomerSecretQuestionOutputParams) -> ()) -> ()
+  final public let initialize: (wallet_ios_sdk.InitParam, @escaping (_ result: wallet_ios_sdk.InitResponse) -> ()) -> ()
   final public let getResponseMessages: (wallet_ios_sdk.GetResponseMessagesInputParams, @escaping (_ result: wallet_ios_sdk.GetResponseMessagesOutputParams) -> ()) -> ()
   final public let getCustomerPrepaidCardList: (wallet_ios_sdk.GetCustomerPrepaidCardListInputParams, @escaping (_ result: wallet_ios_sdk.GetCustomerPrepaidCardListOutputParams) -> ()) -> ()
   final public let applyPrepaidCard: (wallet_ios_sdk.ApplyPrepaidCardInputParams, @escaping (_ result: wallet_ios_sdk.ApplyPrepaidCardOutputParams) -> ()) -> ()
@@ -6648,9 +6649,11 @@ public typealias ServiceClosureTypeWithRequest<T, M> = (T, _ completion: @escapi
   final public let setSecretQuestionAnswer: (wallet_ios_sdk.SetSecretQuestionAnswerInputParams, @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
   final public let securityQuestionReset: (@escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
   final public let getJobs: (wallet_ios_sdk.GetJobsInputParams, @escaping (_ result: wallet_ios_sdk.GetJobsOutputParams) -> ()) -> ()
+  final public let getCampaigns: (wallet_ios_sdk.GetCampaignsInputParams, @escaping (_ result: wallet_ios_sdk.GetCampaignsOutputParams) -> ()) -> ()
   final public let failLoginAttemptSeen: (@escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
   final public let LoginWithPassword: (wallet_ios_sdk.LoginWithPasswordInputParams, @escaping (_ result: wallet_ios_sdk.LoginWithPasswordOutputParams) -> ()) -> ()
   final public let logoutInterface: (@escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
+  final public let checkEmail: (wallet_ios_sdk.CheckEmailInputParams, @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
   final public let getQrInfo: (wallet_ios_sdk.GetQrInfoInputParams, @escaping (_ result: wallet_ios_sdk.GetQrInfoOutputParams) -> ()) -> ()
   final public let startQrTransaction: (wallet_ios_sdk.StartQrTransactionInputParams, @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
   final public let turkcellInvoiceGetInstitutionList: (wallet_ios_sdk.TurkcellInvoiceGetInstitutionListInputParams, @escaping (_ result: wallet_ios_sdk.TurkcellInvoiceGetInstitutionListOutputParams) -> ()) -> ()
@@ -6760,6 +6763,38 @@ public typealias ServiceClosureTypeWithRequest<T, M> = (T, _ completion: @escapi
   public func getCityResultList() -> [wallet_ios_sdk.CityResultListModel]
   @available(*, deprecated, renamed: "cityResultList", message: "Use cityResultList variable")
   public func setCityResultList(cityResultList: [wallet_ios_sdk.CityResultListModel])
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetCampaignsOutputParams : wallet_ios_sdk.BaseResponseMeta {
+  public var campaigns: [wallet_ios_sdk.Campaign]?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class Campaign : Swift.Codable {
+  public var name: Swift.String?, title: Swift.String?, description: Swift.String?, conditionIconBase64Content: Swift.String?, smsContent: Swift.String?
+  public var campaignTypeId: Swift.Int?
+  public var images: [wallet_ios_sdk.Image]?
+  public var conditions: [wallet_ios_sdk.Condition]?
+  public init(name: Swift.String?, title: Swift.String?, description: Swift.String?, conditionIconBase64Content: Swift.String?, smsContent: Swift.String?, campaignTypeId: Swift.Int?, images: [wallet_ios_sdk.Image]?, conditions: [wallet_ios_sdk.Condition]?)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class Condition : Swift.Codable {
+  public var content: Swift.String?
+  public var order: Swift.Int?
+  public init(content: Swift.String?, order: Swift.Int?)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class Image : Swift.Codable {
+  public var name: Swift.String?, base64Content: Swift.String?
+  public var order: Swift.Int?
+  public init(name: Swift.String?, base64Content: Swift.String?, order: Swift.Int?)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -7146,6 +7181,7 @@ public struct AccountActionListModel : Swift.Codable {
 @objc @_inheritsConvenienceInitializers public class ForgotPasswordInputParams : wallet_ios_sdk.BaseRequestModel {
   public var phoneNumber: Swift.String
   public var answer: Swift.String
+  public var email: Swift.String
   override public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
@@ -7476,7 +7512,7 @@ public struct SubscriberInfoModel : Swift.Codable {
 }
 extension wallet_ios_sdk.WalletCoreSDK {
   public func AddCustomerInferface(addCustomerInputParams: wallet_ios_sdk.AddCustomerInputParams, completion: @escaping (_ result: wallet_ios_sdk.AddCustomerOutputParams) -> ())
-  public func getCustomerSecretQuestionIdInterface(completion: @escaping (_ result: wallet_ios_sdk.GetCustomerSecretQuestionOutputParams) -> ())
+  public func getCustomerSecretQuestionIdInterface(request: wallet_ios_sdk.GetCustomerSecretQuestionInputParams, completion: @escaping (_ result: wallet_ios_sdk.GetCustomerSecretQuestionOutputParams) -> ())
   public func checkCustomerSecretQuestionAnswerInterface(checkCustomerSecretQuestionAnswerInputParams: wallet_ios_sdk.CheckCustomerSecretQuestionAnswerInputParams, completion: @escaping (_ result: wallet_ios_sdk.CheckCustomerSecretQuestionAnswerOutputParams) -> ())
   public func PhoneNumberUpdateInterface(phoneNumberUpdateInputParams: wallet_ios_sdk.PhoneNumberUpdateInputParams, completion: @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ())
   public func setCommunicationPreferencesInterface(setCommunicationPreferencesInputParams: wallet_ios_sdk.SetCommunicationPreferencesInputParams, completion: @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ())
@@ -8130,6 +8166,8 @@ extension wallet_ios_sdk.GetExpensesOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.GetExpensesOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.GetAllCityWithKpsOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.GetAllCityWithKpsOutputParams : Swift.Decodable {}
+extension wallet_ios_sdk.GetCampaignsOutputParams : Swift.Encodable {}
+extension wallet_ios_sdk.GetCampaignsOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.InitResponse : Swift.Encodable {}
 extension wallet_ios_sdk.InitResponse : Swift.Decodable {}
 extension wallet_ios_sdk.SetCommunicationPreferencesOutputParams : Swift.Encodable {}

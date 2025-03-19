@@ -107,8 +107,8 @@
 "RegisterView.Text.SurName" = "Soyad";
 "RegisterView.Text.IDNumber" = "T.C. Kimlik Numarası";
 "RegisterView.Text.BirthDate" = "Doğum Tarihi";
-"RegisterView.Text.ReferenceCode" = "Referans Numarası";
-"RegisterView.Text.ReferenceCodeHint" = "Referans numarasını giriniz.";
+"RegisterView.Text.ReferenceCode" = "Referans Kodu (Opsiyonel)";
+"RegisterView.Text.ReferenceCodeHint" = "Varsa referans kodunu giriniz";
 "RegisterView.Text.Validation.Email" = "Girilen e-posta adresi formata uygun değildir.";
 "RegisterViewSecond.Text.IncorrectEmail"  = "Geçersiz e-posta";
 
@@ -844,6 +844,7 @@
 "MyProfileScreen.Title.NavigationTitle" = "Profilim";
 "MyProfileScreen.Title.WalletId" = "Opet Pay ID:";
 "MyProfileScreen.Title.VerifyMessage" = "E-posta adresinizi doğrulamak için kimlik doğrulaması yapmanız gerekmektedir. Kimlik doğrulama ekranlarına yönlendirilmek  ister misiniz?";
+"MyProfileScreen.Title.VerifyMessage2" = "Profil bilgilerinizi güncellemek için kimlik doğrulaması yapmanız gerekmektedir. Kimlik doğrulama ekranına yönlendirilmek ister misiniz?";
 //MARK: All Transactions History
 
 "AllTransactionsHistoryScreen.Title.TabBarFirst" = "Dönem İçi İşlemlerim";

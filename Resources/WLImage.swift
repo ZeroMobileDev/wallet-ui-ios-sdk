@@ -8,9 +8,11 @@ struct WLImage {
     
     private let source: ImageSource
     private var scaleSize: Double = 1.0 // Default scale size
+    private var assetName:String = ""
     
     init(imageAssetName: String) {
         self.source = .assetName(imageAssetName)
+        self.assetName = imageAssetName
     }
     
     init(image: Image) {
@@ -29,6 +31,23 @@ struct WLImage {
         case .image(let image):
             return image
         }
+    }
+    
+    public var asUIImage: UIImage? {
+        if let bundlePath = Bundle.main.path(forResource: "WalletUISdkResources", ofType: "bundle"),
+           let bundle = Bundle(path: bundlePath)
+        {
+            return UIImage(
+              named: self.assetName,
+              in: bundle,
+              compatibleWith: nil
+            )
+        }
+        return UIImage(
+          named: self.assetName,
+          in: WLResourcesBundle.current,
+          compatibleWith: nil
+        )
     }
     
     func changeColor(_ color: Color) -> WLImage {
