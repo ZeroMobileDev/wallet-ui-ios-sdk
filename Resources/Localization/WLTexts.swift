@@ -458,7 +458,7 @@ enum WLTexts: String {
     case profileInformationsScreenTextBirthDate = "ProfileInformationsScreen.Text.BirthDate"
     case profileInformationsScreenTextEMail = "ProfileInformationsScreen.Text.EMail"
     case profileInformationsScreenTextJob = "ProfileInformationsScreen.Text.Job"
-    case profileInformationsScreenTextSelectJob = "ProfileInformationsScreen.Text.SelectJob" 
+    case profileInformationsScreenTextSelectJob = "ProfileInformationsScreen.Text.SelectJob"
     case profileInformationsScreenTextJobInfo = "ProfileInformationsScreen.Text.JobInfo"
     case profileInformationsScreenTextCustomerInfo = "ProfileInformationsScreen.Text.CustomerInfo"
     case profileInformationsScreenTextMonthlyNetIncome = "ProfileInformationsScreen.Text.MonthlyNetIncome"
@@ -614,33 +614,33 @@ enum WLTexts: String {
     case sendMoneyNavigationBarToIBAN = "SendMoneyNavigationBar.Text.ToIBAN"
     case cardInformationScreenWLBLWAccount = "CardInformationScreen.Text.WLBLWAccount"
     case splitTheBillSummaryScreenAcceptExplanation = "SplitTheBillSummaryScreen.Text.AcceptExplanation"
-    
+
     // MARK: - AdressVerify
-    
+
     case adressVerifyTitle = "AdressVerify.Title.navigationTitle"
     case adressVerifyTextFieldTitle = "AdressVerify.Title.textfieldHeader"
     case adressVerifyTextFieldPlaceHolder = "AdressVerify.Text.placeHolderText"
     case adressVerifyTextFieldInfo = "AdressVerify.Text.textFieldInfo"
-    
+
     // MARK: - AdressVerifyInfo
-    
+
     case adressVerifyInfoTitle = "AdressVerifyInfo.Title.navigationTitle"
     case adressVerifyInfoTextEdevlet = "AdressVerifyInfo.Title.textEdevlet"
     case adressVerifyInfoTextRegisterSystem = "AdressVerifyInfo.Title.registerSystem"
-    
+
     // MARK: - AdressVerifyDetail
+
     case adressVerifyDetailRegisterSystemFirst = "AdressVerifyDetail.Text.registerSystemFirst"
     case adressVerifyDetailRegisterSystemSecond = "AdressVerifyDetail.Text.registerSystemSecond"
     case adressVerifyDetailRegisterSystemThird = "AdressVerifyDetail.Text.registerSystemThird"
-    
+
     case adressVerifyDetailEdevletFirst = "AdressVerifyDetail.Text.edevletFirst"
     case adressVerifyDetailEdevletSecond = "AdressVerifyDetail.Text.edevletSecond"
-    
-    
-    //MARK: - SettingsScreen
+
+    // MARK: - SettingsScreen
+
     case contractsScreenTitleContracts = "ContractsScreen.Title.Contracts"
     case contractsScreenButtonText = "ContractsScreen.Title.ButtonText"
-
 
     // MARK: ChangePasswordScreen
 
@@ -820,6 +820,25 @@ enum WLTexts: String {
     case VerifyIdentityTitleStepNFC = "VerifyIdentity.Title.step_NFC"
     case VerifyIdentityTitleStepFaceReg = "VerifyIdentity.Title.step_FACE_REG"
 
+    // InviteScreen cases
+    case inviteScreenTextTitle = "InviteScreen.Text.Title"
+    case inviteScreenTextHeader = "InviteScreen.Text.Header"
+    case inviteScreenTextDescription = "InviteScreen.Text.Description"
+    case inviteScreenTextReferenceCode = "InviteScreen.Text.ReferenceCode"
+    case inviteScreenTextCampaignInfoPrefix = "InviteScreen.Text.CampaignInfoPrefix"
+    case inviteScreenTextCampaignInfoClickable = "InviteScreen.Text.CampaignInfoClickable"
+    case inviteScreenTextCampaignDetailTitle = "InviteScreen.Text.CampaignDetailTitle"
+    case inviteScreenTextInviteButton = "InviteScreen.Text.InviteButton"
+
+    // CampaignBannerScreen cases
+    case campaignBannerScreenTextTitle = "CampaignBannerScreen.Text.Title"
+    case campaignBannerScreenTextHeader = "CampaignBannerScreen.Text.Header"
+    case campaignBannerScreenTextDateRange = "CampaignBannerScreen.Text.DateRange"
+    case campaignBannerScreenTextConditionsTitle = "CampaignBannerScreen.Text.ConditionsTitle"
+    case campaignBannerScreenTextConditionDetail1 = "CampaignBannerScreen.Text.ConditionDetail1"
+    case campaignBannerScreenTextConditionDetail2 = "CampaignBannerScreen.Text.ConditionDetail2"
+    case campaignBannerScreenTextConditionDetail3 = "CampaignBannerScreen.Text.ConditionDetail3"
+    case campaignBannerScreenTextInviteButton = "CampaignBannerScreen.Text.InviteButton"
     var string: String {
         return NSLocalizedString(
             self.rawValue,

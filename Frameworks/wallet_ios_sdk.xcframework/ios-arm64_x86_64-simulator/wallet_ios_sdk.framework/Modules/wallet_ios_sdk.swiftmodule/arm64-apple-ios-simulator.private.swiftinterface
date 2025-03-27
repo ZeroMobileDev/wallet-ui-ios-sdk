@@ -684,6 +684,9 @@ public struct InvoiceInquiryModel : Swift.Codable {
   public var originalReferenceNumber: Swift.Int?
   public var descriptionText: Swift.String?
   public var userName: Swift.String?
+  public var merchantId: Swift.Int?
+  public var stationId: Swift.Int?
+  public var transactionType: Swift.Int?
   override public func encode(to encoder: any Swift.Encoder) throws
   @available(*, deprecated, renamed: "transactCode", message: "Use transactCode variable")
   public func gettransactCode() -> Swift.Int
@@ -713,6 +716,18 @@ public struct InvoiceInquiryModel : Swift.Codable {
   public func setdescription(description: Swift.String)
   @available(*, deprecated, renamed: "userName", message: "Use userName variable")
   public func setuserName(userName: Swift.String)
+  @available(*, deprecated, renamed: "merchantId", message: "Use merchantId variable")
+  public func getMerchantId() -> Swift.Int
+  @available(*, deprecated, renamed: "merchantId", message: "Use merchantId variable")
+  public func setMerchantId(merchantId: Swift.Int)
+  @available(*, deprecated, renamed: "stationId", message: "Use stationId variable")
+  public func getStationId() -> Swift.Int
+  @available(*, deprecated, renamed: "stationId", message: "Use stationId variable")
+  public func setStationId(stationId: Swift.Int)
+  @available(*, deprecated, renamed: "transactionType", message: "Use transactionType variable")
+  public func getTransactionType() -> Swift.Int
+  @available(*, deprecated, renamed: "transactionType", message: "Use transactionType variable")
+  public func setTransactionType(transactionType: Swift.Int)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -1100,6 +1115,9 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public var destinationAccountID: Swift.Int?
   public var descriptionText: Swift.String?
   public var referenceNumber: Swift.Int?
+  public var merchantId: Swift.Int?
+  public var stationId: Swift.Int?
+  public var transactionType: Swift.Int?
   override public func encode(to encoder: any Swift.Encoder) throws
   @available(*, deprecated, renamed: "remoteIPAddress", message: "Use remoteIPAddress variable")
   public func getRemoteIPAddress() -> Swift.String
@@ -1129,6 +1147,18 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func getReferenceNumber() -> Swift.Int
   @available(*, deprecated, renamed: "referenceNumber", message: "Use referenceNumber variable")
   public func setReferenceNumber(referenceNumber: Swift.Int)
+  @available(*, deprecated, renamed: "merchantId", message: "Use merchantId variable")
+  public func getMerchantId() -> Swift.Int
+  @available(*, deprecated, renamed: "merchantId", message: "Use merchantId variable")
+  public func setMerchantId(merchantId: Swift.Int)
+  @available(*, deprecated, renamed: "stationId", message: "Use stationId variable")
+  public func getStationId() -> Swift.Int
+  @available(*, deprecated, renamed: "stationId", message: "Use stationId variable")
+  public func setStationId(stationId: Swift.Int)
+  @available(*, deprecated, renamed: "transactionType", message: "Use transactionType variable")
+  public func getTransactionType() -> Swift.Int
+  @available(*, deprecated, renamed: "transactionType", message: "Use transactionType variable")
+  public func setTransactionType(transactionType: Swift.Int)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -7564,6 +7594,9 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public var remoteIPAddress: Swift.String?
   public var commitToken: Swift.String?, orderID: Swift.String?, masterpassCardID: Swift.String?
   public var amount: Swift.Double?
+  public var merchantId: Swift.Int?
+  public var stationId: Swift.Int?
+  public var transactionType: Swift.Int?
   override public func encode(to encoder: any Swift.Encoder) throws
   @available(*, deprecated, renamed: "remoteIPAddress", message: "Use remoteIPAddress variable")
   public func getRemoteIPAddress() -> Swift.String
@@ -7585,6 +7618,18 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func getAmount() -> Swift.Double
   @available(*, deprecated, renamed: "amount", message: "Use amount variable")
   public func setAmount(amount: Swift.Double)
+  @available(*, deprecated, renamed: "merchantId", message: "Use merchantId variable")
+  public func getMerchantId() -> Swift.Int
+  @available(*, deprecated, renamed: "merchantId", message: "Use merchantId variable")
+  public func setMerchantId(merchantId: Swift.Int)
+  @available(*, deprecated, renamed: "stationId", message: "Use stationId variable")
+  public func getStationId() -> Swift.Int
+  @available(*, deprecated, renamed: "stationId", message: "Use stationId variable")
+  public func setStationId(stationId: Swift.Int)
+  @available(*, deprecated, renamed: "transactionType", message: "Use transactionType variable")
+  public func getTransactionType() -> Swift.Int
+  @available(*, deprecated, renamed: "transactionType", message: "Use transactionType variable")
+  public func setTransactionType(transactionType: Swift.Int)
   @objc override dynamic public init()
   @objc deinit
 }

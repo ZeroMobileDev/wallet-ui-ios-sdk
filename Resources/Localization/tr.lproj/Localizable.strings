@@ -1008,6 +1008,26 @@
 // MARK: StoredCardViewRow
 "StoredCardViewRow.Text.NoCardName"        = "Kart İsmi Yok";
 
+
+//MARK: InviteScreen
+
+"InviteScreen.Text.Title"                                = "Arkadaşını Davet Et";
+"InviteScreen.Text.Header"                               = "Davet ettikçe kazanmaya hemen başlayın!";
+"InviteScreen.Text.Description"                          = "Size özel referans kodunuzu sevdiklerinizle paylaşarak onları Opet'e davet edin, hem siz kazanın hem de onlar kazansın! Opet'e katılan her yakınınız için 300 TL'ye varan puan kazanabilirsiniz.";
+"InviteScreen.Text.ReferenceCode"                        = "Referans Kodu:";
+"InviteScreen.Text.CampaignInfoPrefix"                   = "Kampanya hakkında detaylı bilgi için";
+"InviteScreen.Text.CampaignInfoClickable"                = "tıklayınız.";
+"InviteScreen.Text.CampaignDetailTitle"                  = "Kampanya Detayı";
+"InviteScreen.Text.InviteButton"                         = "DAVET ET";
+
+//**MARK: CampaignBannerScreen**
+
+"CampaignBannerScreen.Text.Title"                        = "Kampanya Detayı";
+"CampaignBannerScreen.Text.Header"                       = "Yakınlarınızı davet ederek 300 TL Kazanın!";
+"CampaignBannerScreen.Text.DateRange"                    = "1 Ocak - 31 Ocak tarihleri arasında davet ettiğiniz her bir arkadaşınız için 300 TL kazanın.";
+"CampaignBannerScreen.Text.ConditionsTitle"              = "Kampanya Koşulları";
+"CampaignBannerScreen.Text.InviteButton"                 = "HEMEN DAVET ET";
+
 // MARK: AllCardsTabViewModel
 "AllCardsTabViewModel.Text.YourCardStatusHasBeenChanged"        = "Kartınızın statüsü değiştirildi";
 

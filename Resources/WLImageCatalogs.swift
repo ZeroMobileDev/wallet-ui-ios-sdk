@@ -181,7 +181,9 @@ final class WLImageCatalog: ImageCatalog {
     lazy var ic_kyc_flow_pending_completed = WLImage(imageAssetName: "ic_kyc_flow_pending_completed")
     lazy var ic_kyc_flow_successfully_completed = WLImage(imageAssetName: "ic_kyc_flow_successfully_completed")
     lazy var success_logo = WLImage(imageAssetName: "success_logo")
+
     // MARK: - Contracts
+
     lazy var contracts = WLImage(imageAssetName: "contracts")
     lazy var contracts_information = WLImage(imageAssetName: "contracts_information")
     lazy var contracts_data_processing = WLImage(imageAssetName: "contracts_data_processing")
@@ -194,17 +196,21 @@ final class WLImageCatalog: ImageCatalog {
     
     lazy var identity_not_verified = WLImage(imageAssetName: "identity_not_verified")
     lazy var identity_verified = WLImage(imageAssetName: "identity_verified")
-    
+
     // MARK: - AdressVerify
-    
+
     lazy var eDevlet = WLImage(imageAssetName: "eDevlet")
     lazy var registerSystem = WLImage(imageAssetName: "registerSystem")
-    
+
     lazy var aks_1 = WLImage(imageAssetName: "aks_1")
     lazy var aks_2 = WLImage(imageAssetName: "aks_2")
     lazy var aks_3 = WLImage(imageAssetName: "aks_3")
     lazy var edevlet_1 = WLImage(imageAssetName: "edevlet_1")
     lazy var edevlet_2 = WLImage(imageAssetName: "edevlet_2")
+
+    lazy var invite_friend = WLImage(imageAssetName: "invite_friend")
+    lazy var campaing_banner = WLImage(imageAssetName: "campaign_banner")
+    lazy var opet_mini_logo = WLImage(imageAssetName: "opet_mini_logo")
 
     init() {}
 }
@@ -385,9 +391,9 @@ protocol ImageCatalog {
     var ic_kyc_flow_pending_completed: WLImage { get }
     var ic_kyc_flow_successfully_completed: WLImage { get }
     var success_logo: WLImage { get }
-    
+
     // MARK: - AdressVerify
-    
+
     var eDevlet: WLImage { get }
     var registerSystem: WLImage { get }
     var aks_1: WLImage { get }
@@ -395,9 +401,13 @@ protocol ImageCatalog {
     var aks_3: WLImage { get }
     var edevlet_1: WLImage { get }
     var edevlet_2: WLImage { get }
-    
+
+    var invite_friend: WLImage { get }
+    var campaing_banner: WLImage { get }
+    var opet_mini_logo: WLImage { get }
+
     // MARK: - Contracts
-    
+
     var contracts: WLImage { get }
     var contracts_information: WLImage { get }
     var contracts_data_processing: WLImage { get }
@@ -405,7 +415,7 @@ protocol ImageCatalog {
     var contracts_consent_text: WLImage { get }
     var identity_not_verified: WLImage { get }
     var identity_verified: WLImage { get }
-    
+
     var card_plus: WLImage { get }
     var card_logo: WLImage { get }
     var card_bg: WLImage { get }
