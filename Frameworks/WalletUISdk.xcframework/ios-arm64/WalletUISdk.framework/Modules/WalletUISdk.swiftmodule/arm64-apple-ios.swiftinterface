@@ -526,12 +526,9 @@ public struct SendMoneyToIbanTransactionModel : Swift.Hashable {
     get
   }
 }
-public struct FirebaseConfig {
-  public init(appID: Swift.String, apiKey: Swift.String, projectID: Swift.String, gcmSenderID: Swift.String, clientID: Swift.String, storageBucket: Swift.String?)
-}
 @_hasMissingDesignatedInitializers public class FirebaseManager {
   public static let shared: WalletUISdk.FirebaseManager
-  public func initializeFirebase(with config: WalletUISdk.FirebaseConfig?)
+  public func initializeFirebase()
   public func logTestEvent()
   public func logEvent(name: WalletUISdk.FirebaseEvent, parameters: [Swift.String : Any])
   public func setUserProperty(key: Swift.String, value: Swift.String)
@@ -842,7 +839,7 @@ extension WalletUISdk.GeneralError {
   public func toString() throws -> Swift.String
 }
 extension UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public func initWalletUi(config: WalletUISdk.UIConfig? = nil, environment: WalletUISdk.WalletUiEnvironment, firebaseConfig: WalletUISdk.FirebaseConfig? = nil, successCallback: @escaping (Swift.String) -> Swift.Void, errorCallback: @escaping (WalletUISdk.GeneralError) -> Swift.Void, closeCallback: ((Swift.String) -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) public func initWalletUi(config: WalletUISdk.UIConfig? = nil, environment: WalletUISdk.WalletUiEnvironment, successCallback: @escaping (Swift.String) -> Swift.Void, errorCallback: @escaping (WalletUISdk.GeneralError) -> Swift.Void, closeCallback: ((Swift.String) -> Swift.Void)?)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PopTransitioning : ObjectiveC.NSObject, UIKit.UIViewControllerAnimatedTransitioning {
   @_Concurrency.MainActor(unsafe) @objc public func transitionDuration(using transitionContext: (any UIKit.UIViewControllerContextTransitioning)?) -> Foundation.TimeInterval
