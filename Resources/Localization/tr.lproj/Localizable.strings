@@ -668,7 +668,7 @@
 
 "ProfileInformationsScreen.Text.RemoveAccount" = "Hesabımı Kapat";
 "ProfileInformationsScreen.Text.Warning" = "Uyarı";
-"ProfileInformationsScreen.Text.WarningText" = "Üyeliğiniz iptal ettiğiniz durumda; biriktirdiğiniz tüm ödül ve üyelik puanlarınız, kampanya katılımlarınız, segmentiniz, anlaşmalı markalardaki üyelik ve eşleştirmeleriniz ve kayıtlı kartlarınız geri alınamaz şekilde iptal edilecektir. Opet'te yeniden görüşmek üzere! \n \n Onaylıyor musunuz?";
+"ProfileInformationsScreen.Text.WarningText" = "Opet Pay hesabınızı kapatmanız durumunda Opet Pay hesabınıza ilişkin tüm bilgileriniz iptal edilecektir. Opet Kart üyeliğiniz devam edecektir. Opet Pay hesabınızı aktif hale getirmek için yeniden üyelik oluşturmanız gerekecektir. Onaylıyor musunuz?";
 
 
 //MARK: - Fail Login Attemps Sheet
@@ -1012,8 +1012,8 @@
 //MARK: InviteScreen
 
 "InviteScreen.Text.Title"                                = "Arkadaşını Davet Et";
-"InviteScreen.Text.Header"                               = "Davet ettikçe kazanmaya hemen başlayın!";
-"InviteScreen.Text.Description"                          = "Size özel referans kodunuzu sevdiklerinizle paylaşarak onları Opet'e davet edin, hem siz kazanın hem de onlar kazansın! Opet'e katılan her yakınınız için 300 TL'ye varan puan kazanabilirsiniz.";
+"InviteScreen.Text.Header"                               = "Davet et, kazancını katla!";
+"InviteScreen.Text.Description"                          = "Size özel referans kodunuzu sevdiklerinizle paylaşarak Opet Pay hesabı oluşturmaya davet edin, kazancınız paylaştıkça çoğalsın! Opet Pay hesabı oluşturan yakınlarınız için 500 TL’ye varan hediye bakiye kazanın!";
 "InviteScreen.Text.ReferenceCode"                        = "Referans Kodu:";
 "InviteScreen.Text.CampaignInfoPrefix"                   = "Kampanya hakkında detaylı bilgi için";
 "InviteScreen.Text.CampaignInfoClickable"                = "tıklayınız.";
