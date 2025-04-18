@@ -189,11 +189,11 @@ final class WLImageCatalog: ImageCatalog {
     lazy var contracts_data_processing = WLImage(imageAssetName: "contracts_data_processing")
     lazy var contracts_money_agreement = WLImage(imageAssetName: "contracts_money_agreement")
     lazy var contracts_consent_text = WLImage(imageAssetName: "contracts_consent_text")
-    
+
     lazy var card_plus = WLImage(imageAssetName: "card_plus")
     lazy var card_logo = WLImage(imageAssetName: "opet_card_logo")
     lazy var card_bg = WLImage(imageAssetName: "opet_card_bg")
-    
+
     lazy var identity_not_verified = WLImage(imageAssetName: "identity_not_verified")
     lazy var identity_verified = WLImage(imageAssetName: "identity_verified")
 
@@ -211,6 +211,7 @@ final class WLImageCatalog: ImageCatalog {
     lazy var invite_friend = WLImage(imageAssetName: "invite_friend")
     lazy var campaing_banner = WLImage(imageAssetName: "campaign_banner")
     lazy var opet_mini_logo = WLImage(imageAssetName: "opet_mini_logo")
+    lazy var gift_logo = WLImage(imageAssetName: "gift_logo")
 
     init() {}
 }
@@ -405,6 +406,7 @@ protocol ImageCatalog {
     var invite_friend: WLImage { get }
     var campaing_banner: WLImage { get }
     var opet_mini_logo: WLImage { get }
+    var gift_logo: WLImage { get }
 
     // MARK: - Contracts
 

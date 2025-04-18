@@ -303,7 +303,7 @@ public struct ActionDetailModel : Swift.Codable {
   public var currency: Swift.String?
   public var loadMoneyIsRefund: Swift.Bool?
   public var description: Swift.String?, orderId: Swift.String?, vposOrderId: Swift.String?, txnStatus: Swift.String?
-  public var refundTxnId: Swift.Int64?
+  public var refundTxnId: Swift.Int64?, cashbackType: Swift.Int64?
   public var txnIsRefund: Swift.Bool?
   public var merchantCategoryGroupId: Swift.Int16?
   public var merchantCategoryGroupName: Swift.String?
@@ -338,6 +338,8 @@ public struct ActionDetailModel : Swift.Codable {
   public func getTxnStatus() -> Swift.String
   @available(*, deprecated, renamed: "refundTxnId", message: "Use refundTxnId variable")
   public func getRefundTxnId() -> Swift.Int64
+  @available(*, deprecated, renamed: "cashbackType", message: "Use cashbackType variable")
+  public func getCashbackType() -> Swift.Int64
   @available(*, deprecated, renamed: "txnIsRefund", message: "Use txnIsRefund variable")
   public func getTxnIsRefund() -> Swift.Bool
   @available(*, deprecated, renamed: "merchantCategoryGroupId", message: "Use merchantCategoryGroupId variable")
