@@ -114,11 +114,11 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		/GhpkKKEl7HvjOVbIZkviAEHnDM=
+		YqT1ndMS8QRbtDpKcEGif8fI1WM=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		qkpwZzH0e3zzosjftCGUEgjUABo=
+		PMu9VvwMwlSX7OTQFonFLUNB0i4=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		p6zjisDiOxvHzl6XxLzaTOdplLM=
+		lvEAZnQ9+OxhLG8+NZYMhYUiNIA=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		hjSRBqcbvpG4TcPulcYsXcmXX98=
+		XbpydDx3vdgwdwZNXG7skL2fsc0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -542,22 +542,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/GhpkKKEl7HvjOVbIZkviAEHnDM=
+			YqT1ndMS8QRbtDpKcEGif8fI1WM=
 			</data>
 			<key>hash2</key>
 			<data>
-			1VtX7QMRH+Wiqtocq51DwCAeIkmzs7OiT0YEe7CqDwE=
+			CAlP7ANxHWkPp2RH72SF61vUjxhCMjcS8s1phjfg5X8=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qkpwZzH0e3zzosjftCGUEgjUABo=
+			PMu9VvwMwlSX7OTQFonFLUNB0i4=
 			</data>
 			<key>hash2</key>
 			<data>
-			EGY53oSfUx88/c4Ao0HUsZ5g+6gF6HXnHpK0SKbwIkM=
+			D+Y5IlTqhKkNK2KqmBBtXZut0OlTZBxhgaEpJL54kuo=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -575,11 +575,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p6zjisDiOxvHzl6XxLzaTOdplLM=
+			lvEAZnQ9+OxhLG8+NZYMhYUiNIA=
 			</data>
 			<key>hash2</key>
 			<data>
-			QV0Seh9T+1xG7b4sOAAgufn6T6jumSvVSbsNOWBnaH0=
+			QC25sDeUY4oXu+HQufjvpdGHQvQAHMYtyZae+xEdBZE=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
@@ -597,11 +597,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hjSRBqcbvpG4TcPulcYsXcmXX98=
+			XbpydDx3vdgwdwZNXG7skL2fsc0=
 			</data>
 			<key>hash2</key>
 			<data>
-			mwXxbmxOQ7Z8b/ejyFq8kqZBSZKJc6HUviFaMBAjA1E=
+			/J5ZUXXXllZ+F3NG1QoDg3vyb44HRizJrYTBUbE9ZWg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
