@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		K6OOQtZod8e2VJn0NqhQ/+MJmlg=
+		FG94leiQXWgjKtqsNtXRLH6Z5gA=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		EamyPKHmau2QQNd2uInCg9iFbRA=
+		uAm4q6B9mk7C3TTTRFamObSLJk4=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/WalletUISdk-Swift.h</key>
 		<data>
-		li4IPhkd/BXampd26wQMU+D2d38=
+		WkEGGqJCCpEJKb8X+73ISPbpACs=
 		</data>
 		<key>Headers/WalletUiSdk.h</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kQYkNUd0RGhL6vsIdvl887tufIs=
+		0xDew/WXeNu4fGNdqoTF+3DSQfE=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		jr/4VXWkORGinNeKM320FXBY2bU=
+		yuBBnhTRbNGDoQgqGyXrGaN/wsQ=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -114,27 +114,27 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		YqT1ndMS8QRbtDpKcEGif8fI1WM=
+		RiLx0QduOBPuF7s1r1RcqClvVIg=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		PMu9VvwMwlSX7OTQFonFLUNB0i4=
+		GtCIXnCz16XAQ+HmYWcYm0oxWNI=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		H1mt/NyO2L7LygQ0su6QXXP5f2Y=
+		XOPy0xejNdYXDP9gg14T+U4PmNY=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		lvEAZnQ9+OxhLG8+NZYMhYUiNIA=
+		fhxsOCRV+AIENwqX3s7Gizd5gPc=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		H1mt/NyO2L7LygQ0su6QXXP5f2Y=
+		XOPy0xejNdYXDP9gg14T+U4PmNY=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		XbpydDx3vdgwdwZNXG7skL2fsc0=
+		YikEvmDgu89UL5JWT+Y677KIAAU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -256,11 +256,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			K6OOQtZod8e2VJn0NqhQ/+MJmlg=
+			FG94leiQXWgjKtqsNtXRLH6Z5gA=
 			</data>
 			<key>hash2</key>
 			<data>
-			gOmGWFuXAqiJZ0QW0oCG64F5NZPnuzMDFcETmlsGooI=
+			nrN+WLtm0bfEygVuVsmD67CoVPfLp0seIy2kRY625O8=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -300,11 +300,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EamyPKHmau2QQNd2uInCg9iFbRA=
+			uAm4q6B9mk7C3TTTRFamObSLJk4=
 			</data>
 			<key>hash2</key>
 			<data>
-			S+gZFOJFS7SGUec5Gd0m7Uy+VAaJki0elwPzrcElL88=
+			GErLu08iA6CzmiFki3PqYxBivtgpkXywf9O07wYcrp0=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -421,11 +421,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			li4IPhkd/BXampd26wQMU+D2d38=
+			WkEGGqJCCpEJKb8X+73ISPbpACs=
 			</data>
 			<key>hash2</key>
 			<data>
-			yWsgZZxOIIT3eEbrv2AP2kFBXRr5atqWhMyNom2wVCo=
+			BFU34Uprs0AWrKB0gykW/vyPWqNtnEH/2l3OROijaKM=
 			</data>
 		</dict>
 		<key>Headers/WalletUiSdk.h</key>
@@ -443,11 +443,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jr/4VXWkORGinNeKM320FXBY2bU=
+			yuBBnhTRbNGDoQgqGyXrGaN/wsQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			G9jsi894vDkAq+2tqz3WLf9c1lnzf1ZUVM+TLprqhq0=
+			c31XR9uO52KLWHS+ylwDMVa4mlafP1kM1/vWzRS+VtQ=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
@@ -542,66 +542,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YqT1ndMS8QRbtDpKcEGif8fI1WM=
+			RiLx0QduOBPuF7s1r1RcqClvVIg=
 			</data>
 			<key>hash2</key>
 			<data>
-			CAlP7ANxHWkPp2RH72SF61vUjxhCMjcS8s1phjfg5X8=
+			WVWWBXqlu86zm88mTvfJjmGk3Yl+apBksNtwHajgRx4=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PMu9VvwMwlSX7OTQFonFLUNB0i4=
+			GtCIXnCz16XAQ+HmYWcYm0oxWNI=
 			</data>
 			<key>hash2</key>
 			<data>
-			D+Y5IlTqhKkNK2KqmBBtXZut0OlTZBxhgaEpJL54kuo=
+			GlzK8buMc/zTggV8WylQt2HEZxF3aLz5a/2rO0DzByI=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H1mt/NyO2L7LygQ0su6QXXP5f2Y=
+			XOPy0xejNdYXDP9gg14T+U4PmNY=
 			</data>
 			<key>hash2</key>
 			<data>
-			u0CqB5A96LNnRhben2HGjGCuYa8PjjzwX7E7TriMFgo=
+			bJs5dvBi09fN93P4FbpqaqPHMmyJYAY2xMQ2tohkkqk=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lvEAZnQ9+OxhLG8+NZYMhYUiNIA=
+			fhxsOCRV+AIENwqX3s7Gizd5gPc=
 			</data>
 			<key>hash2</key>
 			<data>
-			QC25sDeUY4oXu+HQufjvpdGHQvQAHMYtyZae+xEdBZE=
+			p7nQ/aNMt1JVIwEeqSN4Fph3UMYfG4pJMpoLYb0pdco=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H1mt/NyO2L7LygQ0su6QXXP5f2Y=
+			XOPy0xejNdYXDP9gg14T+U4PmNY=
 			</data>
 			<key>hash2</key>
 			<data>
-			u0CqB5A96LNnRhben2HGjGCuYa8PjjzwX7E7TriMFgo=
+			bJs5dvBi09fN93P4FbpqaqPHMmyJYAY2xMQ2tohkkqk=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XbpydDx3vdgwdwZNXG7skL2fsc0=
+			YikEvmDgu89UL5JWT+Y677KIAAU=
 			</data>
 			<key>hash2</key>
 			<data>
-			/J5ZUXXXllZ+F3NG1QoDg3vyb44HRizJrYTBUbE9ZWg=
+			pm1+eqasbQatuUDjbSLqCI+I5lpPOKeqnq0TlpeY6ps=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

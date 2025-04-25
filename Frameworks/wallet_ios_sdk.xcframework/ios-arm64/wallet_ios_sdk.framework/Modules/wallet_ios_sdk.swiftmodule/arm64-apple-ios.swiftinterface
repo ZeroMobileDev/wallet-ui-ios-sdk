@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name wallet_ios_sdk
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name wallet_ios_sdk
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
 import DeveloperToolsSupport
 import Foundation
 import Security
@@ -394,10 +395,10 @@ public struct ActionDetailModel : Swift.Codable {
   public var email: Swift.String
   public var password: Swift.String
   public var loyaltySegmentName: Swift.String
-  public var passportNumber: Swift.String
+  public var passportNumber: Swift.String?
   public var genderId: Swift.Int16
   public var identityNumber: Swift.String
-  public var passportExpireDate: Swift.String
+  public var passportExpireDate: Swift.String?
   public var languageCode: Swift.String
   public var confirmAgreements: [wallet_ios_sdk.ConfirmAgreementListInputModel]
   public var communicationPreferences: wallet_ios_sdk.CommunicationPreferenceObjModel
@@ -444,9 +445,9 @@ public struct ActionDetailModel : Swift.Codable {
   @available(*, deprecated, renamed: "loyaltySegmentName", message: "Use loyaltySegmentName variable")
   public func setLoyaltySegmentName(loyaltySegmentName: Swift.String)
   @available(*, deprecated, renamed: "passportNumber", message: "Use passportNumber variable")
-  public func getPassportNumber() -> Swift.String
+  public func getPassportNumber() -> Swift.String?
   @available(*, deprecated, renamed: "passportNumber", message: "Use passportNumber variable")
-  public func setPassportNumber(passportNumber: Swift.String)
+  public func setPassportNumber(passportNumber: Swift.String?)
   @available(*, deprecated, renamed: "genderId", message: "Use genderId variable")
   public func getGenderId() -> Swift.Int16
   @available(*, deprecated, renamed: "genderId", message: "Use genderId variable")
@@ -456,9 +457,9 @@ public struct ActionDetailModel : Swift.Codable {
   @available(*, deprecated, renamed: "identityNumber", message: "Use identityNumber variable")
   public func setIdentityNumber(identityNumber: Swift.String)
   @available(*, deprecated, renamed: "passportExpireDate", message: "Use passportExpireDate variable")
-  public func getPassportExpireDate() -> Swift.String
+  public func getPassportExpireDate() -> Swift.String?
   @available(*, deprecated, renamed: "passportExpireDate", message: "Use passportExpireDate variable")
-  public func setPassportExpireDate(passportExpireDate: Swift.String)
+  public func setPassportExpireDate(passportExpireDate: Swift.String?)
   @available(*, deprecated, renamed: "confirmAgreements", message: "Use confirmAgreements variable")
   public func getConfirmAgreements() -> [wallet_ios_sdk.ConfirmAgreementListInputModel]
   @available(*, deprecated, renamed: "confirmAgreements", message: "Use confirmAgreements variable")
