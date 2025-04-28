@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WalletUISdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name WalletUISdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import Combine
 import CommonCrypto
@@ -109,8 +109,8 @@ public class WalletUiSDK {
   }
   public enum Balance {
     public static func getExpenseAmountBalance(amount: Swift.Double, txnTypeId: Swift.Int16, completion: @escaping (Swift.Result<wallet_ios_sdk.BalanceGetExpenseAmountOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
-    public static func paymentWalletMobilePhone(transactCode: Swift.Int? = nil, amount: Swift.Double? = nil, referenceNumber: Swift.Int? = nil, originalReferenceNumber: Swift.Int? = nil, descriptionText: Swift.String? = nil, userName: Swift.String? = nil, merchantId: Swift.Int = 1000, stationId: Swift.Int = 0, transactionType: Swift.Int = 1, completion: @escaping (Swift.Result<wallet_ios_sdk.PaymentWalletMobileOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
-    public static func topupPayStart(amount: Swift.Double? = nil, expenseAmount: Swift.Double? = nil, userValidationType: Swift.String? = nil, destinationAccountID: Swift.Int? = nil, descriptionText: Swift.String? = nil, referenceNumber: Swift.Int? = nil, merchantId: Swift.Int = 1000, stationId: Swift.Int = 0, transactionType: Swift.Int = 1, completion: @escaping (Swift.Result<wallet_ios_sdk.TopupPayStartOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
+    public static func paymentWalletMobilePhone(transactCode: Swift.Int? = nil, amount: Swift.Double? = nil, referenceNumber: Swift.Int? = nil, originalReferenceNumber: Swift.Int? = nil, guidReferenceNumber: Foundation.UUID? = nil, descriptionText: Swift.String? = nil, userName: Swift.String? = nil, merchantId: Swift.Int = 1000, stationId: Swift.Int = 0, transactionType: Swift.Int = 1, completion: @escaping (Swift.Result<wallet_ios_sdk.PaymentWalletMobileOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
+    public static func topupPayStart(amount: Swift.Double? = nil, expenseAmount: Swift.Double? = nil, userValidationType: Swift.String? = nil, destinationAccountID: Swift.Int? = nil, descriptionText: Swift.String? = nil, referenceNumber: Swift.Int? = nil, guidReferenceNumber: Foundation.UUID? = nil, merchantId: Swift.Int = 1000, stationId: Swift.Int = 0, transactionType: Swift.Int = 1, completion: @escaping (Swift.Result<wallet_ios_sdk.TopupPayStartOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
     public static func topupPayCommit(commitToken: Swift.String? = nil, orderID: Swift.String? = nil, masterpassCardID: Swift.String? = nil, amount: Swift.Double? = nil, merchantId: Swift.Int = 1000, stationId: Swift.Int = 0, transactionType: Swift.Int = 1, completion: @escaping (Swift.Result<wallet_ios_sdk.TopupPayCommitOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
     public static func getMasterpassConfig(userValidationType: Swift.String?, referenceNumber: Swift.Int?, completion: @escaping (Swift.Result<wallet_ios_sdk.GetMasterpassConfigOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
   }
@@ -215,8 +215,8 @@ extension Swift.String {
 public struct QuestionListModelDTO : Swift.Hashable {
   public var id: Swift.String?
   public var text: Swift.String?
-  public static func == (a: WalletUISdk.QuestionListModelDTO, b: WalletUISdk.QuestionListModelDTO) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: WalletUISdk.QuestionListModelDTO, b: WalletUISdk.QuestionListModelDTO) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -422,8 +422,8 @@ public enum Page : Swift.String, Swift.CaseIterable {
   }
 }
 public struct TransactionSummaryModel : Swift.Hashable {
-  public static func == (a: WalletUISdk.TransactionSummaryModel, b: WalletUISdk.TransactionSummaryModel) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: WalletUISdk.TransactionSummaryModel, b: WalletUISdk.TransactionSummaryModel) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -522,8 +522,8 @@ extension SwiftUICore.Font {
   public static func customSystem(size: CoreFoundation.CGFloat, weight: SwiftUICore.Font.Weight = .regular, design: SwiftUICore.Font.Design = .default) -> SwiftUICore.Font
 }
 public struct SendMoneyToIbanTransactionModel : Swift.Hashable {
-  public static func == (a: WalletUISdk.SendMoneyToIbanTransactionModel, b: WalletUISdk.SendMoneyToIbanTransactionModel) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: WalletUISdk.SendMoneyToIbanTransactionModel, b: WalletUISdk.SendMoneyToIbanTransactionModel) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -658,8 +658,8 @@ extension SwiftUICore.VerticalAlignment {
   public static let custom: SwiftUICore.VerticalAlignment
 }
 public struct QrPaymentModel : Swift.Hashable {
-  public static func == (a: WalletUISdk.QrPaymentModel, b: WalletUISdk.QrPaymentModel) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: WalletUISdk.QrPaymentModel, b: WalletUISdk.QrPaymentModel) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -736,8 +736,8 @@ extension UIKit.UIViewController {
   }
 }
 public struct QrTransactionSummaryModel : Swift.Hashable {
-  public static func == (a: WalletUISdk.QrTransactionSummaryModel, b: WalletUISdk.QrTransactionSummaryModel) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: WalletUISdk.QrTransactionSummaryModel, b: WalletUISdk.QrTransactionSummaryModel) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -765,8 +765,8 @@ public struct TurkcellInvoiceInquiryModelDTO : Swift.Hashable {
   public var totalAmount: Swift.Double?
   public var key1: Swift.String?
   public var key2: Swift.String?
-  public static func == (a: WalletUISdk.TurkcellInvoiceInquiryModelDTO, b: WalletUISdk.TurkcellInvoiceInquiryModelDTO) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: WalletUISdk.TurkcellInvoiceInquiryModelDTO, b: WalletUISdk.TurkcellInvoiceInquiryModelDTO) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -805,8 +805,8 @@ public struct SplitBillModel : Swift.Hashable {
   public var txnCategoryId: Swift.Int64
   public var txnName: Swift.String
   public var instrumentName: Swift.String
-  public static func == (a: WalletUISdk.SplitBillModel, b: WalletUISdk.SplitBillModel) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: WalletUISdk.SplitBillModel, b: WalletUISdk.SplitBillModel) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -817,9 +817,9 @@ public struct WalletCard : Swift.Identifiable, Swift.Hashable {
   public let cardNumber: Swift.String
   public let cardToken: Swift.String
   public var status: WalletUISdk.WalletCardStatusType
+  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WalletUISdk.WalletCard, b: WalletUISdk.WalletCard) -> Swift.Bool
   public typealias ID = Foundation.UUID
-  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }

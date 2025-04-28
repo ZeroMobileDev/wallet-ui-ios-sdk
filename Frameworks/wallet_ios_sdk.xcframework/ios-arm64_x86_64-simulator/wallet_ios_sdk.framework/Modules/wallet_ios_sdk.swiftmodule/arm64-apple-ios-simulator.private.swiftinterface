@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name wallet_ios_sdk
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name wallet_ios_sdk
 import DeveloperToolsSupport
 import Foundation
 import Security
@@ -687,6 +686,7 @@ public struct InvoiceInquiryModel : Swift.Codable {
   public var originalReferenceNumber: Swift.Int?
   public var descriptionText: Swift.String?
   public var userName: Swift.String?
+  public var guidReferenceNumber: Foundation.UUID?
   public var merchantId: Swift.Int?
   public var stationId: Swift.Int?
   public var transactionType: Swift.Int?
@@ -719,6 +719,10 @@ public struct InvoiceInquiryModel : Swift.Codable {
   public func setdescription(description: Swift.String)
   @available(*, deprecated, renamed: "userName", message: "Use userName variable")
   public func setuserName(userName: Swift.String)
+  @available(*, deprecated, renamed: "guidReferenceNumber", message: "Use guidReferenceNumber variable")
+  public func getguidReferenceNumber() -> Foundation.UUID
+  @available(*, deprecated, renamed: "guidReferenceNumber", message: "Use guidReferenceNumber variable")
+  public func setguidReferenceNumber(guidReferenceNumber: Foundation.UUID)
   @available(*, deprecated, renamed: "merchantId", message: "Use merchantId variable")
   public func getMerchantId() -> Swift.Int
   @available(*, deprecated, renamed: "merchantId", message: "Use merchantId variable")
@@ -1118,6 +1122,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public var destinationAccountID: Swift.Int?
   public var descriptionText: Swift.String?
   public var referenceNumber: Swift.Int?
+  public var guidReferenceNumber: Foundation.UUID?
   public var merchantId: Swift.Int?
   public var stationId: Swift.Int?
   public var transactionType: Swift.Int?
@@ -1150,6 +1155,10 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func getReferenceNumber() -> Swift.Int
   @available(*, deprecated, renamed: "referenceNumber", message: "Use referenceNumber variable")
   public func setReferenceNumber(referenceNumber: Swift.Int)
+  @available(*, deprecated, renamed: "guidReferenceNumber", message: "Use guidReferenceNumber variable")
+  public func getGuidReferenceNumber() -> Foundation.UUID
+  @available(*, deprecated, renamed: "guidReferenceNumber", message: "Use guidReferenceNumber variable")
+  public func setGuidReferenceNumber(guidReferenceNumber: Foundation.UUID)
   @available(*, deprecated, renamed: "merchantId", message: "Use merchantId variable")
   public func getMerchantId() -> Swift.Int
   @available(*, deprecated, renamed: "merchantId", message: "Use merchantId variable")
@@ -1302,11 +1311,10 @@ public struct InstitutionModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers public class Utils {
+public enum Utils {
   public static func lastIndexOf(text: Swift.String, of: Swift.String) -> Swift.Int?
   public static func AesEncryptWithWB(encParameters: Swift.String) -> Swift.String
   public static func AsciiToHex(hex: Swift.String) -> Swift.String
-  @objc deinit
 }
 extension UIKit.UIColor {
   convenience public init?(hex: Swift.String)
