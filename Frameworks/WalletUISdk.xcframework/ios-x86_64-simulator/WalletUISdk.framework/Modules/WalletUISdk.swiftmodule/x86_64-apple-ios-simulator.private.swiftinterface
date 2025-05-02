@@ -96,7 +96,7 @@ public class WalletUiSDK {
     public static func dgfinLoanInfo()
     public static func dgfinPaybackPlan()
     public static func dgfinCustomerApplication()
-    public static func dgfinLoanCreate(amount: Swift.Double, itemsInBasket: [[Swift.String : Any]], externalReference: Swift.String, merchantId: Swift.Int64? = nil)
+    public static func dgfinLoanCreate(amount: Swift.Double, itemsInBasket: [[Swift.String : Any]], externalReference: Swift.String, merchantId: Swift.Int? = nil)
   }
   public static let shared: WalletUISdk.WalletUiSDK
   public init()
