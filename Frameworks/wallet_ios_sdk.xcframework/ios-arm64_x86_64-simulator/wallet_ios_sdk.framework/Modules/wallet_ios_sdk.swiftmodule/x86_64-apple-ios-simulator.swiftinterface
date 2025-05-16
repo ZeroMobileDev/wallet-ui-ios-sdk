@@ -309,7 +309,7 @@ public struct ActionDetailModel : Swift.Codable {
   public var merchantCategoryGroupName: Swift.String?
   public var merchantCategoryCode: Swift.Int16?
   public var expenseAmount: Swift.Double?
-  public var resultCode: Swift.Int?
+  public var resultCode: Swift.Int?, transactionType: Swift.Int?
   public var resultDescription: Swift.String?, destinationBankAccountNumber: Swift.String?, merchantName: Swift.String?, paymentPurposeCode: Swift.String?
   public var paymentPurpose: Swift.String?, cardToken: Swift.String?, sourcePhoneNumber: Swift.String?, destinationPhoneNumber: Swift.String?
   public var isContacless: Swift.Bool?
@@ -336,6 +336,8 @@ public struct ActionDetailModel : Swift.Codable {
   public func getVposOrderId() -> Swift.String
   @available(*, deprecated, renamed: "txnStatus", message: "Use txnStatus variable")
   public func getTxnStatus() -> Swift.String
+  @available(*, deprecated, renamed: "transactionType", message: "Use transactionType variable")
+  public func getTransactionType() -> Swift.Int
   @available(*, deprecated, renamed: "refundTxnId", message: "Use refundTxnId variable")
   public func getRefundTxnId() -> Swift.Int64
   @available(*, deprecated, renamed: "cashbackType", message: "Use cashbackType variable")
@@ -720,7 +722,7 @@ public struct InvoiceInquiryModel : Swift.Codable {
   @available(*, deprecated, renamed: "userName", message: "Use userName variable")
   public func setuserName(userName: Swift.String)
   @available(*, deprecated, renamed: "guidReferenceNumber", message: "Use guidReferenceNumber variable")
-  public func getguidReferenceNumber() -> Foundation.UUID
+  public func getguidReferenceNumber() -> Foundation.UUID?
   @available(*, deprecated, renamed: "guidReferenceNumber", message: "Use guidReferenceNumber variable")
   public func setguidReferenceNumber(guidReferenceNumber: Foundation.UUID)
   @available(*, deprecated, renamed: "merchantId", message: "Use merchantId variable")
@@ -1156,7 +1158,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
   @available(*, deprecated, renamed: "referenceNumber", message: "Use referenceNumber variable")
   public func setReferenceNumber(referenceNumber: Swift.Int)
   @available(*, deprecated, renamed: "guidReferenceNumber", message: "Use guidReferenceNumber variable")
-  public func getGuidReferenceNumber() -> Foundation.UUID
+  public func getGuidReferenceNumber() -> Foundation.UUID?
   @available(*, deprecated, renamed: "guidReferenceNumber", message: "Use guidReferenceNumber variable")
   public func setGuidReferenceNumber(guidReferenceNumber: Foundation.UUID)
   @available(*, deprecated, renamed: "merchantId", message: "Use merchantId variable")
@@ -1311,10 +1313,11 @@ public struct InstitutionModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-public enum Utils {
+@_hasMissingDesignatedInitializers public class Utils {
   public static func lastIndexOf(text: Swift.String, of: Swift.String) -> Swift.Int?
   public static func AesEncryptWithWB(encParameters: Swift.String) -> Swift.String
   public static func AsciiToHex(hex: Swift.String) -> Swift.String
+  @objc deinit
 }
 extension UIKit.UIColor {
   convenience public init?(hex: Swift.String)

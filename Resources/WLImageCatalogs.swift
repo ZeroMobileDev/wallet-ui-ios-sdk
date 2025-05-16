@@ -181,6 +181,8 @@ final class WLImageCatalog: ImageCatalog {
     lazy var ic_kyc_flow_pending_completed = WLImage(imageAssetName: "ic_kyc_flow_pending_completed")
     lazy var ic_kyc_flow_successfully_completed = WLImage(imageAssetName: "ic_kyc_flow_successfully_completed")
     lazy var success_logo = WLImage(imageAssetName: "success_logo")
+    lazy var car_wash = WLImage(imageAssetName: "car_wash")
+    lazy var shopping_cart_opet = WLImage(imageAssetName: "shopping_cart")
 
     // MARK: - Contracts
 
@@ -392,6 +394,8 @@ protocol ImageCatalog {
     var ic_kyc_flow_pending_completed: WLImage { get }
     var ic_kyc_flow_successfully_completed: WLImage { get }
     var success_logo: WLImage { get }
+    var car_wash: WLImage { get }
+    var shopping_cart_opet: WLImage { get }
 
     // MARK: - AdressVerify
 

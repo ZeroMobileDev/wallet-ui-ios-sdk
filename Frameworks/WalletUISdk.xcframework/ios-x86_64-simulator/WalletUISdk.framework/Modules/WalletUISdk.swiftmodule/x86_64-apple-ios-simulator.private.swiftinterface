@@ -18,6 +18,7 @@ import FirebaseCore
 import Foundation
 import Lottie
 import Network
+import Photos
 import ReplayKit
 import Swift
 import SwiftUI
@@ -144,6 +145,7 @@ public protocol EnquraSessionProtocol {
   var alertDelegate: (any WalletUISdk.EnquraSessionManagerDelegate)? { get set }
   var isAllowedPermissions: Swift.Bool { get }
   var isDeviceNFCAvailable: Swift.Bool { get }
+  var isScreenRecordingDenied: Swift.Bool? { get }
   var nfcStoredCustomerIdentityData: EnQualify.EnVerifyCustomerIdentityDoc { get }
   var initialFlow: WalletUISdk.EnquraSessionStartFlow { get set }
   static var shared: any WalletUISdk.EnquraSessionProtocol { get }
@@ -164,6 +166,7 @@ public protocol EnquraSessionProtocol {
   func faceRetry()
   func nfcRetry()
   func idRetry()
+  func onExitSelfService()
 }
 public enum AgentRequestType {
   case none
@@ -629,6 +632,7 @@ public enum PermissionsError : Swift.Identifiable {
   }
   case userError
   case fetchError(any Swift.Error)
+  case denied
   public var description: Swift.String {
     get
   }
@@ -771,6 +775,23 @@ public struct TurkcellInvoiceInquiryModelDTO : Swift.Hashable {
     get
   }
 }
+@_hasMissingDesignatedInitializers public class DgfinLoanCreateResponse : Swift.Codable {
+  public var loanId: Swift.String?
+  public var loanStatus: Swift.Int?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class DgfinCustomerApplicationResponse : Swift.Codable {
+  public var customerId: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public enum DgfinResponse {
+  case loanCreate(WalletUISdk.DgfinLoanCreateResponse)
+  case customerApplication(WalletUISdk.DgfinCustomerApplicationResponse)
+}
 public enum ScreenType {
   case standart
   case scrollable
@@ -841,7 +862,7 @@ extension WalletUISdk.GeneralError {
   public func toString() throws -> Swift.String
 }
 extension UIKit.UIViewController {
-  @_Concurrency.MainActor @preconcurrency public func initWalletUi(config: WalletUISdk.UIConfig? = nil, environment: WalletUISdk.WalletUiEnvironment, successCallback: @escaping (Swift.String) -> Swift.Void, errorCallback: @escaping (WalletUISdk.GeneralError) -> Swift.Void, closeCallback: ((Swift.String) -> Swift.Void)?)
+  @_Concurrency.MainActor @preconcurrency public func initWalletUi(config: WalletUISdk.UIConfig? = nil, environment: WalletUISdk.WalletUiEnvironment, successCallback: @escaping (WalletUISdk.DgfinResponse) -> Swift.Void, errorCallback: @escaping (WalletUISdk.GeneralError) -> Swift.Void, closeCallback: ((Swift.String) -> Swift.Void)?)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class PopTransitioning : ObjectiveC.NSObject, UIKit.UIViewControllerAnimatedTransitioning {
   @_Concurrency.MainActor @preconcurrency @objc public func transitionDuration(using transitionContext: (any UIKit.UIViewControllerContextTransitioning)?) -> Foundation.TimeInterval
@@ -954,12 +975,14 @@ prefix public func ! (value: SwiftUICore.Binding<Swift.Bool>) -> SwiftUICore.Bin
 public protocol EnquraSessionManagerDelegate : AnyObject {
   func showAlert(message: Swift.String)
   func navigateSessionType()
+  func screenRecordingPermissionDenied()
 }
 @_hasMissingDesignatedInitializers final public class EnquraSessionManager : WalletUISdk.EnquraSessionProtocol {
   final public var idVerifyMainSSView: UIKit.UIViewController?
   final public var customerIdentityNumber: Swift.String?
   final public var kpsInformation: WalletUISdk.KPSInformationModel?
   final public var isFaceUploadDataState: Swift.Bool
+  final public var isScreenRecordingDenied: Swift.Bool?
   final public var agentRequestType: WalletUISdk.AgentRequestType {
     get
     set
@@ -988,6 +1011,7 @@ public protocol EnquraSessionManagerDelegate : AnyObject {
   final public func nfcStart()
   final public func ocrStart()
   final public func faceDetectStart()
+  final public func onExitSelfService()
   final public func setNFCBACData()
   final public func callSessionClose()
   final public func callSessionCloseWithoutFinish()

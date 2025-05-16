@@ -218,7 +218,7 @@
 
 "HomeScreen.Text.MyWallet" = "Cüzdanım";
 "HomeScreen.Text.WalletID" = "Opet Pay ID: ";
-"HomeScreen.Text.IncreaseLimit" = "HARCAMAYA HAZIR LİMİTİNİZİ ARTTIRIN";
+"HomeScreen.Text.IncreaseLimit" = "Kimliğini Doğrula, Tüm Özelliklerden Faydalan!";
 "HomeScreen.Text.MyZBZCards" = "Kayıtlı Kartlarım";
 "HomeScreen.Text.Money" = "Para";
 "HomeScreen.Text.Ask" = "İste";
@@ -228,8 +228,8 @@
 "HomeScreen.Text.Payment" = "Ödeme";
 "HomeScreen.Text.All" = "TÜMÜ";
 "HomeScreen.Text.KycInfo" = "Şimdi Al, Sonra Öde avantajlarından yararlanabilmek için kimlik doğrulaması yapmanız gerekmektedir. Kimlik doğrulama ekranına yönlendirilmek ister misiniz?";
-"HomeScreen.Text.DgfinInfoTitle" = "Şimdi alın, 30 gün sonra geri ödeyin.";
-"HomeScreen.Text.DgfinInfo" = "Masrafsız ve komisyonsuz!";
+"HomeScreen.Text.DgfinInfoTitle" = "Anında Kredi İçin Hemen Başvurun!";
+"HomeScreen.Text.DgfinInfo" = "Üstelik 30 Gün Vade Farksız ve Masrafsız";
 //MARK: - MicroCreditNotLogin
 
 "MicroCreditNotLogin.Text.UseMikroCredit" = "Mikro Kredinizi kullanmak için tıklayınız.";
@@ -669,6 +669,9 @@
 "ProfileInformationsScreen.Text.RemoveAccount" = "Hesabımı Kapat";
 "ProfileInformationsScreen.Text.Warning" = "Uyarı";
 "ProfileInformationsScreen.Text.WarningText" = "Opet Pay hesabınızı kapatmanız durumunda Opet Pay hesabınıza ilişkin tüm bilgileriniz iptal edilecektir. Opet Kart üyeliğiniz devam edecektir. Opet Pay hesabınızı aktif hale getirmek için yeniden üyelik oluşturmanız gerekecektir. Onaylıyor musunuz?";
+"ProfileInformationsScreen.Text.Description" = "Uzaktan Kimlik Tespit Süreci sonlandıracak ve daha sonra kaldığın yerden devam edemeyeceksin Akışı sonlandırmak istediğine emin misin?";
+"ProfileInformationsScreen.Text.Btn.Accept" = "Sonlandır";
+"ProfileInformationsScreen.Text.Btn.Deny" = "Vazgeç";
 
 
 //MARK: - Fail Login Attemps Sheet
@@ -814,7 +817,7 @@
 
 // MARK: - AdressVerifyInfo
 "AdressVerifyInfo.Title.navigationTitle" = "Adres Numarası Nasıl Öğrenilir?";
-"AdressVerifyInfo.Title.textEdevlet" = "e-Devlet Giriş";
+"AdressVerifyInfo.Title.textEdevlet" = "E-Devlet'e Git";
 "AdressVerifyInfo.Title.registerSystem" = "Adres Kayıt Sistemi";
 
 // MARK: - AdressVerifyDetail
@@ -825,7 +828,7 @@
 "AdressVerifyDetail.Text.registerSystemThird" = "Ekranında alt kısımda bulunan Bağımsız Kimlik Nı bölümünden 10 haneli Adres No’nu öğrenebilirsin.";
 
 
-"AdressVerifyDetail.Text.edevletFirst" = "E-Devlet’e giriş yaparak arama bölümüne “Adres No öğrenme” yazınız.";
+"AdressVerifyDetail.Text.edevletFirst" = "E-Devlet’e giriş yaptıktan sonra arama bölümüne “İkametgâhım” yazarak, 10 haneli NVİ Adres Numaranı kolayca öğrenebilirsin.";
 "AdressVerifyDetail.Text.edevletSecond" = "Adres No öğrenme bölümünden 10 haneli NVİ Adres No’nu öğrenebilirsin.";
 
 //MARK: VirtualCards
