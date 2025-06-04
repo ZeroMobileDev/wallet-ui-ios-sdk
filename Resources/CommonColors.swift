@@ -29,7 +29,7 @@ final class CommonColors: ColorPalette {
     lazy var unVerifiedRedColor = WLColor(colorAssetName: "UnverifiedEmail")
     lazy var verifiedGreenColor = WLColor(colorAssetName: "VerifiedGreenColor")
     lazy var cardColorBg = WLColor(colorAssetName: "card_color_bg")
-    
+
     lazy var whiteColor = WLColor(color: Color.white)
     lazy var darkBlue = WLColor(color: Color(red: 0.12, green: 0.18, blue: 0.35))
 
@@ -38,6 +38,7 @@ final class CommonColors: ColorPalette {
 
     lazy var subTitleColor = WLColor(color: Color(hex: 0x979797))
     lazy var toogleColor = WLColor(color: Color(hex: 0x5fcc29))
+    lazy var titleGrayColor = WLColor(color: Color(red: 0.47, green: 0.49, blue: 0.54))
 }
 
 protocol ColorPalette {
@@ -67,6 +68,7 @@ protocol ColorPalette {
     var gray: WLColor { get }
     var brickRedColor: WLColor { get }
     var whiteColor: WLColor { get }
+    var titleGrayColor: WLColor { get }
 
     var subTitleColor: WLColor { get }
     var toogleColor: WLColor { get }

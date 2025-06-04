@@ -439,8 +439,8 @@
 //MARK: - FeesAndLimitsScreen
 
 "FeesAndLimitsScreen.Title.NavigationTitle" = "Ücretler Ve Limitler";
-"FeesAndLimitsScreen.Title.AccountLimits" = "Hesap Limitlerim";
-"FeesAndLimitsScreen.Title.TransactionFees" = "İşlem Ücretleri";
+"FeesAndLimitsScreen.Title.AccountLimits" = "LİMİTLER";
+"FeesAndLimitsScreen.Title.TransactionFees" = "ÜCRETLER";
 
 
 //MARK: - HomeScreenTabView
@@ -756,7 +756,9 @@
 "SavedCards.Title.notFindCard" = "Opet'e eklenmiş bir Masterpass kartınız bulunmamaktadır.";
 "SavedCards.Title.cardSuccessDeleted" = "Kartınız Başarılı Bir Şekilde Silindi";
 "SavedCards.Title.areYouSureDeleteCard" = "Kartınızı Silmek İstediğinize Emin Misiniz";
+"SavedCards.Title.areYouSureUnLink" = "Son kartinizi sildiginizde MasterPass'teki tüm isyeri baglantilariniz sifirlanacaktir. Bunun yerine OPET ile olan baglantinizi kaldirmak ister misiniz?";
 "SavedCards.Title.deleteCard" = "Kartı Sil";
+"SavedCards.Title.deleteAccount" = "HESABI SİL";
 "SavedCards.Text.noRegisteredCard" = "Opet'e eklenmiş bir Masterpass kartınız bulunmamaktadır.";
 
 //MARK: MasterPass

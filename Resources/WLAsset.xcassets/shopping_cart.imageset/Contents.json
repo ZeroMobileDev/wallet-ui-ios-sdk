@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Otobil.png",
+      "filename" : "marketikon 1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Otobil@2x.png",
+      "filename" : "marketikon 1@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Otobil@3x.png",
+      "filename" : "marketikon 1@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

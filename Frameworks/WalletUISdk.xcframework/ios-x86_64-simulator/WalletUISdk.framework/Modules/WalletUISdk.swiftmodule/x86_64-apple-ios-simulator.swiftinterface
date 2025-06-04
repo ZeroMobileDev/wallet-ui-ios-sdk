@@ -452,6 +452,9 @@ extension Swift.String {
   public var length: Swift.Int {
     get
   }
+  public var toInt16: Swift.Int16? {
+    get
+  }
   public func moneyPattern() -> Swift.String
   public subscript(i: Swift.Int) -> Swift.String {
     get

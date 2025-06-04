@@ -2477,6 +2477,7 @@ public struct CityModel : Swift.Codable {
   public var M_GET_JOBS: Swift.Int
   public var BALANCE_GetMasterpassConfig: Swift.Int
   public var CHECK_EMAIL: Swift.Int
+  public var M_GET_LIMIT_INFO: Swift.Int
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class CancelSplitTheBillInputParams : wallet_ios_sdk.BaseRequestModel {
@@ -3865,6 +3866,14 @@ public struct VillageResultListModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
+@objc @_inheritsConvenienceInitializers public class GetLimitInfoInputParams : wallet_ios_sdk.BaseRequestModel {
+  public var customerSegments: [Swift.Int]
+  public var limitValueTypes: [Swift.Int]
+  public var limitPeriodType: [Swift.Int]
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetCustomerLabelsOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var customerLabelList: [wallet_ios_sdk.CustomerLabelListModel]?
   @available(*, deprecated, renamed: "customerLabelList", message: "Use customerLabelList variable")
@@ -4818,6 +4827,32 @@ public struct WalletVirtualCardTxnsModel : Swift.Codable {
   public mutating func setDate(date: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetLimitInfoOutputParams : wallet_ios_sdk.BaseResponseMeta {
+  public var limitInfo: [wallet_ios_sdk.LimitInfo]?
+  @available(*, deprecated, renamed: "limitInfo", message: "Use limitInfo variable")
+  public func getLimitInfo() -> [wallet_ios_sdk.LimitInfo]
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class LimitInfo : Swift.Codable {
+  public var txnTypeId: Swift.Int?
+  public var txnTypeName: Swift.String?
+  public var limitGroup: [wallet_ios_sdk.LimitGroup]?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class LimitGroup : Swift.Codable {
+  public var customerSegment: Swift.Int?
+  public var limitValue: Swift.Double?
+  public var limitPeriodTypeName: Swift.String?
+  public var id: Swift.Int?
+  public var limitCode: Swift.String?, limitDescripiton: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public struct AdresTip : Swift.Codable {
   public var aciklama: Swift.String?
@@ -6448,6 +6483,9 @@ public struct InstitutionsModel : Swift.Codable {
   @objc override dynamic public init()
   @objc deinit
 }
+extension wallet_ios_sdk.WalletCoreSDK {
+  public func getInfoLimit(getLimitInfoInputParams: wallet_ios_sdk.GetLimitInfoInputParams, completion: @escaping (_ result: wallet_ios_sdk.GetLimitInfoOutputParams) -> ())
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class InitialOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var underMaintenance: Swift.Bool?
   public var canLogin: Swift.Bool?
@@ -6711,6 +6749,7 @@ public typealias ServiceClosureTypeWithRequest<T, M> = (T, _ completion: @escapi
   final public let getDigitalSlip: (wallet_ios_sdk.GetDigitalSlipInputParams, @escaping (_ result: wallet_ios_sdk.GetDigitalSlipOutputParams) -> ()) -> ()
   final public let getDigitalSlipPereferance: (@escaping (_ result: wallet_ios_sdk.GetDigitalSlipPreferenceOutputParams) -> ()) -> ()
   final public let updateDigitalSlipPereferance: (wallet_ios_sdk.UpdateDigitalSlipPreferenceInputParams, @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
+  final public let getLimitInfo: (wallet_ios_sdk.GetLimitInfoInputParams, @escaping (_ result: wallet_ios_sdk.GetLimitInfoOutputParams) -> ()) -> ()
   final public let getKpsAdressVerify: (wallet_ios_sdk.GetKpsAddressVerifyInputParams, @escaping (_ result: wallet_ios_sdk.GetKpsAddressVerifyOutputParams) -> ()) -> ()
   public func call<M>(service: (_ completion: @escaping (_ result: M) -> Swift.Void) -> Swift.Void, onSuccess: @escaping () -> Swift.Void = {}, onResult: @escaping (M) -> Swift.Void = { _ in }) where M : wallet_ios_sdk.BaseResponseMeta
   public func call<T, M>(request: T, service: (T, _ completion: @escaping (_ result: M) -> Swift.Void) -> Swift.Void, onSuccess: @escaping () -> Swift.Void = {}, onResult: @escaping (M) -> Swift.Void = { _ in }) where T : Swift.Encodable, M : wallet_ios_sdk.BaseResponseMeta
@@ -8143,6 +8182,8 @@ extension wallet_ios_sdk.UnlinkCustomerOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.UnlinkCustomerOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.GetLimitDefinitionV2OutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.GetLimitDefinitionV2OutputParams : Swift.Decodable {}
+extension wallet_ios_sdk.GetLimitInfoOutputParams : Swift.Encodable {}
+extension wallet_ios_sdk.GetLimitInfoOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.BalanceInquiryOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.BalanceInquiryOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.AskForMoneyOutputParams : Swift.Encodable {}

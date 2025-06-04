@@ -124,6 +124,7 @@ final class WLImageCatalog: ImageCatalog {
     lazy var identificationo_card_blue = WLImage(imageAssetName: "IdentificationCardBlue")
     lazy var identificationo_card_red = WLImage(imageAssetName: "IdentificationCardRed")
     lazy var identificationo_card_purple = WLImage(imageAssetName: "IdentificationCard")
+    lazy var identificationo_card_blue_2 = WLImage(imageAssetName: "IdentificationCardBlue2")
     lazy var action_sheet_background = WLImage(imageAssetName: "bg-ActionSheet")
     lazy var login_avatar = WLImage(imageAssetName: "avatar")
     lazy var secret_question_wrong_info = WLImage(imageAssetName: "Secret-Question-pop-up")
@@ -183,6 +184,7 @@ final class WLImageCatalog: ImageCatalog {
     lazy var success_logo = WLImage(imageAssetName: "success_logo")
     lazy var car_wash = WLImage(imageAssetName: "car_wash")
     lazy var shopping_cart_opet = WLImage(imageAssetName: "shopping_cart")
+    lazy var fee_and_limit_icon = WLImage(imageAssetName: "fee_and_limit_icon")
 
     // MARK: - Contracts
 
@@ -338,6 +340,7 @@ protocol ImageCatalog {
     var identificationo_card_blue: WLImage { get }
     var identificationo_card_red: WLImage { get }
     var identificationo_card_purple: WLImage { get }
+    var identificationo_card_blue_2: WLImage { get }
     var action_sheet_background: WLImage { get }
     var login_avatar: WLImage { get }
     var secret_question_wrong_info: WLImage { get }
@@ -396,6 +399,7 @@ protocol ImageCatalog {
     var success_logo: WLImage { get }
     var car_wash: WLImage { get }
     var shopping_cart_opet: WLImage { get }
+    var fee_and_limit_icon: WLImage { get }
 
     // MARK: - AdressVerify
 
