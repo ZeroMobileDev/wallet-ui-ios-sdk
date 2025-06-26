@@ -284,6 +284,7 @@ public enum WalletCardStatusType : Swift.String {
   case stolen
   case canceled
   case fake
+  case gfake
   case other
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
