@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5zEWKO7D7qcNVQ2lvJsn/d/PucA=
+		P/dHEpVt2gELKkoWiwWS4P3+6BY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Z5GpMxL611iuksiulzWUCx8Q7aY=
+		WhkNsCqSm9OO4oy8bVCJVIFOyO8=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		cqMzp9C12dLqKR1hRALTTpDyHlI=
+		7CuNqKXy8XHaiKjqFz2kvtLe3Us=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -42,15 +42,23 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		cqMzp9C12dLqKR1hRALTTpDyHlI=
+		7CuNqKXy8XHaiKjqFz2kvtLe3Us=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		lrPplhJ9+jwzTTW0G0RfcyX28+k=
+		rOnUwW9YEJ8BQuB+68EIIAv1Rmk=
 		</data>
 		<key>star.dgpara.com.der</key>
 		<data>
 		ErsOYBUglor9rjLNfRFkwqZpQ/c=
+		</data>
+		<key>star1.dgpara.com.der</key>
+		<data>
+		ErsOYBUglor9rjLNfRFkwqZpQ/c=
+		</data>
+		<key>star2.dgpara.com.der</key>
+		<data>
+		JIB4aYU4rgO+XcGJ1U+pF1KfjPo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -94,14 +102,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mfLxp5lJAf5IKKaMj1nyAVpPcFE0ooy8YXz0qoX3opc=
+			aTqX6VMVNL5OtudJe15JM3KzwUswBWNT89ZrHt+Ge18=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XTw55NGbznQtTpegSdBRYjKohuECYvnPJtfAecX6sbc=
+			tfOEmWe64jhXkg8RBcKM1HsKbtSjZ9XOwij1+ptDm2c=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -115,14 +123,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XTw55NGbznQtTpegSdBRYjKohuECYvnPJtfAecX6sbc=
+			tfOEmWe64jhXkg8RBcKM1HsKbtSjZ9XOwij1+ptDm2c=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Z32fSU+58ktUNjVEO7gJWDpBIuFR5LOgjzVUyzKi30=
+			6pxoCief/qLwf3V7nKiW5yLGNi+SyBsDEQ1IUdwP1I4=
 			</data>
 		</dict>
 		<key>star.dgpara.com.der</key>
@@ -130,6 +138,20 @@
 			<key>hash2</key>
 			<data>
 			yoWM3eXtwlK/Rza2KCJvuAoZcK3fC/2CGS1Uapk6MVM=
+			</data>
+		</dict>
+		<key>star1.dgpara.com.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yoWM3eXtwlK/Rza2KCJvuAoZcK3fC/2CGS1Uapk6MVM=
+			</data>
+		</dict>
+		<key>star2.dgpara.com.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/Wj8ShfuDaqgLN9z2SaDYIdxA3WABiA5z66iMz7Qmp0=
 			</data>
 		</dict>
 	</dict>

@@ -1823,7 +1823,8 @@ public struct WalletCoreSDKProperties {
   public var apiKey: Swift.String
   public var clientId: Swift.String
   public var cloudPublicKey: Swift.String
-  public init(coreURL: Swift.String, secureURL: Swift.String, apiKey: Swift.String, clientId: Swift.String, cloudPublicKey: Swift.String)
+  public var isSSLPinningEnabled: Swift.Bool
+  public init(coreURL: Swift.String, secureURL: Swift.String, apiKey: Swift.String, clientId: Swift.String, cloudPublicKey: Swift.String, isSSLPinningEnabled: Swift.Bool)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class InvoicePaymentOutputParams : wallet_ios_sdk.BaseResponseMeta {
   @available(*, deprecated, renamed: "refNumber", message: "Use refNumber variable")

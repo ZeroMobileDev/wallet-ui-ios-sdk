@@ -866,7 +866,7 @@ extension WalletUISdk.GeneralError {
   public func toString() throws -> Swift.String
 }
 extension UIKit.UIViewController {
-  @_Concurrency.MainActor @preconcurrency public func initWalletUi(config: WalletUISdk.UIConfig? = nil, environment: WalletUISdk.WalletUiEnvironment, successCallback: @escaping (WalletUISdk.DgfinResponse) -> Swift.Void, errorCallback: @escaping (WalletUISdk.GeneralError) -> Swift.Void, closeCallback: ((Swift.String) -> Swift.Void)?)
+  @_Concurrency.MainActor @preconcurrency public func initWalletUi(config: WalletUISdk.UIConfig? = nil, environment: WalletUISdk.WalletUiEnvironment, enableSSLPinning: Swift.Bool = true, successCallback: @escaping (WalletUISdk.DgfinResponse) -> Swift.Void, errorCallback: @escaping (WalletUISdk.GeneralError) -> Swift.Void, closeCallback: ((Swift.String) -> Swift.Void)?)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class PopTransitioning : ObjectiveC.NSObject, UIKit.UIViewControllerAnimatedTransitioning {
   @_Concurrency.MainActor @preconcurrency @objc public func transitionDuration(using transitionContext: (any UIKit.UIViewControllerContextTransitioning)?) -> Foundation.TimeInterval
