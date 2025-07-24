@@ -3,6 +3,7 @@
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name wallet_ios_sdk
 import DeveloperToolsSupport
 import Foundation
+import Network
 import Security
 import Swift
 import SwiftUI
@@ -1117,7 +1118,6 @@ extension wallet_ios_sdk.WalletCoreSDK {
   required public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers public class TopupPayStartInputParams : wallet_ios_sdk.BaseRequestModel {
-  public var remoteIPAddress: Swift.String?
   public var amount: Swift.Double?
   public var expenseAmount: Swift.Double?
   public var userValidationType: Swift.String?
@@ -1129,10 +1129,6 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public var stationId: Swift.Int?
   public var transactionType: Swift.Int?
   override public func encode(to encoder: any Swift.Encoder) throws
-  @available(*, deprecated, renamed: "remoteIPAddress", message: "Use remoteIPAddress variable")
-  public func getRemoteIPAddress() -> Swift.String
-  @available(*, deprecated, renamed: "remoteIPAddress", message: "Use remoteIPAddress variable")
-  public func setRemoteIPAddress(remoteIPAddress: Swift.String)
   @available(*, deprecated, renamed: "amount", message: "Use amount variable")
   public func getAmount() -> Swift.Double
   @available(*, deprecated, renamed: "amount", message: "Use amount variable")
@@ -1731,6 +1727,12 @@ public struct BankExchangeModel : Swift.Codable {
   public func start(properties: wallet_ios_sdk.WalletCoreSDKProperties)
   public func interfaceInit(initParam: wallet_ios_sdk.InitParam, completion: @escaping (_ result: wallet_ios_sdk.InitResponse) -> ())
   public func NotifyInterface(notifyInputParams: wallet_ios_sdk.NotifyInputParams, completion: @escaping (_ result: wallet_ios_sdk.NotifyOutputParams) -> ())
+  @available(iOS 12.0, *)
+  public func fetchRemoteIpAddress(completion: @escaping (Swift.Bool) -> ())
+  public func setRemoteIpAddress(_ ipAddress: Swift.String)
+  public func getCurrentRemoteIpAddress() -> Swift.String
+  @available(iOS 12.0, *)
+  public func clearRemoteIpAddressCache()
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class InvoiceInquiryOutputParams : wallet_ios_sdk.BaseResponseMeta {
@@ -1823,7 +1825,9 @@ public struct WalletCoreSDKProperties {
   public var apiKey: Swift.String
   public var clientId: Swift.String
   public var cloudPublicKey: Swift.String
-  public init(coreURL: Swift.String, secureURL: Swift.String, apiKey: Swift.String, clientId: Swift.String, cloudPublicKey: Swift.String)
+  public var isSSLPinningEnabled: Swift.Bool
+  public var mpa: Swift.String?
+  public init(coreURL: Swift.String, secureURL: Swift.String, apiKey: Swift.String, clientId: Swift.String, cloudPublicKey: Swift.String, isSSLPinningEnabled: Swift.Bool, mpa: Swift.String? = nil)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class InvoicePaymentOutputParams : wallet_ios_sdk.BaseResponseMeta {
   @available(*, deprecated, renamed: "refNumber", message: "Use refNumber variable")
@@ -3252,6 +3256,10 @@ public struct AddressTypesModel : Swift.Codable {
   public static func setSuccessLogin()
   public func readingUserDefaults() -> Swift.String
   public func writingUserDefaults() -> Swift.String
+  @available(iOS 12.0, *)
+  public func fetchAndSetPublicIP(completion: @escaping (Swift.Bool) -> ())
+  public func setRemoteIpAddress(_ ip: Swift.String)
+  public func getRemoteIpAddress() -> Swift.String
   @objc deinit
 }
 extension UIKit.UIDevice {
@@ -5265,6 +5273,7 @@ public var ENVIRONMENT_PRE_PROD: Swift.String
 public var ENVIRONMENT_PROD: Swift.String
 public var ENVIRONMENT_TEST: Swift.String
 public var uniqueMPANumber: Swift.String
+public var publicIPAddress: Swift.String
 public var baseTenantId: Swift.Int
 public var mpaFingerPrint: Swift.String
 public var messageGUID: Swift.String
@@ -5545,11 +5554,8 @@ public struct TransactionRestrictionList : Swift.Codable {
 }
 @objc @_inheritsConvenienceInitializers public class SetDefaultAccountInputParams : wallet_ios_sdk.BaseRequestModel {
   public var accountId: Swift.Int64
-  public var remoteIpAddress: Swift.String
   public var clientDeviceTypeId: Swift.Int64
-  override public func encode(to encoder: any Swift.Encoder) throws
   public func setAccountId(accountId: Swift.Int64)
-  public func setRemoteIpAddress(remoteIpAddress: Swift.String)
   public func setClientDeviceTypeId(clientDeviceTypeId: Swift.Int64)
   @objc override dynamic public init()
   @objc deinit
@@ -7644,17 +7650,12 @@ extension wallet_ios_sdk.WalletCoreSDK {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class TopupPayCommitInputParams : wallet_ios_sdk.BaseRequestModel {
-  public var remoteIPAddress: Swift.String?
   public var commitToken: Swift.String?, orderID: Swift.String?, masterpassCardID: Swift.String?
   public var amount: Swift.Double?
   public var merchantId: Swift.Int?
   public var stationId: Swift.Int?
   public var transactionType: Swift.Int?
   override public func encode(to encoder: any Swift.Encoder) throws
-  @available(*, deprecated, renamed: "remoteIPAddress", message: "Use remoteIPAddress variable")
-  public func getRemoteIPAddress() -> Swift.String
-  @available(*, deprecated, renamed: "remoteIPAddress", message: "Use remoteIPAddress variable")
-  public func setRemoteIPAddress(remoteIPAddress: Swift.String)
   @available(*, deprecated, renamed: "commitToken", message: "Use commitToken variable")
   public func getCommitToken() -> Swift.String
   @available(*, deprecated, renamed: "commitToken", message: "Use commitToken variable")
@@ -7921,6 +7922,32 @@ public struct AdressModel : Swift.Codable {
   @objc override dynamic public init()
   @objc deinit
 }
+@available(iOS 12.0, *)
+extension wallet_ios_sdk.WalletCoreSDK {
+  public func preloadRemoteIpAddress(completion: @escaping (Swift.String?) -> Swift.Void)
+  public func isRemoteIpAddressAvailable() -> Swift.Bool
+  public func ensureRemoteIpAddressIsAvailable(completion: @escaping (Swift.Bool) -> Swift.Void)
+}
+@_hasMissingDesignatedInitializers @available(iOS 12.0, *)
+public class PublicIPService {
+  public static let shared: wallet_ios_sdk.PublicIPService
+  public func fetchPublicIP(completion: @escaping (Swift.Result<Swift.String, wallet_ios_sdk.PublicIPError>) -> Swift.Void)
+  public func clearCachedIP()
+  @objc deinit
+}
+public enum PublicIPError : Swift.Error, Foundation.LocalizedError {
+  case networkUnavailable
+  case allServicesFailed
+  case invalidResponse
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public static func == (a: wallet_ios_sdk.PublicIPError, b: wallet_ios_sdk.PublicIPError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetCustomerRemainingLimitInfoV2OutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var customerRemainingLimits: [wallet_ios_sdk.CustomerRemainingLimitsModel]?
   @available(*, deprecated, renamed: "customerRemainingLimits", message: "Use customerRemainingLimits variable")
@@ -7934,9 +7961,13 @@ public struct AdressModel : Swift.Codable {
 @_inheritsConvenienceInitializers @objc public class BaseRequestModel : ObjectiveC.NSObject, Swift.Encodable {
   public var UniqueMPANumber: Swift.String
   public var tenantId: Swift.Int
+  public var remoteIpAddress: Swift.String
   @objc override dynamic public init()
-  @objc deinit
+  public func setRemoteIpAddress(_ ip: Swift.String)
+  public func getPublicIP() -> Swift.String
+  public func getRemoteIpAddress() -> Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class GetSecretQuestionInputParams : wallet_ios_sdk.BaseRequestModel {
   public var languageCode: Swift.String
@@ -8298,5 +8329,7 @@ extension wallet_ios_sdk.SendAccountActionsWithEmailOutPutParams : Swift.Encodab
 extension wallet_ios_sdk.SendAccountActionsWithEmailOutPutParams : Swift.Decodable {}
 extension wallet_ios_sdk.CancelArafOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.CancelArafOutputParams : Swift.Decodable {}
+extension wallet_ios_sdk.PublicIPError : Swift.Equatable {}
+extension wallet_ios_sdk.PublicIPError : Swift.Hashable {}
 extension wallet_ios_sdk.GetCustomerRemainingLimitInfoV2OutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.GetCustomerRemainingLimitInfoV2OutputParams : Swift.Decodable {}
