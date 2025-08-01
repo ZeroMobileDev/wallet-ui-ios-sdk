@@ -903,6 +903,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func getAllStreetWithVillageCodeInKpsInterface(getAllStreetWithVillageCodeInKpsInputParams: wallet_ios_sdk.GetAllStreetWithVillageCodeInKpsInputParams, completion: @escaping (_ result: wallet_ios_sdk.GetAllStreetWithVillageCodeInKpsOutputParams) -> ())
   public func getAllVillageWithDistrictCodeInKpsInterface(getAllVillageWithDistrictCodeInKpsInputParams: wallet_ios_sdk.GetAllVillageWithDistrictCodeInKpsInputParams, completion: @escaping (_ result: wallet_ios_sdk.GetAllVillageWithDistrictCodeInKpsOutputParams) -> ())
   public func getKpsAddressVerifyInterface(getKpsAddressVerifyInputParams: wallet_ios_sdk.GetKpsAddressVerifyInputParams, completion: @escaping (_ result: wallet_ios_sdk.GetKpsAddressVerifyOutputParams) -> ())
+  public func getKpsAddressInquiryInterface(getKpsAddressInquiryInputParams: wallet_ios_sdk.KpsAddressInquiryInputParams, completion: @escaping (_ result: wallet_ios_sdk.KpsAddressInquiryOutputParams) -> ())
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetCustomerSegmentsOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var customerSegmentList: [wallet_ios_sdk.DictionaryModel]?
@@ -1309,11 +1310,10 @@ public struct InstitutionModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers public class Utils {
+public enum Utils {
   public static func lastIndexOf(text: Swift.String, of: Swift.String) -> Swift.Int?
   public static func AesEncryptWithWB(encParameters: Swift.String) -> Swift.String
   public static func AsciiToHex(hex: Swift.String) -> Swift.String
-  @objc deinit
 }
 extension UIKit.UIColor {
   convenience public init?(hex: Swift.String)
@@ -2394,6 +2394,7 @@ public struct CityModel : Swift.Codable {
   public var M_GET_ALL_BUILDING_WITH_STREET_CODE_IN_KPS: Swift.Int
   public var M_GET_ALL_STREET_WITH_VILLAGE_CODE_IN_KPS: Swift.Int
   public var M_GET_KPS_ADDRESS_VERIFY: Swift.Int
+  public var M_KPS_ADDRESS_INQUIRY: Swift.Int
   public var M_USER_VERIFICATION_STATUS: Swift.Int
   public var M_GET_ALL_VILLAGE_WITH_DISTRICT_CODE_INKPS: Swift.Int
   public var M_GET_ALL_SECTION_WITH_BUILDING_CODE_INKPS: Swift.Int
@@ -3507,6 +3508,10 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func topupPayStart(topupPayStartInputParams: wallet_ios_sdk.TopupPayStartInputParams, completion: @escaping (_ result: wallet_ios_sdk.TopupPayStartOutputParams) -> ())
   public func topupPayCommit(topupPayCommitInputParams: wallet_ios_sdk.TopupPayCommitInputParams, completion: @escaping (_ result: wallet_ios_sdk.TopupPayCommitOutputParams) -> ())
   public func getMasterpassConfig(getMasterpassConfigInputParams: wallet_ios_sdk.GetMasterpassConfigInputParams, completion: @escaping (_ result: wallet_ios_sdk.GetMasterpassConfigOutputParams) -> ())
+}
+@objc @_inheritsConvenienceInitializers public class KpsAddressInquiryInputParams : wallet_ios_sdk.BaseRequestModel {
+  @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetResponseMessagesOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var responseMessagesList: [wallet_ios_sdk.ResponseMessagesListModel]?
@@ -6757,6 +6762,7 @@ public typealias ServiceClosureTypeWithRequest<T, M> = (T, _ completion: @escapi
   final public let updateDigitalSlipPereferance: (wallet_ios_sdk.UpdateDigitalSlipPreferenceInputParams, @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
   final public let getLimitInfo: (wallet_ios_sdk.GetLimitInfoInputParams, @escaping (_ result: wallet_ios_sdk.GetLimitInfoOutputParams) -> ()) -> ()
   final public let getKpsAdressVerify: (wallet_ios_sdk.GetKpsAddressVerifyInputParams, @escaping (_ result: wallet_ios_sdk.GetKpsAddressVerifyOutputParams) -> ()) -> ()
+  final public let getKpsAddressInquiry: (wallet_ios_sdk.KpsAddressInquiryInputParams, @escaping (_ result: wallet_ios_sdk.KpsAddressInquiryOutputParams) -> ()) -> ()
   public func call<M>(service: (_ completion: @escaping (_ result: M) -> Swift.Void) -> Swift.Void, onSuccess: @escaping () -> Swift.Void = {}, onResult: @escaping (M) -> Swift.Void = { _ in }) where M : wallet_ios_sdk.BaseResponseMeta
   public func call<T, M>(request: T, service: (T, _ completion: @escaping (_ result: M) -> Swift.Void) -> Swift.Void, onSuccess: @escaping () -> Swift.Void = {}, onResult: @escaping (M) -> Swift.Void = { _ in }) where T : Swift.Encodable, M : wallet_ios_sdk.BaseResponseMeta
   @objc deinit
@@ -6931,6 +6937,13 @@ public struct CorpOperationParamsModel : Swift.Codable {
   public mutating func setReferenceName(referenceName: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class KpsAddressInquiryOutputParams : wallet_ios_sdk.BaseResponseMeta {
+  public var address: Swift.String?
+  public var addressNo: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers public class InitResponse : wallet_ios_sdk.BaseResponseMeta {
   public init()
@@ -8299,6 +8312,8 @@ extension wallet_ios_sdk.GetAllCityWithKpsOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.GetAllCityWithKpsOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.GetCampaignsOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.GetCampaignsOutputParams : Swift.Decodable {}
+extension wallet_ios_sdk.KpsAddressInquiryOutputParams : Swift.Encodable {}
+extension wallet_ios_sdk.KpsAddressInquiryOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.InitResponse : Swift.Encodable {}
 extension wallet_ios_sdk.InitResponse : Swift.Decodable {}
 extension wallet_ios_sdk.SetCommunicationPreferencesOutputParams : Swift.Encodable {}
