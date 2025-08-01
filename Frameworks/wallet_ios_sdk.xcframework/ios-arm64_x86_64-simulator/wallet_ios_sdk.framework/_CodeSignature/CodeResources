@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		lbvFkcZxweeGyDgA+uG2EOnMd4c=
+		7Eb24qW067lo4z/VyLjfrJrT05w=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ui+7rlfnC9HBL8AMjuAvo3N1eoY=
+		SHAeJf87Xcw97uRU/Cy5Oh9lA5I=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		lbvFkcZxweeGyDgA+uG2EOnMd4c=
+		7Eb24qW067lo4z/VyLjfrJrT05w=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hBK72l0OrO90Lnz3GIqrhfsDxqg=
+		38x8IluW3f4h+vNgROWNe/LnLiU=
 		</data>
 		<key>star.dgpara.com.der</key>
 		<data>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wFgYNX1SlvlFjgfZAAKCuzobrlfrwgZNAJdFXxDoku4=
+			aCUwqO4WcN6YipAHmQd1gmGU5UiLNUhoCj5jZluogBY=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -150,14 +150,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XRY0FHo8LpTcWN4Cijc++F/mziU6W65pUkUrrnYCPKA=
+			Gton1C0l/9P1vacjqktz4KVo+SkmYnZM0ieJeOptCAE=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wFgYNX1SlvlFjgfZAAKCuzobrlfrwgZNAJdFXxDoku4=
+			aCUwqO4WcN6YipAHmQd1gmGU5UiLNUhoCj5jZluogBY=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -185,7 +185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GJMpF4IOFx6SpghJ3gw4fzGdp5j4AIiko5KqgiU1aeU=
+			xKuAtrFUNMCNGimdMCuqHxpSZAKs6aY5O6QNqv2/t88=
 			</data>
 		</dict>
 		<key>star.dgpara.com.der</key>
