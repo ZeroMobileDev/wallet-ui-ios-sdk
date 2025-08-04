@@ -3244,6 +3244,7 @@ public struct AddressTypesModel : Swift.Codable {
   public func setMessageCount()
   public func getMessageCount() -> Swift.String
   public func createMpaFingerprint()
+  public func createMpaFingerprintTemp()
   public func setMpaFingerPrint(fingerPrint: Swift.String)
   public func GetGUID() -> Swift.String
   public func refreshGUID()
