@@ -3511,6 +3511,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func getMasterpassConfig(getMasterpassConfigInputParams: wallet_ios_sdk.GetMasterpassConfigInputParams, completion: @escaping (_ result: wallet_ios_sdk.GetMasterpassConfigOutputParams) -> ())
 }
 @objc @_inheritsConvenienceInitializers public class KpsAddressInquiryInputParams : wallet_ios_sdk.BaseRequestModel {
+  override public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
 }
