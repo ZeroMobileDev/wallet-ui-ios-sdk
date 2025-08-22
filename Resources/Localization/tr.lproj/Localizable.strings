@@ -816,6 +816,10 @@
 "AdressVerify.Title.textfieldHeader" = "Adres Numarası";
 "AdressVerify.Text.placeHolderText" = "Adres Numaranızı Giriniz";
 "AdressVerify.Text.textFieldInfo" = "Adres numarası nasıl öğrenilir?";
+"AdressVerify.Text.nextStepInfo" = "Kimlik doğrulama akışının bir sonraki adımına geçebilirsin.";
+"AdressVerify.Text.addressNoDescription" = "e-Devlet’te bulunan adresine ait 10 haneli numaradır.";
+"AdressVerify.Title.myResidenceAddress" = "İkametgah Adresim";
+"AdressVerify.Button.confirm" = "ONAYLIYORUM";
 
 // MARK: - AdressVerifyInfo
 "AdressVerifyInfo.Title.navigationTitle" = "Adres Numarası Nasıl Öğrenilir?";
@@ -832,6 +836,12 @@
 
 "AdressVerifyDetail.Text.edevletFirst" = "E-Devlet’e giriş yaptıktan sonra arama bölümüne “İkametgâhım” yazarak, 10 haneli NVİ Adres Numaranı kolayca öğrenebilirsin.";
 "AdressVerifyDetail.Text.edevletSecond" = "Adres No öğrenme bölümünden 10 haneli NVİ Adres No’nu öğrenebilirsin.";
+
+// MARK: - AdressVerifyFailure
+"AdressVerifyFailure.Title.title" = "Adresini Doğrulayamadık";
+"AdressVerifyFailure.Text.description" = "Adresini doğrulana kadar bir sonraki adıma geçemeyeceksin. Geri dönerek NVİ kodunun ve adresinin doğruluğunu kontrol et.";
+"AdressVerifyFailure.Button.back" = "GERİ DÖN";
+"AdressVerifyFailure.Button.exitWithoutVerification" = "DOĞRULAMADAN ÇIK";
 
 //MARK: VirtualCards
 "VirtualCards.Title.NavigationTitle" = "Opet Pay İşlemlerim";

@@ -6942,7 +6942,7 @@ public struct CorpOperationParamsModel : Swift.Codable {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class KpsAddressInquiryOutputParams : wallet_ios_sdk.BaseResponseMeta {
   public var address: Swift.String?
-  public var addressNo: Swift.String?
+  public var addressNo: Swift.Int64?
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws

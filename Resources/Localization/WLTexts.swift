@@ -626,6 +626,10 @@ enum WLTexts: String {
     case adressVerifyTextFieldTitle = "AdressVerify.Title.textfieldHeader"
     case adressVerifyTextFieldPlaceHolder = "AdressVerify.Text.placeHolderText"
     case adressVerifyTextFieldInfo = "AdressVerify.Text.textFieldInfo"
+    case adressVerifyNextStepInfo = "AdressVerify.Text.nextStepInfo"
+    case adressVerifyAddressNoDescription = "AdressVerify.Text.addressNoDescription"
+    case adressVerifyMyResidenceAddress = "AdressVerify.Title.myResidenceAddress"
+    case adressVerifyButtonConfirm = "AdressVerify.Button.confirm"
 
     // MARK: - AdressVerifyInfo
 
@@ -641,6 +645,12 @@ enum WLTexts: String {
 
     case adressVerifyDetailEdevletFirst = "AdressVerifyDetail.Text.edevletFirst"
     case adressVerifyDetailEdevletSecond = "AdressVerifyDetail.Text.edevletSecond"
+
+    // MARK: - AdressVerifyFailure
+    case adressVerifyFailureTitle = "AdressVerifyFailure.Title.title"
+    case adressVerifyFailureDescription = "AdressVerifyFailure.Text.description"
+    case adressVerifyFailureButtonBack = "AdressVerifyFailure.Button.back"
+    case adressVerifyFailureButtonExitWithoutVerification = "AdressVerifyFailure.Button.exitWithoutVerification"
 
     // MARK: - SettingsScreen
 

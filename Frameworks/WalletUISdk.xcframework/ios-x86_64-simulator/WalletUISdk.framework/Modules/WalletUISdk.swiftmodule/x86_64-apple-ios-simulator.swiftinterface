@@ -93,6 +93,7 @@ public class WalletUiSDK {
     public static func QR()
     public static func inviteFriend()
     public static func getMassterpassConfig() -> [Swift.String : Swift.String]
+    public static func kyc()
     public static func dgfinDashboard()
     public static func dgfinLoanInfo()
     public static func dgfinPaybackPlan()
