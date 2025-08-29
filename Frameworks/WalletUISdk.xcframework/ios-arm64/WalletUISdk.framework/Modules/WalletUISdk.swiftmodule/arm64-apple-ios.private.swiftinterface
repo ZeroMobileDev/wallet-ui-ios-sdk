@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name WalletUISdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WalletUISdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AVFoundation
 import Combine
 import CommonCrypto
@@ -219,8 +219,8 @@ extension Swift.String {
 public struct QuestionListModelDTO : Swift.Hashable {
   public var id: Swift.String?
   public var text: Swift.String?
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WalletUISdk.QuestionListModelDTO, b: WalletUISdk.QuestionListModelDTO) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -427,8 +427,8 @@ public enum Page : Swift.String, Swift.CaseIterable {
   }
 }
 public struct TransactionSummaryModel : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WalletUISdk.TransactionSummaryModel, b: WalletUISdk.TransactionSummaryModel) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -530,8 +530,8 @@ extension SwiftUICore.Font {
   public static func customSystem(size: CoreFoundation.CGFloat, weight: SwiftUICore.Font.Weight = .regular, design: SwiftUICore.Font.Design = .default) -> SwiftUICore.Font
 }
 public struct SendMoneyToIbanTransactionModel : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WalletUISdk.SendMoneyToIbanTransactionModel, b: WalletUISdk.SendMoneyToIbanTransactionModel) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -667,8 +667,8 @@ extension SwiftUICore.VerticalAlignment {
   public static let custom: SwiftUICore.VerticalAlignment
 }
 public struct QrPaymentModel : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WalletUISdk.QrPaymentModel, b: WalletUISdk.QrPaymentModel) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -745,8 +745,8 @@ extension UIKit.UIViewController {
   }
 }
 public struct QrTransactionSummaryModel : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WalletUISdk.QrTransactionSummaryModel, b: WalletUISdk.QrTransactionSummaryModel) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -774,8 +774,8 @@ public struct TurkcellInvoiceInquiryModelDTO : Swift.Hashable {
   public var totalAmount: Swift.Double?
   public var key1: Swift.String?
   public var key2: Swift.String?
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WalletUISdk.TurkcellInvoiceInquiryModelDTO, b: WalletUISdk.TurkcellInvoiceInquiryModelDTO) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -831,8 +831,8 @@ public struct SplitBillModel : Swift.Hashable {
   public var txnCategoryId: Swift.Int64
   public var txnName: Swift.String
   public var instrumentName: Swift.String
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WalletUISdk.SplitBillModel, b: WalletUISdk.SplitBillModel) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -843,9 +843,9 @@ public struct WalletCard : Swift.Identifiable, Swift.Hashable {
   public let cardNumber: Swift.String
   public let cardToken: Swift.String
   public var status: WalletUISdk.WalletCardStatusType
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: WalletUISdk.WalletCard, b: WalletUISdk.WalletCard) -> Swift.Bool
   public typealias ID = Foundation.UUID
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }

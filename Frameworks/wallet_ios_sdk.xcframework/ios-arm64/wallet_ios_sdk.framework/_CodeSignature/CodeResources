@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		RQwf3DqtkHDS3h16Q72V8LPIQIY=
+		C8O3b9qFeZ3+NtVrz9ptgSlLykM=
 		</data>
 		<key>BaseCardView.nib</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		P/dHEpVt2gELKkoWiwWS4P3+6BY=
+		HPw6eqqAIz3jH2copBUJxmyAODk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		UYKuhTyU/MK9HcgCTOFYVtr4Bag=
+		kSOllejIcx7eQ/3/Ejn5mdx8UqA=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		OBAr0v3ELmEQFtI7Qn1JOBU3XMs=
+		vo1LYeezK46aHf2y9GWhBA637do=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		UYKuhTyU/MK9HcgCTOFYVtr4Bag=
+		kSOllejIcx7eQ/3/Ejn5mdx8UqA=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		pWMq8z2TKguNISICQXpZ9R664DU=
+		YMBs/+9i5LoiyLd9GspkfLF1V8Q=
 		</data>
 		<key>star.dgpara.com.der</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/3G1sahfEspIrWIEUIyOucRl34WTRRj7zGbX7FPC6PA=
+			0eiYwdektBzbvo7aEM4NHQKIDuEPi1dZVpHDvxdJnpY=
 			</data>
 		</dict>
 		<key>BaseCardView.nib</key>
@@ -109,28 +109,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mPQGsJc7nO86UFBKfLp3hpUXb0fFRtLkFDwzTNr6LTw=
+			39R+w4IBMP2duZ0XF9tGKnCpYNTyn1cuFJplgQBVlsU=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HN22Qak9ivSk2eo6F1IwTx8ZEpJUOArrHI6RRULq1EM=
+			RdWyVYYW+Ty6F4zmVEpw+X6f1/xll4kDfo4vpKHD52g=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mPQGsJc7nO86UFBKfLp3hpUXb0fFRtLkFDwzTNr6LTw=
+			39R+w4IBMP2duZ0XF9tGKnCpYNTyn1cuFJplgQBVlsU=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b6yf/a+MAYwpOIkVMDewVCUR+oCq1D7X86sIvRgI/v8=
+			nnkYPNuYnKTKkOzb5+9+N+NHqQm8S9YEviXLHzBNNg4=
 			</data>
 		</dict>
 		<key>star.dgpara.com.der</key>

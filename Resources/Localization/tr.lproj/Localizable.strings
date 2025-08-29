@@ -1028,7 +1028,7 @@
 
 "InviteScreen.Text.Title"                                = "Arkadaşını Davet Et";
 "InviteScreen.Text.Header"                               = "Davet et, kazancını katla!";
-"InviteScreen.Text.Description"                          = "Size özel referans kodunuzu sevdiklerinizle paylaşarak Opet Pay hesabı oluşturmaya davet edin, kazancınız paylaştıkça çoğalsın! Opet Pay hesabı oluşturan yakınlarınız için 500 TL’ye varan hediye bakiye kazanın!";
+"InviteScreen.Text.Description"                          = "Size özel referans kodunuzu sevdiklerinizle paylaşarak Opet Pay hesabı oluşturmaya davet edin, kazancınız paylaştıkça çoğalsın! Opet Pay hesabı oluşturan yakınlarınız için hediye bakiye kazanın!";
 "InviteScreen.Text.ReferenceCode"                        = "Referans Kodu:";
 "InviteScreen.Text.CampaignInfoPrefix"                   = "Kampanya hakkında detaylı bilgi için";
 "InviteScreen.Text.CampaignInfoClickable"                = "tıklayınız.";
