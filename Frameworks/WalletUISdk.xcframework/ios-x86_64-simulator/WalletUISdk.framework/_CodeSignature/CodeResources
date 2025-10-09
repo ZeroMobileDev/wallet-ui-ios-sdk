@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		IjzChnLCQ4nUHAlyzV+yI9OTcTc=
+		HtXkrJBn1KIK8P+f/e4Iww/vAGE=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		eFw6ZrsPwTxkK8vWBwWFQVjsI9o=
+		xsf6PvlS3JPJLo1qMYsl5AaZl9w=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/WalletUISdk-Swift.h</key>
 		<data>
-		bd5y9odKcLQgvMs9yXkaApe/46M=
+		dSVQlyAu+M7YKXiMlDlPhXP3Bts=
 		</data>
 		<key>Headers/WalletUiSdk.h</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jGSqYipQl0uyFMPRFPBIK/Hllqc=
+		a31OgegyKODDQBHv1yiN8tIS1qw=
 		</data>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<data>
-		lTTNVBKQTipxVNIO1HXF4DMcaIU=
+		5PXcx4XDoK5hPirpiM8Pi/PO8hs=
 		</data>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<data>
@@ -114,27 +114,27 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		afhYXWeUoV1W9uZu4/YkHT/1R28=
+		R/hcNxFvdr03NXwhk9MUWhgmRKU=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		PsBbUqMV+Q3fpv4qYV3TRdpKxDE=
+		vHOHdtEGnQQQcH0soKPZUUTfpVM=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		PsKYI1Kwl1OroMk4eBPnJhNHSzo=
+		ZOdNjIt3JzZ0fHDVhjkEq0I6D3I=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		pQWd5IEuFznOUeOfTDlP8w1g0aY=
+		lQvUMCLjZNHGT4dg6YY3LAilunk=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PsKYI1Kwl1OroMk4eBPnJhNHSzo=
+		ZOdNjIt3JzZ0fHDVhjkEq0I6D3I=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mjBxf8OftW/eJvmjebY7hTkhi0I=
+		Xtp8FalAnFgQI6J1Ug9SQD/42KY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -254,21 +254,13 @@
 	<dict>
 		<key>Assets.car</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IjzChnLCQ4nUHAlyzV+yI9OTcTc=
-			</data>
 			<key>hash2</key>
 			<data>
-			raZnZC9vJvessMS3gBzFAOimuGVL/zGUfkBw7byJDsM=
+			+0xVWnKu75GB1z53/FFdbDyu90NEVMEbUsxw+CxcsCc=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			96Uw5p4tLIiDbN11Du0p0c5xqE8=
-			</data>
 			<key>hash2</key>
 			<data>
 			8A8lZEpijnOMFV9JPQcq8UPyU8v5nwi/SCnL5dT0NRw=
@@ -276,10 +268,6 @@
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLlefteyeclosed_200.emd</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KBTvwnLXsoe2PIlGUwZzMUOp5k8=
-			</data>
 			<key>hash2</key>
 			<data>
 			0xIT5PJf+LIXgeeG/YnO3lkX75s/vlC99V1IOvE27e0=
@@ -287,10 +275,6 @@
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLrighteyeclosed_200.emd</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fW6O7h6Je5DNmNrbOeCGmAixyLI=
-			</data>
 			<key>hash2</key>
 			<data>
 			Y8oL2DjlGXdImtrbgKC+AWxaoLe2kPvDiaBkWqzP5P8=
@@ -298,21 +282,13 @@
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eFw6ZrsPwTxkK8vWBwWFQVjsI9o=
-			</data>
 			<key>hash2</key>
 			<data>
-			lW6aAvmIPM21WrbopG0iNFDpFHCfoZ0KgiQUJjLj3P0=
+			jWkY7we3AJOufCSu/1BKohGAuQa/E9LTMPoHhvuMq5A=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			trY9XrpS4DxHzs3eHljZHIJNHrI=
-			</data>
 			<key>hash2</key>
 			<data>
 			DtXIUoL5QNFKVyOmwK8F+cKr1Okww8TwvloHI203QRE=
@@ -320,10 +296,6 @@
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/MFT_fssd_accgray.pb</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tq7fRawRQ359i/c0FEVvpQ6Oee0=
-			</data>
 			<key>hash2</key>
 			<data>
 			8K2wTXshtNmImTKmLw7/En7tsn0vhTQqkBRBU8oLgbE=
@@ -331,10 +303,6 @@
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/MFT_fssd_fastgray.pb</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DP+qJf0czliL6znGLVx90ASNzCY=
-			</data>
 			<key>hash2</key>
 			<data>
 			CUNCXfGzUODFinvmaL4flC6sM4wZjhpPFoWco+Eif0U=
@@ -342,10 +310,6 @@
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/blazeface.tfl</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oseYQ/EQxo7JsNpdNgo4YVLh7a4=
-			</data>
 			<key>hash2</key>
 			<data>
 			TyXMFC6WtfIbMjbSFmwuZikgaB8dI5QtJRDpjIr27Nw=
@@ -353,10 +317,6 @@
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/contours.tfl</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PaAh9+zFw3Is4fLMn5iQsLG5M34=
-			</data>
 			<key>hash2</key>
 			<data>
 			hBYLwMSnSVF+Yvk8ssaKuP9J3lcfcOttFgJUypoHicA=
@@ -364,10 +324,6 @@
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/fssd_100_8bit_gray_v1.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VCp0NyrYJWQnYbGaxVv0Vzy0IeA=
-			</data>
 			<key>hash2</key>
 			<data>
 			ekzwnGrkp1gUTUK/NbmiapWYfjxYQdDcORCVaYKZ2as=
@@ -375,10 +331,6 @@
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/fssd_100_8bit_v1.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AHaxev+fV4YGoIDboAUFlxfISmY=
-			</data>
 			<key>hash2</key>
 			<data>
 			OvuTDu3I0dQENEgCgdO16M7EwwTlLTT9/IqVCDQLtxk=
@@ -386,10 +338,6 @@
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/fssd_25_8bit_gray_v1.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Rd53RFFpKHZNvbiDaE2p4XxjbY0=
-			</data>
 			<key>hash2</key>
 			<data>
 			IVEbvtJxoKkri5ORjg+I9u+70RWjbRVV8GHO4TH2qzw=
@@ -397,10 +345,6 @@
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/fssd_25_8bit_v1.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RxtbTN3LjpFChp3tmniX3KD+dsE=
-			</data>
 			<key>hash2</key>
 			<data>
 			2pAlL0mzu5QuX4gBgKFFYfZpKW5/s+3s3quqi2u3gio=
@@ -408,10 +352,6 @@
 		</dict>
 		<key>Headers/WalletSdk.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FQG4XYpRhIB0UQTPYE2HkEwv8BU=
-			</data>
 			<key>hash2</key>
 			<data>
 			UE+RLWD5A7hC1nFQSH2oQ2Y+5nR4+n1wj6HqJeiC9CU=
@@ -419,21 +359,13 @@
 		</dict>
 		<key>Headers/WalletUISdk-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bd5y9odKcLQgvMs9yXkaApe/46M=
-			</data>
 			<key>hash2</key>
 			<data>
-			cuBy+uSU8hJBJVW6nOiM6GN1Z2clz0l2VyP3pEPWGKE=
+			mmXPcpHEYKWqwbi/jCBqB00tiuGdfkPLfDPQLB8o9Q0=
 			</data>
 		</dict>
 		<key>Headers/WalletUiSdk.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VrVpNLBCOKlGJ1ey9JCmR7edFWw=
-			</data>
 			<key>hash2</key>
 			<data>
 			Id/mRINb3HQip+9ks5wZpJHXVR7/tjCt7yLzo5b8mWA=
@@ -441,21 +373,13 @@
 		</dict>
 		<key>LatinOCRResources.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lTTNVBKQTipxVNIO1HXF4DMcaIU=
-			</data>
 			<key>hash2</key>
 			<data>
-			1VwbF/9sgH2JGFhCOYQGZGuwfVmEoXjHVX/D2ey7M9A=
+			PGhVbjFltVf2BhJ4nMWq0rMd0HhPwOv9YjOywLJ5t7k=
 			</data>
 		</dict>
 		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			V2ROSYH9TDZ87SKQfYmC78jkabg=
-			</data>
 			<key>hash2</key>
 			<data>
 			Gji2RtEJwU3YrjDV8SqQNvYPnpI8kwEzeqJQd1nysJg=
@@ -463,10 +387,6 @@
 		</dict>
 		<key>LatinOCRResources.bundle/rpn_lstm_engine_tflite_latin.bincfg</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			W+TF/C0djllwb4ejtlbbwoqIOaA=
-			</data>
 			<key>hash2</key>
 			<data>
 			EPDNQpLTZ7J3ggU9/BhgwGKbEwmAWLOsHW7KYoi7+wQ=
@@ -474,10 +394,6 @@
 		</dict>
 		<key>LatinOCRResources.bundle/rpn_text_detector_mobile_space_to_depth_quantized_v2.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6ny23cax5EGQNgpJKSnhJUhpxtQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			KQajsAlTNRgTxJFzQeGXEH7SqqwtF2UIkHWNwZAnHe4=
@@ -485,10 +401,6 @@
 		</dict>
 		<key>LatinOCRResources.bundle/tflite_langid.tflite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/LcQXDvm1hHXPLE3IVulrhpZePE=
-			</data>
 			<key>hash2</key>
 			<data>
 			f5Mfb3wd0OxZGs53gN+RZFpFD6/INQXz/0XOXvfIRBs=
@@ -496,10 +408,6 @@
 		</dict>
 		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.bincfg</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			66UmXr+gf7XJ71vLnqjAwes9Mnw=
-			</data>
 			<key>hash2</key>
 			<data>
 			oFDru3MHCMhVaoh3k7h/zhLun/pRevxSBccdRiS9e8c=
@@ -507,10 +415,6 @@
 		</dict>
 		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.class_lst</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			68PK2+uslXMmEpqkRadeVy2t0PE=
-			</data>
 			<key>hash2</key>
 			<data>
 			VRUPJ3nQeTbJ+/i+y7hWf+PqWta22UQkWClpWorpaPo=
@@ -518,10 +422,6 @@
 		</dict>
 		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.conv_model</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BQIj06B3MVer0TIFCE1lwPQqAQ8=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZKunGbTtHuWz1IhsWq8LGsBRv1h56bCOhh4OKeIKCKc=
@@ -529,10 +429,6 @@
 		</dict>
 		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.lstm_model</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oYS7+p9yJEEy3UOE1YgjDNNbLAM=
-			</data>
 			<key>hash2</key>
 			<data>
 			DtYuT74PxcQJCuxHOxNuGI+ChZB2XAKDgjWNrds8y24=
@@ -540,76 +436,48 @@
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			afhYXWeUoV1W9uZu4/YkHT/1R28=
-			</data>
 			<key>hash2</key>
 			<data>
-			SJ8+yyz5FMpj+kV60safEVFIXkQeiYpUTkX8vsBx7+A=
+			xqslM2tsqrfxyZkxBJL1Ohos2Rh4o/Yf2dekD9NM/OA=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PsBbUqMV+Q3fpv4qYV3TRdpKxDE=
-			</data>
 			<key>hash2</key>
 			<data>
-			bi2gQnRO7gDbmJzxeRMsyjFFoWxmeKRe5maVZj4oHuI=
+			IGW1M7J3bSKHCNv9HMwjWnSDcGK/QjdmF2E5f1wN84A=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PsKYI1Kwl1OroMk4eBPnJhNHSzo=
-			</data>
 			<key>hash2</key>
 			<data>
-			nC7Cfl7Y8QQKdjSRN2+FvUdcp4UGIXS+SilLcMiEXd8=
+			onxahzQDHf+XxUHQQ1a43NNmUlYK+eFAHY3vHEvqeyM=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pQWd5IEuFznOUeOfTDlP8w1g0aY=
-			</data>
 			<key>hash2</key>
 			<data>
-			M2sprBcJeLK+tmnfVcr2artBvdaiWfLtiKqEXOp/A1E=
+			9ZE/3r5Y0QJlAAG0evqjIhLjaKxZJfnItAqGHfAS6JI=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PsKYI1Kwl1OroMk4eBPnJhNHSzo=
-			</data>
 			<key>hash2</key>
 			<data>
-			nC7Cfl7Y8QQKdjSRN2+FvUdcp4UGIXS+SilLcMiEXd8=
+			onxahzQDHf+XxUHQQ1a43NNmUlYK+eFAHY3vHEvqeyM=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mjBxf8OftW/eJvmjebY7hTkhi0I=
-			</data>
 			<key>hash2</key>
 			<data>
-			Zn+A7sLJ5WnGRFDQrz6CNbkzI2w9O1bXExMl2pDtfW8=
+			bWC7jNHTULPrpbzLQ9V2GzrCan27l6yksr+cgZPz/fw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bv0J/ZaDE9j+4USp9VrEof0rALU=
-			</data>
 			<key>hash2</key>
 			<data>
 			UyKVXaM45q5qTWdNODFNEMhndnRepWKBxMAKEye0ewE=
@@ -617,10 +485,6 @@
 		</dict>
 		<key>PrivateHeaders/MfsCard.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pirGt3ri3PiYtGANEq1dxlGHQO4=
-			</data>
 			<key>hash2</key>
 			<data>
 			+Ep3lAeXbbSp0NFZWW5OnwICb38QEB65tE1pbg9rF8I=
@@ -628,10 +492,6 @@
 		</dict>
 		<key>PrivateHeaders/MfsCheckbox.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			w61hWUwmg3k/4/jHaYq4+NDx3Lc=
-			</data>
 			<key>hash2</key>
 			<data>
 			7bjz18qVNTMtCPVKECOxbsjlQ842swwlMVeB0qFLg2k=
@@ -639,10 +499,6 @@
 		</dict>
 		<key>PrivateHeaders/MfsIOSLibrary.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EiME9X2rGlyj4ny9AT4LOT3Dn0w=
-			</data>
 			<key>hash2</key>
 			<data>
 			gUPxwfTq4gqAFNhOT/2vhnmkpqy9kAwKLlk5lm5TTUY=
@@ -650,10 +506,6 @@
 		</dict>
 		<key>PrivateHeaders/MfsResponse.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			p50RGhrcJD0gaAwwf0jZb1L5wJQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			7XSrW1m767fFMsLUID+buxVFBmya5nRDwXamr1VnIlE=
@@ -661,10 +513,6 @@
 		</dict>
 		<key>PrivateHeaders/MfsTextField.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yVGciZoJ57ZiqmhjllcEBfTTg8o=
-			</data>
 			<key>hash2</key>
 			<data>
 			atrkc8I3Sf+q/CgQNBlxi/rLxVOc2Bv1KK/8grhDVes=
@@ -672,10 +520,6 @@
 		</dict>
 		<key>PrivateHeaders/MfsWebView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3fbwI1tyjQxOHXbhaCcWkQFBKn8=
-			</data>
 			<key>hash2</key>
 			<data>
 			aIR06KERmRAB1AWoYsu+fCnrTnFlIfzidHnY/mxAO/4=
@@ -683,10 +527,6 @@
 		</dict>
 		<key>SourceSansPro-Black.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fBlnGWmVlR4xUKKUPo7Ye96d6SM=
-			</data>
 			<key>hash2</key>
 			<data>
 			mnSl16pju4wdHL+gz9/Ts0e5Q8qPnqTKDXqBe0HyVEQ=
@@ -694,10 +534,6 @@
 		</dict>
 		<key>SourceSansPro-BlackItalic.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NzjP3jxGhYb0stAtAHan31Thnt4=
-			</data>
 			<key>hash2</key>
 			<data>
 			APwQRZyx4kBOeUTjXpR31wFtFMhjoyg/2oJcFzn2FGo=
@@ -705,10 +541,6 @@
 		</dict>
 		<key>SourceSansPro-Bold.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VQ+rjf3K3dzsxBfGRvskvhS959g=
-			</data>
 			<key>hash2</key>
 			<data>
 			SGz5mTyZPgS0+nvSDebBrwz/Y2eZTiIIHcPdyg65l34=
@@ -716,10 +548,6 @@
 		</dict>
 		<key>SourceSansPro-BoldItalic.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7NbaaJYuJN9/vEx9SvW6C5dskwI=
-			</data>
 			<key>hash2</key>
 			<data>
 			Zb5H8aTsT3Gjj3Gfy2QIK4rufFBr9c7CAqh4PxLEuvI=
@@ -727,10 +555,6 @@
 		</dict>
 		<key>SourceSansPro-ExtraLight.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LT/NMIhPbwKTeO7VdarTHxcNtR4=
-			</data>
 			<key>hash2</key>
 			<data>
 			x3CIap2BUsvi4F2vC7PDyD2zdvhoTWl67ogGUsKGuPk=
@@ -738,10 +562,6 @@
 		</dict>
 		<key>SourceSansPro-ExtraLightItalic.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GcFa1GhyCD4Rex0QqqniREBhang=
-			</data>
 			<key>hash2</key>
 			<data>
 			DXLGRVxhRCK8XSw9UkDz8DwxTY47iR0ZQQq5LINAbrI=
@@ -749,10 +569,6 @@
 		</dict>
 		<key>SourceSansPro-Italic.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3SQyl9dyl4bC2tEEiMJUUi1fqUU=
-			</data>
 			<key>hash2</key>
 			<data>
 			bU8VaYsXJgXp5KbmZojQbrCGTybrFnfpbVQyty4KVbY=
@@ -760,10 +576,6 @@
 		</dict>
 		<key>SourceSansPro-Light.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NLbUDb+8jwutDyaAn+pC/TKEcwk=
-			</data>
 			<key>hash2</key>
 			<data>
 			KyN8qEDNeBoyWHoAJbxXlqQpY8Uxjn/j1eqDcRRX/LM=
@@ -771,10 +583,6 @@
 		</dict>
 		<key>SourceSansPro-LightItalic.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			P8lnnVZRbqc4v4Y1Gb2YuHdzOHA=
-			</data>
 			<key>hash2</key>
 			<data>
 			EwXD5bg1KLEvaO/AYoeWDgwx9K1dPKgGDf2SfsMh28A=
@@ -782,10 +590,6 @@
 		</dict>
 		<key>SourceSansPro-Regular.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			izsUUsYuPRhTFe48FZjiRygVf0Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			hp8G5C0adVoy8lOnP4EjWSXPJ7aGuncCzh8D/MdzhjE=
@@ -793,10 +597,6 @@
 		</dict>
 		<key>SourceSansPro-Semibold.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vDihrgaYrjbE0/IxMgNoFNs/ND8=
-			</data>
 			<key>hash2</key>
 			<data>
 			Q4XcMyGFq5OW/C4vNkCfIHysD77utDquSk/DrUZ5nvU=
@@ -804,10 +604,6 @@
 		</dict>
 		<key>SourceSansPro-SemiboldItalic.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZZs3eSw3Rycvvju/4XmUbqlF3uE=
-			</data>
 			<key>hash2</key>
 			<data>
 			hKiYBFuXIThL4ZYwN67Ji8VPDOvyFAw2tEW90XRq99g=
@@ -815,10 +611,6 @@
 		</dict>
 		<key>bgAnimation.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gCThEdLoaeTYecSOHjj3Yl8Nfhk=
-			</data>
 			<key>hash2</key>
 			<data>
 			gLnUi8+QIdQZJL3q/oGC4z1isRt55ifdfglVcvutI9Q=
@@ -826,10 +618,6 @@
 		</dict>
 		<key>faceDetectAnimation.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			he8n8aCV072aoNwwXJh2Lj2Ma1M=
-			</data>
 			<key>hash2</key>
 			<data>
 			bBix/6mClWG/RNSduNlT2Io+ut4B69/0FYHzVUjnFI4=
@@ -837,10 +625,6 @@
 		</dict>
 		<key>logoAnimation.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xHjlqDDcK2VqvLqt6sA+fCVWb1w=
-			</data>
 			<key>hash2</key>
 			<data>
 			GiSBSLW1tmkXILboBmxfGm62MGdKgd3oN/MNe/rl//Y=
@@ -848,10 +632,6 @@
 		</dict>
 		<key>nfcAnimation.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/HuuGhC0tVgNLZS8PqQ78V6e0cI=
-			</data>
 			<key>hash2</key>
 			<data>
 			ird5NHM+NvwjWuPi7wo8nDiR9Qu89/rAjbxeejc0fjI=
@@ -859,10 +639,6 @@
 		</dict>
 		<key>ocrAnimation.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ig6rGsU5g4GJ1SI1YQWYFHOgEaw=
-			</data>
 			<key>hash2</key>
 			<data>
 			Dv1lRfPlTd2UOiFmN6FL3cHtmj0ZQex0ChPrdcdae48=
@@ -870,10 +646,6 @@
 		</dict>
 		<key>opetPayLoading.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AVgNL3N8t8rkw3dE63h1znmqS2w=
-			</data>
 			<key>hash2</key>
 			<data>
 			AVpkyWk7Nw8GdgkR23MIp2qUfPKqaYB2jTWlJtQPOFQ=
@@ -881,10 +653,6 @@
 		</dict>
 		<key>pubkey2.pem</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cj6isiQdHOTZdYf8LceLhVucMfQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			KydtQBtLBb61ru+E7fcA0uWapKF+qDthtlpALISULDc=
@@ -892,10 +660,6 @@
 		</dict>
 		<key>tr.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DqniSJsuws2cGpHtrbQ5XTHz3uI=
-			</data>
 			<key>hash2</key>
 			<data>
 			tIkKzy+l84zrqkdn80rEx8LiOYR23Ej/kFgQohkA3j4=
