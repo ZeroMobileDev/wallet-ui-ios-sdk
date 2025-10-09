@@ -216,6 +216,8 @@ final class WLImageCatalog: ImageCatalog {
     lazy var campaing_banner = WLImage(imageAssetName: "campaign_banner")
     lazy var opet_mini_logo = WLImage(imageAssetName: "opet_mini_logo")
     lazy var gift_logo = WLImage(imageAssetName: "gift_logo")
+    lazy var visa = WLImage(imageAssetName: "visa")
+    lazy var troy = WLImage(imageAssetName: "troy")
 
     init() {}
 }
@@ -415,6 +417,8 @@ protocol ImageCatalog {
     var campaing_banner: WLImage { get }
     var opet_mini_logo: WLImage { get }
     var gift_logo: WLImage { get }
+    var visa: WLImage { get }
+    var troy: WLImage { get }
 
     // MARK: - Contracts
 
