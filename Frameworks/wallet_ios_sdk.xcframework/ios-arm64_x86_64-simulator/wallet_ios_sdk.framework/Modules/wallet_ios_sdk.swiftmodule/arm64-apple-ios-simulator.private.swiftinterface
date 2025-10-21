@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name wallet_ios_sdk
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name wallet_ios_sdk
 // swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 import DeveloperToolsSupport
 import Foundation
@@ -4722,6 +4722,11 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class AddSdkEventOutputParams : wallet_ios_sdk.BaseResponseMeta {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class UnlinkCustomerOutputParams : wallet_ios_sdk.BaseResponseMeta {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
@@ -6585,6 +6590,9 @@ extension wallet_ios_sdk.WalletCoreSDK {
   @objc override dynamic public init()
   @objc deinit
 }
+extension wallet_ios_sdk.WalletCoreSDK {
+  public func AddSdkEventInterface(addSdkEventInputParams: wallet_ios_sdk.AddSdkEventInputParams, completion: @escaping (_ result: wallet_ios_sdk.AddSdkEventOutputParams) -> ())
+}
 @objc @_inheritsConvenienceInitializers public class GetAddressTypesInputParams : wallet_ios_sdk.BaseRequestModel {
   public var languageCode: Swift.String
   override public func encode(to encoder: any Swift.Encoder) throws
@@ -6766,6 +6774,7 @@ public typealias ServiceClosureTypeWithRequest<T, M> = (T, _ completion: @escapi
   final public let getLimitInfo: (wallet_ios_sdk.GetLimitInfoInputParams, @escaping (_ result: wallet_ios_sdk.GetLimitInfoOutputParams) -> ()) -> ()
   final public let getKpsAdressVerify: (wallet_ios_sdk.GetKpsAddressVerifyInputParams, @escaping (_ result: wallet_ios_sdk.GetKpsAddressVerifyOutputParams) -> ()) -> ()
   final public let getKpsAddressInquiry: (wallet_ios_sdk.KpsAddressInquiryInputParams, @escaping (_ result: wallet_ios_sdk.KpsAddressInquiryOutputParams) -> ()) -> ()
+  final public let addSdkEvent: (wallet_ios_sdk.AddSdkEventInputParams, @escaping (_ result: wallet_ios_sdk.AddSdkEventOutputParams) -> ()) -> ()
   public func call<M>(service: (_ completion: @escaping (_ result: M) -> Swift.Void) -> Swift.Void, onSuccess: @escaping () -> Swift.Void = {}, onResult: @escaping (M) -> Swift.Void = { _ in }) where M : wallet_ios_sdk.BaseResponseMeta
   public func call<T, M>(request: T, service: (T, _ completion: @escaping (_ result: M) -> Swift.Void) -> Swift.Void, onSuccess: @escaping () -> Swift.Void = {}, onResult: @escaping (M) -> Swift.Void = { _ in }) where T : Swift.Encodable, M : wallet_ios_sdk.BaseResponseMeta
   @objc deinit
@@ -7117,6 +7126,13 @@ public struct CorpOperationParamsModel : Swift.Codable {
   public func getPhone() -> Swift.String
   @available(*, deprecated, renamed: "phone", message: "Use phone variable")
   public func setPhone(phone: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class AddSdkEventInputParams : wallet_ios_sdk.BaseRequestModel {
+  public var transactionDate: Swift.String, phoneNumber: Swift.String, osType: Swift.String, version: Swift.String, methodName: Swift.String
+  public var request: Swift.String, response: Swift.String, errorCode: Swift.String, errorDescription: Swift.String
+  override public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
 }
@@ -8225,6 +8241,8 @@ extension wallet_ios_sdk.UpdateCustomerInfoOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.UpdateCustomerInfoOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.SetMonthlyPaymentAmountOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.SetMonthlyPaymentAmountOutputParams : Swift.Decodable {}
+extension wallet_ios_sdk.AddSdkEventOutputParams : Swift.Encodable {}
+extension wallet_ios_sdk.AddSdkEventOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.UnlinkCustomerOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.UnlinkCustomerOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.GetLimitDefinitionV2OutputParams : Swift.Encodable {}
