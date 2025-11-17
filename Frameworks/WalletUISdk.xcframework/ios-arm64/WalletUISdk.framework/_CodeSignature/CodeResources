@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		T6KDbPV/zrffy1Pq/IZq967fyzQ=
+		XG3iUtt3Hug3GBq7MBKCTS5GJX4=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		tkrIroOF6h9YDR6dR0INstzarY8=
+		4AYsO+b482u78sVMCOdM1EQFar0=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -74,67 +74,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yalfPxchJHswgl2TOgedrxPyioQ=
-		</data>
-		<key>LatinOCRResources.bundle/Info.plist</key>
-		<data>
-		DasmWa+F/+dfBHSTxPoOeNAR/SE=
-		</data>
-		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
-		<data>
-		V2ROSYH9TDZ87SKQfYmC78jkabg=
-		</data>
-		<key>LatinOCRResources.bundle/rpn_lstm_engine_tflite_latin.bincfg</key>
-		<data>
-		W+TF/C0djllwb4ejtlbbwoqIOaA=
-		</data>
-		<key>LatinOCRResources.bundle/rpn_text_detector_mobile_space_to_depth_quantized_v2.tflite</key>
-		<data>
-		6ny23cax5EGQNgpJKSnhJUhpxtQ=
-		</data>
-		<key>LatinOCRResources.bundle/tflite_langid.tflite</key>
-		<data>
-		/LcQXDvm1hHXPLE3IVulrhpZePE=
-		</data>
-		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.bincfg</key>
-		<data>
-		66UmXr+gf7XJ71vLnqjAwes9Mnw=
-		</data>
-		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.class_lst</key>
-		<data>
-		68PK2+uslXMmEpqkRadeVy2t0PE=
-		</data>
-		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.conv_model</key>
-		<data>
-		BQIj06B3MVer0TIFCE1lwPQqAQ8=
-		</data>
-		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.lstm_model</key>
-		<data>
-		oYS7+p9yJEEy3UOE1YgjDNNbLAM=
+		J7Ay9/2QWu3lxiJRIAfgYRZPhCA=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		Y8lJfVp4l+xNqThTMdO9c2rwXDc=
+		6mZ9NrKmCmVBJ+pfBNojWpb5nvM=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		hEzfhtoWLr4Ue81GtWyM7GzraPU=
+		Re4IFLXObwQwsX0j9vUcS0zXuZs=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		H6OJIxrJRewWOjeLx2z1xXcT2Fw=
+		gYxYthHrYYYYQFr/Wvw00SKHPfk=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		QzUuZUuWYvWvzN719qMSKmkDryw=
+		J46DQzN+uQDK92q4eYg9g+FTKuI=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		H6OJIxrJRewWOjeLx2z1xXcT2Fw=
+		gYxYthHrYYYYQFr/Wvw00SKHPfk=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		2HBNnVJeV+yrhHkuiq8keOFElO4=
+		65D/ZG1gzJKlbhT58TPqL2vRaKE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -212,9 +176,37 @@
 		<data>
 		ZZs3eSw3Rycvvju/4XmUbqlF3uE=
 		</data>
+		<key>TensorFlowLite.bundle/Info.plist</key>
+		<data>
+		c8/sQIopMIOOG5yuCfdqR0i9q5Y=
+		</data>
+		<key>TensorFlowLite.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		i3YpomTpJHpRGpdt+oGaesmknBg=
+		</data>
+		<key>TensorFlowLiteC.bundle/Info.plist</key>
+		<data>
+		VNfTcaFKn6QqtxgkzH1t66aA2hg=
+		</data>
+		<key>TensorFlowLiteC.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		PFHYbs0V3eUFDWQyYQcwEetuqEk=
+		</data>
+		<key>TensorFlowLiteCMetal.bundle/Info.plist</key>
+		<data>
+		qbMnNx4tauI/L1+yJ+inHcly5jM=
+		</data>
+		<key>TensorFlowLiteCMetal.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		PFHYbs0V3eUFDWQyYQcwEetuqEk=
+		</data>
 		<key>bgAnimation.json</key>
 		<data>
 		gCThEdLoaeTYecSOHjj3Yl8Nfhk=
+		</data>
+		<key>enqura.der</key>
+		<data>
+		Jh5AVHmyYQVGYnYDMVkVlyPRGcg=
 		</data>
 		<key>faceDetectAnimation.json</key>
 		<data>
@@ -256,7 +248,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hUEvh0nRxoT2THt6a1RVRR7Qe466dbGeqtlEKJmlihY=
+			GrqIurWY2/B/NPR6cb2ZeXUtuQZWQCcRh48kE8fyySE=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -284,7 +276,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5GHTSN8nSmWGVK2bntljXDR9/PR3fNr46E5bMBEwVFw=
+			S2PUFv/yIwr8qQB9tM9zafLdqyYZdBRdnUbFBLNI1Sk=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -371,109 +363,46 @@
 			Id/mRINb3HQip+9ks5wZpJHXVR7/tjCt7yLzo5b8mWA=
 			</data>
 		</dict>
-		<key>LatinOCRResources.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2jRrWZaNxoBhUMMCa03gpm2kTxgjtISY4tnZzmmjmZY=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/region_proposal_text_detector_tflite_gray_quantized.bincfg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Gji2RtEJwU3YrjDV8SqQNvYPnpI8kwEzeqJQd1nysJg=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/rpn_lstm_engine_tflite_latin.bincfg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EPDNQpLTZ7J3ggU9/BhgwGKbEwmAWLOsHW7KYoi7+wQ=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/rpn_text_detector_mobile_space_to_depth_quantized_v2.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KQajsAlTNRgTxJFzQeGXEH7SqqwtF2UIkHWNwZAnHe4=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/tflite_langid.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			f5Mfb3wd0OxZGs53gN+RZFpFD6/INQXz/0XOXvfIRBs=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.bincfg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oFDru3MHCMhVaoh3k7h/zhLun/pRevxSBccdRiS9e8c=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.class_lst</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VRUPJ3nQeTbJ+/i+y7hWf+PqWta22UQkWClpWorpaPo=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.conv_model</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZKunGbTtHuWz1IhsWq8LGsBRv1h56bCOhh4OKeIKCKc=
-			</data>
-		</dict>
-		<key>LatinOCRResources.bundle/tflite_lstm_recognizer_latin_0.3.lstm_model</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DtYuT74PxcQJCuxHOxNuGI+ChZB2XAKDgjWNrds8y24=
-			</data>
-		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BdSrrrlqlb5Gao76lcYnj8Mz//nkH4iZ6JNeXjfsVgE=
+			Phd3PHiNmSk7CnRhE/RYbFwgErOngWAliquzXOHMxw4=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GEfQOQlWkD2ZmgfjakINblpVlq/XqRDqg1vb8p4qL9Y=
+			I2/pNKJ2qbtbQSAJzjgJOKwHDUWXX/7aqGqfJsR+Plc=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TpySOdwSlCViVQT6CsRc20XCYoMdXN20EZwN+QIfr74=
+			KODusm+no6Z1o3ATT5vcL9CCu2YjVcNJzSr+vrEz/NQ=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LzBSM4EI2zyakhIASrwGCh/xb2OJO6wt979ZAq/p97k=
+			PCqA5/rWnM43PYkqLl8k0ilRi9+oza49YQlOV8qM7bU=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TpySOdwSlCViVQT6CsRc20XCYoMdXN20EZwN+QIfr74=
+			KODusm+no6Z1o3ATT5vcL9CCu2YjVcNJzSr+vrEz/NQ=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vb8wvHkUD6LGnj+vq4386icTcFd9upUtz8Bt6aZ27HE=
+			H8F+FzpiyrWTUw6u0+gFguWfq2ogSRZOkaav+nU4/wA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -609,11 +538,60 @@
 			hKiYBFuXIThL4ZYwN67Ji8VPDOvyFAw2tEW90XRq99g=
 			</data>
 		</dict>
+		<key>TensorFlowLite.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9d6d7xy/S54QSGzSNzxZYh5CqybTNIsBmAPPNzOW1jE=
+			</data>
+		</dict>
+		<key>TensorFlowLite.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jWXQtDoSYs/inoM5bACz25T7Eg1E0RiNknNB8UpsIjw=
+			</data>
+		</dict>
+		<key>TensorFlowLiteC.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mMNmPGwZ+4S104ijETM16WL079qW4DC8s5Hf2Io7w8M=
+			</data>
+		</dict>
+		<key>TensorFlowLiteC.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A7LHCDOjMaKx79Ef8WjtAqjq39Xn0fvzDuzHUJpK6kc=
+			</data>
+		</dict>
+		<key>TensorFlowLiteCMetal.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6k3Mn/IlhOC9hYTd3a3rmZvXnpxkyqtQpAVI4WK/3f0=
+			</data>
+		</dict>
+		<key>TensorFlowLiteCMetal.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A7LHCDOjMaKx79Ef8WjtAqjq39Xn0fvzDuzHUJpK6kc=
+			</data>
+		</dict>
 		<key>bgAnimation.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			gLnUi8+QIdQZJL3q/oGC4z1isRt55ifdfglVcvutI9Q=
+			</data>
+		</dict>
+		<key>enqura.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JVQ/YJg0TmnotUHK9Rdm6Stg4ZnrEJrf6Crit4tMijc=
 			</data>
 		</dict>
 		<key>faceDetectAnimation.json</key>

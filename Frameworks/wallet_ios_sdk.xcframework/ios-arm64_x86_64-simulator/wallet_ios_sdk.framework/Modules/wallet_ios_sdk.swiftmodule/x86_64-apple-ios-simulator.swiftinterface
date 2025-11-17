@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name wallet_ios_sdk
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name wallet_ios_sdk
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import DeveloperToolsSupport
 import Foundation
 import Network
@@ -447,10 +447,14 @@ public struct ActionDetailModel : Swift.Codable {
   public func getLoyaltySegmentName() -> Swift.String
   @available(*, deprecated, renamed: "loyaltySegmentName", message: "Use loyaltySegmentName variable")
   public func setLoyaltySegmentName(loyaltySegmentName: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "passportNumber", message: "Use passportNumber variable")
   public func getPassportNumber() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "passportNumber", message: "Use passportNumber variable")
   public func setPassportNumber(passportNumber: Swift.String?)
+  #endif
   @available(*, deprecated, renamed: "genderId", message: "Use genderId variable")
   public func getGenderId() -> Swift.Int16
   @available(*, deprecated, renamed: "genderId", message: "Use genderId variable")
@@ -459,10 +463,14 @@ public struct ActionDetailModel : Swift.Codable {
   public func getIdentityNumber() -> Swift.String
   @available(*, deprecated, renamed: "identityNumber", message: "Use identityNumber variable")
   public func setIdentityNumber(identityNumber: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "passportExpireDate", message: "Use passportExpireDate variable")
   public func getPassportExpireDate() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "passportExpireDate", message: "Use passportExpireDate variable")
   public func setPassportExpireDate(passportExpireDate: Swift.String?)
+  #endif
   @available(*, deprecated, renamed: "confirmAgreements", message: "Use confirmAgreements variable")
   public func getConfirmAgreements() -> [wallet_ios_sdk.ConfirmAgreementListInputModel]
   @available(*, deprecated, renamed: "confirmAgreements", message: "Use confirmAgreements variable")
@@ -492,14 +500,22 @@ public struct ActionDetailModel : Swift.Codable {
   public var amount: Foundation.Decimal?
   public var txnTypeId: Swift.Int16?
   override public func encode(to encoder: any Swift.Encoder) throws
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "amount", message: "Use amount variable")
   public func getAmount() -> Swift.Double?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "amount", message: "Use amount variable")
   public func setAmount(amount: Swift.Double?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "txnTypeId", message: "Use txnTypeId variable")
   public func getTxnTypeId() -> Swift.Int16?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "txnTypeId", message: "Use txnTypeId variable")
   public func setTxnTypeId(txnTypeId: Swift.Int16?)
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
@@ -640,14 +656,22 @@ public struct TxnListModel : Swift.Codable {
   public var amount: Foundation.Decimal?
   public var txnTypeId: Swift.Int16?
   override public func encode(to encoder: any Swift.Encoder) throws
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "amount", message: "Use amount variable")
   public func getAmount() -> Swift.Double?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "amount", message: "Use amount variable")
   public func setAmount(amount: Swift.Double?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "txnTypeId", message: "Use txnTypeId variable")
   public func getTxnTypeId() -> Swift.Int16?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "txnTypeId", message: "Use txnTypeId variable")
   public func setTxnTypeId(txnTypeId: Swift.Int16?)
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
@@ -723,8 +747,10 @@ public struct InvoiceInquiryModel : Swift.Codable {
   public func setdescription(description: Swift.String)
   @available(*, deprecated, renamed: "userName", message: "Use userName variable")
   public func setuserName(userName: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "guidReferenceNumber", message: "Use guidReferenceNumber variable")
   public func getguidReferenceNumber() -> Foundation.UUID?
+  #endif
   @available(*, deprecated, renamed: "guidReferenceNumber", message: "Use guidReferenceNumber variable")
   public func setguidReferenceNumber(guidReferenceNumber: Foundation.UUID)
   @available(*, deprecated, renamed: "merchantId", message: "Use merchantId variable")
@@ -1155,8 +1181,10 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func getReferenceNumber() -> Swift.Int
   @available(*, deprecated, renamed: "referenceNumber", message: "Use referenceNumber variable")
   public func setReferenceNumber(referenceNumber: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "guidReferenceNumber", message: "Use guidReferenceNumber variable")
   public func getGuidReferenceNumber() -> Foundation.UUID?
+  #endif
   @available(*, deprecated, renamed: "guidReferenceNumber", message: "Use guidReferenceNumber variable")
   public func setGuidReferenceNumber(guidReferenceNumber: Foundation.UUID)
   @available(*, deprecated, renamed: "merchantId", message: "Use merchantId variable")
@@ -1312,12 +1340,16 @@ public struct InstitutionModel : Swift.Codable {
   required public init(from decoder: any Swift.Decoder) throws
 }
 public enum Utils {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func lastIndexOf(text: Swift.String, of: Swift.String) -> Swift.Int?
+  #endif
   public static func AesEncryptWithWB(encParameters: Swift.String) -> Swift.String
   public static func AsciiToHex(hex: Swift.String) -> Swift.String
 }
 extension UIKit.UIColor {
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init?(hex: Swift.String)
+  #endif
 }
 @objc @_inheritsConvenienceInitializers public class GetCustomerSecretQuestionInputParams : wallet_ios_sdk.BaseRequestModel {
   public var languageCode: Swift.String
@@ -1828,7 +1860,9 @@ public struct WalletCoreSDKProperties {
   public var cloudPublicKey: Swift.String
   public var isSSLPinningEnabled: Swift.Bool
   public var mpa: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(coreURL: Swift.String, secureURL: Swift.String, apiKey: Swift.String, clientId: Swift.String, cloudPublicKey: Swift.String, isSSLPinningEnabled: Swift.Bool, mpa: Swift.String? = nil)
+  #endif
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class InvoicePaymentOutputParams : wallet_ios_sdk.BaseResponseMeta {
   @available(*, deprecated, renamed: "refNumber", message: "Use refNumber variable")
@@ -1976,8 +2010,10 @@ public struct WalletCoreSDKProperties {
   public func getSize() -> Swift.Int
   @available(*, deprecated, renamed: "size", message: "Use size variable")
   public func setSize(size: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "cardToken", message: "Use cardToken variable")
   public func getCardToken() -> Swift.String?
+  #endif
   @available(*, deprecated, renamed: "cardToken", message: "Use cardToken variable")
   public func setCardToken(cardToken: Swift.String)
   @available(*, deprecated, renamed: "index", message: "Use index variable")
@@ -2812,7 +2848,9 @@ public class DetailModel : Swift.Codable {
   public var processtype: Swift.Int?
   public var processDescription: Swift.String?
   public var amount: Swift.Double?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(processtype: Swift.Int?, processDescription: Swift.String?, amount: Swift.Double?)
+  #endif
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -4109,7 +4147,9 @@ extension wallet_ios_sdk.WalletCoreSDK {
   required public init(from decoder: any Swift.Decoder) throws
 }
 extension wallet_ios_sdk.WalletCoreSDK {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getWalletCardInfoInterface(applicationViewForEmbedded: UIKit.UIView, req: wallet_ios_sdk.GetWalletCardInfoInputParams, cardModel: wallet_ios_sdk.WalletCardModel, completion: @escaping (_ isSuccess: wallet_ios_sdk.BaseCardView?, _ errorCode: Swift.String?, _ errorMessage: Swift.String?) -> ())
+  #endif
   public func activatePhysicalCard(activatePhysicalCardInputParams: wallet_ios_sdk.ActivatePhysicalCardInputParams, completion: @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ())
   public func SetPrepaidCardPin(setPrepaidCardPinInputParams: wallet_ios_sdk.SetPrepaidCardPinInputParams, completion: @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ())
   public func personalizedAnonymousCardInterface(personalizedAnonymousCardInputParams: wallet_ios_sdk.PersonalizedAnonymousCardInputParams, completion: @escaping (_ result: wallet_ios_sdk.PersonalizedAnonymousCardOutputParams) -> ())
@@ -6885,7 +6925,9 @@ public class Campaign : Swift.Codable {
   public var campaignTypeId: Swift.Int?
   public var images: [wallet_ios_sdk.Image]?
   public var conditions: [wallet_ios_sdk.Condition]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(name: Swift.String?, title: Swift.String?, description: Swift.String?, conditionIconBase64Content: Swift.String?, smsContent: Swift.String?, campaignTypeId: Swift.Int?, images: [wallet_ios_sdk.Image]?, conditions: [wallet_ios_sdk.Condition]?)
+  #endif
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -6893,7 +6935,9 @@ public class Campaign : Swift.Codable {
 public class Condition : Swift.Codable {
   public var content: Swift.String?
   public var order: Swift.Int?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(content: Swift.String?, order: Swift.Int?)
+  #endif
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -6901,7 +6945,9 @@ public class Condition : Swift.Codable {
 public class Image : Swift.Codable {
   public var name: Swift.String?, base64Content: Swift.String?
   public var order: Swift.Int?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(name: Swift.String?, base64Content: Swift.String?, order: Swift.Int?)
+  #endif
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -7504,9 +7550,15 @@ public struct WalletAgreementDtosListModel : Swift.Codable {
   public func getIsRejetionPossible() -> Swift.String
   @available(*, deprecated, renamed: "isRejetionPossible", message: "Use isRejetionPossible variable")
   public mutating func setIsRejetionPossible(isRejetionPossible: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func isViewingMandatoryConvertedBool() -> Swift.Bool?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func isAcceptanceRequiredConvertedBool() -> Swift.Bool?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func isRejetionPossibleConvertedBool() -> Swift.Bool?
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -7956,14 +8008,18 @@ public struct AdressModel : Swift.Codable {
 }
 @available(iOS 12.0, *)
 extension wallet_ios_sdk.WalletCoreSDK {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func preloadRemoteIpAddress(completion: @escaping (Swift.String?) -> Swift.Void)
+  #endif
   public func isRemoteIpAddressAvailable() -> Swift.Bool
   public func ensureRemoteIpAddressIsAvailable(completion: @escaping (Swift.Bool) -> Swift.Void)
 }
 @_hasMissingDesignatedInitializers @available(iOS 12.0, *)
 public class PublicIPService {
   public static let shared: wallet_ios_sdk.PublicIPService
+  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchPublicIP(completion: @escaping (Swift.Result<Swift.String, wallet_ios_sdk.PublicIPError>) -> Swift.Void)
+  #endif
   public func clearCachedIP()
   @objc deinit
 }
@@ -7971,9 +8027,11 @@ public enum PublicIPError : Swift.Error, Foundation.LocalizedError {
   case networkUnavailable
   case allServicesFailed
   case invalidResponse
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
   public static func == (a: wallet_ios_sdk.PublicIPError, b: wallet_ios_sdk.PublicIPError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {

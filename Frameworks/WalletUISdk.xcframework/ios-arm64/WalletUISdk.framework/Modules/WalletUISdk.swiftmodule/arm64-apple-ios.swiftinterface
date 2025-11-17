@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WalletUISdk
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WalletUISdk
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AVFoundation
 import Combine
@@ -8,18 +8,19 @@ import CommonCrypto
 import Contacts
 import CoreLocation
 import CoreMedia
-import CoreNFC
+import CoreModule
 import CoreText
 import CryptoKit
 import DeveloperToolsSupport
-import EnQualify
+import FaceModule
 import FirebaseAnalytics
 import FirebaseCore
 import Foundation
 import Lottie
+import NFCModule
 import Network
+import OcrModule
 import Photos
-import ReplayKit
 import Swift
 import SwiftUI
 import SystemConfiguration
@@ -28,7 +29,6 @@ import UIKit.UIView
 @_exported import WalletUISdk
 import WebKit
 import _Concurrency
-import _CoreNFC_UIKit
 import _StringProcessing
 import _SwiftConcurrencyShims
 import wallet_ios_sdk
@@ -139,83 +139,6 @@ extension SwiftUICore.Color {
     get
   }
 }
-public protocol EnquraSessionProtocol {
-  var idVerifyMainSSView: UIKit.UIViewController? { get set }
-  var customerIdentityNumber: Swift.String? { get set }
-  var delegate: (any WalletUISdk.EnquraSessionDelegate)? { get set }
-  var alertDelegate: (any WalletUISdk.EnquraSessionManagerDelegate)? { get set }
-  var isAllowedPermissions: Swift.Bool { get }
-  var isDeviceNFCAvailable: Swift.Bool { get }
-  var isScreenRecordingDenied: Swift.Bool? { get }
-  var nfcStoredCustomerIdentityData: EnQualify.EnVerifyCustomerIdentityDoc { get }
-  var initialFlow: WalletUISdk.EnquraSessionStartFlow { get set }
-  static var shared: any WalletUISdk.EnquraSessionProtocol { get }
-  func setRootNavigationController(_ navigationController: UIKit.UINavigationController)
-  func getNavigation() -> UIKit.UINavigationController?
-  func initializeSession(onComplete: @escaping () -> Swift.Void)
-  func startSession(with flow: WalletUISdk.EnquraSessionStartFlow, onComplete: @escaping () -> Swift.Void)
-  func continueSession(with flow: WalletUISdk.AgentRequestType, onComplete: @escaping () -> Swift.Void)
-  func requestVideoAudioPermissions()
-  func setNFCBACData()
-  func getCustomerSegmentId(completion: @escaping (Swift.Bool) -> Swift.Void)
-  func faceDetectStart()
-  func nfcStart()
-  func ocrStart()
-  func closeSession()
-  func callSessionClose()
-  func callSessionCloseWithoutFinish()
-  func faceRetry()
-  func nfcRetry()
-  func idRetry()
-  func onExitSelfService()
-}
-public enum AgentRequestType {
-  case none
-  case nfc
-  case ocr
-  case liveness
-  case faceRecognition
-  case agent
-  case busy
-  public static func == (a: WalletUISdk.AgentRequestType, b: WalletUISdk.AgentRequestType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public enum AgentRequestEventType : Swift.String {
-  case livenessControlRetried
-  case nfcRetried
-  case ocrRetried
-  case faceRecognitionRetried
-  case backToVideoCall
-  case camOpen
-  case camClose
-  case none
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum EnquraSessionStartFlow {
-  case nfc
-  case ocr
-  public static func == (a: WalletUISdk.EnquraSessionStartFlow, b: WalletUISdk.EnquraSessionStartFlow) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public enum EnquraSessionState {
-  case isLoading(Swift.Bool)
-  case failure
-}
-extension Swift.String {
-  public var turkishLocalizableString: Swift.String {
-    get
-  }
-}
 public struct QuestionListModelDTO : Swift.Hashable {
   public var id: Swift.String?
   public var text: Swift.String?
@@ -231,20 +154,6 @@ public struct QuestionListModelDTO : Swift.Hashable {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s11WalletUISdk0A8MainViewV4bodyQrvp", 0) __
-}
-public protocol EnquraSessionDelegate : AnyObject {
-  func nfcVerifyFailure()
-  func nfcVerifyCompleted()
-  func faceDetectionCompleted()
-  func faceDetectionFailure()
-  func ocrCompleted()
-  func ocrFailure()
-  func authTokenFailure()
-  func verifyCompleted()
-  func verifyFailed()
-  func faceDetectStarted()
-  func identityFailure()
-  func faceRecordFailure()
 }
 @_Concurrency.MainActor @preconcurrency public struct SplashAnimationView : SwiftUI.UIViewRepresentable {
   @_Concurrency.MainActor @preconcurrency public init(name: WalletUISdk.AnimationFileName, loopMode: Lottie.LottieLoopMode = .loop, onAnimationFinished: (() -> Swift.Void)? = nil)
@@ -292,123 +201,6 @@ public enum WalletCardStatusType : Swift.String {
   public var rawValue: Swift.String {
     get
   }
-}
-extension WalletUISdk.EnquraSessionManager : EnQualify.EnVerifyDelegate {
-  @objc final public func agentMessageRequest(message: Swift.String)
-  @objc final public func addGenericIdDocCompleted(with data: [Swift.String : Swift.String])
-  @objc final public func addGenericIdDocFailure()
-  @objc final public func capturePhotoCompleted()
-  @objc final public func capturePhotoFailure()
-  @objc final public func captureVideoCompleted()
-  @objc final public func captureVideoFailure()
-  @objc final public func photoLibraryAuthorization(status: Swift.String)
-  @objc final public func addGenericPassportCompleted()
-  @objc final public func addGenericPassportFailure()
-  @objc final public func screenRecorderOnError(eventData: Foundation.NSError?)
-  final public func infoDocumentAddSuccess()
-  final public func infoDocumentAddFailure()
-  @objc final public func appointmentTolerance(time: Swift.Int)
-  @objc final public func luminosityAnalyzed(result: Swift.String)
-  @objc final public func dismissBeforeAnswered()
-  @objc final public func dismissCallWait()
-  @objc final public func currentThermalState(state: Swift.String)
-  @objc final public func documentSignSuccess()
-  @objc final public func documentSingFailure()
-  @objc final public func agentRequest(eventData: Swift.String)
-  @objc final public func callWait()
-  @objc final public func callStart()
-  @objc final public func idTypeCheck()
-  @objc final public func idTypeBackCheck()
-  @objc final public func idTypeCheckCompleted()
-  @objc final public func idFakeCheck()
-  @objc final public func idFakeDetected()
-  @objc final public func idFakeCheckCompleted()
-  @objc final public func idFront()
-  @objc final public func idFrontCompleted()
-  @objc final public func idBack()
-  @objc final public func idBackCompleted()
-  @objc final public func idDocStoreCompleted()
-  @objc final public func idDocCompleted()
-  final public func ocrCompleted()
-  @objc final public func nfcVerify()
-  @objc final public func nfcVerifyCompleted()
-  @objc final public func nfcStoreCompleted()
-  @objc final public func nfcCompleted()
-  @objc final public func faceDetect()
-  @objc final public func faceDetectCompleted()
-  @objc final public func smileDetect()
-  @objc final public func smileDetectCompleted()
-  @objc final public func eyeClose()
-  @objc final public func eyeCloseDetected()
-  @objc final public func faceStoreCompleted()
-  @objc final public func faceCompleted()
-  @objc final public func faceUp()
-  @objc final public func faceUpDetected()
-  @objc final public func faceLeft()
-  @objc final public func faceLeftDetected()
-  @objc final public func faceRight()
-  @objc final public func faceRightDetected()
-  @objc final public func eyeCloseInterval()
-  @objc final public func eyeCloseIntervalDetected()
-  @objc final public func eyeOpenInterval()
-  @objc final public func eyeOpenIntervalDetected()
-  @objc final public func hangupLocal()
-  @objc final public func hangupRemote()
-  @objc final public func forceHangup()
-  @objc final public func idVerifyExited()
-  @objc final public func failure()
-  @objc final public func idCheckFailure()
-  @objc final public func timeoutFailure()
-  @objc final public func tokenFailure()
-  @objc final public func tokenError()
-  @objc final public func noConnectionError()
-  @objc final public func callConnectionFailure()
-  @objc final public func nfcFailure()
-  @objc final public func nfcBACDATAFailure()
-  @objc final public func connectionFailure()
-  @objc final public func faceLivenessCheckFailure()
-  @objc final public func idRetry()
-  @objc final public func nfcRetry()
-  @objc final public func faceRetry()
-  @objc final public func resolutionChanged()
-  @objc final public func resultGetFailure()
-  @objc final public func resultGetCompleted(_ value: EnQualify.EnverifyVerifyCallResult?)
-  final public func callSessionCloseResult(isSuccess: Swift.Bool)
-  @objc final public func sessionStartFailure()
-  @objc final public func sessionStartCompleted(sessionUid: Swift.String)
-  @objc final public func hostConnected()
-  @objc final public func getAuthTokenCompleted()
-  @objc final public func getSettingsCompleted()
-  @objc final public func getSettingsFailure()
-  @objc final public func idDocStoreFailure()
-  @objc final public func addChipStoreFailure()
-  @objc final public func addChipStoreCompleted()
-  @objc final public func addFaceCompleted()
-  @objc final public func addFaceFailure()
-  @objc final public func idTextRecognitionTimeout()
-  @objc final public func roomIDSendFailure()
-  @objc final public func roomIDSendCompleted()
-  @objc final public func screenRecorderOnStart()
-  @objc final public func screenRecorderOnComplete()
-  final public func screenRecorderOnError(eventData: Swift.String)
-  @objc final public func requestVideoAudioPermissionsResult(_ granted: Swift.Bool)
-  final public func connectionTypeChanged()
-  @objc final public func idVerifyReady()
-  @objc final public func idSelfVerifyReady()
-  @objc final public func getAuthTokenFailure()
-  @objc final public func integrationAddCompleted()
-  @objc final public func integrationAddFailure()
-  @objc final public func callSessionCloseResult(status: EnQualify.EnVerifyCallSessionStatusTypeEnum)
-  @objc final public func screenRecorderOnAppend()
-  @objc final public func cardFrontDetectStarted()
-  @objc final public func cardFrontDetected()
-  @objc final public func cardBackDetectStarted()
-  @objc final public func cardBackDetected()
-  @objc final public func cardHoloDetectStarted()
-  @objc final public func cardHoloDetected()
-  @objc final public func videoUploadSuccess()
-  @objc final public func videoUploadFailure()
-  @objc final public func maximumCallTimeExpired()
 }
 public enum Page : Swift.String, Swift.CaseIterable {
   case homeScreen
@@ -473,6 +265,7 @@ extension Swift.String {
   public func isValidEmail() -> Swift.Bool
   public func changeComma() -> Swift.Double
   public func currencyFormatting() -> Swift.String
+  public func lowercasedWithTurkishCharacters() -> Swift.String
   public func timeFormatted(_ totalSeconds: Swift.Int) -> Swift.String
   public func transactionCheckActionType() -> Swift.Bool
   public func getFileName() -> Swift.String
@@ -491,6 +284,43 @@ extension Swift.String {
   public func uppercasedTurkish() -> Swift.String
   public func uppercasedLocalized() -> Swift.String
   public func hash() -> Swift.String
+  public var toInt: Swift.Int? {
+    get
+  }
+  public var diacriticRemoved: Swift.String {
+    get
+  }
+  public var isBlank: Swift.Bool {
+    get
+  }
+  public var isNotBlank: Swift.Bool {
+    get
+  }
+  public var trim: Swift.String {
+    get
+  }
+  public var isNumeric: Swift.Bool {
+    get
+  }
+  public func height(withConstrainedWidth width: CoreFoundation.CGFloat, font: UIKit.UIFont) -> CoreFoundation.CGFloat
+  public func width(withConstrainedHeight height: CoreFoundation.CGFloat, font: UIKit.UIFont) -> CoreFoundation.CGFloat
+  public func addPrefix(_ value: Swift.String) -> Swift.String
+  public func maskIfMail() -> Swift.String
+  public func convertDateToHumanReadableFormat(outputFormat: WalletUISdk.DgparaWallletDateFormat) -> Swift.String?
+  public func convertToDate(_ format: WalletUISdk.DgparaWallletDateFormat) -> Foundation.Date?
+  public func uppercasedTurkishCharacter() -> Swift.String
+  public func separate(every stride: Swift.Int = 4, with separator: Swift.Character = " ") -> Swift.String
+  public var asMicroCreditDate: Foundation.Date? {
+    get
+  }
+  public func applyPattern(pattern: Swift.String, replacmentCharacter: Swift.Character = "#") -> Swift.String
+}
+public enum DgparaWallletDateFormat {
+  case dgpays
+  case gql
+  case nfcbacData
+  case simple
+  case custom(Swift.String)
 }
 extension SwiftUICore.Font {
   public static var title: SwiftUICore.Font {
@@ -592,6 +422,9 @@ extension Foundation.Date {
     get
   }
   public func toISO8601String() -> Swift.String
+}
+extension Foundation.Date {
+  public func convertToString(_ format: WalletUISdk.DgparaWallletDateFormat) -> Swift.String
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AnimationUIView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public init(name: WalletUISdk.AnimationFileName, loopMode: Lottie.LottieLoopMode = .loop, frame: CoreFoundation.CGRect = .zero, onAnimationFinished: (() -> Swift.Void)? = nil)
@@ -868,6 +701,25 @@ extension WalletUISdk.GeneralError {
   public func toString() throws -> Swift.String
   public func toString() -> Swift.String?
 }
+public class KPSInformationModel {
+  final public let birthDate: Swift.String
+  final public let serialNumber: Swift.String
+  final public let identityExpireDate: Swift.String
+  public init(kpsInfo: wallet_ios_sdk.AddEnquraIntegrationOutputParams)
+  @objc deinit
+}
+public struct GetEnquraIntegrationInfoResponseDTO {
+  public let referenceId: Swift.Int64
+  public let identityNumber: Swift.String
+  public let birthDate: Swift.String
+  public let birthPlace: Swift.String
+  public let serialNumber: Swift.String
+  public let identityExpireDate: Swift.String
+  public init(referenceId: Swift.Int64, identityNumber: Swift.String, birthDate: Swift.String, birthPlace: Swift.String, serialNumber: Swift.String, identityExpireDate: Swift.String)
+}
+extension WalletUISdk.GetEnquraIntegrationInfoResponseDTO {
+  public init(_ response: wallet_ios_sdk.AddEnquraIntegrationOutputParams)
+}
 extension UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public func initWalletUi(config: WalletUISdk.UIConfig? = nil, environment: WalletUISdk.WalletUiEnvironment, enableSSLPinning: Swift.Bool = false, successCallback: @escaping (WalletUISdk.DgfinResponse) -> Swift.Void, errorCallback: @escaping (WalletUISdk.GeneralError) -> Swift.Void, closeCallback: ((Swift.String) -> Swift.Void)?)
 }
@@ -989,119 +841,6 @@ extension SwiftUICore.Binding where Value == Swift.Bool? {
   public func onChange(perform action: @escaping (_ newValue: Value) -> Swift.Void) -> SwiftUICore.Binding<Value>
 }
 prefix public func ! (value: SwiftUICore.Binding<Swift.Bool>) -> SwiftUICore.Binding<Swift.Bool>
-public protocol EnquraSessionManagerDelegate : AnyObject {
-  func showAlert(message: Swift.String)
-  func navigateSessionType()
-  func screenRecordingPermissionDenied()
-}
-@_hasMissingDesignatedInitializers final public class EnquraSessionManager : WalletUISdk.EnquraSessionProtocol {
-  final public var idVerifyMainSSView: UIKit.UIViewController?
-  final public var customerIdentityNumber: Swift.String?
-  final public var kpsInformation: WalletUISdk.KPSInformationModel?
-  final public var isFaceUploadDataState: Swift.Bool
-  final public var isScreenRecordingDenied: Swift.Bool?
-  final public var agentRequestType: WalletUISdk.AgentRequestType {
-    get
-    set
-  }
-  final public var lastAgentRequestType: WalletUISdk.AgentRequestType
-  final public var tempIsAgentDummyShown: Swift.Bool?
-  weak final public var delegate: (any WalletUISdk.EnquraSessionDelegate)?
-  weak final public var alertDelegate: (any WalletUISdk.EnquraSessionManagerDelegate)?
-  final public var initialFlow: WalletUISdk.EnquraSessionStartFlow
-  final public var isAllowedPermissions: Swift.Bool {
-    get
-  }
-  final public var isDeviceNFCAvailable: Swift.Bool {
-    get
-  }
-  final public var nfcStoredCustomerIdentityData: EnQualify.EnVerifyCustomerIdentityDoc {
-    get
-  }
-  public static var shared: any WalletUISdk.EnquraSessionProtocol
-  final public func setRootNavigationController(_ navigationController: UIKit.UINavigationController)
-  final public func getNavigation() -> UIKit.UINavigationController?
-  final public func initializeSession(onComplete: @escaping () -> Swift.Void)
-  final public func startSession(with flow: WalletUISdk.EnquraSessionStartFlow, onComplete: @escaping () -> Swift.Void)
-  final public func continueSession(with flow: WalletUISdk.AgentRequestType, onComplete: @escaping () -> Swift.Void)
-  final public func requestVideoAudioPermissions()
-  final public func nfcStart()
-  final public func ocrStart()
-  final public func faceDetectStart()
-  final public func onExitSelfService()
-  final public func setNFCBACData()
-  final public func callSessionClose()
-  final public func callSessionCloseWithoutFinish()
-  final public func closeSession()
-  final public func closeSessionWithPop()
-  final public func addIntegration(onComplete: @escaping () -> Swift.Void)
-  @objc deinit
-}
-public struct GetEnquraIntegrationInfoResponseDTO {
-  public let referenceId: Swift.Int64
-  public let identityNumber: Swift.String
-  public let birthDate: Swift.String
-  public let birthPlace: Swift.String
-  public let serialNumber: Swift.String
-  public let identityExpireDate: Swift.String
-  public init(referenceId: Swift.Int64, identityNumber: Swift.String, birthDate: Swift.String, birthPlace: Swift.String, serialNumber: Swift.String, identityExpireDate: Swift.String)
-}
-extension WalletUISdk.GetEnquraIntegrationInfoResponseDTO {
-  public init(_ response: wallet_ios_sdk.AddEnquraIntegrationOutputParams)
-}
-public class KPSInformationModel {
-  final public let birthDate: Swift.String
-  final public let serialNumber: Swift.String
-  final public let identityExpireDate: Swift.String
-  public init(kpsInfo: wallet_ios_sdk.AddEnquraIntegrationOutputParams)
-  @objc deinit
-}
-extension Swift.String {
-  public var toInt: Swift.Int? {
-    get
-  }
-  public var diacriticRemoved: Swift.String {
-    get
-  }
-  public var isBlank: Swift.Bool {
-    get
-  }
-  public var isNotBlank: Swift.Bool {
-    get
-  }
-  public var trim: Swift.String {
-    get
-  }
-  public var isNumeric: Swift.Bool {
-    get
-  }
-  public func height(withConstrainedWidth width: CoreFoundation.CGFloat, font: UIKit.UIFont) -> CoreFoundation.CGFloat
-  public func width(withConstrainedHeight height: CoreFoundation.CGFloat, font: UIKit.UIFont) -> CoreFoundation.CGFloat
-  public func addPrefix(_ value: Swift.String) -> Swift.String
-  public func maskIfMail() -> Swift.String
-  public func convertDateToHumanReadableFormat(outputFormat: WalletUISdk.DgparaWallletDateFormat) -> Swift.String?
-  public func convertToDate(_ format: WalletUISdk.DgparaWallletDateFormat) -> Foundation.Date?
-  public func uppercasedTurkishCharacter() -> Swift.String
-  public func separate(every stride: Swift.Int = 4, with separator: Swift.Character = " ") -> Swift.String
-  public var asMicroCreditDate: Foundation.Date? {
-    get
-  }
-  public func lowercasedWithTurkishCharacters() -> Swift.String
-  public func applyPattern(pattern: Swift.String, replacmentCharacter: Swift.Character = "#") -> Swift.String
-}
-public enum DgparaWallletDateFormat {
-  case dgpays
-  case gql
-  case nfcbacData
-  case simple
-  case custom(Swift.String)
-}
-extension Foundation.Date {
-  public func convertToString(_ format: WalletUISdk.DgparaWallletDateFormat) -> Swift.String
-}
-extension WalletUISdk.EnquraSessionManager {
-  final public func getCustomerSegmentId(completion: @escaping (Swift.Bool) -> Swift.Void)
-}
 public enum ScanError : Swift.Error {
   case badInput
   case badOutput
@@ -1168,13 +907,6 @@ extension WalletUISdk.WalletUiSDK.HomeTabType : Swift.Hashable {}
 extension WalletUISdk.QrTransactionType : Swift.Equatable {}
 extension WalletUISdk.QrTransactionType : Swift.Hashable {}
 extension WalletUISdk.QrTransactionType : Swift.RawRepresentable {}
-extension WalletUISdk.AgentRequestType : Swift.Equatable {}
-extension WalletUISdk.AgentRequestType : Swift.Hashable {}
-extension WalletUISdk.AgentRequestEventType : Swift.Equatable {}
-extension WalletUISdk.AgentRequestEventType : Swift.Hashable {}
-extension WalletUISdk.AgentRequestEventType : Swift.RawRepresentable {}
-extension WalletUISdk.EnquraSessionStartFlow : Swift.Equatable {}
-extension WalletUISdk.EnquraSessionStartFlow : Swift.Hashable {}
 extension WalletUISdk.WalletMainView : Swift.Sendable {}
 extension WalletUISdk.SplashAnimationView : Swift.Sendable {}
 extension WalletUISdk.Pattern : Swift.Equatable {}
