@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
 // swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WalletUISdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import AVFoundation
 import Combine
 import CommonCrypto
@@ -31,7 +31,6 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-import _WebKit_SwiftUI
 import wallet_ios_sdk
 public protocol WalletOutputParams {
 }
@@ -47,9 +46,7 @@ extension wallet_ios_sdk.GetMasterpassConfigOutputParams : WalletUISdk.WalletOut
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class LoadingView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
-  #endif
   @_Concurrency.MainActor @preconcurrency final public func show(in view: UIKit.UIView)
   @_Concurrency.MainActor @preconcurrency final public func showInWindow()
   @_Concurrency.MainActor @preconcurrency final public func hide()
@@ -65,9 +62,7 @@ final public class ActivityTracker {
 public enum WalletAgreementAgreementStatus : Swift.String {
   case viewed
   case accepted
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -85,9 +80,7 @@ public class WalletUiSDK {
   }
   public enum Navigate {
     public static func navigate(page: Swift.String, params: [Swift.String : Any] = [:])
-    #if compiler(>=5.3) && $NonescapableTypes
     public static func logout(result: @escaping (Swift.Result<wallet_ios_sdk.BaseOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
-    #endif
     public static func dashboard(selectedTab: WalletUISdk.WalletUiSDK.HomeTabType = .transactions)
     public static func cardList()
     public static func history()
@@ -105,9 +98,7 @@ public class WalletUiSDK {
     public static func dgfinLoanInfo()
     public static func dgfinPaybackPlan()
     public static func dgfinCustomerApplication()
-    #if compiler(>=5.3) && $NonescapableTypes
     public static func dgfinLoanCreate(amount: Swift.Double, itemsInBasket: [[Swift.String : Any]], externalReference: Swift.String, merchantId: Swift.Int? = nil)
-    #endif
   }
   public static let shared: WalletUISdk.WalletUiSDK
   public init()
@@ -119,21 +110,11 @@ public class WalletUiSDK {
     public static func set(phone: Swift.String)
   }
   public enum Balance {
-    #if compiler(>=5.3) && $NonescapableTypes
     public static func getExpenseAmountBalance(amount: Swift.Double, txnTypeId: Swift.Int16, completion: @escaping (Swift.Result<wallet_ios_sdk.BalanceGetExpenseAmountOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public static func paymentWalletMobilePhone(transactCode: Swift.Int? = nil, amount: Swift.Double? = nil, referenceNumber: Swift.Int? = nil, originalReferenceNumber: Swift.Int? = nil, guidReferenceNumber: Foundation.UUID? = nil, descriptionText: Swift.String? = nil, userName: Swift.String? = nil, merchantId: Swift.Int = 1000, stationId: Swift.Int = 0, transactionType: Swift.Int = 1, completion: @escaping (Swift.Result<wallet_ios_sdk.PaymentWalletMobileOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public static func topupPayStart(amount: Swift.Double? = nil, expenseAmount: Swift.Double? = nil, userValidationType: Swift.String? = nil, destinationAccountID: Swift.Int? = nil, descriptionText: Swift.String? = nil, referenceNumber: Swift.Int? = nil, guidReferenceNumber: Foundation.UUID? = nil, merchantId: Swift.Int = 1000, stationId: Swift.Int = 0, transactionType: Swift.Int = 1, completion: @escaping (Swift.Result<wallet_ios_sdk.TopupPayStartOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public static func topupPayCommit(commitToken: Swift.String? = nil, orderID: Swift.String? = nil, masterpassCardID: Swift.String? = nil, amount: Swift.Double? = nil, merchantId: Swift.Int = 1000, stationId: Swift.Int = 0, transactionType: Swift.Int = 1, completion: @escaping (Swift.Result<wallet_ios_sdk.TopupPayCommitOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public static func getMasterpassConfig(userValidationType: Swift.String?, referenceNumber: Swift.Int?, completion: @escaping (Swift.Result<wallet_ios_sdk.GetMasterpassConfigOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
-    #endif
   }
   @objc deinit
 }
@@ -143,9 +124,7 @@ public enum QrTransactionType : Swift.String, Swift.CaseIterable {
   case withPaymentMethod
   case transactionSummary
   case error
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [WalletUISdk.QrTransactionType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [WalletUISdk.QrTransactionType] {
@@ -177,9 +156,7 @@ public struct QuestionListModelDTO : Swift.Hashable {
   public typealias Body = @_opaqueReturnTypeOf("$s11WalletUISdk0A8MainViewV4bodyQrvp", 0) __
 }
 @_Concurrency.MainActor @preconcurrency public struct SplashAnimationView : SwiftUI.UIViewRepresentable {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(name: WalletUISdk.AnimationFileName, loopMode: Lottie.LottieLoopMode = .loop, onAnimationFinished: (() -> Swift.Void)? = nil)
-  #endif
   @_Concurrency.MainActor @preconcurrency public func makeUIView(context: SwiftUI.UIViewRepresentableContext<WalletUISdk.SplashAnimationView>) -> UIKit.UIView
   @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: UIKit.UIView, context: SwiftUI.UIViewRepresentableContext<WalletUISdk.SplashAnimationView>)
   public typealias Body = Swift.Never
@@ -200,9 +177,7 @@ public enum Pattern : Swift.String {
   case monthAndYear
   case amount
   case cvv
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -221,9 +196,7 @@ public enum WalletCardStatusType : Swift.String {
   case fake
   case gfake
   case other
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -235,9 +208,7 @@ public enum Page : Swift.String, Swift.CaseIterable {
   case qr
   case financeGuru
   case transactionSheet
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [WalletUISdk.Page]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [WalletUISdk.Page] {
@@ -264,9 +235,7 @@ public struct RoundedCorner : SwiftUICore.Shape {
 }
 
 @_Concurrency.MainActor @preconcurrency public struct AnimationView : SwiftUI.UIViewRepresentable {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(name: WalletUISdk.AnimationFileName, loopMode: Lottie.LottieLoopMode = .loop, onAnimationFinished: (() -> Swift.Void)? = nil)
-  #endif
   @_Concurrency.MainActor @preconcurrency public func makeUIView(context: SwiftUI.UIViewRepresentableContext<WalletUISdk.AnimationView>) -> UIKit.UIView
   @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: UIKit.UIView, context: SwiftUI.UIViewRepresentableContext<WalletUISdk.AnimationView>)
   public typealias Body = Swift.Never
@@ -277,11 +246,9 @@ extension Swift.String {
   public var length: Swift.Int {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public var toInt16: Swift.Int16? {
     get
   }
-  #endif
   public func moneyPattern() -> Swift.String
   public subscript(i: Swift.Int) -> Swift.String {
     get
@@ -308,28 +275,18 @@ extension Swift.String {
   public func phoneNumberWithCountyCodeWithoutPlus() -> Swift.String
   public func phoneNumberCorrectiveWithFormat() -> Swift.String
   public func checkNationCode() -> Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   public func toBase64() -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fromBase64() -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func base64ToImage() -> SwiftUICore.Image?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getInitials() -> (Swift.String, Swift.String?)
-  #endif
   public func removeSpaceAndBracketsFromPhone() -> Swift.String
   public func removeSpaceBracketsAndPlusFromPhone() -> Swift.String
   public func uppercasedTurkish() -> Swift.String
   public func uppercasedLocalized() -> Swift.String
   public func hash() -> Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   public var toInt: Swift.Int? {
     get
   }
-  #endif
   public var diacriticRemoved: Swift.String {
     get
   }
@@ -349,19 +306,13 @@ extension Swift.String {
   public func width(withConstrainedHeight height: CoreFoundation.CGFloat, font: UIKit.UIFont) -> CoreFoundation.CGFloat
   public func addPrefix(_ value: Swift.String) -> Swift.String
   public func maskIfMail() -> Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   public func convertDateToHumanReadableFormat(outputFormat: WalletUISdk.DgparaWallletDateFormat) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func convertToDate(_ format: WalletUISdk.DgparaWallletDateFormat) -> Foundation.Date?
-  #endif
   public func uppercasedTurkishCharacter() -> Swift.String
   public func separate(every stride: Swift.Int = 4, with separator: Swift.Character = " ") -> Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   public var asMicroCreditDate: Foundation.Date? {
     get
   }
-  #endif
   public func applyPattern(pattern: Swift.String, replacmentCharacter: Swift.Character = "#") -> Swift.String
 }
 public enum DgparaWallletDateFormat {
@@ -405,9 +356,7 @@ extension SwiftUICore.Font {
   public static var caption2: SwiftUICore.Font {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func customSystem(_ style: SwiftUICore.Font.TextStyle, design: SwiftUICore.Font.Design? = nil, weight: SwiftUICore.Font.Weight? = nil) -> SwiftUICore.Font
-  #endif
   public static func customSystem(size: CoreFoundation.CGFloat, weight: SwiftUICore.Font.Weight = .regular, design: SwiftUICore.Font.Design = .default) -> SwiftUICore.Font
 }
 public struct SendMoneyToIbanTransactionModel : Swift.Hashable {
@@ -459,9 +408,7 @@ public enum FirebaseEvent : Swift.String {
   case payViewHowTo
   case payEventPurchase
   case payConfirmIdentity
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -480,9 +427,7 @@ extension Foundation.Date {
   public func convertToString(_ format: WalletUISdk.DgparaWallletDateFormat) -> Swift.String
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AnimationUIView : UIKit.UIView {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(name: WalletUISdk.AnimationFileName, loopMode: Lottie.LottieLoopMode = .loop, frame: CoreFoundation.CGRect = .zero, onAnimationFinished: (() -> Swift.Void)? = nil)
-  #endif
   @objc deinit
 }
 public typealias Leading<V> = SwiftUICore.Group<V> where V : SwiftUICore.View
@@ -518,9 +463,7 @@ extension Foundation.NumberFormatter {
 }
 @available(macCatalyst 14.0, *)
 extension AVFoundation.AVCaptureDevice {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func zoomedCameraForQRCode(withMinimumCodeSize minimumCodeSize: Swift.Float = 20) -> AVFoundation.AVCaptureDevice?
-  #endif
 }
 public enum PermissionsError : Swift.Identifiable {
   public var id: Swift.String {
@@ -536,9 +479,7 @@ public enum PermissionsError : Swift.Identifiable {
 }
 
 extension Swift.Dictionary where Value : Swift.Equatable {
-  #if compiler(>=5.3) && $NonescapableTypes
   public func someKey(forValue val: Value) -> Key?
-  #endif
 }
 public enum AccountActionType {
   case currentPeriodTransaction
@@ -550,9 +491,7 @@ public enum AccountActionType {
   }
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class SplashAnimationUIView : UIKit.UIView {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(name: WalletUISdk.AnimationFileName, loopMode: Lottie.LottieLoopMode = .loop, frame: CoreFoundation.CGRect = .zero, onAnimationFinished: (() -> Swift.Void)? = nil)
-  #endif
   @objc deinit
 }
 extension SwiftUICore.VerticalAlignment {
@@ -593,9 +532,7 @@ extension Swift.Int {
 }
 @_hasMissingDesignatedInitializers public class SDKFontLoader {
   public static let shared: WalletUISdk.SDKFontLoader
-  #if compiler(>=5.3) && $NonescapableTypes
   public func font(name: Swift.String, size: CoreFoundation.CGFloat) -> UIKit.UIFont?
-  #endif
   public func loadCustomFonts()
   @objc deinit
 }
@@ -607,10 +544,8 @@ extension SwiftUICore.View {
   
   @_Concurrency.MainActor @preconcurrency public func buttonOpacitMask() -> some SwiftUICore.View
   
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func whitelabelNavigationBarTitle(_ title: Swift.String, onBackButton: (() -> Swift.Void)? = nil, isShowBackButton: Swift.Bool = true) -> some SwiftUICore.View
   
-  #endif
   @_Concurrency.MainActor @preconcurrency public func customStatusBarStyle() -> some SwiftUICore.View
   
   @inlinable @_Concurrency.MainActor @preconcurrency public func hidden(_ isHidden: Swift.Bool) -> some SwiftUICore.View {
@@ -625,31 +560,23 @@ extension SwiftUICore.View {
   
 }
 extension UIKit.UIApplication {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public var firstKeyWindow: UIKit.UIWindow? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(macCatalystApplicationExtension, unavailable)
   @available(iOSApplicationExtension, unavailable)
   @available(tvOSApplicationExtension, unavailable)
   @_Concurrency.MainActor @preconcurrency public var topmostViewController: UIKit.UIViewController? {
     get
   }
-  #endif
 }
 extension UIKit.UIViewController {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public var topmostPresentedViewController: UIKit.UIViewController? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public var topmostViewController: UIKit.UIViewController? {
     get
   }
-  #endif
 }
 public struct QrTransactionSummaryModel : Swift.Hashable {
   public static func == (a: WalletUISdk.QrTransactionSummaryModel, b: WalletUISdk.QrTransactionSummaryModel) -> Swift.Bool
@@ -760,9 +687,7 @@ public struct WalletCard : Swift.Identifiable, Swift.Hashable {
 public struct GeneralError : Swift.Error, Swift.Codable, Swift.CustomStringConvertible {
   public let code: Swift.String
   public let message: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(code: Swift.String, message: Swift.String? = nil)
-  #endif
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   public var description: Swift.String {
@@ -774,9 +699,7 @@ extension WalletUISdk.GeneralError {
   public static func decode(from string: Swift.String) throws -> WalletUISdk.GeneralError
   public func toJSON() throws -> Foundation.Data
   public func toString() throws -> Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   public func toString() -> Swift.String?
-  #endif
 }
 public class KPSInformationModel {
   final public let birthDate: Swift.String
@@ -798,14 +721,10 @@ extension WalletUISdk.GetEnquraIntegrationInfoResponseDTO {
   public init(_ response: wallet_ios_sdk.AddEnquraIntegrationOutputParams)
 }
 extension UIKit.UIViewController {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func initWalletUi(config: WalletUISdk.UIConfig? = nil, environment: WalletUISdk.WalletUiEnvironment, enableSSLPinning: Swift.Bool = false, successCallback: @escaping (WalletUISdk.DgfinResponse) -> Swift.Void, errorCallback: @escaping (WalletUISdk.GeneralError) -> Swift.Void, closeCallback: ((Swift.String) -> Swift.Void)?)
-  #endif
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class PopTransitioning : ObjectiveC.NSObject, UIKit.UIViewControllerAnimatedTransitioning {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc public func transitionDuration(using transitionContext: (any UIKit.UIViewControllerContextTransitioning)?) -> Foundation.TimeInterval
-  #endif
   @_Concurrency.MainActor @preconcurrency @objc public func animateTransition(using transitionContext: any UIKit.UIViewControllerContextTransitioning)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
   @objc deinit
@@ -818,9 +737,7 @@ public enum AnimationFileName : Swift.String {
   case bg
   case logo
   case loading
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -836,19 +753,15 @@ public enum WalletUiEnvironment : Swift.String {
   }
   public static func getLastSelectedEnvironment() -> WalletUISdk.WalletUiEnvironment
   public static func saveSelectedEnvironment(_ env: WalletUISdk.WalletUiEnvironment)
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
 extension UIKit.UIView {
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   @_Concurrency.MainActor @preconcurrency public func wlLoadViewFromNib() -> UIKit.UIView?
-  #endif
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func wl_embedView(_ view: UIKit.UIView)
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func wl_embedView(_ view: UIKit.UIView, insets: UIKit.UIEdgeInsets)
   @_Concurrency.MainActor @preconcurrency public func wlConstrainToEdges(_ subview: UIKit.UIView)
@@ -856,9 +769,7 @@ extension UIKit.UIView {
 public enum ToWhichPage : Swift.Int, Swift.CaseIterable {
   case askForMoney
   case sendMoney
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias AllCases = [WalletUISdk.ToWhichPage]
   public typealias RawValue = Swift.Int
   nonisolated public static var allCases: [WalletUISdk.ToWhichPage] {
@@ -887,9 +798,7 @@ extension WalletUISdk.CodeScannerView {
     @_Concurrency.MainActor @preconcurrency @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
       @objc get
     }
-    #if compiler(>=5.3) && $NonescapableTypes
     @_Concurrency.MainActor @preconcurrency @objc override final public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
-    #endif
     @_Concurrency.MainActor @preconcurrency final public func reset()
     @_Concurrency.MainActor @preconcurrency final public func readyManualCapture()
     @objc deinit
@@ -910,19 +819,15 @@ extension WalletUISdk.CodeScannerView.ScannerViewController : UIKit.UIAdaptivePr
 }
 @available(macCatalyst 14.0, *)
 extension WalletUISdk.CodeScannerView.ScannerViewController : AVFoundation.AVCapturePhotoCaptureDelegate {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc final public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: (any Swift.Error)?)
-  #endif
   @_Concurrency.MainActor @preconcurrency @objc final public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, willCapturePhotoFor resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings)
   @_Concurrency.MainActor @preconcurrency @objc final public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didCapturePhotoFor resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings)
 }
 @available(macCatalyst 14.0, *)
 extension AVFoundation.AVCaptureDevice {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static var bestForVideo: AVFoundation.AVCaptureDevice? {
     get
   }
-  #endif
 }
 extension SwiftUICore.Binding where Value == Swift.String {
   public func maxLimit(_ limit: Swift.Int) -> SwiftUICore.Binding<Value>
@@ -930,18 +835,10 @@ extension SwiftUICore.Binding where Value == Swift.String {
   public func moneyPattern() -> SwiftUICore.Binding<Value>
 }
 extension SwiftUICore.Binding where Value == Swift.Bool? {
-  #if compiler(>=5.3) && $NonescapableTypes
   public func onNone(_ fallback: Swift.Bool) -> SwiftUICore.Binding<Swift.Bool>
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func onChange(_ handler: @escaping (Value) -> Swift.Void) -> SwiftUICore.Binding<Value>
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func onChange(perform action: @escaping () -> Swift.Void) -> SwiftUICore.Binding<Value>
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func onChange(perform action: @escaping (_ newValue: Value) -> Swift.Void) -> SwiftUICore.Binding<Value>
-  #endif
 }
 prefix public func ! (value: SwiftUICore.Binding<Swift.Bool>) -> SwiftUICore.Binding<Swift.Bool>
 public enum ScanError : Swift.Error {
@@ -979,9 +876,7 @@ public enum ScanMode {
   @_Concurrency.MainActor @preconcurrency public var isGalleryPresented: SwiftUICore.Binding<Swift.Bool>
   @_Concurrency.MainActor @preconcurrency public var videoCaptureDevice: AVFoundation.AVCaptureDevice?
   @_Concurrency.MainActor @preconcurrency public var completion: (Swift.Result<WalletUISdk.ScanResult, WalletUISdk.ScanError>) -> Swift.Void
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(codeTypes: [AVFoundation.AVMetadataObject.ObjectType], scanMode: WalletUISdk.ScanMode = .once, manualSelect: Swift.Bool = false, scanInterval: Swift.Double = 2.0, showViewfinder: Swift.Bool = false, requiresPhotoOutput: Swift.Bool = true, simulatedData: Swift.String = "", shouldVibrateOnSuccess: Swift.Bool = true, isTorchOn: Swift.Bool = false, isPaused: Swift.Bool = false, isGalleryPresented: SwiftUICore.Binding<Swift.Bool> = .constant(false), videoCaptureDevice: AVFoundation.AVCaptureDevice? = AVCaptureDevice.bestForVideo, completion: @escaping (Swift.Result<WalletUISdk.ScanResult, WalletUISdk.ScanError>) -> Swift.Void)
-  #endif
   @_Concurrency.MainActor @preconcurrency public func makeUIViewController(context: WalletUISdk.CodeScannerView.Context) -> WalletUISdk.CodeScannerView.ScannerViewController
   @_Concurrency.MainActor @preconcurrency public func updateUIViewController(_ uiViewController: WalletUISdk.CodeScannerView.ScannerViewController, context: WalletUISdk.CodeScannerView.Context)
   @available(macCatalyst 14.0, *)
@@ -999,9 +894,7 @@ extension WalletUISdk.CodeScannerView {
   }
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class PushTransitioning : ObjectiveC.NSObject, UIKit.UIViewControllerAnimatedTransitioning {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc public func transitionDuration(using transitionContext: (any UIKit.UIViewControllerContextTransitioning)?) -> Foundation.TimeInterval
-  #endif
   @_Concurrency.MainActor @preconcurrency @objc public func animateTransition(using transitionContext: any UIKit.UIViewControllerContextTransitioning)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
   @objc deinit
