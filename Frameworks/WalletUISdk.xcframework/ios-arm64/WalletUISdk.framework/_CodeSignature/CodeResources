@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		UCYJu//jV1Zj10LXxQ3gkA3BAU4=
+		V/8+h8yN60XBdSsYq/uHbvOw9M4=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		VgMvVnyJDYtcaIFxmi3FGlVTqpY=
+		SzRlkJQ/jN5U6LNaBS9il9x4+Vs=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -208,6 +208,10 @@
 		<data>
 		Jh5AVHmyYQVGYnYDMVkVlyPRGcg=
 		</data>
+		<key>enquraprod.der</key>
+		<data>
+		vSl+KgMTTZZ8dCjXyMPQboG0SW4=
+		</data>
 		<key>faceDetectAnimation.json</key>
 		<data>
 		he8n8aCV072aoNwwXJh2Lj2Ma1M=
@@ -248,11 +252,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UCYJu//jV1Zj10LXxQ3gkA3BAU4=
+			V/8+h8yN60XBdSsYq/uHbvOw9M4=
 			</data>
 			<key>hash2</key>
 			<data>
-			nG3w1YLGk1AcSDizV0Yh57BumDeEr0QyPj62lEn0R3s=
+			Y2FpERodlKtmAX21RsP7xF/1R68eXxkpGGv6v62FvR4=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -435,11 +439,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VgMvVnyJDYtcaIFxmi3FGlVTqpY=
+			SzRlkJQ/jN5U6LNaBS9il9x4+Vs=
 			</data>
 			<key>hash2</key>
 			<data>
-			34u0xE8xSfnY0ybqECsydE3BkFwUUAoo8z3QoGYMIo0=
+			PeAX2OFUwMSKAUruxTh3ko+HRDCCvMXYuHAcW++FcOo=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -792,6 +796,17 @@
 			<key>hash2</key>
 			<data>
 			JVQ/YJg0TmnotUHK9Rdm6Stg4ZnrEJrf6Crit4tMijc=
+			</data>
+		</dict>
+		<key>enquraprod.der</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vSl+KgMTTZZ8dCjXyMPQboG0SW4=
+			</data>
+			<key>hash2</key>
+			<data>
+			jwDA2yTFLAgbNK5O38GHqb6aUw0BjLGGxs5Z0IKln5w=
 			</data>
 		</dict>
 		<key>faceDetectAnimation.json</key>
