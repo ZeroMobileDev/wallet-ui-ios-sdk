@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		na3jHkZ0e6BsidFcqMTG+fKrrkE=
+		Ex8Gl92xf55ByfOeE8SXJmmnHGo=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		5obl4RUGC2659pLlAdXvfuq9+O8=
+		Dq7G2Ex1NtsPhcJoAqS5Two8g3g=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		EX4o9CuO7slqLcmZF0rZVnJZ9Zc=
+		of3UALN8544+pscLLKT60ZiBWQA=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		U7ejIeRVeDItr2jjl19rmCbpkjQ=
+		6SfTqb/emqIOTaF6AJp1QDFk3CE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -204,13 +204,13 @@
 		<data>
 		gCThEdLoaeTYecSOHjj3Yl8Nfhk=
 		</data>
+		<key>dgpara.der</key>
+		<data>
+		DWLZI1EW26cslNRTN0bT/ItV71g=
+		</data>
 		<key>enqura.der</key>
 		<data>
 		Jh5AVHmyYQVGYnYDMVkVlyPRGcg=
-		</data>
-		<key>enquraprod.der</key>
-		<data>
-		vSl+KgMTTZZ8dCjXyMPQboG0SW4=
 		</data>
 		<key>faceDetectAnimation.json</key>
 		<data>
@@ -252,11 +252,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			na3jHkZ0e6BsidFcqMTG+fKrrkE=
+			Ex8Gl92xf55ByfOeE8SXJmmnHGo=
 			</data>
 			<key>hash2</key>
 			<data>
-			kuVv7EdGA8Lqgo5pb1LD1hh99HGb60w1tKJ71hymWaI=
+			EfOEQSMQdNXCUF+FEa05PrxzanklCyMK0P+ecp0KDSo=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -439,22 +439,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5obl4RUGC2659pLlAdXvfuq9+O8=
+			Dq7G2Ex1NtsPhcJoAqS5Two8g3g=
 			</data>
 			<key>hash2</key>
 			<data>
-			o+XpfqBFJ2eNtwSlV9mdOISde2huJLnTlEVEmx3N2uU=
+			sX+pk5saUKRbCrtngd8ISwJpOB8ZHbQwjgm8lIBbjPA=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EX4o9CuO7slqLcmZF0rZVnJZ9Zc=
+			of3UALN8544+pscLLKT60ZiBWQA=
 			</data>
 			<key>hash2</key>
 			<data>
-			6fTli1XoOouM60qP6RMrEskDeHRnA3tgg4G6iZ+dFIE=
+			BAbQWKh3pJUVFqoQzGSrt+gUCNRrf7axI2LbVWJAIgw=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -494,11 +494,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U7ejIeRVeDItr2jjl19rmCbpkjQ=
+			6SfTqb/emqIOTaF6AJp1QDFk3CE=
 			</data>
 			<key>hash2</key>
 			<data>
-			1AEg6mF6f68YLoN7Va5o60bGHI3naY4ujVMTOleeE/o=
+			KLls/yVkED46R30if80GS7OdrvwEfDlA+l7h24w07Bw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -787,6 +787,17 @@
 			gLnUi8+QIdQZJL3q/oGC4z1isRt55ifdfglVcvutI9Q=
 			</data>
 		</dict>
+		<key>dgpara.der</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DWLZI1EW26cslNRTN0bT/ItV71g=
+			</data>
+			<key>hash2</key>
+			<data>
+			lowvrNyG+P+D1tzt2hjXAcuEVpGZQhij4V8ta9JrzHE=
+			</data>
+		</dict>
 		<key>enqura.der</key>
 		<dict>
 			<key>hash</key>
@@ -796,17 +807,6 @@
 			<key>hash2</key>
 			<data>
 			JVQ/YJg0TmnotUHK9Rdm6Stg4ZnrEJrf6Crit4tMijc=
-			</data>
-		</dict>
-		<key>enquraprod.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vSl+KgMTTZZ8dCjXyMPQboG0SW4=
-			</data>
-			<key>hash2</key>
-			<data>
-			jwDA2yTFLAgbNK5O38GHqb6aUw0BjLGGxs5Z0IKln5w=
 			</data>
 		</dict>
 		<key>faceDetectAnimation.json</key>

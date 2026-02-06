@@ -1,12 +1,12 @@
 # WalletUISdk.podspec
 Pod::Spec.new do |s|
   s.name         = "WalletUISdk"
-  s.version      = "2.3.7"
+  s.version      = "2.4.0"
   s.summary      = "WalletUISdk is a library for WalletUI."
   s.homepage     = "https://www.dgpays.com/"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Yasin ÇETİN" => "yasin.cetin@dgpays.com" }
-  s.source       = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/2.3.7.zip" }
+  s.source       = { :http => "https://github.com/ZeroMobileDev/wallet-ui-ios-sdk/archive/refs/tags/2.4.0.zip" }
   s.ios.deployment_target = "14.0"
   s.platform     = :ios, "14.0"
   s.requires_arc = true
