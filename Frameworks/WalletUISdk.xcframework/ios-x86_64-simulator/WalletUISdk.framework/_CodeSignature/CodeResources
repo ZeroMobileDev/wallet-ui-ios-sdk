@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Dq7G2Ex1NtsPhcJoAqS5Two8g3g=
+		goj19Ux4ptmXnWjyzc0zITaoM/c=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -207,6 +207,10 @@
 		<key>dgpara.der</key>
 		<data>
 		DWLZI1EW26cslNRTN0bT/ItV71g=
+		</data>
+		<key>dgpays-2027.der</key>
+		<data>
+		EoJEOJOmEZCmN0yLSTdm3OzIdQM=
 		</data>
 		<key>enqura.der</key>
 		<data>
@@ -439,11 +443,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Dq7G2Ex1NtsPhcJoAqS5Two8g3g=
+			goj19Ux4ptmXnWjyzc0zITaoM/c=
 			</data>
 			<key>hash2</key>
 			<data>
-			sX+pk5saUKRbCrtngd8ISwJpOB8ZHbQwjgm8lIBbjPA=
+			TSwQ+RAsiyPq1QM7la7kANiNaRQWiMBlVYW2Fbqjmb0=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -796,6 +800,17 @@
 			<key>hash2</key>
 			<data>
 			lowvrNyG+P+D1tzt2hjXAcuEVpGZQhij4V8ta9JrzHE=
+			</data>
+		</dict>
+		<key>dgpays-2027.der</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EoJEOJOmEZCmN0yLSTdm3OzIdQM=
+			</data>
+			<key>hash2</key>
+			<data>
+			nsKNBBveqqg+4tWg1qtsK8yGfvL422E2em+GauMET0s=
 			</data>
 		</dict>
 		<key>enqura.der</key>
