@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		9lBU1QZ2otJNop7MaO+68vFXQXA=
+		KHzmZjl1752LQg1bBl1TiPriNss=
 		</data>
 		<key>BaseCardView.nib</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		s+mtwTgCXXqPo0VmMEB6Z8N4pIE=
+		FnVjhhSOVsXxAUGXomeha+Usgcs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -30,23 +30,23 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		bVKYmdiO6EXiXauDicGRuXsYzik=
+		GXLMUgo/wFKUkbPiRQWiQI12RPw=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		HKNYhH1MeykdacjTh4ODKvYFUuk=
+		weBuUMuB8BPDNZZfT3ir11H0+zo=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		AOAraR9CENEfz3rasKbRGot0/Hs=
+		oU9FyAi2zinhdw9ddfJ4vwALUHU=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		HKNYhH1MeykdacjTh4ODKvYFUuk=
+		weBuUMuB8BPDNZZfT3ir11H0+zo=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		vAnIfqDGjaiGffbng6tNpIJfn2E=
+		t1PofW9y5xsv3hsOXhJwkUwH/sU=
 		</data>
 		<key>star.dgpara.com.der</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			arEdw3Voi8ufJ7mUdeoA8cWNCibouQSIoMT2XvUVfkc=
+			wggwfKUHJSUW9ror8Yf1oYpkpI7LcrFVa+hki6g7OpY=
 			</data>
 		</dict>
 		<key>BaseCardView.nib</key>
@@ -102,35 +102,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TQCZxDJWZfAhNrpaWS4l2ohl1M2tZ9HppVe1E2b25c0=
+			N2UyQObKKQIruTiKhqNJmm+MZJw+wLBZ87iWVbDFNMo=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3t3faG4cMjFGLqMYX+Puojcf0uCtivTjRVDrBIiVfT0=
+			XS1SNbPFCddUPfstScbGfN73bBxYoeRcWGXCL99+//s=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mBYISgUHC5zClfRyB4Dlnx1ym/VCr5NnX0w3GbsQvTk=
+			wQYYtskE/Vr8IdkF3gE8Kv+iiGSdC1F4I3/cyXNMUSs=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3t3faG4cMjFGLqMYX+Puojcf0uCtivTjRVDrBIiVfT0=
+			XS1SNbPFCddUPfstScbGfN73bBxYoeRcWGXCL99+//s=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1rTMYthinB8ZjqvrCeRWcYYOQxXb1hjlVVZBMsUXVIg=
+			SHS88yVfH4dAEM5Pmtxx+vklYleOEW5TZ6U+1iCMwgU=
 			</data>
 		</dict>
 		<key>star.dgpara.com.der</key>
