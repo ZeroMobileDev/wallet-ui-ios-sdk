@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		0Fsmz0xa4OMmQ9dBbQD5ew4N22U=
+		IMePKKdw9CdUwKwWKaZDzJa+7K8=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -239,6 +239,10 @@
 		<key>pubkey2.pem</key>
 		<data>
 		cj6isiQdHOTZdYf8LceLhVucMfQ=
+		</data>
+		<key>star.dgpara.com_05_11_2026.der</key>
+		<data>
+		I3f96IKsPgogzDQ1HBdWjJz/RXs=
 		</data>
 		<key>tr.lproj/Localizable.strings</key>
 		<dict>
@@ -443,11 +447,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0Fsmz0xa4OMmQ9dBbQD5ew4N22U=
+			IMePKKdw9CdUwKwWKaZDzJa+7K8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ETr0EGq+k3BsXzyVbEq5irCoXBQglpLN5gGIEWxOfpM=
+			W492W9ocGsUgTVotn/GakGUaKRL/hAIMTZegyymlsY4=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -888,6 +892,17 @@
 			<key>hash2</key>
 			<data>
 			KydtQBtLBb61ru+E7fcA0uWapKF+qDthtlpALISULDc=
+			</data>
+		</dict>
+		<key>star.dgpara.com_05_11_2026.der</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I3f96IKsPgogzDQ1HBdWjJz/RXs=
+			</data>
+			<key>hash2</key>
+			<data>
+			vdRsKT9WitK9sA/Z3/YQo4NAqUz+RJqd13lVWFfI58Q=
 			</data>
 		</dict>
 		<key>tr.lproj/Localizable.strings</key>
