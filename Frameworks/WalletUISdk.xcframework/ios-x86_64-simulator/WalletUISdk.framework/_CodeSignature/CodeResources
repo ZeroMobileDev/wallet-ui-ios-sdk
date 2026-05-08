@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		H8FJABLcQmTpb3bRxo2j5G5MgIU=
+		UjiAV0MSF8iPtuqQ64tR8W01u/U=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -78,55 +78,31 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		VbK/NvM6SzDRUFAY5AKDqpDS4LE=
+		thWx7rganSi0wD5AmAFuF/suMjk=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		GXGLn4wxPaerPHWE8G+O2Mth1CU=
+		8JqRlQutTbtMmlD8g//XCQexF6U=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		k4rfihq5y/7TvyuUM4btd4g/KeE=
+		k0JXUbzpP8lFfxHj6Au/uk1oLic=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		C8B4Tn64oy0jxpOUNb8HhINvhC0=
+		JvlMbEvJzpoYQmSmwavBol6hyMw=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		k4rfihq5y/7TvyuUM4btd4g/KeE=
+		k0JXUbzpP8lFfxHj6Au/uk1oLic=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		B/uq0hBDFsyQxI7xjoHvKmgQ57E=
+		hxsBns20S3gXSGmEP1/b8vf9qwU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		bv0J/ZaDE9j+4USp9VrEof0rALU=
-		</data>
-		<key>PrivateHeaders/MfsCard.h</key>
-		<data>
-		pirGt3ri3PiYtGANEq1dxlGHQO4=
-		</data>
-		<key>PrivateHeaders/MfsCheckbox.h</key>
-		<data>
-		w61hWUwmg3k/4/jHaYq4+NDx3Lc=
-		</data>
-		<key>PrivateHeaders/MfsIOSLibrary.h</key>
-		<data>
-		EiME9X2rGlyj4ny9AT4LOT3Dn0w=
-		</data>
-		<key>PrivateHeaders/MfsResponse.h</key>
-		<data>
-		p50RGhrcJD0gaAwwf0jZb1L5wJQ=
-		</data>
-		<key>PrivateHeaders/MfsTextField.h</key>
-		<data>
-		yVGciZoJ57ZiqmhjllcEBfTTg8o=
-		</data>
-		<key>PrivateHeaders/MfsWebView.h</key>
-		<data>
-		3fbwI1tyjQxOHXbhaCcWkQFBKn8=
+		hoWkA1+1JJ5DV2en4G17iOdS2DU=
 		</data>
 		<key>SourceSansPro-Black.ttf</key>
 		<data>
@@ -236,14 +212,6 @@
 		<data>
 		AVgNL3N8t8rkw3dE63h1znmqS2w=
 		</data>
-		<key>pubkey2.pem</key>
-		<data>
-		cj6isiQdHOTZdYf8LceLhVucMfQ=
-		</data>
-		<key>star.dgpara.com_05_11_2026.der</key>
-		<data>
-		I3f96IKsPgogzDQ1HBdWjJz/RXs=
-		</data>
 		<key>tr.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -260,11 +228,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H8FJABLcQmTpb3bRxo2j5G5MgIU=
+			UjiAV0MSF8iPtuqQ64tR8W01u/U=
 			</data>
 			<key>hash2</key>
 			<data>
-			t8rR8PKoqMfB/Ipn1GGEyaPApiZisEuEnTU0QDTmYxs=
+			rK7gPOLZtBC+6RwgKgaAs+7P4DoolBjhsZ01XFNEAFU=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -447,143 +415,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VbK/NvM6SzDRUFAY5AKDqpDS4LE=
+			thWx7rganSi0wD5AmAFuF/suMjk=
 			</data>
 			<key>hash2</key>
 			<data>
-			gHx8In4Jk1oaQkYTIdHe1E2SFvTXF4A4rd4Mjh8sCFA=
+			yQ/Ay9XAMRTaecY8V5vFVf9v4aAe8RtKoavf17BOZ7I=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GXGLn4wxPaerPHWE8G+O2Mth1CU=
+			8JqRlQutTbtMmlD8g//XCQexF6U=
 			</data>
 			<key>hash2</key>
 			<data>
-			V9mblPd7m/jJBrls713Ydbq38NQuYWuH+yA8MM/K1P0=
+			9tiWNHaYf4AiL0cunwJiBY13N0cSLuSZ792JuWI44oI=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k4rfihq5y/7TvyuUM4btd4g/KeE=
+			k0JXUbzpP8lFfxHj6Au/uk1oLic=
 			</data>
 			<key>hash2</key>
 			<data>
-			xHXAFcWtHCyoWwQwsu991XR8GAMrH0Zd1L+d4x0lbCY=
+			et6H2cgMvojyLCxlpEeLZgqh84sBR2FJU9Y7ccBhiws=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C8B4Tn64oy0jxpOUNb8HhINvhC0=
+			JvlMbEvJzpoYQmSmwavBol6hyMw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Pw6jADLMhOlvhyqti6iOKvWAnfhIPq01rMesAdopBgk=
+			exQktdOXtLYBfNaqKSnpF6WDBiV6qcprIPr6uBp5kWg=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k4rfihq5y/7TvyuUM4btd4g/KeE=
+			k0JXUbzpP8lFfxHj6Au/uk1oLic=
 			</data>
 			<key>hash2</key>
 			<data>
-			xHXAFcWtHCyoWwQwsu991XR8GAMrH0Zd1L+d4x0lbCY=
+			et6H2cgMvojyLCxlpEeLZgqh84sBR2FJU9Y7ccBhiws=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B/uq0hBDFsyQxI7xjoHvKmgQ57E=
+			hxsBns20S3gXSGmEP1/b8vf9qwU=
 			</data>
 			<key>hash2</key>
 			<data>
-			KKCFXGyNT4md0FDDNkvvAsi2bYyXqfSdLODkm/rqYaI=
+			8+3j5My1yx1Ekp1NPqgBLF4ex98vfIbJfVyFJztc5to=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bv0J/ZaDE9j+4USp9VrEof0rALU=
+			hoWkA1+1JJ5DV2en4G17iOdS2DU=
 			</data>
 			<key>hash2</key>
 			<data>
-			UyKVXaM45q5qTWdNODFNEMhndnRepWKBxMAKEye0ewE=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MfsCard.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pirGt3ri3PiYtGANEq1dxlGHQO4=
-			</data>
-			<key>hash2</key>
-			<data>
-			+Ep3lAeXbbSp0NFZWW5OnwICb38QEB65tE1pbg9rF8I=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MfsCheckbox.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			w61hWUwmg3k/4/jHaYq4+NDx3Lc=
-			</data>
-			<key>hash2</key>
-			<data>
-			7bjz18qVNTMtCPVKECOxbsjlQ842swwlMVeB0qFLg2k=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MfsIOSLibrary.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EiME9X2rGlyj4ny9AT4LOT3Dn0w=
-			</data>
-			<key>hash2</key>
-			<data>
-			gUPxwfTq4gqAFNhOT/2vhnmkpqy9kAwKLlk5lm5TTUY=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MfsResponse.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			p50RGhrcJD0gaAwwf0jZb1L5wJQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			7XSrW1m767fFMsLUID+buxVFBmya5nRDwXamr1VnIlE=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MfsTextField.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yVGciZoJ57ZiqmhjllcEBfTTg8o=
-			</data>
-			<key>hash2</key>
-			<data>
-			atrkc8I3Sf+q/CgQNBlxi/rLxVOc2Bv1KK/8grhDVes=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MfsWebView.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3fbwI1tyjQxOHXbhaCcWkQFBKn8=
-			</data>
-			<key>hash2</key>
-			<data>
-			aIR06KERmRAB1AWoYsu+fCnrTnFlIfzidHnY/mxAO/4=
+			bwCeXg4zOPF/9yFP0BFfWMvZhXrx0ngFjMU17vrXDUE=
 			</data>
 		</dict>
 		<key>SourceSansPro-Black.ttf</key>
@@ -881,28 +783,6 @@
 			<key>hash2</key>
 			<data>
 			AVpkyWk7Nw8GdgkR23MIp2qUfPKqaYB2jTWlJtQPOFQ=
-			</data>
-		</dict>
-		<key>pubkey2.pem</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cj6isiQdHOTZdYf8LceLhVucMfQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			KydtQBtLBb61ru+E7fcA0uWapKF+qDthtlpALISULDc=
-			</data>
-		</dict>
-		<key>star.dgpara.com_05_11_2026.der</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			I3f96IKsPgogzDQ1HBdWjJz/RXs=
-			</data>
-			<key>hash2</key>
-			<data>
-			vdRsKT9WitK9sA/Z3/YQo4NAqUz+RJqd13lVWFfI58Q=
 			</data>
 		</dict>
 		<key>tr.lproj/Localizable.strings</key>

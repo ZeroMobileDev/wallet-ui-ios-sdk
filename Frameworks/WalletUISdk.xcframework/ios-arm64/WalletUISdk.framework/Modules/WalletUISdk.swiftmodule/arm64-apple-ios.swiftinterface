@@ -17,6 +17,7 @@ import FirebaseAnalytics
 import FirebaseCore
 import Foundation
 import Lottie
+import Masterpass
 import NFCModule
 import Network
 import OcrModule
@@ -137,6 +138,7 @@ public class WalletUiSDK {
   }
   @objc deinit
 }
+
 public enum QrTransactionType : Swift.String, Swift.CaseIterable {
   case cancelationAmountWithoutPaymentMethod
   case refundAmountWithoutPaymentMethod
