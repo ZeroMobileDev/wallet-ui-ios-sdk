@@ -7563,6 +7563,9 @@ public struct GameListModel : Swift.Codable {
   public var merchantId: Swift.Int?
   public var terminalGroupId: Swift.String?
   public var merchantSecretKey: Swift.String?
+  public var masterpassToken: Swift.String?
+  public var masterpassUserId: Swift.String?
+  public var masterpassURL: Swift.String?
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -7893,6 +7896,7 @@ public struct TargetAccountListModel : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers public class GetMasterpassV2ConfigInputParams : wallet_ios_sdk.BaseRequestModel {
+  public var authenticationMethod: Swift.String
   override public func encode(to encoder: any Swift.Encoder) throws
   @objc override dynamic public init()
   @objc deinit
