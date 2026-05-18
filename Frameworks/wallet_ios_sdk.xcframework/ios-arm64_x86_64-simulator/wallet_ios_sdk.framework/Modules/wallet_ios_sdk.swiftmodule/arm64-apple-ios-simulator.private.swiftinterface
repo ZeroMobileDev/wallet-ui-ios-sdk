@@ -1148,7 +1148,7 @@ extension wallet_ios_sdk.WalletCoreSDK {
 @objc @_inheritsConvenienceInitializers public class TopupPayStartInputParams : wallet_ios_sdk.BaseRequestModel {
   public var amount: Swift.Double?
   public var expenseAmount: Swift.Double?
-  public var userValidationType: Swift.String?
+  public var authenticationMethod: Swift.String?
   public var destinationAccountID: Swift.Int?
   public var descriptionText: Swift.String?
   public var referenceNumber: Swift.Int?
@@ -1165,10 +1165,6 @@ extension wallet_ios_sdk.WalletCoreSDK {
   public func getExpenseAmount() -> Swift.Double
   @available(*, deprecated, renamed: "expenseAmount", message: "Use expenseAmount variable")
   public func setExpenseAmount(expenseAmount: Swift.Double)
-  @available(*, deprecated, renamed: "userValidationType", message: "Use userValidationType variable")
-  public func getUserValidationType() -> Swift.String
-  @available(*, deprecated, renamed: "userValidationType", message: "Use userValidationType variable")
-  public func setUserValidationType(userValidationType: Swift.String)
   @available(*, deprecated, renamed: "destinationAccountID", message: "Use destinationAccountID variable")
   public func getDestinationAccountID() -> Swift.Int
   @available(*, deprecated, renamed: "destinationAccountID", message: "Use destinationAccountID variable")
