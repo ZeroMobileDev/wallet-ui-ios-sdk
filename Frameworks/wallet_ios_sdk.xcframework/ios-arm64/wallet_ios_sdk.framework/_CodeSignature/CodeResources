@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Xda5+/3QMT32tK86u2FN0XA2Sm4=
+		5SQskDXQhWVt+NH+xmoYuLLenuQ=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		7DEWj1fMssk4MluBCkevZDnmzsc=
+		9383EFFfm9giJJ4daE11ICn7B14=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -42,15 +42,19 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		7DEWj1fMssk4MluBCkevZDnmzsc=
+		9383EFFfm9giJJ4daE11ICn7B14=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		y9u81v3q1/Xwgxug7kmbEdjWnEo=
+		nkUWif+YnyPMU47m8yDACHchlz0=
 		</data>
 		<key>star.dgpara.com.der</key>
 		<data>
 		ErsOYBUglor9rjLNfRFkwqZpQ/c=
+		</data>
+		<key>star.dgpara.com_05_11_2026.der</key>
+		<data>
+		I3f96IKsPgogzDQ1HBdWjJz/RXs=
 		</data>
 		<key>star1.dgpara.com.der</key>
 		<data>
@@ -102,14 +106,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fro9s4ozhufER+w/688/ww5hrdZL2QZwcei0PipqpJ4=
+			nf2zh2S7VXOEi/zH5qvIgMCLxus/viL3QRfcdzSDXgI=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u8W7M5XrGr/Hy5HKSQooyUCSvsSPqrX9lNehuJ5/hxI=
+			QbYsY4ArwZr9O/kiRimKox+/mly/67CMwDd21eKcLys=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -123,14 +127,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u8W7M5XrGr/Hy5HKSQooyUCSvsSPqrX9lNehuJ5/hxI=
+			QbYsY4ArwZr9O/kiRimKox+/mly/67CMwDd21eKcLys=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ehgDRrN9n0k36z92NrmoNrRnPvUk7H3Rm7GTUXMwvEU=
+			cRagSi1v+JACUedtw88i0pMQBDYQJtBYeSPRNYBXlhM=
 			</data>
 		</dict>
 		<key>star.dgpara.com.der</key>
@@ -138,6 +142,13 @@
 			<key>hash2</key>
 			<data>
 			yoWM3eXtwlK/Rza2KCJvuAoZcK3fC/2CGS1Uapk6MVM=
+			</data>
+		</dict>
+		<key>star.dgpara.com_05_11_2026.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vdRsKT9WitK9sA/Z3/YQo4NAqUz+RJqd13lVWFfI58Q=
 			</data>
 		</dict>
 		<key>star1.dgpara.com.der</key>

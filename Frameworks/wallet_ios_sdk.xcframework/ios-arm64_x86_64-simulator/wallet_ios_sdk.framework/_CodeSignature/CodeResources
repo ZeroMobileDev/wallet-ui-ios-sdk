@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		x9SfAf60YaxaDwI7RgTVHipzSZA=
+		AZcfEAfJfLGweR+F5NjNvpW1Nts=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		f0ngX8jR+3jUPrnfZ7aY57nuyL4=
+		c9/kzf9OTLPI0so8NlyjWaxUmTo=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		f0ngX8jR+3jUPrnfZ7aY57nuyL4=
+		c9/kzf9OTLPI0so8NlyjWaxUmTo=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		otnWvGgZR3Uclocm17IJ+xf1YFs=
+		ds2PSqqCYRzx84wb5Jr2XlClPTg=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		x9SfAf60YaxaDwI7RgTVHipzSZA=
+		AZcfEAfJfLGweR+F5NjNvpW1Nts=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		e0+PSx5+DN3ncW1NMWlGzcwlJfU=
+		ZAgPnmuq8Xi+WM+gBppW1FC5QOg=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -62,15 +62,19 @@
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		e0+PSx5+DN3ncW1NMWlGzcwlJfU=
+		ZAgPnmuq8Xi+WM+gBppW1FC5QOg=
 		</data>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		w+qDPzdJa/KZfRKEB/nUkkruV9M=
+		011ejs5rv6tHCONJ/vsLIkjz+jI=
 		</data>
 		<key>star.dgpara.com.der</key>
 		<data>
 		ErsOYBUglor9rjLNfRFkwqZpQ/c=
+		</data>
+		<key>star.dgpara.com_05_11_2026.der</key>
+		<data>
+		I3f96IKsPgogzDQ1HBdWjJz/RXs=
 		</data>
 		<key>star1.dgpara.com.der</key>
 		<data>
@@ -122,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mEqFzZII2RXKLAC1ZXNc4zkW01kPsvtO3hSsqHpW0Wo=
+			UvRCFNI4Ib0QTyabl/0MD0h/B+kYFNV/PMlkT2rcZQk=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m3IhNcK52+h0T9kAy6CplVIbH6Sg3UzYh5eRkxFsD50=
+			ES3cAeSPAT2mW+tHfmIzaIIMcJzT2VPPjdt+PlyI440=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -143,28 +147,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m3IhNcK52+h0T9kAy6CplVIbH6Sg3UzYh5eRkxFsD50=
+			ES3cAeSPAT2mW+tHfmIzaIIMcJzT2VPPjdt+PlyI440=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zpipOnSj1FWSZjaca7oAIKr55j4X38Va/A4eiDfDfxY=
+			XljKQnqrfqK2NXfFnYkXmgjDFqmHQp3t3J5FfQ/eVmc=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mEqFzZII2RXKLAC1ZXNc4zkW01kPsvtO3hSsqHpW0Wo=
+			UvRCFNI4Ib0QTyabl/0MD0h/B+kYFNV/PMlkT2rcZQk=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vvbCYiLFxkUJeAcs50cwS0MMLaZ2LBuwEL2C1+kGDU8=
+			rKbKHjrb3sVBGAPaYbpdW3tRw1Cs5v0zgiRmiK8Z1HE=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -178,14 +182,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vvbCYiLFxkUJeAcs50cwS0MMLaZ2LBuwEL2C1+kGDU8=
+			rKbKHjrb3sVBGAPaYbpdW3tRw1Cs5v0zgiRmiK8Z1HE=
 			</data>
 		</dict>
 		<key>Modules/wallet_ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xen12SRDj+vZIJq6OdmdMg3/N205R+0P1/QvDgv15mk=
+			X7j/IqqX3D+ADvLzfcdSjcjLTbNBJZs1Q7EJwW9SseI=
 			</data>
 		</dict>
 		<key>star.dgpara.com.der</key>
@@ -193,6 +197,13 @@
 			<key>hash2</key>
 			<data>
 			yoWM3eXtwlK/Rza2KCJvuAoZcK3fC/2CGS1Uapk6MVM=
+			</data>
+		</dict>
+		<key>star.dgpara.com_05_11_2026.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vdRsKT9WitK9sA/Z3/YQo4NAqUz+RJqd13lVWFfI58Q=
 			</data>
 		</dict>
 		<key>star1.dgpara.com.der</key>

@@ -78,31 +78,55 @@
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		Sae4lGD7S4rgCPa5Towr0JZKltM=
+		Mz4YXZOpjoDXFApEd8aaX9n7Ul8=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ArFn/qV6jTRA3kIihidfkt0I4d4=
+		s2/6GiZZ3ZJ2LGdNLlYUqopO1Tw=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		LHlTW4HztEovtWh76EK+cNQq6VY=
+		nP8Z5spt4Gz9cF9/Uo1foZ95tmw=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		pT7xVOEEQ2bvskq5JivWqUbf/2I=
+		E6yirEkhXQceyNMcypjX4d9vF1o=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		LHlTW4HztEovtWh76EK+cNQq6VY=
+		nP8Z5spt4Gz9cF9/Uo1foZ95tmw=
 		</data>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		BDEawnW3S95ZlVlumXu8cfxdRFE=
+		85yYiKTeKhGkSAr/4y15XCQqusk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		hoWkA1+1JJ5DV2en4G17iOdS2DU=
+		bv0J/ZaDE9j+4USp9VrEof0rALU=
+		</data>
+		<key>PrivateHeaders/MfsCard.h</key>
+		<data>
+		pirGt3ri3PiYtGANEq1dxlGHQO4=
+		</data>
+		<key>PrivateHeaders/MfsCheckbox.h</key>
+		<data>
+		w61hWUwmg3k/4/jHaYq4+NDx3Lc=
+		</data>
+		<key>PrivateHeaders/MfsIOSLibrary.h</key>
+		<data>
+		EiME9X2rGlyj4ny9AT4LOT3Dn0w=
+		</data>
+		<key>PrivateHeaders/MfsResponse.h</key>
+		<data>
+		p50RGhrcJD0gaAwwf0jZb1L5wJQ=
+		</data>
+		<key>PrivateHeaders/MfsTextField.h</key>
+		<data>
+		yVGciZoJ57ZiqmhjllcEBfTTg8o=
+		</data>
+		<key>PrivateHeaders/MfsWebView.h</key>
+		<data>
+		3fbwI1tyjQxOHXbhaCcWkQFBKn8=
 		</data>
 		<key>SourceSansPro-Black.ttf</key>
 		<data>
@@ -211,6 +235,10 @@
 		<key>opetPayLoading.json</key>
 		<data>
 		AVgNL3N8t8rkw3dE63h1znmqS2w=
+		</data>
+		<key>pubkey2.pem</key>
+		<data>
+		cj6isiQdHOTZdYf8LceLhVucMfQ=
 		</data>
 		<key>star.dgpara.com_05_11_2026.der</key>
 		<data>
@@ -419,77 +447,143 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Sae4lGD7S4rgCPa5Towr0JZKltM=
+			Mz4YXZOpjoDXFApEd8aaX9n7Ul8=
 			</data>
 			<key>hash2</key>
 			<data>
-			P4SQsMbqLcDPH9k0CYDqJ4JvuapQ/h+necfguAxLUYs=
+			QgGUJTpeBg1l9QtEy6Nkbb4yhQ09O8vnXlMIhTp2/R4=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ArFn/qV6jTRA3kIihidfkt0I4d4=
+			s2/6GiZZ3ZJ2LGdNLlYUqopO1Tw=
 			</data>
 			<key>hash2</key>
 			<data>
-			TqtJuswMm7uTR3uq3LLyhR2Yezz+2gfMUY18L1JJAIc=
+			fuiasT/HH0OKvX5M/vlpypJelSE50JLj4iuPZuDnIkA=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LHlTW4HztEovtWh76EK+cNQq6VY=
+			nP8Z5spt4Gz9cF9/Uo1foZ95tmw=
 			</data>
 			<key>hash2</key>
 			<data>
-			fNlYAtW3pEVASUveQgwcIT4FkNEryYGWhm+yx7YakFU=
+			TSElO0rNURV/lpI8Ik8pvfHSbnWlAY7T1sU3L9tDZxI=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pT7xVOEEQ2bvskq5JivWqUbf/2I=
+			E6yirEkhXQceyNMcypjX4d9vF1o=
 			</data>
 			<key>hash2</key>
 			<data>
-			S6ypviD1SjxZx7NkkF742/ufnqy5ZmxPMS2v9/5TElg=
+			XZ292FXAUungmOboCDPSwM4tsZyeX+hHZvWG8/X4/dM=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LHlTW4HztEovtWh76EK+cNQq6VY=
+			nP8Z5spt4Gz9cF9/Uo1foZ95tmw=
 			</data>
 			<key>hash2</key>
 			<data>
-			fNlYAtW3pEVASUveQgwcIT4FkNEryYGWhm+yx7YakFU=
+			TSElO0rNURV/lpI8Ik8pvfHSbnWlAY7T1sU3L9tDZxI=
 			</data>
 		</dict>
 		<key>Modules/WalletUISdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BDEawnW3S95ZlVlumXu8cfxdRFE=
+			85yYiKTeKhGkSAr/4y15XCQqusk=
 			</data>
 			<key>hash2</key>
 			<data>
-			JE4qg6j6Rkr64sF4HlWxdF1B3wovuCEFAQNxwwkpVM8=
+			Ag7IfRhpvCc/6LodO8ghVwqFw77swRY+Ml1/LLC8x7g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hoWkA1+1JJ5DV2en4G17iOdS2DU=
+			bv0J/ZaDE9j+4USp9VrEof0rALU=
 			</data>
 			<key>hash2</key>
 			<data>
-			bwCeXg4zOPF/9yFP0BFfWMvZhXrx0ngFjMU17vrXDUE=
+			UyKVXaM45q5qTWdNODFNEMhndnRepWKBxMAKEye0ewE=
+			</data>
+		</dict>
+		<key>PrivateHeaders/MfsCard.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pirGt3ri3PiYtGANEq1dxlGHQO4=
+			</data>
+			<key>hash2</key>
+			<data>
+			+Ep3lAeXbbSp0NFZWW5OnwICb38QEB65tE1pbg9rF8I=
+			</data>
+		</dict>
+		<key>PrivateHeaders/MfsCheckbox.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w61hWUwmg3k/4/jHaYq4+NDx3Lc=
+			</data>
+			<key>hash2</key>
+			<data>
+			7bjz18qVNTMtCPVKECOxbsjlQ842swwlMVeB0qFLg2k=
+			</data>
+		</dict>
+		<key>PrivateHeaders/MfsIOSLibrary.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EiME9X2rGlyj4ny9AT4LOT3Dn0w=
+			</data>
+			<key>hash2</key>
+			<data>
+			gUPxwfTq4gqAFNhOT/2vhnmkpqy9kAwKLlk5lm5TTUY=
+			</data>
+		</dict>
+		<key>PrivateHeaders/MfsResponse.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p50RGhrcJD0gaAwwf0jZb1L5wJQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			7XSrW1m767fFMsLUID+buxVFBmya5nRDwXamr1VnIlE=
+			</data>
+		</dict>
+		<key>PrivateHeaders/MfsTextField.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yVGciZoJ57ZiqmhjllcEBfTTg8o=
+			</data>
+			<key>hash2</key>
+			<data>
+			atrkc8I3Sf+q/CgQNBlxi/rLxVOc2Bv1KK/8grhDVes=
+			</data>
+		</dict>
+		<key>PrivateHeaders/MfsWebView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3fbwI1tyjQxOHXbhaCcWkQFBKn8=
+			</data>
+			<key>hash2</key>
+			<data>
+			aIR06KERmRAB1AWoYsu+fCnrTnFlIfzidHnY/mxAO/4=
 			</data>
 		</dict>
 		<key>SourceSansPro-Black.ttf</key>
@@ -787,6 +881,17 @@
 			<key>hash2</key>
 			<data>
 			AVpkyWk7Nw8GdgkR23MIp2qUfPKqaYB2jTWlJtQPOFQ=
+			</data>
+		</dict>
+		<key>pubkey2.pem</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cj6isiQdHOTZdYf8LceLhVucMfQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			KydtQBtLBb61ru+E7fcA0uWapKF+qDthtlpALISULDc=
 			</data>
 		</dict>
 		<key>star.dgpara.com_05_11_2026.der</key>
