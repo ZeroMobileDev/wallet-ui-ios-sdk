@@ -17,6 +17,7 @@ import FirebaseAnalytics
 import FirebaseCore
 import Foundation
 import Lottie
+import Masterpass
 import NFCModule
 import Network
 import OcrModule
@@ -43,7 +44,9 @@ extension wallet_ios_sdk.TopupPayStartOutputParams : WalletUISdk.WalletOutputPar
 }
 extension wallet_ios_sdk.TopupPayCommitOutputParams : WalletUISdk.WalletOutputParams {
 }
-extension wallet_ios_sdk.GetMasterpassConfigOutputParams : WalletUISdk.WalletOutputParams {
+extension wallet_ios_sdk.GetMasterpassV2ConfigOutputParams : WalletUISdk.WalletOutputParams {
+}
+extension wallet_ios_sdk.GenerateTokenOutputParams : WalletUISdk.WalletOutputParams {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class LoadingView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
@@ -126,17 +129,18 @@ public class WalletUiSDK {
     public static func paymentWalletMobilePhone(transactCode: Swift.Int? = nil, amount: Swift.Double? = nil, referenceNumber: Swift.Int? = nil, originalReferenceNumber: Swift.Int? = nil, guidReferenceNumber: Foundation.UUID? = nil, descriptionText: Swift.String? = nil, userName: Swift.String? = nil, merchantId: Swift.Int = 1000, stationId: Swift.Int = 0, transactionType: Swift.Int = 1, completion: @escaping (Swift.Result<wallet_ios_sdk.PaymentWalletMobileOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
     #endif
     #if compiler(>=5.3) && $NonescapableTypes
-    public static func topupPayStart(amount: Swift.Double? = nil, expenseAmount: Swift.Double? = nil, userValidationType: Swift.String? = nil, destinationAccountID: Swift.Int? = nil, descriptionText: Swift.String? = nil, referenceNumber: Swift.Int? = nil, guidReferenceNumber: Foundation.UUID? = nil, merchantId: Swift.Int = 1000, stationId: Swift.Int = 0, transactionType: Swift.Int = 1, completion: @escaping (Swift.Result<wallet_ios_sdk.TopupPayStartOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
+    public static func topupPayStart(amount: Swift.Double? = nil, expenseAmount: Swift.Double? = nil, authenticationMethod: Swift.String? = nil, destinationAccountID: Swift.Int? = nil, descriptionText: Swift.String? = nil, referenceNumber: Swift.Int? = nil, guidReferenceNumber: Foundation.UUID? = nil, merchantId: Swift.Int = 1000, stationId: Swift.Int = 0, transactionType: Swift.Int = 1, completion: @escaping (Swift.Result<wallet_ios_sdk.TopupPayStartOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
     #endif
     #if compiler(>=5.3) && $NonescapableTypes
-    public static func topupPayCommit(commitToken: Swift.String? = nil, orderID: Swift.String? = nil, masterpassCardID: Swift.String? = nil, amount: Swift.Double? = nil, merchantId: Swift.Int = 1000, stationId: Swift.Int = 0, transactionType: Swift.Int = 1, completion: @escaping (Swift.Result<wallet_ios_sdk.TopupPayCommitOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
+    public static func topupPayCommit(commitToken: Swift.String? = nil, orderID: Swift.String? = nil, masterpassCardID: Swift.String? = nil, amount: Swift.Double? = nil, merchantId: Swift.Int = 1000, stationId: Swift.Int = 0, transactionType: Swift.Int = 1, masterpassToken: Swift.String = "", completion: @escaping (Swift.Result<wallet_ios_sdk.TopupPayCommitOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
     #endif
     #if compiler(>=5.3) && $NonescapableTypes
-    public static func getMasterpassConfig(userValidationType: Swift.String?, referenceNumber: Swift.Int?, completion: @escaping (Swift.Result<wallet_ios_sdk.GetMasterpassConfigOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
+    public static func getMasterpassConfig(authenticationMethod: Swift.String, completion: @escaping (Swift.Result<wallet_ios_sdk.GetMasterpassV2ConfigOutputParams, WalletUISdk.GeneralError>) -> Swift.Void)
     #endif
   }
   @objc deinit
 }
+
 public enum QrTransactionType : Swift.String, Swift.CaseIterable {
   case cancelationAmountWithoutPaymentMethod
   case refundAmountWithoutPaymentMethod
@@ -175,6 +179,48 @@ public struct QuestionListModelDTO : Swift.Hashable {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s11WalletUISdk0A8MainViewV4bodyQrvp", 0) __
+}
+@_hasMissingDesignatedInitializers public class MasterpassV2SDK {
+  public static let shared: WalletUISdk.MasterpassV2SDK
+  public func initialize(merchantId: Swift.Int, terminalGroupId: Swift.String, url: Swift.String = "https://mp-test-sdk.masterpassturkiye.com/")
+  public func setToken(_ token: Swift.String)
+  public func setUserId(_ id: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func createMPCard(mpCardNumberText: Masterpass.MPText, cardName: Swift.String, mpCVV: Masterpass.MPText, expirationDate: Swift.String, checkBox: Masterpass.MPCheckBox?) -> Masterpass.MPCard
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func linkAccountToMerchant(requiredOTP: @escaping (Swift.String) -> Swift.Void = {_ in}, onSuccess: @escaping (Masterpass.LinkToMerchantResponse) -> Swift.Void = {_ in}, showFailureMessage: @escaping (Swift.String) -> Swift.Void = {_ in }, onLogging: @escaping (Swift.String, Swift.String, Swift.String, Swift.String) -> Swift.Void = {_, _, _, _ in }, onFailure: @escaping (Masterpass.ServiceError?) -> Swift.Void = {_ in})
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func completeRegistration(alias: Swift.String, isMsisdnValidatedByMerchant: Swift.Bool? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func getCards(onUserNotFound: @escaping () -> Swift.Void = {}, onAccountNotFound: @escaping () -> Swift.Void = {}, onMustLinkToMerchant: @escaping () -> Swift.Void = {}, onSuccess: @escaping ([Masterpass.CardModel]) -> Swift.Void = {_ in}, showFailureMessage: @escaping (Swift.String) -> Swift.Void = {_ in }, onLogging: @escaping (Swift.String, Swift.String, Swift.String, Swift.String) -> Swift.Void = {_, _, _, _ in }, onFailure: @escaping (Masterpass.ServiceError?) -> Swift.Void = {_ in})
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func removeCard(cardAlias: Swift.String, onSuccess: @escaping () -> Swift.Void = {}, showFailureMessage: @escaping (Swift.String) -> Swift.Void = {_ in }, onLogging: @escaping (Swift.String, Swift.String, Swift.String, Swift.String) -> Swift.Void = {_, _, _, _ in }, onFailure: @escaping (Masterpass.ServiceError?) -> Swift.Void = {_ in})
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func addCard(card: Masterpass.MPCard, alias: Swift.String, isMsisdnValidatedByMerchant: Swift.Bool = false, authenticationMethod: Masterpass.AuthType = .otp, requiredOTP: @escaping (Swift.String) -> Swift.Void = {_ in}, onSuccess: @escaping (Masterpass.GeneralResponseWith3D) -> Swift.Void = {_ in}, showFailureMessage: @escaping (Swift.String) -> Swift.Void = {_ in }, onLogging: @escaping (Swift.String, Swift.String, Swift.String, Swift.String) -> Swift.Void = {_, _, _, _ in }, onFailure: @escaping (Masterpass.ServiceError?) -> Swift.Void = {_ in})
+  #endif
+  public func verifyOTP(jwtToken: Swift.String, otp: Masterpass.MPText, onRepeat: @escaping (Swift.Int, Swift.String) -> Swift.Void = {_,_  in }, onOpen3DSecureWebView: @escaping (Swift.String) -> Swift.Void = {_ in}, onSuccess: @escaping (Masterpass.VerifyResponse) -> Swift.Void = {_ in}, isNotVerified: @escaping () -> Swift.Void = { }, showFailureMessage: @escaping (Swift.String) -> Swift.Void = {_ in }, onLogging: @escaping (Swift.String, Swift.String, Swift.String, Swift.String) -> Swift.Void = {_, _, _, _ in }, onFailure: @escaping (Masterpass.ServiceError) -> Swift.Void = {_ in})
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func reSendOTP(jwtToken: Swift.String, onSuccess: @escaping (Masterpass.GeneralResponse) -> Swift.Void = {_ in}, isNotVerified: @escaping () -> Swift.Void = { }, showFailureMessage: @escaping (Swift.String) -> Swift.Void = {_ in }, onLogging: @escaping (Swift.String, Swift.String, Swift.String, Swift.String) -> Swift.Void = {_, _, _, _ in }, onFailure: @escaping (Masterpass.ServiceError?) -> Swift.Void = {_ in})
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func payment(token: Swift.String, rrn: Swift.String? = nil, cvv: Masterpass.MPText? = nil, cardAlias: Swift.String? = nil, amount: Swift.String? = nil, orderNo: Swift.String? = nil, currencyCode: Masterpass.MPCurrencyCode? = nil, paymentType: Masterpass.PaymentType? = nil, acquirerIcaNumber: Swift.String? = nil, installmentCount: Swift.Int? = 0, subMerchant: Masterpass.SubMerchant? = nil, rewardList: [Masterpass.Reward]? = nil, orderDetails: Masterpass.OrderDetails? = nil, authenticationMethod: Masterpass.AuthType? = nil, orderProductDetails: Masterpass.OrderProductDetails? = nil, buyerDetails: Masterpass.BuyerDetails? = nil, billDetails: Masterpass.BillDetails? = nil, deliveryDetails: Masterpass.DeliveryDetails? = nil, otherDetails: Masterpass.OtherDetails? = nil, secure3DModel: Masterpass.SecurityType? = nil, terminal: Masterpass.Terminal? = nil, mokaSubDealerDetails: Masterpass.MokaSubDealerDetails? = nil, customParameters: Masterpass.CustomParameters? = nil, additionalParams: [Swift.String : Swift.String]? = nil, onOpen3DSecureWebView: @escaping (Swift.String) -> Swift.Void = {_ in}, onSuccess: @escaping (Masterpass.PaymentResponse) -> Swift.Void = {_ in}, showFailureMessage: @escaping (Swift.String) -> Swift.Void = {_ in }, onLogging: @escaping (Swift.String, Swift.String, Swift.String, Swift.String) -> Swift.Void = {_, _, _, _ in }, onFailure: @escaping (Masterpass.ServiceError) -> Swift.Void = {_ in})
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func start3DValidation(paymentToken: Swift.String, returnURL: Swift.String? = nil, webView: Masterpass.MPWebView, onSuccess: @escaping (Masterpass.Status3D) -> Swift.Void = {_ in}, showFailureMessage: @escaping (Swift.String) -> Swift.Void = {_ in }, onLogging: @escaping (Swift.String, Swift.String, Swift.String, Swift.String) -> Swift.Void = {_, _, _, _ in }, onFailure: @escaping (Masterpass.MPError) -> Swift.Void = {_ in})
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func registerAndPurchase(jToken: Swift.String, card: Masterpass.MPCard? = nil, cardAlias: Swift.String? = nil, amount: Swift.String? = nil, orderNo: Swift.String? = nil, currencyCode: Masterpass.MPCurrencyCode? = nil, paymentType: Masterpass.PaymentType? = nil, acquirerIcaNumber: Swift.String? = nil, installmentCount: Swift.Int? = nil, subMerchant: Masterpass.SubMerchant? = nil, rewardList: [Masterpass.Reward]? = nil, orderDetails: Masterpass.OrderDetails? = nil, authenticationMethod: Masterpass.AuthType? = nil, orderProductsDetails: Masterpass.OrderProductDetails? = nil, buyerDetails: Masterpass.BuyerDetails? = nil, billDetails: Masterpass.BillDetails? = nil, deliveryDetails: Masterpass.DeliveryDetails? = nil, otherDetails: Masterpass.OtherDetails? = nil, secure3DModel: Masterpass.SecurityType? = nil, terminal: Masterpass.Terminal? = nil, isMsisdnValidatedByMerchant: Swift.Bool? = nil, customParameters: Masterpass.CustomParameters? = nil, additionalParams: [Swift.String : Swift.String]? = nil, requiredOTP: @escaping (Swift.String) -> Swift.Void = {_ in}, onOpen3DSecureWebView: @escaping (Swift.String) -> Swift.Void = {_ in}, onSuccess: @escaping (Masterpass.RegisterAndPurchaseResponse) -> Swift.Void = {_ in}, showFailureMessage: @escaping (Swift.String) -> Swift.Void = {_ in }, onLogging: @escaping (Swift.String, Swift.String, Swift.String, Swift.String) -> Swift.Void = {_, _, _, _ in }, onFailure: @escaping (Masterpass.ServiceError) -> Swift.Void = {_ in})
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func directPayment(jToken: Swift.String, rrn: Swift.String?, card: Masterpass.MPCard?, cardAlias: Swift.String?, accountKey: Swift.String?, amount: Swift.String?, orderNo: Swift.String?, currencyCode: Masterpass.MPCurrencyCode?, paymentType: Masterpass.PaymentType?, acquirerIcaNumber: Swift.String?, installmentCount: Swift.Int? = 0, subMerchant: Masterpass.SubMerchant?, rewardList: [Masterpass.Reward]?, orderDetails: Masterpass.OrderDetails?, authenticationMethod: Masterpass.AuthType?, orderProductDetails: Masterpass.OrderProductDetails?, buyerDetails: Masterpass.BuyerDetails?, billDetails: Masterpass.BillDetails?, deliveryDetails: Masterpass.DeliveryDetails?, otherDetails: Masterpass.OtherDetails?, secure3DModel: Masterpass.SecurityType?, terminal: Masterpass.Terminal?, mokaSubDealerDetails: Masterpass.MokaSubDealerDetails?, customParameters: Masterpass.CustomParameters?, additionalParams: [Swift.String : Swift.String]? = nil, onSuccess: @escaping (Masterpass.PaymentResponse) -> Swift.Void = {_ in}, showFailureMessage: @escaping (Swift.String) -> Swift.Void = {_ in }, onLogging: @escaping (Swift.String, Swift.String, Swift.String) -> Swift.Void = {_, _, _ in }, onFailure: @escaping (Masterpass.ServiceError) -> Swift.Void = {_ in})
+  #endif
+  public func updateUserId()
+  @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct SplashAnimationView : SwiftUI.UIViewRepresentable {
   #if compiler(>=5.3) && $NonescapableTypes

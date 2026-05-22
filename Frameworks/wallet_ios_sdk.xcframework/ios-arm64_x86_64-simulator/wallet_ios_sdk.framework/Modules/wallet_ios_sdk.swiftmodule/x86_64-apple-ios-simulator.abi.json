@@ -37755,8 +37755,8 @@
           },
           {
             "kind": "Var",
-            "name": "userValidationType",
-            "printedName": "userValidationType",
+            "name": "authenticationMethod",
+            "printedName": "authenticationMethod",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -37774,8 +37774,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14wallet_ios_sdk24TopupPayStartInputParamsC18userValidationTypeSSSgvp",
-            "mangledName": "$s14wallet_ios_sdk24TopupPayStartInputParamsC18userValidationTypeSSSgvp",
+            "usr": "s:14wallet_ios_sdk24TopupPayStartInputParamsC20authenticationMethodSSSgvp",
+            "mangledName": "$s14wallet_ios_sdk24TopupPayStartInputParamsC20authenticationMethodSSSgvp",
             "moduleName": "wallet_ios_sdk",
             "declAttributes": [
               "HasInitialValue",
@@ -37805,8 +37805,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14wallet_ios_sdk24TopupPayStartInputParamsC18userValidationTypeSSSgvg",
-                "mangledName": "$s14wallet_ios_sdk24TopupPayStartInputParamsC18userValidationTypeSSSgvg",
+                "usr": "s:14wallet_ios_sdk24TopupPayStartInputParamsC20authenticationMethodSSSgvg",
+                "mangledName": "$s14wallet_ios_sdk24TopupPayStartInputParamsC20authenticationMethodSSSgvg",
                 "moduleName": "wallet_ios_sdk",
                 "implicit": true,
                 "accessorKind": "get"
@@ -37837,8 +37837,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14wallet_ios_sdk24TopupPayStartInputParamsC18userValidationTypeSSSgvs",
-                "mangledName": "$s14wallet_ios_sdk24TopupPayStartInputParamsC18userValidationTypeSSSgvs",
+                "usr": "s:14wallet_ios_sdk24TopupPayStartInputParamsC20authenticationMethodSSSgvs",
+                "mangledName": "$s14wallet_ios_sdk24TopupPayStartInputParamsC20authenticationMethodSSSgvs",
                 "moduleName": "wallet_ios_sdk",
                 "implicit": true,
                 "accessorKind": "set"
@@ -37855,8 +37855,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14wallet_ios_sdk24TopupPayStartInputParamsC18userValidationTypeSSSgvM",
-                "mangledName": "$s14wallet_ios_sdk24TopupPayStartInputParamsC18userValidationTypeSSSgvM",
+                "usr": "s:14wallet_ios_sdk24TopupPayStartInputParamsC20authenticationMethodSSSgvM",
+                "mangledName": "$s14wallet_ios_sdk24TopupPayStartInputParamsC20authenticationMethodSSSgvM",
                 "moduleName": "wallet_ios_sdk",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -38766,8 +38766,8 @@
           },
           {
             "kind": "Function",
-            "name": "getUserValidationType",
-            "printedName": "getUserValidationType()",
+            "name": "getAuthenticationMethod",
+            "printedName": "getAuthenticationMethod()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -38777,8 +38777,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14wallet_ios_sdk24TopupPayStartInputParamsC21getUserValidationTypeSSyF",
-            "mangledName": "$s14wallet_ios_sdk24TopupPayStartInputParamsC21getUserValidationTypeSSyF",
+            "usr": "s:14wallet_ios_sdk24TopupPayStartInputParamsC23getAuthenticationMethodSSyF",
+            "mangledName": "$s14wallet_ios_sdk24TopupPayStartInputParamsC23getAuthenticationMethodSSyF",
             "moduleName": "wallet_ios_sdk",
             "deprecated": true,
             "declAttributes": [
@@ -38789,8 +38789,8 @@
           },
           {
             "kind": "Function",
-            "name": "setUserValidationType",
-            "printedName": "setUserValidationType(userValidationType:)",
+            "name": "setAuthenticationMethod",
+            "printedName": "setAuthenticationMethod(authenticationMethod:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -38805,8 +38805,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14wallet_ios_sdk24TopupPayStartInputParamsC21setUserValidationType04userkL0ySS_tF",
-            "mangledName": "$s14wallet_ios_sdk24TopupPayStartInputParamsC21setUserValidationType04userkL0ySS_tF",
+            "usr": "s:14wallet_ios_sdk24TopupPayStartInputParamsC23setAuthenticationMethod014authenticationK0ySS_tF",
+            "mangledName": "$s14wallet_ios_sdk24TopupPayStartInputParamsC23setAuthenticationMethod014authenticationK0ySS_tF",
             "moduleName": "wallet_ios_sdk",
             "deprecated": true,
             "declAttributes": [
@@ -295238,6 +295238,116 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "masterpassToken",
+            "printedName": "masterpassToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14wallet_ios_sdk25TopupPayCommitInputParamsC15masterpassTokenSSSgvp",
+            "mangledName": "$s14wallet_ios_sdk25TopupPayCommitInputParamsC15masterpassTokenSSSgvp",
+            "moduleName": "wallet_ios_sdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk25TopupPayCommitInputParamsC15masterpassTokenSSSgvg",
+                "mangledName": "$s14wallet_ios_sdk25TopupPayCommitInputParamsC15masterpassTokenSSSgvg",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk25TopupPayCommitInputParamsC15masterpassTokenSSSgvs",
+                "mangledName": "$s14wallet_ios_sdk25TopupPayCommitInputParamsC15masterpassTokenSSSgvs",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk25TopupPayCommitInputParamsC15masterpassTokenSSSgvM",
+                "mangledName": "$s14wallet_ios_sdk25TopupPayCommitInputParamsC15masterpassTokenSSSgvM",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "encode",
             "printedName": "encode(to:)",
@@ -306675,14 +306785,14 @@
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/Data\/Module\/Balance\/Request\/TopupPayStartInputParams.swift",
       "kind": "StringLiteral",
-      "offset": 746,
+      "offset": 750,
       "length": 22,
       "value": "\"destinationAccountId\""
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/Data\/Module\/Balance\/Request\/TopupPayStartInputParams.swift",
       "kind": "StringLiteral",
-      "offset": 800,
+      "offset": 804,
       "length": 13,
       "value": "\"description\""
     },
@@ -315264,14 +315374,14 @@
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/Data\/Module\/Balance\/Request\/TopupPayCommitInputParams.swift",
       "kind": "StringLiteral",
-      "offset": 522,
+      "offset": 562,
       "length": 9,
       "value": "\"orderId\""
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/Data\/Module\/Balance\/Request\/TopupPayCommitInputParams.swift",
       "kind": "StringLiteral",
-      "offset": 564,
+      "offset": 604,
       "length": 18,
       "value": "\"masterpassCardId\""
     },
