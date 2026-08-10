@@ -10494,6 +10494,42 @@
           },
           {
             "kind": "Function",
+            "name": "getCustomerInfoKYC",
+            "printedName": "getCustomerInfoKYC(onResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(wallet_ios_sdk.GetCustomerInfoKYCResponseModel) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetCustomerInfoKYCResponseModel",
+                    "printedName": "wallet_ios_sdk.GetCustomerInfoKYCResponseModel",
+                    "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WalletUISdk23RegisterScreenViewModelC18getCustomerInfoKYC8onResultyy14wallet_ios_sdk03Gethi11KYCResponseF0Cc_tF",
+            "mangledName": "$s11WalletUISdk23RegisterScreenViewModelC18getCustomerInfoKYC8onResultyy14wallet_ios_sdk03Gethi11KYCResponseF0Cc_tF",
+            "moduleName": "WalletUISdk",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "takeAgreementList",
             "printedName": "takeAgreementList()",
             "children": [
@@ -56314,34 +56350,6 @@
           },
           {
             "kind": "Function",
-            "name": "updateSessionState",
-            "printedName": "updateSessionState(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SessionState",
-                "printedName": "WalletUISdk.EnQualifyV2BaseViewModel.SessionState",
-                "usr": "s:11WalletUISdk24EnQualifyV2BaseViewModelC12SessionStateO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11WalletUISdk24EnQualifyV2BaseViewModelC18updateSessionStateyyAC0jK0OF",
-            "mangledName": "$s11WalletUISdk24EnQualifyV2BaseViewModelC18updateSessionStateyyAC0jK0OF",
-            "moduleName": "WalletUISdk",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "executeOnMainThread",
             "printedName": "executeOnMainThread(_:)",
             "children": [
@@ -79412,6 +79420,1246 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "ViewStatusKYCAlertViewDialog",
+        "printedName": "ViewStatusKYCAlertViewDialog",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "alertView",
+            "printedName": "alertView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AlertModel",
+                "printedName": "WalletUISdk.AlertModel",
+                "usr": "s:11WalletUISdk10AlertModelC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV05alertC0AA10AlertModelCvp",
+            "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV05alertC0AA10AlertModelCvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "ProjectedValueProperty",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertModel",
+                    "printedName": "WalletUISdk.AlertModel",
+                    "usr": "s:11WalletUISdk10AlertModelC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV05alertC0AA10AlertModelCvg",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV05alertC0AA10AlertModelCvg",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertModel",
+                    "printedName": "WalletUISdk.AlertModel",
+                    "usr": "s:11WalletUISdk10AlertModelC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV05alertC0AA10AlertModelCvs",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV05alertC0AA10AlertModelCvs",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV05alertC0AA10AlertModelCvM",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV05alertC0AA10AlertModelCvM",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$alertView",
+            "printedName": "$alertView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<WalletUISdk.AlertModel>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertModel",
+                    "printedName": "WalletUISdk.AlertModel",
+                    "usr": "s:11WalletUISdk10AlertModelC"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV06$alertC07SwiftUI7BindingVyAA10AlertModelCGvp",
+            "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV06$alertC07SwiftUI7BindingVyAA10AlertModelCGvp",
+            "moduleName": "WalletUISdk",
+            "implicit": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<WalletUISdk.AlertModel>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertModel",
+                        "printedName": "WalletUISdk.AlertModel",
+                        "usr": "s:11WalletUISdk10AlertModelC"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV06$alertC07SwiftUI7BindingVyAA10AlertModelCGvg",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV06$alertC07SwiftUI7BindingVyAA10AlertModelCGvg",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_alertView",
+            "printedName": "_alertView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "SwiftUI.State<WalletUISdk.AlertModel>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertModel",
+                    "printedName": "WalletUISdk.AlertModel",
+                    "usr": "s:11WalletUISdk10AlertModelC"
+                  }
+                ],
+                "usr": "s:7SwiftUI5StateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV06_alertC033_83A5698650E7F1F54AAA6D712BE99389LL7SwiftUI5StateVyAA10AlertModelCGvp",
+            "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV06_alertC033_83A5698650E7F1F54AAA6D712BE99389LL7SwiftUI5StateVyAA10AlertModelCGvp",
+            "moduleName": "WalletUISdk",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "btnAction",
+            "printedName": "btnAction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV9btnActionyycvp",
+            "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV9btnActionyycvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV9btnActionyycvg",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV9btnActionyycvg",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV9btnActionyycvs",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV9btnActionyycvs",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV9btnActionyycvM",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV9btnActionyycvM",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rejectBtnAction",
+            "printedName": "rejectBtnAction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV15rejectBtnActionyycvp",
+            "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV15rejectBtnActionyycvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV15rejectBtnActionyycvg",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV15rejectBtnActionyycvg",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV15rejectBtnActionyycvs",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV15rejectBtnActionyycvs",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV15rejectBtnActionyycvM",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV15rejectBtnActionyycvM",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "denyBtnAction",
+            "printedName": "denyBtnAction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV13denyBtnActionyycSgvp",
+            "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV13denyBtnActionyycSgvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV13denyBtnActionyycSgvg",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV13denyBtnActionyycSgvg",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV13denyBtnActionyycSgvs",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV13denyBtnActionyycSgvs",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV13denyBtnActionyycSgvM",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV13denyBtnActionyycSgvM",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rejectButtonColor",
+            "printedName": "rejectButtonColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV17rejectButtonColor7SwiftUI0I0Vvp",
+            "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV17rejectButtonColor7SwiftUI0I0Vvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV17rejectButtonColor7SwiftUI0I0Vvg",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV17rejectButtonColor7SwiftUI0I0Vvg",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rejectTextColor",
+            "printedName": "rejectTextColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV15rejectTextColor7SwiftUI0I0Vvp",
+            "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV15rejectTextColor7SwiftUI0I0Vvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV15rejectTextColor7SwiftUI0I0Vvg",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV15rejectTextColor7SwiftUI0I0Vvg",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "acceptButtonColor",
+            "printedName": "acceptButtonColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV17acceptButtonColor7SwiftUI0I0Vvp",
+            "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV17acceptButtonColor7SwiftUI0I0Vvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 6,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV17acceptButtonColor7SwiftUI0I0Vvg",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV17acceptButtonColor7SwiftUI0I0Vvg",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "acceptTextColor",
+            "printedName": "acceptTextColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV15acceptTextColor7SwiftUI0I0Vvp",
+            "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV15acceptTextColor7SwiftUI0I0Vvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 7,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV15acceptTextColor7SwiftUI0I0Vvg",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV15acceptTextColor7SwiftUI0I0Vvg",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customContent",
+            "printedName": "customContent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV13customContentxycvp",
+            "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV13customContentxycvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 8,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> τ_0_0",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV13customContentxycvg",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV13customContentxycvg",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> τ_0_0",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV13customContentxycvs",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV13customContentxycvs",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV13customContentxycvM",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV13customContentxycvM",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV4bodyQrvp",
+            "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV4bodyQrvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV4bodyQrvg",
+                "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV4bodyQrvg",
+                "moduleName": "WalletUISdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(alertView:btnAction:rejectBtnAction:denyBtnAction:rejectButtonColor:rejectTextColor:acceptButtonColor:acceptTextColor:customContent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ViewStatusKYCAlertViewDialog",
+                "printedName": "WalletUISdk.ViewStatusKYCAlertViewDialog<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertModel",
+                "printedName": "WalletUISdk.AlertModel",
+                "usr": "s:11WalletUISdk10AlertModelC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV05alertC09btnAction09rejectBtnI004denykI00J11ButtonColor0j4TextN006acceptmN00poN013customContentACyxGAA10AlertModelC_yycyycyycSg7SwiftUI0N0VA3Sxyctcfc",
+            "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV05alertC09btnAction09rejectBtnI004denykI00J11ButtonColor0j4TextN006acceptmN00poN013customContentACyxGAA10AlertModelC_yycyycyycSg7SwiftUI0N0VA3Sxyctcfc",
+            "moduleName": "WalletUISdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11WalletUISdk018ViewStatusKYCAlertC6DialogV",
+        "mangledName": "$s11WalletUISdk018ViewStatusKYCAlertC6DialogV",
+        "moduleName": "WalletUISdk",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -101277,6 +102525,105 @@
                 "declKind": "Accessor",
                 "usr": "s:11WalletUISdk7UtilityC5emailSSSgvM",
                 "mangledName": "$s11WalletUISdk7UtilityC5emailSSSgvM",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showAnonimKycAlert",
+            "printedName": "showAnonimKycAlert",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk7UtilityC18showAnonimKycAlertSbvp",
+            "mangledName": "$s11WalletUISdk7UtilityC18showAnonimKycAlertSbvp",
+            "moduleName": "WalletUISdk",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 7,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk7UtilityC18showAnonimKycAlertSbvg",
+                "mangledName": "$s11WalletUISdk7UtilityC18showAnonimKycAlertSbvg",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk7UtilityC18showAnonimKycAlertSbvs",
+                "mangledName": "$s11WalletUISdk7UtilityC18showAnonimKycAlertSbvs",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk7UtilityC18showAnonimKycAlertSbvM",
+                "mangledName": "$s11WalletUISdk7UtilityC18showAnonimKycAlertSbvM",
                 "moduleName": "WalletUISdk",
                 "implicit": true,
                 "isOpen": true,
@@ -181518,12 +182865,14 @@
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
+                "hasDefaultArg": true,
                 "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
+                "hasDefaultArg": true,
                 "usr": "s:SS"
               },
               {
@@ -391300,18 +392649,46 @@
           {
             "kind": "Function",
             "name": "createBaseModel",
-            "printedName": "createBaseModel()",
+            "printedName": "createBaseModel(dgparaCertificates:dgpaysCertificates:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "CoreBaseModel",
                 "printedName": "CoreModule.CoreBaseModel",
                 "usr": "c:@M@CoreModule@objc(cs)CoreBaseModel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11WalletUISdk20EnQualifyV2BaseModelC06createfG010CoreModule0ifG0CyF",
-            "mangledName": "$s11WalletUISdk20EnQualifyV2BaseModelC06createfG010CoreModule0ifG0CyF",
+            "usr": "s:11WalletUISdk20EnQualifyV2BaseModelC06createfG018dgparaCertificates06dgpaysJ010CoreModule0lfG0CSaySSG_AJtF",
+            "mangledName": "$s11WalletUISdk20EnQualifyV2BaseModelC06createfG018dgparaCertificates06dgpaysJ010CoreModule0lfG0CSaySSG_AJtF",
             "moduleName": "WalletUISdk",
             "declAttributes": [
               "Final"
@@ -464341,6 +465718,206 @@
           },
           {
             "kind": "Var",
+            "name": "showAnonimKycAlert",
+            "printedName": "showAnonimKycAlert",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk10HomeScreenV18showAnonimKycAlertSbvp",
+            "mangledName": "$s11WalletUISdk10HomeScreenV18showAnonimKycAlertSbvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "ProjectedValueProperty",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk10HomeScreenV18showAnonimKycAlertSbvg",
+                "mangledName": "$s11WalletUISdk10HomeScreenV18showAnonimKycAlertSbvg",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk10HomeScreenV18showAnonimKycAlertSbvs",
+                "mangledName": "$s11WalletUISdk10HomeScreenV18showAnonimKycAlertSbvs",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk10HomeScreenV18showAnonimKycAlertSbvM",
+                "mangledName": "$s11WalletUISdk10HomeScreenV18showAnonimKycAlertSbvM",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$showAnonimKycAlert",
+            "printedName": "$showAnonimKycAlert",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk10HomeScreenV19$showAnonimKycAlert7SwiftUI7BindingVySbGvp",
+            "mangledName": "$s11WalletUISdk10HomeScreenV19$showAnonimKycAlert7SwiftUI7BindingVySbGvp",
+            "moduleName": "WalletUISdk",
+            "implicit": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk10HomeScreenV19$showAnonimKycAlert7SwiftUI7BindingVySbGvg",
+                "mangledName": "$s11WalletUISdk10HomeScreenV19$showAnonimKycAlert7SwiftUI7BindingVySbGvg",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_showAnonimKycAlert",
+            "printedName": "_showAnonimKycAlert",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "SwiftUI.State<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI5StateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk10HomeScreenV19_showAnonimKycAlert33_BD2997C1E6BE6AE879E0620AAB82F309LL7SwiftUI5StateVySbGvp",
+            "mangledName": "$s11WalletUISdk10HomeScreenV19_showAnonimKycAlert33_BD2997C1E6BE6AE879E0620AAB82F309LL7SwiftUI5StateVySbGvp",
+            "moduleName": "WalletUISdk",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 8,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "_isDataLoaded",
             "printedName": "_isDataLoaded",
             "children": [
@@ -464371,7 +465948,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 8,
+            "fixedbinaryorder": 9,
             "hasStorage": true
           },
           {
@@ -464406,7 +465983,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 10,
             "hasStorage": true
           },
           {
@@ -464441,7 +466018,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 10,
+            "fixedbinaryorder": 11,
             "hasStorage": true
           },
           {
@@ -464484,7 +466061,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 11,
+            "fixedbinaryorder": 12,
             "hasStorage": true
           },
           {
@@ -464527,7 +466104,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 12,
+            "fixedbinaryorder": 13,
             "hasStorage": true
           },
           {
@@ -464588,7 +466165,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(errorMessage:isShowBottomTabView:seenFailLoginAttempts:showAllCards:showKycAlert:)",
+            "printedName": "init(errorMessage:isShowBottomTabView:seenFailLoginAttempts:showAllCards:showKycAlert:showAnonimKycAlert:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -464636,11 +466213,18 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11WalletUISdk10HomeScreenV12errorMessage19isShowBottomTabView21seenFailLoginAttempts12showAllCards0P8KycAlertACSS_7SwiftUI7BindingVySbGS3btcfc",
-            "mangledName": "$s11WalletUISdk10HomeScreenV12errorMessage19isShowBottomTabView21seenFailLoginAttempts12showAllCards0P8KycAlertACSS_7SwiftUI7BindingVySbGS3btcfc",
+            "usr": "s:11WalletUISdk10HomeScreenV12errorMessage19isShowBottomTabView21seenFailLoginAttempts12showAllCards0P8KycAlert0p6AnonimsT0ACSS_7SwiftUI7BindingVySbGS4btcfc",
+            "mangledName": "$s11WalletUISdk10HomeScreenV12errorMessage19isShowBottomTabView21seenFailLoginAttempts12showAllCards0P8KycAlert0p6AnonimsT0ACSS_7SwiftUI7BindingVySbGS4btcfc",
             "moduleName": "WalletUISdk",
             "implicit": true,
             "declAttributes": [
@@ -506799,14 +508383,14 @@
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/ViewModel\/RegisterScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7166,
+      "offset": 7504,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/ViewModel\/RegisterScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7190,
+      "offset": 7528,
       "length": 3,
       "value": "\"2\""
     },
@@ -508491,6 +510075,34 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Core\/View\/Alert\/ViewStatusCustomAlertViewDialog.swift",
+      "kind": "StringLiteral",
+      "offset": 3973,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Core\/View\/Alert\/ViewStatusCustomAlertViewDialog.swift",
+      "kind": "StringLiteral",
+      "offset": 3987,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Core\/View\/Alert\/ViewStatusCustomAlertViewDialog.swift",
+      "kind": "StringLiteral",
+      "offset": 4009,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Core\/View\/Alert\/ViewStatusCustomAlertViewDialog.swift",
+      "kind": "StringLiteral",
+      "offset": 4029,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/View\/Screens\/QrScreens\/QrTransactionSummary.swift",
       "kind": "BooleanLiteral",
       "offset": 176,
@@ -508972,6 +510584,13 @@
       "offset": 482,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/Utilities\/Utility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 514,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/ViewModel\/OutgoingSplitDetailViewModel.swift",
@@ -515107,8 +516726,22 @@
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/ViewModel\/WLViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 21469,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/ViewModel\/WLViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 21492,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/ViewModel\/WLViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 23040,
+      "offset": 23050,
       "length": 5,
       "value": "false"
     },
@@ -521422,14 +523055,14 @@
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/View\/Screens\/HomeScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 615,
+      "offset": 685,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/View\/Screens\/HomeScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 732,
+      "offset": 802,
       "length": 5,
       "value": "false"
     },

@@ -107077,6 +107077,178 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "GetCertificates",
+            "printedName": "GetCertificates",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14wallet_ios_sdk7MethodsC15GetCertificatesSivp",
+            "mangledName": "$s14wallet_ios_sdk7MethodsC15GetCertificatesSivp",
+            "moduleName": "wallet_ios_sdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk7MethodsC15GetCertificatesSivg",
+                "mangledName": "$s14wallet_ios_sdk7MethodsC15GetCertificatesSivg",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk7MethodsC15GetCertificatesSivs",
+                "mangledName": "$s14wallet_ios_sdk7MethodsC15GetCertificatesSivs",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk7MethodsC15GetCertificatesSivM",
+                "mangledName": "$s14wallet_ios_sdk7MethodsC15GetCertificatesSivM",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "GetCustomerInfoKYC",
+            "printedName": "GetCustomerInfoKYC",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14wallet_ios_sdk7MethodsC18GetCustomerInfoKYCSivp",
+            "mangledName": "$s14wallet_ios_sdk7MethodsC18GetCustomerInfoKYCSivp",
+            "moduleName": "wallet_ios_sdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk7MethodsC18GetCustomerInfoKYCSivg",
+                "mangledName": "$s14wallet_ios_sdk7MethodsC18GetCustomerInfoKYCSivg",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk7MethodsC18GetCustomerInfoKYCSivs",
+                "mangledName": "$s14wallet_ios_sdk7MethodsC18GetCustomerInfoKYCSivs",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk7MethodsC18GetCustomerInfoKYCSivM",
+                "mangledName": "$s14wallet_ios_sdk7MethodsC18GetCustomerInfoKYCSivM",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -154451,6 +154623,670 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "GetCustomerInfoKYCResponseModel",
+        "printedName": "GetCustomerInfoKYCResponseModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tckn",
+            "printedName": "tckn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC4tcknSSSgvp",
+            "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC4tcknSSSgvp",
+            "moduleName": "wallet_ios_sdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC4tcknSSSgvg",
+                "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC4tcknSSSgvg",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC4tcknSSSgvs",
+                "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC4tcknSSSgvs",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC4tcknSSSgvM",
+                "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC4tcknSSSgvM",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstName",
+            "printedName": "firstName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC9firstNameSSSgvp",
+            "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC9firstNameSSSgvp",
+            "moduleName": "wallet_ios_sdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC9firstNameSSSgvg",
+                "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC9firstNameSSSgvg",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC9firstNameSSSgvs",
+                "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC9firstNameSSSgvs",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC9firstNameSSSgvM",
+                "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC9firstNameSSSgvM",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastName",
+            "printedName": "lastName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC8lastNameSSSgvp",
+            "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC8lastNameSSSgvp",
+            "moduleName": "wallet_ios_sdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC8lastNameSSSgvg",
+                "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC8lastNameSSSgvg",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC8lastNameSSSgvs",
+                "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC8lastNameSSSgvs",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC8lastNameSSSgvM",
+                "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC8lastNameSSSgvM",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC5emailSSSgvp",
+            "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC5emailSSSgvp",
+            "moduleName": "wallet_ios_sdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC5emailSSSgvg",
+                "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC5emailSSSgvg",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC5emailSSSgvs",
+                "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC5emailSSSgvs",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC5emailSSSgvM",
+                "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC5emailSSSgvM",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "birthDate",
+            "printedName": "birthDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC9birthDateSSSgvp",
+            "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC9birthDateSSSgvp",
+            "moduleName": "wallet_ios_sdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC9birthDateSSSgvg",
+                "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC9birthDateSSSgvg",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC9birthDateSSSgvs",
+                "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC9birthDateSSSgvs",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC9birthDateSSSgvM",
+                "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC9birthDateSSSgvM",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetCustomerInfoKYCResponseModel",
+                "printedName": "wallet_ios_sdk.GetCustomerInfoKYCResponseModel",
+                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "wallet_ios_sdk",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "wallet_ios_sdk",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC",
+        "mangledName": "$s14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC",
+        "moduleName": "wallet_ios_sdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:14wallet_ios_sdk16BaseResponseMetaC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "wallet_ios_sdk.BaseResponseMeta"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "wallet_ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "GetAccountActionsReceiptOutputParams",
         "printedName": "GetAccountActionsReceiptOutputParams",
         "children": [
@@ -161748,6 +162584,16 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "wallet_ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -177470,6 +178316,164 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "wallet_ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetCustomerInfoKYCRequestModel",
+        "printedName": "GetCustomerInfoKYCRequestModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14wallet_ios_sdk30GetCustomerInfoKYCRequestModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14wallet_ios_sdk30GetCustomerInfoKYCRequestModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "wallet_ios_sdk",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetCustomerInfoKYCRequestModel",
+                "printedName": "wallet_ios_sdk.GetCustomerInfoKYCRequestModel",
+                "usr": "c:@M@wallet_ios_sdk@objc(cs)GetCustomerInfoKYCRequestModel"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@wallet_ios_sdk@objc(cs)GetCustomerInfoKYCRequestModel(im)init",
+            "mangledName": "$s14wallet_ios_sdk30GetCustomerInfoKYCRequestModelCACycfc",
+            "moduleName": "wallet_ios_sdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@wallet_ios_sdk@objc(cs)GetCustomerInfoKYCRequestModel",
+        "mangledName": "$s14wallet_ios_sdk30GetCustomerInfoKYCRequestModelC",
+        "moduleName": "wallet_ios_sdk",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@wallet_ios_sdk@objc(cs)BaseRequestModel",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "wallet_ios_sdk.BaseRequestModel",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -206098,6 +207102,528 @@
         "moduleName": "wallet_ios_sdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "superclassUsr": "s:14wallet_ios_sdk16BaseResponseMetaC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "wallet_ios_sdk.BaseResponseMeta"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetCertificatesRequestModel",
+        "printedName": "GetCertificatesRequestModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14wallet_ios_sdk27GetCertificatesRequestModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14wallet_ios_sdk27GetCertificatesRequestModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "wallet_ios_sdk",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetCertificatesRequestModel",
+                "printedName": "wallet_ios_sdk.GetCertificatesRequestModel",
+                "usr": "c:@M@wallet_ios_sdk@objc(cs)GetCertificatesRequestModel"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@wallet_ios_sdk@objc(cs)GetCertificatesRequestModel(im)init",
+            "mangledName": "$s14wallet_ios_sdk27GetCertificatesRequestModelCACycfc",
+            "moduleName": "wallet_ios_sdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@wallet_ios_sdk@objc(cs)GetCertificatesRequestModel",
+        "mangledName": "$s14wallet_ios_sdk27GetCertificatesRequestModelC",
+        "moduleName": "wallet_ios_sdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@wallet_ios_sdk@objc(cs)BaseRequestModel",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "wallet_ios_sdk.BaseRequestModel",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetCertificatesResponseModel",
+        "printedName": "GetCertificatesResponseModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dgpays",
+            "printedName": "dgpays",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14wallet_ios_sdk28GetCertificatesResponseModelC6dgpaysSaySSGSgvp",
+            "mangledName": "$s14wallet_ios_sdk28GetCertificatesResponseModelC6dgpaysSaySSGSgvp",
+            "moduleName": "wallet_ios_sdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk28GetCertificatesResponseModelC6dgpaysSaySSGSgvg",
+                "mangledName": "$s14wallet_ios_sdk28GetCertificatesResponseModelC6dgpaysSaySSGSgvg",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk28GetCertificatesResponseModelC6dgpaysSaySSGSgvs",
+                "mangledName": "$s14wallet_ios_sdk28GetCertificatesResponseModelC6dgpaysSaySSGSgvs",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk28GetCertificatesResponseModelC6dgpaysSaySSGSgvM",
+                "mangledName": "$s14wallet_ios_sdk28GetCertificatesResponseModelC6dgpaysSaySSGSgvM",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dgpara",
+            "printedName": "dgpara",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14wallet_ios_sdk28GetCertificatesResponseModelC6dgparaSaySSGSgvp",
+            "mangledName": "$s14wallet_ios_sdk28GetCertificatesResponseModelC6dgparaSaySSGSgvp",
+            "moduleName": "wallet_ios_sdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk28GetCertificatesResponseModelC6dgparaSaySSGSgvg",
+                "mangledName": "$s14wallet_ios_sdk28GetCertificatesResponseModelC6dgparaSaySSGSgvg",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk28GetCertificatesResponseModelC6dgparaSaySSGSgvs",
+                "mangledName": "$s14wallet_ios_sdk28GetCertificatesResponseModelC6dgparaSaySSGSgvs",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk28GetCertificatesResponseModelC6dgparaSaySSGSgvM",
+                "mangledName": "$s14wallet_ios_sdk28GetCertificatesResponseModelC6dgparaSaySSGSgvM",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetCertificatesResponseModel",
+                "printedName": "wallet_ios_sdk.GetCertificatesResponseModel",
+                "usr": "s:14wallet_ios_sdk28GetCertificatesResponseModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14wallet_ios_sdk28GetCertificatesResponseModelC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14wallet_ios_sdk28GetCertificatesResponseModelC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "wallet_ios_sdk",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14wallet_ios_sdk28GetCertificatesResponseModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14wallet_ios_sdk28GetCertificatesResponseModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "wallet_ios_sdk",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14wallet_ios_sdk28GetCertificatesResponseModelC",
+        "mangledName": "$s14wallet_ios_sdk28GetCertificatesResponseModelC",
+        "moduleName": "wallet_ios_sdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
         ],
         "superclassUsr": "s:14wallet_ios_sdk16BaseResponseMetaC",
         "hasMissingDesignatedInitializers": true,
@@ -263231,6 +264757,252 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "getCertificates",
+            "printedName": "getCertificates",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(wallet_ios_sdk.GetCertificatesRequestModel, @escaping (wallet_ios_sdk.GetCertificatesResponseModel) -> ()) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(wallet_ios_sdk.GetCertificatesRequestModel, (wallet_ios_sdk.GetCertificatesResponseModel) -> ())",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetCertificatesRequestModel",
+                        "printedName": "wallet_ios_sdk.GetCertificatesRequestModel",
+                        "usr": "c:@M@wallet_ios_sdk@objc(cs)GetCertificatesRequestModel"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(wallet_ios_sdk.GetCertificatesResponseModel) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GetCertificatesResponseModel",
+                            "printedName": "wallet_ios_sdk.GetCertificatesResponseModel",
+                            "usr": "s:14wallet_ios_sdk28GetCertificatesResponseModelC"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14wallet_ios_sdk21WalletCoreSDKServicesC15getCertificatesyyAA03GetH12RequestModelC_yAA0ih8ResponseK0Cctcvp",
+            "mangledName": "$s14wallet_ios_sdk21WalletCoreSDKServicesC15getCertificatesyyAA03GetH12RequestModelC_yAA0ih8ResponseK0Cctcvp",
+            "moduleName": "wallet_ios_sdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(wallet_ios_sdk.GetCertificatesRequestModel, @escaping (wallet_ios_sdk.GetCertificatesResponseModel) -> ()) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(wallet_ios_sdk.GetCertificatesRequestModel, (wallet_ios_sdk.GetCertificatesResponseModel) -> ())",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GetCertificatesRequestModel",
+                            "printedName": "wallet_ios_sdk.GetCertificatesRequestModel",
+                            "usr": "c:@M@wallet_ios_sdk@objc(cs)GetCertificatesRequestModel"
+                          },
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(wallet_ios_sdk.GetCertificatesResponseModel) -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GetCertificatesResponseModel",
+                                "printedName": "wallet_ios_sdk.GetCertificatesResponseModel",
+                                "usr": "s:14wallet_ios_sdk28GetCertificatesResponseModelC"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk21WalletCoreSDKServicesC15getCertificatesyyAA03GetH12RequestModelC_yAA0ih8ResponseK0Cctcvg",
+                "mangledName": "$s14wallet_ios_sdk21WalletCoreSDKServicesC15getCertificatesyyAA03GetH12RequestModelC_yAA0ih8ResponseK0Cctcvg",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "getCustomerInfoKYC",
+            "printedName": "getCustomerInfoKYC",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(wallet_ios_sdk.GetCustomerInfoKYCRequestModel, @escaping (wallet_ios_sdk.GetCustomerInfoKYCResponseModel) -> ()) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(wallet_ios_sdk.GetCustomerInfoKYCRequestModel, (wallet_ios_sdk.GetCustomerInfoKYCResponseModel) -> ())",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetCustomerInfoKYCRequestModel",
+                        "printedName": "wallet_ios_sdk.GetCustomerInfoKYCRequestModel",
+                        "usr": "c:@M@wallet_ios_sdk@objc(cs)GetCustomerInfoKYCRequestModel"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(wallet_ios_sdk.GetCustomerInfoKYCResponseModel) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GetCustomerInfoKYCResponseModel",
+                            "printedName": "wallet_ios_sdk.GetCustomerInfoKYCResponseModel",
+                            "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14wallet_ios_sdk21WalletCoreSDKServicesC18getCustomerInfoKYCyyAA03GethI15KYCRequestModelC_yAA0khi11KYCResponseM0Cctcvp",
+            "mangledName": "$s14wallet_ios_sdk21WalletCoreSDKServicesC18getCustomerInfoKYCyyAA03GethI15KYCRequestModelC_yAA0khi11KYCResponseM0Cctcvp",
+            "moduleName": "wallet_ios_sdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(wallet_ios_sdk.GetCustomerInfoKYCRequestModel, @escaping (wallet_ios_sdk.GetCustomerInfoKYCResponseModel) -> ()) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(wallet_ios_sdk.GetCustomerInfoKYCRequestModel, (wallet_ios_sdk.GetCustomerInfoKYCResponseModel) -> ())",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GetCustomerInfoKYCRequestModel",
+                            "printedName": "wallet_ios_sdk.GetCustomerInfoKYCRequestModel",
+                            "usr": "c:@M@wallet_ios_sdk@objc(cs)GetCustomerInfoKYCRequestModel"
+                          },
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(wallet_ios_sdk.GetCustomerInfoKYCResponseModel) -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GetCustomerInfoKYCResponseModel",
+                                "printedName": "wallet_ios_sdk.GetCustomerInfoKYCResponseModel",
+                                "usr": "s:14wallet_ios_sdk31GetCustomerInfoKYCResponseModelC"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14wallet_ios_sdk21WalletCoreSDKServicesC18getCustomerInfoKYCyyAA03GethI15KYCRequestModelC_yAA0khi11KYCResponseM0Cctcvg",
+                "mangledName": "$s14wallet_ios_sdk21WalletCoreSDKServicesC18getCustomerInfoKYCyyAA03GethI15KYCRequestModelC_yAA0khi11KYCResponseM0Cctcvg",
+                "moduleName": "wallet_ios_sdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "call",
             "printedName": "call(service:onSuccess:onResult:)",
@@ -309380,6 +311152,20 @@
       "value": "38004"
     },
     {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/Data\/Utils\/Methods.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14764,
+      "length": 5,
+      "value": "39000"
+    },
+    {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/Data\/Utils\/Methods.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14806,
+      "length": 5,
+      "value": "39100"
+    },
+    {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/Data\/Module\/Account\/Request\/CancelSplitTheBillInputParams.swift",
       "kind": "IntegerLiteral",
       "offset": 229,
@@ -311844,6 +313630,20 @@
       "value": "0.0"
     },
     {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/Data\/Module\/Certificate\/GetCertificates\/GetCertificatesResponseModel.swift",
+      "kind": "Array",
+      "offset": 217,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/Data\/Module\/Certificate\/GetCertificates\/GetCertificatesResponseModel.swift",
+      "kind": "Array",
+      "offset": 254,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/Data\/Module\/Account\/Request\/SetDefaultAccountInputParams.swift",
       "kind": "IntegerLiteral",
       "offset": 227,
@@ -313568,1204 +315368,1204 @@
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 20763,
+      "offset": 21109,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 20794,
+      "offset": 21140,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 20812,
+      "offset": 21158,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 20840,
+      "offset": 21186,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 20878,
+      "offset": 21224,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 20916,
+      "offset": 21262,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 20946,
+      "offset": 21292,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 20982,
+      "offset": 21328,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21015,
+      "offset": 21361,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21050,
+      "offset": 21396,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21080,
+      "offset": 21426,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21108,
+      "offset": 21454,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21139,
+      "offset": 21485,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21176,
+      "offset": 21522,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21206,
+      "offset": 21552,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21240,
+      "offset": 21586,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21271,
+      "offset": 21617,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21305,
+      "offset": 21651,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21339,
+      "offset": 21685,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21367,
+      "offset": 21713,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21395,
+      "offset": 21741,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21430,
+      "offset": 21776,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21459,
+      "offset": 21805,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21489,
+      "offset": 21835,
       "length": 2,
       "value": "23"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21522,
+      "offset": 21868,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21555,
+      "offset": 21901,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21594,
+      "offset": 21940,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21624,
+      "offset": 21970,
       "length": 2,
       "value": "27"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21658,
+      "offset": 22004,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21695,
+      "offset": 22041,
       "length": 2,
       "value": "29"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21739,
+      "offset": 22085,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21763,
+      "offset": 22109,
       "length": 2,
       "value": "31"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21789,
+      "offset": 22135,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21821,
+      "offset": 22167,
       "length": 2,
       "value": "33"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21860,
+      "offset": 22206,
       "length": 2,
       "value": "34"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21890,
+      "offset": 22236,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21927,
+      "offset": 22273,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21959,
+      "offset": 22305,
       "length": 2,
       "value": "37"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 21992,
+      "offset": 22338,
       "length": 2,
       "value": "38"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22021,
+      "offset": 22367,
       "length": 2,
       "value": "39"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22047,
+      "offset": 22393,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22077,
+      "offset": 22423,
       "length": 2,
       "value": "41"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22108,
+      "offset": 22454,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22142,
+      "offset": 22488,
       "length": 2,
       "value": "43"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22172,
+      "offset": 22518,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22202,
+      "offset": 22548,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22232,
+      "offset": 22578,
       "length": 2,
       "value": "46"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22258,
+      "offset": 22604,
       "length": 2,
       "value": "47"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22294,
+      "offset": 22640,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22326,
+      "offset": 22672,
       "length": 2,
       "value": "49"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22359,
+      "offset": 22705,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22390,
+      "offset": 22736,
       "length": 2,
       "value": "51"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22429,
+      "offset": 22775,
       "length": 2,
       "value": "52"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22465,
+      "offset": 22811,
       "length": 2,
       "value": "53"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22501,
+      "offset": 22847,
       "length": 2,
       "value": "54"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22528,
+      "offset": 22874,
       "length": 2,
       "value": "55"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22562,
+      "offset": 22908,
       "length": 2,
       "value": "56"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22592,
+      "offset": 22938,
       "length": 2,
       "value": "57"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22619,
+      "offset": 22965,
       "length": 2,
       "value": "58"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22659,
+      "offset": 23005,
       "length": 2,
       "value": "59"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22693,
+      "offset": 23039,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22726,
+      "offset": 23072,
       "length": 2,
       "value": "61"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22767,
+      "offset": 23113,
       "length": 2,
       "value": "62"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22814,
+      "offset": 23160,
       "length": 2,
       "value": "63"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22853,
+      "offset": 23199,
       "length": 2,
       "value": "64"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22884,
+      "offset": 23230,
       "length": 2,
       "value": "65"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22935,
+      "offset": 23281,
       "length": 2,
       "value": "66"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 22976,
+      "offset": 23322,
       "length": 2,
       "value": "67"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23014,
+      "offset": 23360,
       "length": 2,
       "value": "68"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23046,
+      "offset": 23392,
       "length": 2,
       "value": "69"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23091,
+      "offset": 23437,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23130,
+      "offset": 23476,
       "length": 2,
       "value": "71"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23168,
+      "offset": 23514,
       "length": 2,
       "value": "72"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23198,
+      "offset": 23544,
       "length": 2,
       "value": "73"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23226,
+      "offset": 23572,
       "length": 2,
       "value": "74"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23259,
+      "offset": 23605,
       "length": 2,
       "value": "75"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23299,
+      "offset": 23645,
       "length": 2,
       "value": "76"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23333,
+      "offset": 23679,
       "length": 2,
       "value": "77"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23366,
+      "offset": 23712,
       "length": 2,
       "value": "78"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23409,
+      "offset": 23755,
       "length": 2,
       "value": "79"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23452,
+      "offset": 23798,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23492,
+      "offset": 23838,
       "length": 2,
       "value": "81"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23544,
+      "offset": 23890,
       "length": 2,
       "value": "82"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23581,
+      "offset": 23927,
       "length": 2,
       "value": "83"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23615,
+      "offset": 23961,
       "length": 2,
       "value": "84"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23650,
+      "offset": 23996,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23680,
+      "offset": 24026,
       "length": 2,
       "value": "86"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23714,
+      "offset": 24060,
       "length": 2,
       "value": "87"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23761,
+      "offset": 24107,
       "length": 2,
       "value": "88"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23801,
+      "offset": 24147,
       "length": 2,
       "value": "89"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23825,
+      "offset": 24171,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23855,
+      "offset": 24201,
       "length": 2,
       "value": "97"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23892,
+      "offset": 24238,
       "length": 2,
       "value": "98"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23924,
+      "offset": 24270,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23958,
+      "offset": 24304,
       "length": 3,
       "value": "101"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 23990,
+      "offset": 24336,
       "length": 3,
       "value": "102"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24038,
+      "offset": 24384,
       "length": 3,
       "value": "103"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24073,
+      "offset": 24419,
       "length": 3,
       "value": "104"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24105,
+      "offset": 24451,
       "length": 3,
       "value": "105"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24139,
+      "offset": 24485,
       "length": 3,
       "value": "106"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24174,
+      "offset": 24520,
       "length": 3,
       "value": "107"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24232,
+      "offset": 24578,
       "length": 3,
       "value": "108"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24276,
+      "offset": 24622,
       "length": 3,
       "value": "109"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24324,
+      "offset": 24670,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24365,
+      "offset": 24711,
       "length": 3,
       "value": "135"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24396,
+      "offset": 24742,
       "length": 3,
       "value": "156"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24456,
+      "offset": 24802,
       "length": 3,
       "value": "165"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24510,
+      "offset": 24856,
       "length": 3,
       "value": "166"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24554,
+      "offset": 24900,
       "length": 3,
       "value": "171"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24610,
+      "offset": 24956,
       "length": 3,
       "value": "188"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24651,
+      "offset": 24997,
       "length": 3,
       "value": "189"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24694,
+      "offset": 25040,
       "length": 3,
       "value": "190"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24749,
+      "offset": 25095,
       "length": 3,
       "value": "191"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24801,
+      "offset": 25147,
       "length": 3,
       "value": "192"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24859,
+      "offset": 25205,
       "length": 3,
       "value": "193"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24916,
+      "offset": 25262,
       "length": 3,
       "value": "194"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24959,
+      "offset": 25305,
       "length": 3,
       "value": "195"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 24994,
+      "offset": 25340,
       "length": 3,
       "value": "198"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25029,
+      "offset": 25375,
       "length": 3,
       "value": "199"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25057,
+      "offset": 25403,
       "length": 4,
       "value": "1100"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25088,
+      "offset": 25434,
       "length": 5,
       "value": "11100"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25128,
+      "offset": 25474,
       "length": 3,
       "value": "998"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25168,
+      "offset": 25514,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25210,
+      "offset": 25556,
       "length": 4,
       "value": "1001"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25243,
+      "offset": 25589,
       "length": 4,
       "value": "1002"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25281,
+      "offset": 25627,
       "length": 4,
       "value": "1003"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25314,
+      "offset": 25660,
       "length": 4,
       "value": "1004"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25360,
+      "offset": 25706,
       "length": 4,
       "value": "1005"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25392,
+      "offset": 25738,
       "length": 4,
       "value": "1006"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25426,
+      "offset": 25772,
       "length": 4,
       "value": "1007"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25459,
+      "offset": 25805,
       "length": 4,
       "value": "1008"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25491,
+      "offset": 25837,
       "length": 4,
       "value": "1009"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25540,
+      "offset": 25886,
       "length": 4,
       "value": "1010"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25578,
+      "offset": 25924,
       "length": 4,
       "value": "2000"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25612,
+      "offset": 25958,
       "length": 4,
       "value": "2001"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25651,
+      "offset": 25997,
       "length": 4,
       "value": "2002"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25690,
+      "offset": 26036,
       "length": 4,
       "value": "2003"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25730,
+      "offset": 26076,
       "length": 4,
       "value": "2004"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25771,
+      "offset": 26117,
       "length": 4,
       "value": "2005"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25813,
+      "offset": 26159,
       "length": 4,
       "value": "2006"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25856,
+      "offset": 26202,
       "length": 4,
       "value": "2007"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25897,
+      "offset": 26243,
       "length": 4,
       "value": "2008"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25939,
+      "offset": 26285,
       "length": 4,
       "value": "2009"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 25974,
+      "offset": 26320,
       "length": 4,
       "value": "2010"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26010,
+      "offset": 26356,
       "length": 4,
       "value": "2011"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26047,
+      "offset": 26393,
       "length": 4,
       "value": "2012"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26085,
+      "offset": 26431,
       "length": 4,
       "value": "2013"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26121,
+      "offset": 26467,
       "length": 4,
       "value": "2014"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26158,
+      "offset": 26504,
       "length": 4,
       "value": "2015"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26193,
+      "offset": 26539,
       "length": 4,
       "value": "2016"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26229,
+      "offset": 26575,
       "length": 4,
       "value": "2017"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26266,
+      "offset": 26612,
       "length": 4,
       "value": "2018"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26304,
+      "offset": 26650,
       "length": 4,
       "value": "2019"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26340,
+      "offset": 26686,
       "length": 4,
       "value": "2020"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26377,
+      "offset": 26723,
       "length": 4,
       "value": "2021"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26420,
+      "offset": 26766,
       "length": 4,
       "value": "2022"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26463,
+      "offset": 26809,
       "length": 4,
       "value": "2023"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26499,
+      "offset": 26845,
       "length": 4,
       "value": "2024"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26536,
+      "offset": 26882,
       "length": 4,
       "value": "2025"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26574,
+      "offset": 26920,
       "length": 4,
       "value": "2026"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26613,
+      "offset": 26959,
       "length": 4,
       "value": "2027"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26650,
+      "offset": 26996,
       "length": 4,
       "value": "2028"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26688,
+      "offset": 27034,
       "length": 4,
       "value": "2029"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26724,
+      "offset": 27070,
       "length": 4,
       "value": "2030"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26761,
+      "offset": 27107,
       "length": 4,
       "value": "2031"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26799,
+      "offset": 27145,
       "length": 4,
       "value": "2032"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26838,
+      "offset": 27184,
       "length": 4,
       "value": "2033"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26875,
+      "offset": 27221,
       "length": 4,
       "value": "2034"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26913,
+      "offset": 27259,
       "length": 4,
       "value": "2035"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26953,
+      "offset": 27299,
       "length": 4,
       "value": "5004"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 26982,
+      "offset": 27328,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/wallet-core-ios-sdk\/wallet-ios-sdk\/WalletCoreSDKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 27010,
+      "offset": 27356,
       "length": 2,
       "value": "-2"
     },
