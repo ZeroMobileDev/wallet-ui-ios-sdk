@@ -18166,6 +18166,105 @@
             "hasStorage": true
           },
           {
+            "kind": "Var",
+            "name": "cardUniqueNumber",
+            "printedName": "cardUniqueNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk22MasterPassOtpViewModelC16cardUniqueNumberSSvp",
+            "mangledName": "$s11WalletUISdk22MasterPassOtpViewModelC16cardUniqueNumberSSvp",
+            "moduleName": "WalletUISdk",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk22MasterPassOtpViewModelC16cardUniqueNumberSSvg",
+                "mangledName": "$s11WalletUISdk22MasterPassOtpViewModelC16cardUniqueNumberSSvg",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk22MasterPassOtpViewModelC16cardUniqueNumberSSvs",
+                "mangledName": "$s11WalletUISdk22MasterPassOtpViewModelC16cardUniqueNumberSSvs",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk22MasterPassOtpViewModelC16cardUniqueNumberSSvM",
+                "mangledName": "$s11WalletUISdk22MasterPassOtpViewModelC16cardUniqueNumberSSvM",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "showTimeAlertFunc",
             "printedName": "showTimeAlertFunc()",
@@ -18264,7 +18363,7 @@
           {
             "kind": "Function",
             "name": "validate",
-            "printedName": "validate(token:otp:onRefreshView:onOpen3DSecureWebView:)",
+            "printedName": "validate(token:otp:onRefreshView:onSuccess:onOpen3DSecureWebView:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -18286,7 +18385,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "() -> ()",
+                "printedName": "(Swift.String) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -18295,8 +18394,27 @@
                   },
                   {
                     "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
                     "name": "Void",
                     "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ]
               },
@@ -18321,8 +18439,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11WalletUISdk22MasterPassOtpViewModelC8validate5token3otp09onRefreshF00k15Open3DSecureWebF0ySS_10Masterpass6MPTextCyycySSctF",
-            "mangledName": "$s11WalletUISdk22MasterPassOtpViewModelC8validate5token3otp09onRefreshF00k15Open3DSecureWebF0ySS_10Masterpass6MPTextCyycySSctF",
+            "usr": "s:11WalletUISdk22MasterPassOtpViewModelC8validate5token3otp09onRefreshF00K7Success0k15Open3DSecureWebF0ySS_10Masterpass6MPTextCySScySScySSctF",
+            "mangledName": "$s11WalletUISdk22MasterPassOtpViewModelC8validate5token3otp09onRefreshF00K7Success0k15Open3DSecureWebF0ySS_10Masterpass6MPTextCySScySScySSctF",
             "moduleName": "WalletUISdk",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -40846,6 +40964,103 @@
           },
           {
             "kind": "Var",
+            "name": "cardUniqueNumber",
+            "printedName": "cardUniqueNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk15LoadMoneyScreenV16cardUniqueNumberSSvp",
+            "mangledName": "$s11WalletUISdk15LoadMoneyScreenV16cardUniqueNumberSSvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk15LoadMoneyScreenV16cardUniqueNumberSSvg",
+                "mangledName": "$s11WalletUISdk15LoadMoneyScreenV16cardUniqueNumberSSvg",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk15LoadMoneyScreenV16cardUniqueNumberSSvs",
+                "mangledName": "$s11WalletUISdk15LoadMoneyScreenV16cardUniqueNumberSSvs",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk15LoadMoneyScreenV16cardUniqueNumberSSvM",
+                "mangledName": "$s11WalletUISdk15LoadMoneyScreenV16cardUniqueNumberSSvM",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "body",
             "printedName": "body",
             "children": [
@@ -40902,7 +41117,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(currentTab:vm:)",
+            "printedName": "init(currentTab:vm:cardUniqueNumber:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -40923,11 +41138,18 @@
                 "printedName": "WalletUISdk.WLViewModel",
                 "hasDefaultArg": true,
                 "usr": "s:11WalletUISdk11WLViewModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11WalletUISdk15LoadMoneyScreenV10currentTab2vmACSi_AA11WLViewModelCtcfc",
-            "mangledName": "$s11WalletUISdk15LoadMoneyScreenV10currentTab2vmACSi_AA11WLViewModelCtcfc",
+            "usr": "s:11WalletUISdk15LoadMoneyScreenV10currentTab2vm16cardUniqueNumberACSi_AA11WLViewModelCSStcfc",
+            "mangledName": "$s11WalletUISdk15LoadMoneyScreenV10currentTab2vm16cardUniqueNumberACSi_AA11WLViewModelCSStcfc",
             "moduleName": "WalletUISdk",
             "implicit": true,
             "declAttributes": [
@@ -71967,7 +72189,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.String) -> ()",
+                "printedName": "(Swift.String, Swift.String) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -71976,9 +72198,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
                   }
                 ],
                 "hasDefaultArg": true
@@ -72094,8 +72329,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11WalletUISdk15MasterpassV2SDKC21linkAccountToMerchant11requiredOTP9onSuccess18showFailureMessage0L7Logging0lO0yySSc_y0C004LinkhI8ResponseVcySScySS_S3StcyAJ12ServiceErrorCSgctF",
-            "mangledName": "$s11WalletUISdk15MasterpassV2SDKC21linkAccountToMerchant11requiredOTP9onSuccess18showFailureMessage0L7Logging0lO0yySSc_y0C004LinkhI8ResponseVcySScySS_S3StcyAJ12ServiceErrorCSgctF",
+            "usr": "s:11WalletUISdk15MasterpassV2SDKC21linkAccountToMerchant11requiredOTP9onSuccess18showFailureMessage0L7Logging0lO0yySS_SStc_y0C004LinkhI8ResponseVcySScySS_S3StcyAJ12ServiceErrorCSgctF",
+            "mangledName": "$s11WalletUISdk15MasterpassV2SDKC21linkAccountToMerchant11requiredOTP9onSuccess18showFailureMessage0L7Logging0lO0yySS_SStc_y0C004LinkhI8ResponseVcySScySS_S3StcyAJ12ServiceErrorCSgctF",
             "moduleName": "WalletUISdk",
             "isOpen": true,
             "declAttributes": [
@@ -72511,7 +72746,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.String) -> ()",
+                "printedName": "(Swift.String, Swift.String) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -72520,9 +72755,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
                   }
                 ],
                 "hasDefaultArg": true
@@ -72638,8 +72886,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11WalletUISdk15MasterpassV2SDKC7addCard4card5alias27isMsisdnValidatedByMerchant20authenticationMethod11requiredOTP9onSuccess18showFailureMessage0S7Logging0sV0y0C06MPCardC_SSSbAN8AuthTypeOySScyAN21GeneralResponseWith3DVcySScySS_S3StcyAN12ServiceErrorCSgctF",
-            "mangledName": "$s11WalletUISdk15MasterpassV2SDKC7addCard4card5alias27isMsisdnValidatedByMerchant20authenticationMethod11requiredOTP9onSuccess18showFailureMessage0S7Logging0sV0y0C06MPCardC_SSSbAN8AuthTypeOySScyAN21GeneralResponseWith3DVcySScySS_S3StcyAN12ServiceErrorCSgctF",
+            "usr": "s:11WalletUISdk15MasterpassV2SDKC7addCard4card5alias27isMsisdnValidatedByMerchant20authenticationMethod11requiredOTP9onSuccess18showFailureMessage0S7Logging0sV0y0C06MPCardC_SSSbAN8AuthTypeOySS_SStcyAN21GeneralResponseWith3DVcySScySS_S3StcyAN12ServiceErrorCSgctF",
+            "mangledName": "$s11WalletUISdk15MasterpassV2SDKC7addCard4card5alias27isMsisdnValidatedByMerchant20authenticationMethod11requiredOTP9onSuccess18showFailureMessage0S7Logging0sV0y0C06MPCardC_SSSbAN8AuthTypeOySS_SStcyAN21GeneralResponseWith3DVcySScySS_S3StcyAN12ServiceErrorCSgctF",
             "moduleName": "WalletUISdk",
             "isOpen": true,
             "declAttributes": [
@@ -74038,7 +74286,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.String) -> ()",
+                "printedName": "(Swift.String, Swift.String) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -74047,9 +74295,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
                   }
                 ],
                 "hasDefaultArg": true
@@ -74176,8 +74437,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11WalletUISdk15MasterpassV2SDKC19registerAndPurchase6jToken4card0J5Alias6amount7orderNo12currencyCode11paymentType17acquirerIcaNumber16installmentCount11subMerchant10rewardList0M7Details20authenticationMethod0M15ProductsDetails12buyerDetails11billDetails15deliveryDetails12otherDetails13secure3DModel8terminal019isMsisdnValidatedByY016customParameters16additionalParams11requiredOTP21onOpen3DSecureWebView9onSuccess18showFailureMessage9onLogging9onFailureySS_0C06MPCardCSgSSSgA10_A10_A6_010MPCurrencyP0OSgA6_07PaymentR0OSgA10_SiSgA6_03SubY0VSgSayA6_6RewardVGSgA6_12OrderDetailsVSgA6_04AuthR0OSgA6_19OrderProductDetailsVSgA6_12BuyerDetailsVSgA6_11BillDetailsVSgA6_15DeliveryDetailsVSgA6_12OtherDetailsVSgA6_08SecurityR0OSgA6_8TerminalVSgSbSgA6_16CustomParametersVSgSDyS2SGSgySScySScyA6_08RegistergH8ResponseVcySScySS_S3StcyA6_12ServiceErrorCctF",
-            "mangledName": "$s11WalletUISdk15MasterpassV2SDKC19registerAndPurchase6jToken4card0J5Alias6amount7orderNo12currencyCode11paymentType17acquirerIcaNumber16installmentCount11subMerchant10rewardList0M7Details20authenticationMethod0M15ProductsDetails12buyerDetails11billDetails15deliveryDetails12otherDetails13secure3DModel8terminal019isMsisdnValidatedByY016customParameters16additionalParams11requiredOTP21onOpen3DSecureWebView9onSuccess18showFailureMessage9onLogging9onFailureySS_0C06MPCardCSgSSSgA10_A10_A6_010MPCurrencyP0OSgA6_07PaymentR0OSgA10_SiSgA6_03SubY0VSgSayA6_6RewardVGSgA6_12OrderDetailsVSgA6_04AuthR0OSgA6_19OrderProductDetailsVSgA6_12BuyerDetailsVSgA6_11BillDetailsVSgA6_15DeliveryDetailsVSgA6_12OtherDetailsVSgA6_08SecurityR0OSgA6_8TerminalVSgSbSgA6_16CustomParametersVSgSDyS2SGSgySScySScyA6_08RegistergH8ResponseVcySScySS_S3StcyA6_12ServiceErrorCctF",
+            "usr": "s:11WalletUISdk15MasterpassV2SDKC19registerAndPurchase6jToken4card0J5Alias6amount7orderNo12currencyCode11paymentType17acquirerIcaNumber16installmentCount11subMerchant10rewardList0M7Details20authenticationMethod0M15ProductsDetails12buyerDetails11billDetails15deliveryDetails12otherDetails13secure3DModel8terminal019isMsisdnValidatedByY016customParameters16additionalParams11requiredOTP21onOpen3DSecureWebView9onSuccess18showFailureMessage9onLogging9onFailureySS_0C06MPCardCSgSSSgA10_A10_A6_010MPCurrencyP0OSgA6_07PaymentR0OSgA10_SiSgA6_03SubY0VSgSayA6_6RewardVGSgA6_12OrderDetailsVSgA6_04AuthR0OSgA6_19OrderProductDetailsVSgA6_12BuyerDetailsVSgA6_11BillDetailsVSgA6_15DeliveryDetailsVSgA6_12OtherDetailsVSgA6_08SecurityR0OSgA6_8TerminalVSgSbSgA6_16CustomParametersVSgSDyS2SGSgySS_SStcySScyA6_08RegistergH8ResponseVcySScySS_S3StcyA6_12ServiceErrorCctF",
+            "mangledName": "$s11WalletUISdk15MasterpassV2SDKC19registerAndPurchase6jToken4card0J5Alias6amount7orderNo12currencyCode11paymentType17acquirerIcaNumber16installmentCount11subMerchant10rewardList0M7Details20authenticationMethod0M15ProductsDetails12buyerDetails11billDetails15deliveryDetails12otherDetails13secure3DModel8terminal019isMsisdnValidatedByY016customParameters16additionalParams11requiredOTP21onOpen3DSecureWebView9onSuccess18showFailureMessage9onLogging9onFailureySS_0C06MPCardCSgSSSgA10_A10_A6_010MPCurrencyP0OSgA6_07PaymentR0OSgA10_SiSgA6_03SubY0VSgSayA6_6RewardVGSgA6_12OrderDetailsVSgA6_04AuthR0OSgA6_19OrderProductDetailsVSgA6_12BuyerDetailsVSgA6_11BillDetailsVSgA6_15DeliveryDetailsVSgA6_12OtherDetailsVSgA6_08SecurityR0OSgA6_8TerminalVSgSbSgA6_16CustomParametersVSgSDyS2SGSgySS_SStcySScyA6_08RegistergH8ResponseVcySScySS_S3StcyA6_12ServiceErrorCctF",
             "moduleName": "WalletUISdk",
             "isOpen": true,
             "declAttributes": [
@@ -118515,6 +118776,139 @@
           },
           {
             "kind": "Var",
+            "name": "onSuccess",
+            "printedName": "onSuccess",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk25AddCardToMasterPassScreenV9onSuccessyySScvp",
+            "mangledName": "$s11WalletUISdk25AddCardToMasterPassScreenV9onSuccessyySScvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 12,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk25AddCardToMasterPassScreenV9onSuccessyySScvg",
+                "mangledName": "$s11WalletUISdk25AddCardToMasterPassScreenV9onSuccessyySScvg",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk25AddCardToMasterPassScreenV9onSuccessyySScvs",
+                "mangledName": "$s11WalletUISdk25AddCardToMasterPassScreenV9onSuccessyySScvs",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk25AddCardToMasterPassScreenV9onSuccessyySScvM",
+                "mangledName": "$s11WalletUISdk25AddCardToMasterPassScreenV9onSuccessyySScvM",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "body",
             "printedName": "body",
             "children": [
@@ -118567,6 +118961,47 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(onSuccess:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AddCardToMasterPassScreen",
+                "printedName": "WalletUISdk.AddCardToMasterPassScreen",
+                "usr": "s:11WalletUISdk25AddCardToMasterPassScreenV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11WalletUISdk25AddCardToMasterPassScreenV9onSuccessACySSc_tcfc",
+            "mangledName": "$s11WalletUISdk25AddCardToMasterPassScreenV9onSuccessACySSc_tcfc",
+            "moduleName": "WalletUISdk",
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "init_kind": "Designated"
           },
           {
             "kind": "Constructor",
@@ -202321,6 +202756,36 @@
             "hasStorage": true
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cardUniqueNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoadWithDebitCreditCardScreen",
+                "printedName": "WalletUISdk.LoadWithDebitCreditCardScreen",
+                "usr": "s:11WalletUISdk29LoadWithDebitCreditCardScreenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11WalletUISdk29LoadWithDebitCreditCardScreenV16cardUniqueNumberACSS_tcfc",
+            "mangledName": "$s11WalletUISdk29LoadWithDebitCreditCardScreenV16cardUniqueNumberACSS_tcfc",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "body",
             "printedName": "body",
@@ -202345,8 +202810,7 @@
             "moduleName": "WalletUISdk",
             "declAttributes": [
               "Preconcurrency",
-              "Custom",
-              "RawDocComment"
+              "Custom"
             ],
             "accessors": [
               {
@@ -202375,29 +202839,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "LoadWithDebitCreditCardScreen",
-                "printedName": "WalletUISdk.LoadWithDebitCreditCardScreen",
-                "usr": "s:11WalletUISdk29LoadWithDebitCreditCardScreenV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11WalletUISdk29LoadWithDebitCreditCardScreenVACycfc",
-            "mangledName": "$s11WalletUISdk29LoadWithDebitCreditCardScreenVACycfc",
-            "moduleName": "WalletUISdk",
-            "implicit": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -240713,6 +241154,103 @@
           },
           {
             "kind": "Var",
+            "name": "cardUniqueNumber",
+            "printedName": "cardUniqueNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk20LoadMoneyChoosenViewV16cardUniqueNumberSSvp",
+            "mangledName": "$s11WalletUISdk20LoadMoneyChoosenViewV16cardUniqueNumberSSvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk20LoadMoneyChoosenViewV16cardUniqueNumberSSvg",
+                "mangledName": "$s11WalletUISdk20LoadMoneyChoosenViewV16cardUniqueNumberSSvg",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk20LoadMoneyChoosenViewV16cardUniqueNumberSSvs",
+                "mangledName": "$s11WalletUISdk20LoadMoneyChoosenViewV16cardUniqueNumberSSvs",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk20LoadMoneyChoosenViewV16cardUniqueNumberSSvM",
+                "mangledName": "$s11WalletUISdk20LoadMoneyChoosenViewV16cardUniqueNumberSSvM",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "body",
             "printedName": "body",
             "children": [
@@ -240769,7 +241307,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(currentView:)",
+            "printedName": "init(currentView:cardUniqueNumber:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -240790,11 +241328,18 @@
                   }
                 ],
                 "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11WalletUISdk20LoadMoneyChoosenViewV07currentF0AC7SwiftUI7BindingVySiG_tcfc",
-            "mangledName": "$s11WalletUISdk20LoadMoneyChoosenViewV07currentF0AC7SwiftUI7BindingVySiG_tcfc",
+            "usr": "s:11WalletUISdk20LoadMoneyChoosenViewV07currentF016cardUniqueNumberAC7SwiftUI7BindingVySiG_SStcfc",
+            "mangledName": "$s11WalletUISdk20LoadMoneyChoosenViewV07currentF016cardUniqueNumberAC7SwiftUI7BindingVySiG_SStcfc",
             "moduleName": "WalletUISdk",
             "implicit": true,
             "declAttributes": [
@@ -311073,6 +311618,59 @@
           {
             "kind": "Function",
             "name": "getCardsV2",
+            "printedName": "getCardsV2(onSuccess:onAccountNotFound:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WalletUISdk20AllCardsTabViewModelC03getD2V29onSuccess0J15AccountNotFoundyyyc_yyctF",
+            "mangledName": "$s11WalletUISdk20AllCardsTabViewModelC03getD2V29onSuccess0J15AccountNotFoundyyyc_yyctF",
+            "moduleName": "WalletUISdk",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCardsV2",
             "printedName": "getCardsV2()",
             "children": [
               {
@@ -348302,6 +348900,206 @@
           },
           {
             "kind": "Var",
+            "name": "resultCode",
+            "printedName": "resultCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk19MasterPassOtpScreenV10resultCodeSSvp",
+            "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV10resultCodeSSvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "ProjectedValueProperty",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk19MasterPassOtpScreenV10resultCodeSSvg",
+                "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV10resultCodeSSvg",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk19MasterPassOtpScreenV10resultCodeSSvs",
+                "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV10resultCodeSSvs",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk19MasterPassOtpScreenV10resultCodeSSvM",
+                "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV10resultCodeSSvM",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$resultCode",
+            "printedName": "$resultCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk19MasterPassOtpScreenV11$resultCode7SwiftUI7BindingVySSGvp",
+            "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV11$resultCode7SwiftUI7BindingVySSGvp",
+            "moduleName": "WalletUISdk",
+            "implicit": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk19MasterPassOtpScreenV11$resultCode7SwiftUI7BindingVySSGvg",
+                "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV11$resultCode7SwiftUI7BindingVySSGvg",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_resultCode",
+            "printedName": "_resultCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "SwiftUI.State<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:7SwiftUI5StateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk19MasterPassOtpScreenV11_resultCode33_1E882F552543AB247E42A1BCDB4DA411LL7SwiftUI5StateVySSGvp",
+            "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV11_resultCode33_1E882F552543AB247E42A1BCDB4DA411LL7SwiftUI5StateVySSGvp",
+            "moduleName": "WalletUISdk",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "onOpen3DSecureWebView",
             "printedName": "onOpen3DSecureWebView",
             "children": [
@@ -348334,7 +349132,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "hasStorage": true,
             "accessors": [
               {
@@ -348435,6 +349233,139 @@
           },
           {
             "kind": "Var",
+            "name": "onSuccess",
+            "printedName": "onSuccess",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk19MasterPassOtpScreenV9onSuccessyySScvp",
+            "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV9onSuccessyySScvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 7,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk19MasterPassOtpScreenV9onSuccessyySScvg",
+                "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV9onSuccessyySScvg",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk19MasterPassOtpScreenV9onSuccessyySScvs",
+                "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV9onSuccessyySScvs",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk19MasterPassOtpScreenV9onSuccessyySScvM",
+                "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV9onSuccessyySScvM",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "type",
             "printedName": "type",
             "children": [
@@ -348455,7 +349386,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 8,
             "hasStorage": true,
             "accessors": [
               {
@@ -348532,6 +349463,103 @@
           },
           {
             "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk19MasterPassOtpScreenV5titleSSvp",
+            "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV5titleSSvp",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 9,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk19MasterPassOtpScreenV5titleSSvg",
+                "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV5titleSSvg",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk19MasterPassOtpScreenV5titleSSvs",
+                "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV5titleSSvs",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WalletUISdk19MasterPassOtpScreenV5titleSSvM",
+                "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV5titleSSvM",
+                "moduleName": "WalletUISdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "_isValid",
             "printedName": "_isValid",
             "children": [
@@ -348562,7 +349590,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 7,
+            "fixedbinaryorder": 10,
             "hasStorage": true
           },
           {
@@ -348597,7 +349625,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 8,
+            "fixedbinaryorder": 11,
             "hasStorage": true
           },
           {
@@ -348658,13 +349686,20 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(mfsToken:onOpen3DSecureWebView:type:)",
+            "printedName": "init(mfsToken:resultCode:onOpen3DSecureWebView:onSuccess:type:title:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "MasterPassOtpScreen",
                 "printedName": "WalletUISdk.MasterPassOtpScreen",
                 "usr": "s:11WalletUISdk19MasterPassOtpScreenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -348693,16 +349728,42 @@
                 "hasDefaultArg": true
               },
               {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true
+              },
+              {
                 "kind": "TypeNominal",
                 "name": "MasterPassOtpType",
                 "printedName": "WalletUISdk.MasterPassOtpType",
                 "hasDefaultArg": true,
                 "usr": "s:11WalletUISdk17MasterPassOtpTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11WalletUISdk19MasterPassOtpScreenV8mfsToken21onOpen3DSecureWebView4typeACSS_ySScAA0cdE4TypeOtcfc",
-            "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV8mfsToken21onOpen3DSecureWebView4typeACSS_ySScAA0cdE4TypeOtcfc",
+            "usr": "s:11WalletUISdk19MasterPassOtpScreenV8mfsToken10resultCode21onOpen3DSecureWebView0K7Success4type5titleACSS_SSySScySScAA0cdE4TypeOSStcfc",
+            "mangledName": "$s11WalletUISdk19MasterPassOtpScreenV8mfsToken10resultCode21onOpen3DSecureWebView0K7Success4type5titleACSS_SSySScySScAA0cdE4TypeOSStcfc",
             "moduleName": "WalletUISdk",
             "implicit": true,
             "declAttributes": [
@@ -424981,7 +426042,7 @@
           {
             "kind": "Function",
             "name": "openOTPScreen",
-            "printedName": "openOTPScreen(token:)",
+            "printedName": "openOTPScreen(token:resultCode:onSuccess:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -424993,11 +426054,36 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true
               }
             ],
             "declKind": "Func",
-            "usr": "s:11WalletUISdk19MasterPassViewModelC13openOTPScreen5tokenySS_tF",
-            "mangledName": "$s11WalletUISdk19MasterPassViewModelC13openOTPScreen5tokenySS_tF",
+            "usr": "s:11WalletUISdk19MasterPassViewModelC13openOTPScreen5token10resultCode9onSuccessySS_SSySSctF",
+            "mangledName": "$s11WalletUISdk19MasterPassViewModelC13openOTPScreen5token10resultCode9onSuccessySS_SSySSctF",
             "moduleName": "WalletUISdk",
             "isOpen": true,
             "declAttributes": [
@@ -425008,7 +426094,7 @@
           {
             "kind": "Function",
             "name": "addCard",
-            "printedName": "addCard(mpCardNumberText:cardName:mpCVV:expirationDate:checkBox:alias:)",
+            "printedName": "addCard(mpCardNumberText:cardName:mpCVV:expirationDate:checkBox:alias:onSuccess:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -425058,11 +426144,30 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true
               }
             ],
             "declKind": "Func",
-            "usr": "s:11WalletUISdk19MasterPassViewModelC7addCard02mpH10NumberText8cardName0I3CVV14expirationDate8checkBox5aliasy10Masterpass6MPTextC_SSAMSSAK07MPCheckR0CSgSStF",
-            "mangledName": "$s11WalletUISdk19MasterPassViewModelC7addCard02mpH10NumberText8cardName0I3CVV14expirationDate8checkBox5aliasy10Masterpass6MPTextC_SSAMSSAK07MPCheckR0CSgSStF",
+            "usr": "s:11WalletUISdk19MasterPassViewModelC7addCard02mpH10NumberText8cardName0I3CVV14expirationDate8checkBox5alias9onSuccessy10Masterpass6MPTextC_SSANSSAL07MPCheckR0CSgSSySSctF",
+            "mangledName": "$s11WalletUISdk19MasterPassViewModelC7addCard02mpH10NumberText8cardName0I3CVV14expirationDate8checkBox5alias9onSuccessy10Masterpass6MPTextC_SSANSSAL07MPCheckR0CSgSSySSctF",
             "moduleName": "WalletUISdk",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -438289,6 +439394,31 @@
           },
           {
             "kind": "Var",
+            "name": "cardUniqueNumber",
+            "printedName": "cardUniqueNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WalletUISdk38LoadWithDebitCreditCardScreenViewModelC16cardUniqueNumber33_DAE5A01200727BEC0F09ED582B227F40LLSSvp",
+            "mangledName": "$s11WalletUISdk38LoadWithDebitCreditCardScreenViewModelC16cardUniqueNumber33_DAE5A01200727BEC0F09ED582B227F40LLSSvp",
+            "moduleName": "WalletUISdk",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 15,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "newcards",
             "printedName": "newcards",
             "children": [
@@ -438317,7 +439447,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 15,
+            "fixedbinaryorder": 16,
             "hasStorage": true,
             "accessors": [
               {
@@ -438432,6 +439562,30 @@
               "Override",
               "RawDocComment"
             ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cardUniqueNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoadWithDebitCreditCardScreenViewModel",
+                "printedName": "WalletUISdk.LoadWithDebitCreditCardScreenViewModel",
+                "usr": "s:11WalletUISdk38LoadWithDebitCreditCardScreenViewModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11WalletUISdk38LoadWithDebitCreditCardScreenViewModelC16cardUniqueNumberACSS_tcfc",
+            "mangledName": "$s11WalletUISdk38LoadWithDebitCreditCardScreenViewModelC16cardUniqueNumberACSS_tcfc",
+            "moduleName": "WalletUISdk",
             "init_kind": "Designated"
           },
           {
@@ -438605,17 +439759,35 @@
           {
             "kind": "Function",
             "name": "linkMasterpassV2",
-            "printedName": "linkMasterpassV2()",
+            "printedName": "linkMasterpassV2(onSuccess:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "hasDefaultArg": true
               }
             ],
             "declKind": "Func",
-            "usr": "s:11WalletUISdk38LoadWithDebitCreditCardScreenViewModelC16linkMasterpassV2yyF",
-            "mangledName": "$s11WalletUISdk38LoadWithDebitCreditCardScreenViewModelC16linkMasterpassV2yyF",
+            "usr": "s:11WalletUISdk38LoadWithDebitCreditCardScreenViewModelC16linkMasterpassV29onSuccessyyyc_tF",
+            "mangledName": "$s11WalletUISdk38LoadWithDebitCreditCardScreenViewModelC16linkMasterpassV29onSuccessyyyc_tF",
             "moduleName": "WalletUISdk",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -498383,6 +499555,28 @@
           },
           {
             "kind": "Function",
+            "name": "removingLeadingZeros",
+            "printedName": "removingLeadingZeros()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11WalletUISdkE20removingLeadingZerosSSyF",
+            "mangledName": "$sSS11WalletUISdkE20removingLeadingZerosSSyF",
+            "moduleName": "WalletUISdk",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "applyPattern",
             "printedName": "applyPattern(pattern:replacmentCharacter:)",
             "children": [
@@ -508619,6 +509813,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/ViewModel\/MasterPassOtpViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 435,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/View\/Screens\/Auth\/KYCRegisterScreen.swift",
       "kind": "StringLiteral",
       "offset": 79,
@@ -509270,6 +510471,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/View\/Screens\/LoadMoneyScreens\/LoadMoneyScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 550,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/ViewModel\/HomeScreenViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 341,
@@ -509909,63 +511117,63 @@
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Core\/Masterpass\/MasterpassV2SDK.swift",
       "kind": "StringLiteral",
-      "offset": 235,
+      "offset": 234,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Core\/Masterpass\/MasterpassV2SDK.swift",
       "kind": "StringLiteral",
-      "offset": 267,
+      "offset": 266,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Core\/Masterpass\/MasterpassV2SDK.swift",
       "kind": "StringLiteral",
-      "offset": 347,
+      "offset": 346,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Core\/Masterpass\/MasterpassV2SDK.swift",
       "kind": "StringLiteral",
-      "offset": 610,
+      "offset": 609,
       "length": 44,
       "value": "\"https:\/\/mp-test-sdk.masterpassturkiye.com\/\""
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Core\/Masterpass\/MasterpassV2SDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 7963,
+      "offset": 10850,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Core\/Masterpass\/MasterpassV2SDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 13278,
+      "offset": 16333,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Core\/Masterpass\/MasterpassV2SDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 22731,
+      "offset": 25947,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Core\/Masterpass\/MasterpassV2SDK.swift",
       "kind": "StringLiteral",
-      "offset": 25160,
+      "offset": 28376,
       "length": 6,
       "value": "\"5010\""
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Core\/Masterpass\/MasterpassV2SDK.swift",
       "kind": "StringLiteral",
-      "offset": 25191,
+      "offset": 28407,
       "length": 6,
       "value": "\"5008\""
     },
@@ -516601,7 +517809,7 @@
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Core\/Extension\/String+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 14930,
+      "offset": 15237,
       "length": 3,
       "value": "\"#\""
     },
@@ -517357,16 +518565,23 @@
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/View\/Screens\/LoadMoneyScreens\/LoadWithDebitCreditCardScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 521,
+      "offset": 535,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/View\/Screens\/LoadMoneyScreens\/LoadWithDebitCreditCardScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 569,
+      "offset": 583,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/View\/Screens\/LoadMoneyScreens\/LoadWithDebitCreditCardScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 679,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/View\/Screens\/KYC\/Enqura\/EnQualifyV2CertificateConstants.swift",
@@ -518060,6 +519275,13 @@
       "offset": 559,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/Components\/TabBarViews\/LoadMoneyChoosenView.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/Components\/DatePicker\/DatePickerView.swift",
@@ -520646,8 +521868,15 @@
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/View\/Screens\/MasterPass\/MasterPassOtpScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 659,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/View\/Screens\/MasterPass\/MasterPassOtpScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 768,
+      "offset": 917,
       "length": 5,
       "value": "false"
     },
@@ -522550,8 +523779,15 @@
     },
     {
       "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/ViewModel\/LoadWithDebitCreditCardScreenViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 973,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yasincetin\/Documents\/repos\/ios\/sdk\/dgpara-wallet-ui-sdk\/WalletUISdk\/Features\/ViewModel\/LoadWithDebitCreditCardScreenViewModel.swift",
       "kind": "Array",
-      "offset": 1006,
+      "offset": 1052,
       "length": 2,
       "value": "[]"
     },
