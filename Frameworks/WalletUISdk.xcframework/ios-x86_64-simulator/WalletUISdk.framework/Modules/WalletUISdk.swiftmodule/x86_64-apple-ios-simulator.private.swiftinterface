@@ -22,6 +22,7 @@ import NFCModule
 import Network
 import OcrModule
 import Photos
+import ReplayKit
 import Swift
 import SwiftUI
 import SystemConfiguration
@@ -141,6 +142,7 @@ public class WalletUiSDK {
   @objc deinit
 }
 
+
 public enum QrTransactionType : Swift.String, Swift.CaseIterable {
   case cancelationAmountWithoutPaymentMethod
   case refundAmountWithoutPaymentMethod
@@ -172,6 +174,22 @@ public struct QuestionListModelDTO : Swift.Hashable {
   public var hashValue: Swift.Int {
     get
   }
+}
+extension SwiftUICore.Color {
+  public static let surface_default_color: SwiftUICore.Color
+  public static let surface_brand_color: SwiftUICore.Color
+  public static let surface_brand_light_color: SwiftUICore.Color
+  public static let surface_brand_dark_color: SwiftUICore.Color
+  public static let surface_elevated_color: SwiftUICore.Color
+  public static let surface_bright_blue_color: SwiftUICore.Color
+  public static let surface_subtle_color: SwiftUICore.Color
+  public static let brand_yellow_color: SwiftUICore.Color
+  public static let feedback_info_color: SwiftUICore.Color
+  public static let feedback_info_surface_color: SwiftUICore.Color
+  public static let feedback_error_color: SwiftUICore.Color
+  public static let feedback_success_color: SwiftUICore.Color
+  public static let feedback_warning_color: SwiftUICore.Color
+  public static let icon_default_color: SwiftUICore.Color
 }
 @_Concurrency.MainActor @preconcurrency public struct WalletMainView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(enviormentType: WalletUISdk.WalletUiEnvironment)
@@ -276,6 +294,9 @@ public enum WalletCardStatusType : Swift.String {
     get
   }
 }
+public enum DGFontLoader {
+  public static func registerFonts()
+}
 public enum Page : Swift.String, Swift.CaseIterable {
   case homeScreen
   case myProfile
@@ -345,6 +366,7 @@ extension Swift.String {
   public func isValidEmail() -> Swift.Bool
   public func changeComma() -> Swift.Double
   public func currencyFormatting() -> Swift.String
+  public func formatCurrencyWithotFractionDigits() -> Swift.String
   public func lowercasedWithTurkishCharacters() -> Swift.String
   public func timeFormatted(_ totalSeconds: Swift.Int) -> Swift.String
   public func transactionCheckActionType() -> Swift.Bool
@@ -570,6 +592,41 @@ extension AVFoundation.AVCaptureDevice {
   public static func zoomedCameraForQRCode(withMinimumCodeSize minimumCodeSize: Swift.Float = 20) -> AVFoundation.AVCaptureDevice?
   #endif
 }
+
+
+
+
+
+
+
+@_Concurrency.MainActor @preconcurrency public struct KYCFinishScreen : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s11WalletUISdk15KYCFinishScreenV4bodyQrvp", 0) __
+}
+
+
+extension Swift.Array {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public subscript(safe index: Swift.Int) -> Element? {
+    get
+  }
+  #endif
+}
+@_Concurrency.MainActor @preconcurrency public struct KYCStartScreen : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init()
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s11WalletUISdk14KYCStartScreenV4bodyQrvp", 0) __
+}
+
+
+
+
+
+
 public enum PermissionsError : Swift.Identifiable {
   public var id: Swift.String {
     get
@@ -752,6 +809,74 @@ public enum DgfinResponse {
   case loanCreate(WalletUISdk.DgfinLoanCreateResponse)
   case customerApplication(WalletUISdk.DgfinCustomerApplicationResponse)
 }
+
+
+
+
+
+@_Concurrency.MainActor @preconcurrency public struct DGBackgroundView<Content> : SwiftUICore.View where Content : SwiftUICore.View {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public init(model: WalletUISdk.DGBackgroundModel = DGBackgroundModel(), width: CoreFoundation.CGFloat? = nil, height: CoreFoundation.CGFloat? = nil, fillWidth: Swift.Bool = true, @SwiftUICore.ViewBuilder content: () -> Content)
+  #endif
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s11WalletUISdk16DGBackgroundViewV4bodyQrvp", 0) __<Content>
+}
+
+public struct DGBackgroundModel {
+  public let padding: CoreFoundation.CGFloat
+  public let backgroundColor: SwiftUICore.Color
+  public let radius: CoreFoundation.CGFloat
+  public let borderColor: SwiftUICore.Color
+  public let borderLineWidth: CoreFoundation.CGFloat
+  public let paddingHorizontal: CoreFoundation.CGFloat
+  public let alignment: SwiftUICore.HorizontalAlignment
+  public init(padding: CoreFoundation.CGFloat = 12, backgroundColor: SwiftUICore.Color = .blue, radius: CoreFoundation.CGFloat = 12, borderColor: SwiftUICore.Color = .red, borderLineWidth: CoreFoundation.CGFloat = 0, paddingHorizontal: CoreFoundation.CGFloat = 0, alignment: SwiftUICore.HorizontalAlignment = HorizontalAlignment.leading)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public enum ScreenType {
   case standart
   case scrollable
@@ -860,6 +985,7 @@ extension UIKit.UIViewController {
 }
 public enum AnimationFileName : Swift.String {
   case nfc
+  case nfcNew
   case agentCall
   case faceDetect
   case ocr
@@ -962,6 +1088,9 @@ extension AVFoundation.AVCaptureDevice {
   }
   #endif
 }
+
+
+
 extension SwiftUICore.Binding where Value == Swift.String {
   public func maxLimit(_ limit: Swift.Int) -> SwiftUICore.Binding<Value>
   public func changePattern(_ limit: Swift.Int, pattern: WalletUISdk.Pattern) -> SwiftUICore.Binding<Value>
@@ -1071,8 +1200,11 @@ extension WalletUISdk.MenuType : Swift.Equatable {}
 extension WalletUISdk.MenuType : Swift.Hashable {}
 extension WalletUISdk.SwipeRole : Swift.Equatable {}
 extension WalletUISdk.SwipeRole : Swift.Hashable {}
+extension WalletUISdk.KYCFinishScreen : Swift.Sendable {}
+extension WalletUISdk.KYCStartScreen : Swift.Sendable {}
 extension WalletUISdk.AccountActionType : Swift.Equatable {}
 extension WalletUISdk.AccountActionType : Swift.Hashable {}
+extension WalletUISdk.DGBackgroundView : Swift.Sendable {}
 extension WalletUISdk.ScreenType : Swift.Equatable {}
 extension WalletUISdk.ScreenType : Swift.Hashable {}
 extension WalletUISdk.PopTransitioning : Swift.Sendable {}

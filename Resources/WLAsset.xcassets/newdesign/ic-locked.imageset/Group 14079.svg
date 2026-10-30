@@ -1,0 +1,22 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_3851_65657)">
+<circle cx="35.7002" cy="35.7" r="15" fill="#FFD300"/>
+</g>
+<foreignObject x="11.3667" y="11.3667" width="48" height="48"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(2px);clip-path:url(#bgblur_0_3851_65657_clip_path);height:100%;width:100%"></div></foreignObject><circle opacity="0.3" data-figma-bg-blur-radius="4" cx="35.3667" cy="35.3667" r="20" fill="white"/>
+<circle cx="35.3956" cy="35.3955" r="16.1827" fill="#FFF9DA"/>
+<circle cx="35.3666" cy="35.3667" r="11.5385" fill="#FFD300"/>
+<g clip-path="url(#clip1_3851_65657)">
+<path d="M38.4027 34.4037H38.3864V33.359C38.3864 31.7105 37.0316 30.3557 35.3831 30.3557C33.7345 30.3557 32.3797 31.7105 32.3797 33.359V34.4037H32.3144C31.8737 34.4037 31.5146 34.7628 31.5146 35.2035V39.5779C31.5146 40.0186 31.8737 40.3777 32.3144 40.3777H38.419C38.8597 40.3777 39.2188 40.0186 39.2188 39.5779V35.1872C39.1862 34.7464 38.8434 34.4037 38.4027 34.4037ZM35.8238 37.3592C35.7585 37.4082 35.7422 37.4409 35.7422 37.5225V38.4855C35.7422 38.6161 35.6769 38.7466 35.5626 38.8119C35.2851 38.9588 35.0077 38.763 35.0077 38.4855C35.0077 38.159 35.0077 37.8489 35.0077 37.5225C35.0077 37.4572 34.9913 37.4082 34.9424 37.3756C34.6486 37.1634 34.5506 36.788 34.6975 36.4778C34.8444 36.1677 35.1872 35.9882 35.5136 36.0534C35.8727 36.1187 36.1339 36.4125 36.1339 36.788C36.1176 37.0001 36.0196 37.2123 35.8238 37.3592ZM37.0643 34.4037H33.6855V33.359C33.6855 32.4287 34.4364 31.6615 35.3831 31.6615C36.3134 31.6615 37.0806 32.4123 37.0806 33.359V34.4037H37.0643Z" fill="#134FAE"/>
+</g>
+<defs>
+<filter id="filter0_f_3851_65657" x="0.00019455" y="1.14441e-05" width="71.4" height="71.4" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="10.35" result="effect1_foregroundBlur_3851_65657"/>
+</filter>
+<clipPath id="bgblur_0_3851_65657_clip_path" transform="translate(-11.3667 -11.3667)"><circle cx="35.3667" cy="35.3667" r="20"/>
+</clipPath><clipPath id="clip1_3851_65657">
+<rect width="10.5495" height="10.5495" fill="white" transform="translate(30.0918 30.092)"/>
+</clipPath>
+</defs>
+</svg>

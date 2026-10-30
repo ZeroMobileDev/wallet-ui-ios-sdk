@@ -1,0 +1,22 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_3851_65664)">
+<circle cx="35.7002" cy="35.7" r="15" fill="#FFD300"/>
+</g>
+<foreignObject x="11.3667" y="11.3667" width="48" height="48"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(2px);clip-path:url(#bgblur_0_3851_65664_clip_path);height:100%;width:100%"></div></foreignObject><circle opacity="0.3" data-figma-bg-blur-radius="4" cx="35.3667" cy="35.3667" r="20" fill="white"/>
+<circle cx="35.3956" cy="35.3955" r="16.1827" fill="#FFF9DA"/>
+<circle cx="35.3666" cy="35.3667" r="11.5385" fill="#FFD300"/>
+<g clip-path="url(#clip1_3851_65664)">
+<path d="M35.3826 30.3555C36.9673 30.3555 38.2799 31.6076 38.3793 33.1689H37.0696C36.975 32.3137 36.2498 31.6613 35.3826 31.6613C34.436 31.6614 33.6853 32.4287 33.6853 33.359V34.4039H38.4025C38.8431 34.4039 39.1858 34.7466 39.2185 35.1873V39.5777C39.2185 40.0184 38.8594 40.3778 38.4188 40.3779H32.3139C31.8733 40.3777 31.5142 40.0184 31.5142 39.5777V35.2036C31.5142 34.7629 31.8733 34.404 32.3139 34.4039H32.3795V33.359C32.3795 31.7105 33.7341 30.3556 35.3826 30.3555ZM35.5131 36.0535C35.1868 35.9883 34.844 36.1676 34.6971 36.4776C34.5502 36.7877 34.6481 37.1634 34.9418 37.3756C34.9908 37.4083 35.0075 37.4571 35.0075 37.5224V38.4857C35.0076 38.763 35.2847 38.9586 35.5621 38.8119C35.6763 38.7467 35.7419 38.6162 35.7419 38.4857V37.5224C35.7419 37.4408 35.7582 37.4083 35.8235 37.3593C36.0193 37.2124 36.1171 37.0001 36.1334 36.788C36.1334 36.4125 35.8722 36.1188 35.5131 36.0535Z" fill="#134FAE"/>
+</g>
+<defs>
+<filter id="filter0_f_3851_65664" x="0.00019455" y="1.14441e-05" width="71.4" height="71.4" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="10.35" result="effect1_foregroundBlur_3851_65664"/>
+</filter>
+<clipPath id="bgblur_0_3851_65664_clip_path" transform="translate(-11.3667 -11.3667)"><circle cx="35.3667" cy="35.3667" r="20"/>
+</clipPath><clipPath id="clip1_3851_65664">
+<rect width="10.5495" height="10.5495" fill="white" transform="translate(30.0918 30.092)"/>
+</clipPath>
+</defs>
+</svg>

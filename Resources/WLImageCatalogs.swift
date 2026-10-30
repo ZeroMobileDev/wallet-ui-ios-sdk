@@ -218,6 +218,30 @@ final class WLImageCatalog: ImageCatalog {
     lazy var gift_logo = WLImage(imageAssetName: "gift_logo")
     lazy var visa = WLImage(imageAssetName: "visa")
     lazy var troy = WLImage(imageAssetName: "troy")
+    
+    lazy var bgKycNecessary = WLImage(imageAssetName: "bg-kyc-necessary")
+    lazy var icBalanceLimit = WLImage(imageAssetName: "ic-balance-limit")
+    lazy var icBlueCircleTick = WLImage(imageAssetName: "ic-blue-circle-tick")
+    lazy var icCircleInformation = WLImage(imageAssetName: "ic-circle-information")
+    lazy var icClose = WLImage(imageAssetName: "ic-close")
+    lazy var icGreenBadgeTick = WLImage(imageAssetName: "ic-green-badge-tick")
+    lazy var icIdentity = WLImage(imageAssetName: "ic-identity")
+    lazy var icLiveVerification = WLImage(imageAssetName: "ic-live-verification")
+    lazy var icLocked = WLImage(imageAssetName: "ic-locked")
+    lazy var icNfcStart = WLImage(imageAssetName: "ic-nfc-start")
+    lazy var icPermissionCamera = WLImage(imageAssetName: "ic-permission-camera")
+    lazy var icPermissionRecordScreen = WLImage(imageAssetName: "ic-permission-record-screen")
+    lazy var icSafety = WLImage(imageAssetName: "ic-safety")
+    lazy var icSteps = WLImage(imageAssetName: "ic-steps")
+    lazy var icSun = WLImage(imageAssetName: "ic-sun")
+    lazy var icTimer = WLImage(imageAssetName: "ic-timer")
+    lazy var icTopInfo = WLImage(imageAssetName: "ic-top-info")
+    lazy var icUnlocked = WLImage(imageAssetName: "ic-unlocked")
+    lazy var icWhiteCircleTick = WLImage(imageAssetName: "ic-white-circle-tick")
+    lazy var icYellowRightArrow = WLImage(imageAssetName: "ic-yellow-right-arrow")
+    lazy var kycIdentityVerify = WLImage(imageAssetName: "kyc-identity-verify")
+    lazy var kycImage = WLImage(imageAssetName: "kyc-image")
+    lazy var opetLogo = WLImage(imageAssetName: "opet-logo")
 
     init() {}
 }
@@ -433,4 +457,28 @@ protocol ImageCatalog {
     var card_plus: WLImage { get }
     var card_logo: WLImage { get }
     var card_bg: WLImage { get }
+    
+    var bgKycNecessary: WLImage { get }
+    var icBalanceLimit: WLImage { get }
+    var icBlueCircleTick: WLImage { get }
+    var icCircleInformation: WLImage { get }
+    var icClose: WLImage { get }
+    var icGreenBadgeTick: WLImage { get }
+    var icIdentity: WLImage { get }
+    var icLiveVerification: WLImage { get }
+    var icLocked: WLImage { get }
+    var icNfcStart: WLImage { get }
+    var icPermissionCamera: WLImage { get }
+    var icPermissionRecordScreen: WLImage { get }
+    var icSafety: WLImage { get }
+    var icSteps: WLImage { get }
+    var icSun: WLImage { get }
+    var icTimer: WLImage { get }
+    var icTopInfo: WLImage { get }
+    var icUnlocked: WLImage { get }
+    var icWhiteCircleTick: WLImage { get }
+    var icYellowRightArrow: WLImage { get }
+    var kycIdentityVerify: WLImage { get }
+    var kycImage: WLImage { get }
+    var opetLogo: WLImage { get }
 }

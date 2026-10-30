@@ -814,6 +814,15 @@ public struct InvoiceInquiryModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
+@objc @_inheritsConvenienceInitializers public class UpdateCustomerInfoV2InputParams : wallet_ios_sdk.BaseRequestModel {
+  public var estimatedWalletBalanceRangeValueId: Swift.Int
+  public var monthlyNetIncomeRangeValueId: Swift.Int
+  public var monthlyTransactionCountRangeValueId: Swift.Int
+  public var job: Swift.String
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers public class GetDigitalSlipInputParams : wallet_ios_sdk.BaseRequestModel {
   public var refNumber: Swift.Int64
   public var actionType: Swift.String
@@ -1345,6 +1354,59 @@ public enum Utils {
   #endif
   public static func AesEncryptWithWB(encParameters: Swift.String) -> Swift.String
   public static func AsciiToHex(hex: Swift.String) -> Swift.String
+}
+#if compiler(>=5.3) && $NonescapableTypes
+extension Swift.Optional where Wrapped == Swift.String {
+  public func returnSafety() -> Swift.String
+}
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+extension Swift.Optional where Wrapped == Swift.Int {
+  public func returnSafety() -> Swift.Int
+}
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+extension Swift.Optional where Wrapped == Swift.Int16 {
+  public func returnSafety() -> Swift.Int16
+}
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+extension Swift.Optional where Wrapped == Swift.Int32 {
+  public func returnSafety() -> Swift.Int32
+}
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+extension Swift.Optional where Wrapped == Swift.Int64 {
+  public func returnSafety() -> Swift.Int64
+}
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+extension Swift.Optional where Wrapped == Swift.Double {
+  public func returnSafety() -> Swift.Double
+}
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+extension Swift.Optional where Wrapped == Swift.Bool {
+  public func returnSafety() -> Swift.Bool
+}
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+extension Swift.Optional where Wrapped == Foundation.Decimal {
+  public func returnSafety() -> Swift.Double
+}
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+extension Swift.Optional where Wrapped == wallet_ios_sdk.AdresTip {
+  public func returnSafety() -> wallet_ios_sdk.AdresTip
+}
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+extension Swift.Optional where Wrapped == wallet_ios_sdk.ActionDetailModel {
+  public func returnSafety() -> wallet_ios_sdk.ActionDetailModel
+}
+#endif
+extension Foundation.Decimal {
+  public func toDouble() -> Swift.Double
 }
 extension UIKit.UIColor {
   #if compiler(>=5.3) && $NonescapableTypes
@@ -2246,6 +2308,7 @@ public struct CityModel : Swift.Codable {
   public var M_ATM_WITHDRAWAL_ENC: Swift.Int
   public var M_ADD_CUSTOMER: Swift.Int
   public var M_UPDATE_CUSTOMER_INFO: Swift.Int
+  public var M_UPDATE_CUSTOMER_INFO_V2: Swift.Int
   public var M_UPDATE_CUSTOMER_INFO_ENC: Swift.Int
   public var M_CHANGE_PASSWORD: Swift.Int
   public var M_CHANGE_PASSWORD_ENC: Swift.Int
@@ -2439,6 +2502,7 @@ public struct CityModel : Swift.Codable {
   public var M_GET_ALL_STREET_WITH_VILLAGE_CODE_IN_KPS: Swift.Int
   public var M_GET_KPS_ADDRESS_VERIFY: Swift.Int
   public var M_KPS_ADDRESS_INQUIRY: Swift.Int
+  public var M_KPS_ADDRESS: Swift.Int
   public var M_USER_VERIFICATION_STATUS: Swift.Int
   public var M_GET_ALL_VILLAGE_WITH_DISTRICT_CODE_INKPS: Swift.Int
   public var M_GET_ALL_SECTION_WITH_BUILDING_CODE_INKPS: Swift.Int
@@ -2512,6 +2576,7 @@ public struct CityModel : Swift.Codable {
   public var UPDATE_CUSTOMER_ADDRESS_INFO: Swift.Int
   public var GET_ADDRESS_TYPES: Swift.Int
   public var M_GET_CAMPAIGNS: Swift.Int
+  public var M_GET_EstimatedRangeGroups: Swift.Int
   public var BALANCE_GET_EXPENSE_AMOUNT: Swift.Int
   public var BALANCE_PaymentWalletMobile: Swift.Int
   public var BALANCE_TopupPayStart: Swift.Int
@@ -2792,6 +2857,12 @@ public struct LimitPeriodTypesModel : Swift.Codable {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers public class GetKpsAddressInputParams : wallet_ios_sdk.BaseRequestModel {
+  public var identityNumber: Swift.String
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class ConfirmAgreementInputParams : wallet_ios_sdk.BaseRequestModel {
   public var confirmAgreements: [wallet_ios_sdk.ConfirmAgreementListInputModel]
@@ -5684,6 +5755,27 @@ public struct TransactionRestrictionList : Swift.Codable {
   @objc override dynamic public init()
   @objc deinit
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class GetEstimatedRangeGroupsOutputParams : wallet_ios_sdk.BaseResponseMeta {
+  public var estimatedRangeGroups: [wallet_ios_sdk.EstimatedRangeGroupModel]?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public struct EstimatedRangeGroupModel : Swift.Codable {
+  public var id: Swift.Int?
+  public var name: Swift.String?
+  public var description: Swift.String?
+  public var estimatedRangeValues: [wallet_ios_sdk.EstimatedRangeValueModel]?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct EstimatedRangeValueModel : Swift.Codable {
+  public var id: Swift.Int?
+  public var min: Swift.Int?
+  public var max: Swift.Int?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct CityResultListModel : Swift.Codable {
   public var ad: Swift.String?
   public var kod: Swift.Int?
@@ -6667,6 +6759,11 @@ extension wallet_ios_sdk.WalletCoreSDK {
   @objc override dynamic public init()
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers public class GetEstimatedRangeGroupsInputParams : wallet_ios_sdk.BaseRequestModel {
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class CardView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public var cardCopiedcompletion: () -> Swift.Void
   @_Concurrency.MainActor @preconcurrency public func initView(view: wallet_ios_sdk.CardView)
@@ -6832,6 +6929,7 @@ public typealias ServiceClosureTypeWithRequest<T, M> = (T, _ completion: @escapi
   final public let verifyOTP: (wallet_ios_sdk.VerifyOTPInputParams, @escaping (_ result: wallet_ios_sdk.VerifyOTPOutputParams) -> ()) -> ()
   final public let updateCustomerPhoneNumber: (wallet_ios_sdk.UpdateCustomerPhoneNumberInputParams, @escaping (_ result: wallet_ios_sdk.UpdateCustomerPhoneNumberOutputParams) -> ()) -> ()
   final public let updateCustomerInfo: (wallet_ios_sdk.UpdateCustomerInfoInputParams, @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
+  final public let updateCustomerInfoV2: (wallet_ios_sdk.UpdateCustomerInfoV2InputParams, @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
   final public let phoneNumberUpdate: (wallet_ios_sdk.PhoneNumberUpdateInputParams, @escaping (_ result: wallet_ios_sdk.BaseOutputParams) -> ()) -> ()
   final public let addAnonimCustomer: (wallet_ios_sdk.AddAnonimCustomerInputParams, @escaping (_ result: wallet_ios_sdk.AddAnonimCustomerOutputParams) -> ()) -> ()
   final public let completeRegistration: (wallet_ios_sdk.CompleteRegistrationInputParams, @escaping (_ result: wallet_ios_sdk.CompleteRegistrationOutputParams) -> ()) -> ()
@@ -6892,6 +6990,7 @@ public typealias ServiceClosureTypeWithRequest<T, M> = (T, _ completion: @escapi
   final public let getLimitInfo: (wallet_ios_sdk.GetLimitInfoInputParams, @escaping (_ result: wallet_ios_sdk.GetLimitInfoOutputParams) -> ()) -> ()
   final public let getKpsAdressVerify: (wallet_ios_sdk.GetKpsAddressVerifyInputParams, @escaping (_ result: wallet_ios_sdk.GetKpsAddressVerifyOutputParams) -> ()) -> ()
   final public let getKpsAddressInquiry: (wallet_ios_sdk.KpsAddressInquiryInputParams, @escaping (_ result: wallet_ios_sdk.KpsAddressInquiryOutputParams) -> ()) -> ()
+  final public let getKpsAddress: (wallet_ios_sdk.GetKpsAddressInputParams, @escaping (_ result: wallet_ios_sdk.KpsAddressInquiryOutputParams) -> ()) -> ()
   final public let addSdkEvent: (wallet_ios_sdk.AddSdkEventInputParams, @escaping (_ result: wallet_ios_sdk.AddSdkEventOutputParams) -> ()) -> ()
   final public let getMasterpassV2Config: (wallet_ios_sdk.GetMasterpassV2ConfigInputParams, @escaping (_ result: wallet_ios_sdk.GetMasterpassV2ConfigOutputParams) -> ()) -> ()
   final public let generateToken: (wallet_ios_sdk.GenerateTokenInputParams, @escaping (_ result: wallet_ios_sdk.GenerateTokenOutputParams) -> ()) -> ()
@@ -6900,6 +6999,7 @@ public typealias ServiceClosureTypeWithRequest<T, M> = (T, _ completion: @escapi
   final public let unlinkCustomer: (@escaping (_ result: wallet_ios_sdk.MasterpassUnlinkCustomerOutputParams) -> ()) -> ()
   final public let getCertificates: (wallet_ios_sdk.GetCertificatesRequestModel, @escaping (_ result: wallet_ios_sdk.GetCertificatesResponseModel) -> ()) -> ()
   final public let getCustomerInfoKYC: (wallet_ios_sdk.GetCustomerInfoKYCRequestModel, @escaping (_ result: wallet_ios_sdk.GetCustomerInfoKYCResponseModel) -> ()) -> ()
+  final public let getEstimatedRangeGroups: (wallet_ios_sdk.GetEstimatedRangeGroupsInputParams, @escaping (_ result: wallet_ios_sdk.GetEstimatedRangeGroupsOutputParams) -> ()) -> ()
   public func call<M>(service: (_ completion: @escaping (_ result: M) -> Swift.Void) -> Swift.Void, onSuccess: @escaping () -> Swift.Void = {}, onResult: @escaping (M) -> Swift.Void = { _ in }) where M : wallet_ios_sdk.BaseResponseMeta
   public func call<T, M>(request: T, service: (T, _ completion: @escaping (_ result: M) -> Swift.Void) -> Swift.Void, onSuccess: @escaping () -> Swift.Void = {}, onResult: @escaping (M) -> Swift.Void = { _ in }) where T : Swift.Encodable, M : wallet_ios_sdk.BaseResponseMeta
   @objc deinit
@@ -8461,6 +8561,8 @@ extension wallet_ios_sdk.RefundTopUpOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.RefundTopUpOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.GetCertificatesResponseModel : Swift.Encodable {}
 extension wallet_ios_sdk.GetCertificatesResponseModel : Swift.Decodable {}
+extension wallet_ios_sdk.GetEstimatedRangeGroupsOutputParams : Swift.Encodable {}
+extension wallet_ios_sdk.GetEstimatedRangeGroupsOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.ChangePasswordOutputParams : Swift.Encodable {}
 extension wallet_ios_sdk.ChangePasswordOutputParams : Swift.Decodable {}
 extension wallet_ios_sdk.GetCustomerRemainingLimitInfoV3OutputParams : Swift.Encodable {}

@@ -20,7 +20,23 @@ public class SDKFontLoader {
                 "SourceSansPro-ExtraLight", "SourceSansPro-Italic",
                 "SourceSansPro-Light", "SourceSansPro-LightItalic",
                 "SourceSansPro-SemiboldItalic", "SourceSansPro-Semibold",
-                "SourceSansPro-Regular"
+                "SourceSansPro-Regular",
+                "SourceSans3-Black",
+                "SourceSans3-BlackItalic",
+                "SourceSans3-Bold",
+                "SourceSans3-BoldItalic",
+                "SourceSans3-ExtraBold",
+                "SourceSans3-ExtraBoldItalic",
+                "SourceSans3-ExtraLight",
+                "SourceSans3-ExtraLightItalic",
+                "SourceSans3-Italic",
+                "SourceSans3-Light",
+                "SourceSans3-LightItalic",
+                "SourceSans3-Medium",
+                "SourceSans3-MediumItalic",
+                "SourceSans3-SemiBoldItalic",
+                "SourceSans3-SemiBold",
+                "SourceSans3-Regular"
             ]
             for fontName in fontNames {
                 if let fontURL = resourceBundle.url(forResource: fontName, withExtension: "ttf") {
