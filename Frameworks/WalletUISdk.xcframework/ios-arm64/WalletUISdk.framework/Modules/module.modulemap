@@ -18,5 +18,4 @@ framework module WalletUISdk {
 
 module WalletUISdk.Swift {
   header "WalletUISdk-Swift.h"
-  requires objc
 }
